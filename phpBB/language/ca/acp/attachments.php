@@ -170,4 +170,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Camí d’emmagatzemament per als fitxers adjunts. Tingueu en compte que si canvieu aquest directori quan ja s’han penjat fitxers adjunts, cal que copieu manualment els fitxers a la nova ubicació.',
 	'UPLOAD_ICON'					=> 'Icona de penjades',
 	'UPLOAD_NOT_DIR'				=> 'La ubicació de penjades que heu especificat no és un directori.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'El fitxer “%1$s” no es pot penjar a l’entrada número %2$d perquè l’entrada no existeix.',
 ));

@@ -77,5 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'No s’ha pogut determinar l’identificador del mòdul pare: %s',
 	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" no existeix (error no esperat).',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'El rol de permisos assignat al grup "%1$s" no existeix (error no esperat). Id del rol: "%2$s"',
 	'ROLE_NOT_EXIST'					=> 'El rol de permisos "%s" no existeix (error no esperat).',
 ));

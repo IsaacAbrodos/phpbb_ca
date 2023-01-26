@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Actualitza la instal·lació del phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització automàtica amb FTP</h2><p>Aquest mètode és similar al primer però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per utilitzar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos que s’ha actualitzat tot correctament.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització avançada amb FTP</h2><p>Aquest mètode és similar al primer però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per utilitzar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos que s’ha actualitzat tot correctament.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Avís de llançament</h1>
@@ -358,7 +358,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Com actualitzar la vostra instal·lació amb el Paquet complet</h1>
 
-		<p>La manera recomanada per actualitzar la vostra instal·lació és utilitzar el paquet complet. Si heu modificat fitxers propis del phpBB al vostre servidor, us pot convenir utilitzar el paquet d’actualització automàtica per tal de no perdre els canvis. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet complet són:</p>
+		<p>La manera recomanada per actualitzar la vostra instal·lació és utilitzar el paquet complet. Si heu modificat fitxers propis del phpBB al vostre servidor, us pot convenir utilitzar el paquet d’actualització avançada per tal de no perdre els canvis. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet complet són:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Feu una còpia de seguretat de tots els fitxers del fòrum i de la base de dades.</strong></li>
@@ -379,12 +379,12 @@ $lang = array_merge($lang, array(
 			<li>Actualitzeu el vostres estils<br><br></li>
 		</ul>
 
-		<h1>Com actualitzar la vostra instal·lació amb el Paquet d’actualització automàtica</h1>
+		<h1>Com actualitzar la vostra instal·lació amb el Paquet d’actualització avançada</h1>
 
-		<p>Només es recomana utilitzar el paquet d’instal·lació automàtica si heu modificat fitxers propis del phpBB al vostre servidor. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet d’instal·lació automàtica són:</p>
+		<p>Només es recomana utilitzar el paquet d’instal·lació avançada als usuaris experts que hàgiu modificat fitxers propis del phpBB al vostre servidor. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet d’instal·lació automàtica són:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Aneu a la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">pàgina de baixades de phpBB.com</a> i baixeu l’arxiu "Automatic Update Package".</li>
+			<li>Aneu a la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">pàgina de baixades de phpBB.com</a> i baixeu l’arxiu "Advanced Update Package".</li>
 			<li>Descomprimiu l’arxiu.</li>
 			<li>Pengeu els directoris “install” i"vendor" complets i descomprimits al directori arrel del phpBB (on es troba el fitxer config.php).</li>
 		</ol>
