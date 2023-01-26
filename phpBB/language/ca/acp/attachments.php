@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Treu o desexclou les adreces IP/noms d’amfitrió <em>permeses</em>',
 	'REMOVE_DISALLOWED_IPS'			=> 'Treu o desexclou les adreces IP/noms d’amfitrió <em>no permeses</em>',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Esteu segur de que voleu resincronitzar les estadístiques de fitxers?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Esteu segur que voleu resincronitzar les estadístiques de fitxers?',
 
 	'SEARCH_IMAGICK'				=> 'Cerca l’ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Llista Permet/Denega',

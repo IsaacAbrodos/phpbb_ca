@@ -58,8 +58,8 @@ $lang = array_merge($lang, array(
 	'GROUP_COLOR'					=> 'Color del grup',
 	'GROUP_COLOR_EXPLAIN'			=> 'Defineix el color amb el qual apareixerà el nom d’usuari dels membres, deixeu-lo en blanc per utilitzar el color per defecte de l’usuari.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
-		1	=> 'Esteu segur de que voleu afegir l’usuari %2$s al grup?',
-		2	=> 'Esteu segur de que voleu afegir els usuaris %2$s al grup?',
+		1	=> 'Esteu segur que voleu afegir l’usuari %2$s al grup?',
+		2	=> 'Esteu segur que voleu afegir els usuaris %2$s al grup?',
 	),
 	'GROUP_CREATED'					=> 'S’ha creat el grup correctament.',
 	'GROUP_DEFAULT'					=> 'Fes que sigui el grup per defecte del membre',

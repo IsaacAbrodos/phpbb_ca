@@ -348,7 +348,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Aquests detalls defineixen les dades que s’utilitzen per enviar galetes als navegadors dels usuaris. En la majoria de casos, els valors per defecte seran suficients. Si cal que en canvieu algun, feu-ho amb compte; una configuració incorrecta pot evitar que els usuaris iniciïn la sessió. Si els usuaris tenen problemes per mantenir la sessió oberta al vostre fòrum, visiteu la <b><a href="https://www.phpbb.com/support/go/cookie-settings/">Base de Coneixements de phpBB.com - Solució de configuracions incorrectes de galetes</a></b> (en anglès).',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Aquests detalls defineixen les dades que s’utilitzen per enviar galetes als navegadors dels usuaris. En la majoria de casos, els valors per defecte seran suficients. Si cal que en canvieu algun, feu-ho amb compte; una configuració incorrecta pot evitar que els usuaris iniciïn la sessió. Si els usuaris tenen problemes per mantenir la sessió oberta al vostre fòrum, visiteu la <strong><a href="https://www.phpbb.com/support/go/cookie-settings">Base de Coneixements de phpBB.com - Solució de configuracions incorrectes de galetes</a></strong> (en anglès).',
 
 	'COOKIE_DOMAIN'				=> 'Domini de la galeta',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'En la majoria de casos el domini de la galeta és opcional. Deixeu-lo en blanc si no n’esteu segurs.<br><br> En el cas que tingueu el fòrum integrat amb altres aplicacions o tingueu múltiples dominis, per determinar el domini de la galeta heu de fer el següent: Si teniu una situació com <i>exemple.cat</i> i <i>forums.exemple.cat</i>, o potser <i>forums.exemple.cat</i> i <i>bloc.exemple.cat</i>, treieu els subdominis fins que tingueu el domini comú, <i>exemple.com</i> i afegiu-hi un punt al davant. En aquest cas caldria introduir .exemple.cat (fixeu-vos amb el punt al principi).',
@@ -404,6 +404,8 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Nombre de dies que han de passar abans que una notificació de lectura s’elimini automàticament. Introduïu un 0 per fer que les notificacions siguin permanents.',
 	'RECOMPILE_STYLES'				=> 'Recompila els elements dels estils desactualitzats',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Comprova si hi ha elements dels estils actualitzats al sistema de fitxers i els recompila.',
+	'YES_ACCURATE_PM_BUTTON'			=> 'Habilita a les pàgines de temes el botó de MP en funció dels permisos específics',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Si l’habiliteu, a les entrades, només els perfils dels usuaris que tenen permís per llegir missatges privats tindran un botó de misatge privat.',
 	'YES_ANON_READ_MARKING'			=> 'Habilita el marcat de temes per als usuaris visitants',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Emmagatzema informació de l’estat llegit/no llegit per als usuaris visitants. Si l’inhabiliteu, les entrades sempre es mostren llegides als usuaris visitants.',
 	'YES_BIRTHDAYS'					=> 'Habilita la llista d’aniversaris',
@@ -472,7 +474,7 @@ $lang = array_merge($lang, array(
 	'MOD_REWRITE_ENABLE'		=> 'Permet la reescriptura d’URL',
 	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URL que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URL del vostre fòrum deixin de funcionar.</strong>',
 	'MOD_REWRITE_DISABLED'		=> 'El mòdul <strong>mod_rewrite</strong> del vostre servidor Apache està inhabilitat. Habiliteu el módul o poseu-vos en contacte amb el vostre proveïdor d’allotjament web si voleu habilitar aquesta funció.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URL. Podeu habilitar aquesta configuració però si la reescriptura d’URL no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs de que aquesta funció es pugui activar de forma segura.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URL. Podeu habilitar aquesta configuració però si la reescriptura d’URL no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs que aquesta funció es pugui activar de forma segura.',
 	'PATH_SETTINGS'				=> 'Configuració dels camins',
 	'RANKS_PATH'				=> 'Camí d’emmagatzemament de les imatges de rang',
 	'RANKS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/ranks</samp>.',
@@ -550,7 +552,7 @@ $lang = array_merge($lang, array(
 
 // Email Settings
 $lang = array_merge($lang, array(
-	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Aquesta informació s’utilitza quan el fòrum envia correus electrònics als usuaris. Assegureu-vos de que l’adreça electrònica que especifiqueu és vàlida, els missatges retornats o impossibles de lliurar s’enviaran probablement a aquesta adreça. Si el vostre amfitrió no us proporciona un servei de correu electrònic nadiu (basat en PHP), podeu enviar missatges directament utilitzant SMTP. Per això us cal l’adreça d’un servidor adequat (si cal, demaneu-la al vostre proveïdor). Si el servidor requereix autenticació (i només si la requereix) introduïu el nom d’usuari necessari, la contrasenya i el mètode d’autenticació.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Aquesta informació s’utilitza quan el fòrum envia correus electrònics als usuaris. Assegureu-vos que l’adreça electrònica que especifiqueu és vàlida, els missatges retornats o impossibles de lliurar s’enviaran probablement a aquesta adreça. Si el vostre amfitrió no us proporciona un servei de correu electrònic nadiu (basat en PHP), podeu enviar missatges directament utilitzant SMTP. Per això us cal l’adreça d’un servidor adequat (si cal, demaneu-la al vostre proveïdor). Si el servidor requereix autenticació (i només si la requereix) introduïu el nom d’usuari necessari, la contrasenya i el mètode d’autenticació.',
 
 	'ADMIN_EMAIL'					=> 'Adreça electrònica d’enviament',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'S’utilitzarà com a adreça electrònica d’enviament en tots els correus electrònics, l’adreça electrònica de contacte tècnic. S’utilitzarà sempre com a adreça al camp <samp>Sender</samp> dels correus electrònics.',
@@ -585,7 +587,7 @@ $lang = array_merge($lang, array(
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'Port del servidor SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Canvieu-lo només si sabeu que el servidor SMTP utilitza un port diferent.',
-	'SMTP_SERVER'					=> 'Adreça del servidor SMTP',
+	'SMTP_SERVER'					=> 'Adreça i protocol del servidor SMTP',
 	'SMTP_SERVER_EXPLAIN'			=> 'Tingueu en compte que heu de proporcionar el protocol que utilitza el vostre servidor. Si utilitzeu SSL, ha de ser "ssl://el.servidor.cat"',
 	'SMTP_SETTINGS'					=> 'Configuració SMTP',
 	'SMTP_USERNAME'					=> 'Nom d’usuari SMTP',

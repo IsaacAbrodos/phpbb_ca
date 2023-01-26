@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Aquí podeu assignar permisos de moderador de fòrum a usuaris o grups. Per definir l’accés als fòrums, per definir moderadors globals o administradors utilitzeu la pàgina apropiada.',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Aquí podeu modificar quins usuaris i grups poden accedir a quins fòrums. Per assignar moderadors o definir administradors utilitzeu la pàgina apropiada.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Aquí podeu copiar els permisos d’un fòrum a un altre o altres.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aquí podeu assignar permisos de moderador global a usuaris o grups. Aquests moderadors són com els moderadors normals amb l’excepcció de que tenen accés a tots els fòrums.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aquí podeu assignar permisos de moderador global a usuaris o grups. Aquests moderadors són com els moderadors normals amb l’excepcció que tenen accés a tots els fòrums.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aquí podeu assignar permisos de fòrums a grups.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Aquí podeu assignar permisos globals a grups - permisos d’usuari, permisos de moderador global i permisos d’administrador. Els permisos d’usuari inclouen capacitats com ara l’ús d’avatars, l’enviament de missatges privats, etc. Els permisos de moderador global inclouen l’aprovació d’entrades, la gestió de temes, la gestió de bandejos, etc. Finalment, els permisos d’administrador inclouen la modificació de permisos, la definició de BBCodes personalitzats, la gestió de fòrums, etc. És recomanable que els permisos d’usuaris individuals només es canviïn en casos excepcionals. El mètode preferit és posar els usuaris en grups i assignar-los els permisos del grup.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aquí podeu gestionar els rols per als permisos administratius. Els rols són permisos efectius. Si canvieu un rol, també canviaran els permisos dels elements que tinguin aquest rol assignat.',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Els permisos i rol definits per aquest element només s’aplicaran a aquest element i tots els elements marcats.',
 	'AUTH_UPDATED'				=> 'S’han actualitzat els permisos.',
 
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Esteu segur de que voleu dur a terme aquesta operació? Tingueu en compte que se sobreecriuran els permisos existents dels destins seleccionats.',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Esteu segur que voleu dur a terme aquesta operació? Tingueu en compte que se sobreecriuran els permisos existents dels destins seleccionats.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'El fòrum origen des d’on voleu copiar els permisos.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Els fòrums destí on voleu aplicar els permisos copiats.',
 	'COPY_PERMISSIONS_FROM'					=> 'Copia els permisos des de',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT'					=> 'Per defecte',
 	'DELETE_ROLE'				=> 'Elimina el rol',
-	'DELETE_ROLE_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquest rol? Els elements que tinguin aquest rol assignat <strong>no</strong> perdran la seva configuració de permisos.',
+	'DELETE_ROLE_CONFIRM'		=> 'Esteu segur que voleu eliminar aquest rol? Els elements que tinguin aquest rol assignat <strong>no</strong> perdran la seva configuració de permisos.',
 	'DISPLAY_ROLE_ITEMS'		=> 'Mostra els elements que utilitzen aquest rol',
 
 	'EDIT_PERMISSIONS'			=> 'Edita els permisos',

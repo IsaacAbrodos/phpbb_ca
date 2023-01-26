@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	<br />
 	El vostre compte contindrà com a mínim un nom identificador únic (a partir d’ara “nom d’usuari”), una contrasenya personal per iniciar la sessió amb el vostre compte (a partir d’ara “contrasenya”) i una adreça electrònica vàlida i personal (a partir d’ara “adreça electrònica”). La informació del vostre compte a “%1$s” està protegida per les lleis de protecció de dades aplicables al país on es troba allotjat el nostre lloc web. Tota informació més enllà del nom d’usuari, contrasenya i adreça electrònica requerits per “%1$s” durant el procés de registrar-vos, és obligatòria o opcional a la discreció de “%1$s”. En qualsevol cas, podeu decidir quina informació del vostre compte es mostra públicament. Addicionalment, des del vostre compte, teniu l’opció d’acceptar o rebutjar que se us enviïn els correus electrònics generats automàticament pel phpBB.<br />
 	<br />
-	La vostra contrasenya està encriptada amb una funció de resum unidireccional per tal de que sigui segura. Això no obstant, és recomanable que no reutilitzeu la mateixa contrasenya en múltiples llocs web diferents. La vostra contrasenya és el mitjà per accedir al vostre compte a “%1$s”, per tant, teniu-ne cura i sota cap circumstància ningú afiliat amb “%1$s”, phpBB o tercers, us demanarà la vostra contrasenya de manera legítima. Si us oblideu de la vostra contrasenya, podeu utilitzar la funció “He oblidat la meva contrasenya” proporcionada pel phpBB. Aquest procés us demanarà que proporcioneu el vostre nom d’usuari i adreça electrònica, llavors el phpBB generarà una contrasenya nova per que pugueu recuperar el vostre compte.<br />
+	La vostra contrasenya està encriptada amb una funció de resum unidireccional per tal que sigui segura. Això no obstant, és recomanable que no reutilitzeu la mateixa contrasenya en múltiples llocs web diferents. La vostra contrasenya és el mitjà per accedir al vostre compte a “%1$s”, per tant, teniu-ne cura i sota cap circumstància ningú afiliat amb “%1$s”, phpBB o tercers, us demanarà la vostra contrasenya de manera legítima. Si us oblideu de la vostra contrasenya, podeu utilitzar la funció “He oblidat la meva contrasenya” proporcionada pel phpBB. Aquest procés us demanarà que proporcioneu el vostre nom d’usuari i adreça electrònica, llavors el phpBB generarà una contrasenya nova per que pugueu recuperar el vostre compte.<br />
 	',
 ));
 
@@ -163,18 +163,18 @@ $lang = array_merge($lang, array(
 	'DELETED_TOPIC'				=> 'S’ha eliminat el tema.',
 	'DELETE_ATTACHMENT'			=> 'Elimina el fitxer adjunt',
 	'DELETE_ATTACHMENTS'		=> 'Elimina els fitxers adjunts',
-	'DELETE_ATTACHMENT_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest fitxer adjunt?',
-	'DELETE_ATTACHMENTS_CONFIRM'=> 'Esteu segur de que voleu eliminar aquests fitxers adjunts?',
+	'DELETE_ATTACHMENT_CONFIRM'	=> 'Esteu segur que voleu eliminar aquest fitxer adjunt?',
+	'DELETE_ATTACHMENTS_CONFIRM'=> 'Esteu segur que voleu eliminar aquests fitxers adjunts?',
 	'DELETE_AVATAR'				=> 'Elimina la imatge',
-	'DELETE_COOKIES_CONFIRM'	=> 'Esteu segur de que voleu eliminar totes les galetes creades pel fòrum?',
+	'DELETE_COOKIES_CONFIRM'	=> 'Esteu segur que voleu eliminar totes les galetes creades pel fòrum?',
 	'DELETE_MARKED_PM'			=> 'Elimina els missatges marcats',
-	'DELETE_MARKED_PM_CONFIRM'	=> 'Esteu segur de que voleu eliminar els missatges marcats?',
+	'DELETE_MARKED_PM_CONFIRM'	=> 'Esteu segur que voleu eliminar els missatges marcats?',
 	'DELETE_OLDEST_MESSAGES'	=> 'Elimina els missatges més antics',
 	'DELETE_MESSAGE'			=> 'Elimina el missatge',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest missatge privat?',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Esteu segur que voleu eliminar aquest missatge privat?',
 	'DELETE_MESSAGES_IN_FOLDER'	=> 'Suprimeix tots els missatges de la carpeta eliminada',
 	'DELETE_RULE'				=> 'Elimina la regla',
-	'DELETE_RULE_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquesta regla?',
+	'DELETE_RULE_CONFIRM'		=> 'Esteu segur que voleu eliminar aquesta regla?',
 	'DEMOTE_SELECTED'			=> 'Renuncia al lideratge dels grups seleccionats',
 	'DISABLE_CENSORS'			=> 'Habilita la censura de paraules',
 	'DISPLAY_GALLERY'			=> 'Mostra la galeria',
@@ -322,7 +322,7 @@ $lang = array_merge($lang, array(
 	'NEW_PASSWORD_ERROR'			=> 'Les contrasenyes que heu heu introduït no coincideixen.',
 
 	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Marca totes les notificacions com a llegides',
-	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Esteu segur de que voleu marcar totes les notificacions com a llegides?',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Esteu segur que voleu marcar totes les notificacions com a llegides?',
 	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'S’han marcat totes les notificacions com a llegides',
 	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Notificacions miscel·lànies',
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Notificacions de moderació',
@@ -449,10 +449,10 @@ $lang = array_merge($lang, array(
 	'RELEASE_MESSAGES'					=> '%sAllibera tots els missatges retinguts%s… s’assignaran a les carpetes apropiades si hi ha espai suficient.',
 	'REMOVE_ADDRESS'					=> 'Elimina l’adreça',
 	'REMOVE_SELECTED_BOOKMARKS'			=> 'Elimina les adreces d’interès seleccionades',
-	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Esteu segur de que voleu eliminar totes les adreces d’interès seleccionades?',
+	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Esteu segur que voleu eliminar totes les adreces d’interès seleccionades?',
 	'REMOVE_BOOKMARK_MARKED'			=> 'Elimina les adreces d’interès marcades',
 	'REMOVE_FOLDER'						=> 'Elimina la carpeta',
-	'REMOVE_FOLDER_CONFIRM'				=> 'Esteu segur de que voleu eliminar aquesta carpeta?',
+	'REMOVE_FOLDER_CONFIRM'				=> 'Esteu segur que voleu eliminar aquesta carpeta?',
 	'RENAME'							=> 'Canvia el nom',
 	'RENAME_FOLDER'						=> 'Canvia el nom de la carpeta',
 	'REPLIED_MESSAGE'					=> 'Missatge respost',

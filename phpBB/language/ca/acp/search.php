@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 
 	'COMMON_WORD_THRESHOLD'					=> 'Llindar per a paraules comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Les paraules que apareguin en un percentatge més gran d’entre totes les entrades es consideraran comuns. Les paraules comuns s’ignoren en les consultes de cerca. Utilitzeu el zero per inhabilitar-ho. Només té efecte si hi ha més de 100 entrades. Si voleu que es reconsiderin paraules actualment considerades comuns, cal que torneu a crear l’índex.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Esteu segur de que voleu canviar a un motor de cerca diferent? Després de canviar el motor de cerca, caldrà que creeu un índex per al nou motor. Si no teniu pensat tornar al motor de cerca antic, també podeu eliminar l’índex del motor antic per alliberar recursos del sistema.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Esteu segur que voleu canviar a un motor de cerca diferent? Després de canviar el motor de cerca, caldrà que creeu un índex per al nou motor. Si no teniu pensat tornar al motor de cerca antic, també podeu eliminar l’índex del motor antic per alliberar recursos del sistema.',
 	'CONTINUE_DELETING_INDEX'				=> 'Continua amb el procediment d’eliminació de l’índex anterior',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'S’ha iniciat un procediment d’eliminació d’índex. Per accedir a la pàgina de l’índex de cerques cal que el completeu o el cancel·leu.',
 	'CONTINUE_INDEXING'						=> 'Continua el procediment d’indexació anterior',
@@ -118,7 +118,12 @@ $lang = array_merge($lang, array(
 		2	=> 'La velocitat d’indexació actual és d’aproximadament %1$.1f entrades per segon.<br />Indexació en curs…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Totes les entrades fins l’entrada amb l’id %2$d s’han tret de l’índex de cerca.<br />Eliminació en curs…',
+		1	=> 'Totes les entrades fins l’entrada amb l’id %2$d s’han tret de l’índex de cerca, de les quals %1$d entrada era en aquest pas.<br />',
+		2	=> 'Totes les entrades fins l’entrada amb l’id %2$d s’han tret de l’índex de cerca, de les quals %1$d entrades eren en aquest pas.<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		1	=> 'La velocitat d’eliminació actual és d’aproximadament %1$.1f entrada per segon.<br />Eliminació en curs…',
+		2	=> 'La velocitat d’eliminació actual és d’aproximadament %1$.1f entrades per segon.<br />Eliminació en curs…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'S’han indexat totes les entrades de la base de dades del fòrum correctament.',
 	'SEARCH_INDEX_REMOVED'					=> 'S’ha eliminat l’índex de cerca d’aquest motor correctament.',
@@ -128,7 +133,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Els resultats emmagatzemats a la memòria cau de la cerca venceran després d’aquest temps, mesurat en segons. Introduïu un 0 si voleu inhabilitar la memòria cau de la cerca.',
 	'SEARCH_TYPE'							=> 'Motor de cerca',
 	'SEARCH_TYPE_EXPLAIN'					=> 'El phpBB us permet triar el motor que s’utilitza per cercar text al contingut de les entrades. Per defecte, s’utilitza la cerca fulltext pròpia del phpBB.',
-	'SWITCHED_SEARCH_BACKEND'				=> 'Heu canviat el motor de cerca. Per utilitzar el nou motor de cerca assegureu-vos de que hi hagi un índex per al motor que heu triat.',
+	'SWITCHED_SEARCH_BACKEND'				=> 'Heu canviat el motor de cerca. Per utilitzar el nou motor de cerca assegureu-vos que hi hagi un índex per al motor que heu triat.',
 
 	'TOTAL_WORDS'							=> 'Nombre total de paraules indexades',
 	'TOTAL_MATCHES'							=> 'Nombre total de relacions indexades entre paraules i entrades',

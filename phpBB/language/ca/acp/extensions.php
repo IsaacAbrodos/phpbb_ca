@@ -89,10 +89,10 @@ $lang = array_merge($lang, array(
 			<li>Elimineu els fitxers de l’extensió al sistema de fitxers</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Esteu segur de que voleu eliminar les dades associades a “%s”?<br /><br />Se suprimiran totes les seves dades i configuracions i no es pot desfer!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Esteu segur de que voleu inhabilitar l’extensió “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Esteu segur de que voleu habilitar l’extensió “%s”?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Esteu segur de que voleu forçar l’ús d’una versió no estable?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Esteu segur que voleu eliminar les dades associades a “%s”?<br /><br />Se suprimiran totes les seves dades i configuracions i no es pot desfer!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Esteu segur que voleu inhabilitar l’extensió “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Esteu segur que voleu habilitar l’extensió “%s”?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Esteu segur que voleu forçar l’ús d’una versió no estable?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Torna a la llista d’extensions',
 

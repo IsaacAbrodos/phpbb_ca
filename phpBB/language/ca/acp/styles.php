@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLES_EXPLAIN'	=> 'Aquí podeu gestionar els estils disponibles al fòrum. Podeu modificar estils existents, eliminar-los, desactivar-los, reactivar-los o instal·lar-ne de nous. També podeu veure quin aspecte tindrà un estil utilitzant la funció de previsualització. També es llista el nombre total d’usuaris per cada estil, tingueu en compte que la sobreescriptura de l’estil triat pels usuaris no es reflecteix aquí.',
 
 	'CANNOT_BE_INSTALLED'			=> 'No es pot instal·lar',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Esteu segur de que voleu desinstal·lar els estils seleccionats?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Esteu segur que voleu desinstal·lar els estils seleccionats?',
 	'COPYRIGHT'						=> 'Copyright',
 
 	'DEACTIVATE_DEFAULT'		=> 'No podeu desactivar l’estil per defecte.',
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Hereta de',
 	'INSTALL_STYLE'				=> 'Instal·la l’estil',
 	'INSTALL_STYLES'			=> 'Instal·la els estils',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Aquí podeu instal·lar estils nous.<br />Si no trobeu un estil concret a la llista de sota, assegureu-vos de que l’estil ja estigui instal·lat. Si no està instal·lat, comproveu que l’hagueu penjat correctament.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Aquí podeu instal·lar estils nous.<br />Si no trobeu un estil concret a la llista de sota, assegureu-vos que l’estil ja estigui instal·lat. Si no està instal·lat, comproveu que l’hagueu penjat correctament.',
 	'INVALID_STYLE_ID'			=> 'Id d’estil no vàlid.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Cap estil coincideix amb la consulta.',
@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'			=> 'Desinstal·la’l',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'L’estil "%s" no es pot desinstal·lar perquè es pare d’un o més estils.',
 	'STYLE_UNINSTALLED'			=> 'S’ha desinstal·lat l’estil  "%s" correctament.',
+	'STYLE_PHPBB_VERSION'		=> 'Versió del phpBB',
 	'STYLE_USED_BY'				=> 'Utilitzat per (incloent-hi els robots)',
 	'STYLE_VERSION'				=> 'Versió de l’estil',
 
