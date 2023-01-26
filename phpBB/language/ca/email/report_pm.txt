@@ -1,4 +1,4 @@
-Subject: Informe de missatge privat - "{TOPIC_TITLE}"
+Subject: Informe de missatge privat - "{SUBJECT}"
 
 Hola {USERNAME},
 

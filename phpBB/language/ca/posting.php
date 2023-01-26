@@ -145,6 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Aquí podeu seleccionar un esborrany que volgueu continuar escrivint. L’entrada actual es cancel·larà, el contingut de l’entrada actual s’eliminarà. Podeu visualitzar, editar i eliminar esborranys al vostre Tauler de control de l’usuari.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Cal que inicieu la sessió per poder reactivar temes en aquest fòrum.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Cal que inicieu la sessió per poder eliminar entrades en aquest fòrum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Cal que inicieu la sessió per poder marcar com eliminades entrades en aquest fòrum.',
 	'LOGIN_EXPLAIN_POST'		=> 'Cal que inicieu la sessió per poder publicar entrades en aquest fòrum.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Cal que inicieu la sessió per poder citar entrades en aquest fòrum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Cal que inicieu la sessió per poder publicar respostes en aquest fòrum.',

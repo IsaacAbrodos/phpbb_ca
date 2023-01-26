@@ -111,6 +111,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'S’han afegit els nous usuaris al grup correctament.',
 	'GROUP_USERS_EXIST'				=> 'Els usuaris seleccionats ja són membres.',
 	'GROUP_USERS_REMOVE'			=> 'S’han tret els usuaris del grup i s’han definit els nous valors per defecte correctament.',
+	'GROUP_USERS_INVALID'			=> 'No s’ha afegit cap usuari al grup ja que els següents noms d’usuari no existeixen: %s',
 
 	'LEGEND_EXPLAIN'				=> 'Aquests són els grups que es mostren a la llegenda de grups:',
 	'LEGEND_SETTINGS'				=> 'Configuració de llegenda',

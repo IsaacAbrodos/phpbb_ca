@@ -38,14 +38,15 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Aquí podeu fer una còpia de seguretat de totes les dades del phpBB. Podeu emmagatzemar el fitxer resultant al directori <samp>store/</samp> o baixar-lo directament. Depenent de la configuració del servidor, és possible que pugueu comprimir el fitxer en diversos formats.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Aquí podeu fer una còpia de seguretat de totes les dades del phpBB. El fitxer resultant s’emmagatzemarà al directori <samp>store/</samp>. Depenent de la configuració del servidor, és possible que pugueu comprimir el fitxer en diversos formats.',
 	'ACP_RESTORE_EXPLAIN'	=> 'Es realitzarà una restauració completa de totes les taules del phpBB des d’un fitxer desat. Si el servidor ho permet, podeu utilitzar un fitxer de text comprimit en format gzip o bzip2 i es descomprimirà automàticament. <strong>ADVERTIMENT</strong> Aquest procediment sobreescriurà totes les dades existents. La restauració pot trigar molt en ser processada, no us mogueu d’aquesta pàgina fins que hagi acabat. Les còpies de seguretat s’emmagatzemen al directori <samp>store/</samp> i s’assumeix que han estat generades amb la funció de còpia de seguretat del phpBB. La restauració amb còpies de seguretat que no han estat creades pel sistema integrat poden no funcionar correctament.',
 
-	'BACKUP_DELETE'		=> 'S’ha eliminat el fitxer de còpia de seguretat correctament.',
-	'BACKUP_INVALID'	=> 'El fitxer de còpia de seguretat seleccionat no és vàlid.',
-	'BACKUP_OPTIONS'	=> 'Opcions de còpia de seguretat',
-	'BACKUP_SUCCESS'	=> 'El fitxer de còpia de seguretat s’ha creat correctament.',
-	'BACKUP_TYPE'		=> 'Tipus de còpia de seguretat',
+	'BACKUP_DELETE'			=> 'S’ha eliminat el fitxer de còpia de seguretat correctament.',
+	'BACKUP_INVALID'		=> 'El fitxer de còpia de seguretat seleccionat no és vàlid.',
+	'BACKUP_NOT_SUPPORTED'	=> 'La còpia de seguretat seleccionada no és compatible',
+	'BACKUP_OPTIONS'		=> 'Opcions de còpia de seguretat',
+	'BACKUP_SUCCESS'		=> 'El fitxer de còpia de seguretat s’ha creat correctament.',
+	'BACKUP_TYPE'			=> 'Tipus de còpia de seguretat',
 
 	'DATABASE'			=> 'Utilitats de bases de dades',
 	'DATA_ONLY'			=> 'Només les dades',

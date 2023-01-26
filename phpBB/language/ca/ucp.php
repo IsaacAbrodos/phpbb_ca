@@ -272,6 +272,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Avisos importants',
 	'INVALID_USER_BIRTHDAY'			=> 'L’aniversari introduït no és una data vàlida.',
 	'INVALID_CHARS_USERNAME'	=> 'El nom d’usuari conté caràcters no permesos.',
+	'INVALID_EMOJIS_USERNAME'	=> 'El nom d’usuari conté caràcters no permesos (emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'La contrasenya no conté els caràcters necessaris.',
 	'ITEMS_REQUIRED'			=> 'Els elements marcats amb * són camps necessaris del perfil i s’han d’emplenar obligatòriament.',
 
@@ -302,6 +303,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'S’ha editat el missatge correctament.',
 	'MESSAGE_HISTORY'				=> 'Historial de missatges',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Aquest missatge ha estat eliminat pel seu autor.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Missatge del qual s’ha informat',
 	'MESSAGE_SENT_ON'				=> 'data:',
 	'MESSAGE_STORED'				=> 'S’ha enviat el missatge correctament.',
 	'MESSAGE_TO'					=> 'Per',

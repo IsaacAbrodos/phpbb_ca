@@ -325,6 +325,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Mida total',
 
 	'UCP'					=> 'Tauler de control de l’usuari',
+	'URL_INVALID'			=> 'L’URL proporcionat per la configuració “%1$s” no és vàlid.',
 	'USERNAMES_EXPLAIN'		=> 'Introduïu cada nom d’usuari en una línia nova.',
 	'USER_CONTROL_PANEL'	=> 'Tauler de control de l’usuari',
 
