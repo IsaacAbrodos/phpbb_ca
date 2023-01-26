@@ -44,5 +44,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Falta el valor per l’argument #%1$s: <strong>%3$s</strong> a la classe <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'No s’ha especificat cap controlador.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No s’ha especificat cap mètode per al controlador.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'El servei per al controlador "<strong>%s</strong>" no està definit a ./config/services.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'El servei per al controlador “<strong>%s</strong>” no està definit a ./config/services.yml.',
 ));
