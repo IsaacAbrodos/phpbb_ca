@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Preguntes i respostes',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Aquesta pregunta és un mitjà per evitar la tramesa automatitzada de formularis per part dels robots de brossa.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Heu proporcionat una resposta no vàlida a la pregunta.',
+	'CONFIRM_QUESTION_MISSING'	=> 'No s’ha pogut obtenir les preguntes del captcha. Contacteu amb un administrador del fòrum.',
 
 	'QUESTION_ANSWERS'			=> 'Respostes',
 	'ANSWERS_EXPLAIN'			=> 'Si us plau, introduïu respostes vàlides a la pregunta, una per línia.',
@@ -60,5 +61,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Si us plau ompliu tots els camps i introduïu una resposta com a mínim.',
 	'QA_LAST_QUESTION'			=> 'No podeu eliminar totes les preguntes mentre el connector està activat.',
-
 ));

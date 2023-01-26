@@ -673,7 +673,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_POSTS_BY'			=> 'Cerca les entrades per',
 	'SEARCH_SELF'				=> 'Les meves entrades',
 	'SEARCH_TOPIC'				=> 'Cerca al tema…',
-	'SEARCH_UNANSWERED'			=> 'Entrades sense resposta',
+	'SEARCH_UNANSWERED'			=> 'Temes sense resposta',
 	'SEARCH_UNREAD'				=> 'Entrades no llegides',
 	'SEARCH_USER_POSTS'			=> 'Cerca les entrades d’aquest usuari',
 	'SECONDS'					=> 'Segons',
@@ -815,7 +815,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Usuaris',
 	'USE_PERMISSIONS'		=> 'Prova els permisos de l’usuari',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'No esteu autoritzat a utilitzar aquesta funció. És possible que us hagueu registrat recentment i que calgui que participeu més per que pugueu utilitzar aquesta característica.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'No esteu autoritzat a utilitzar aquesta funció. És possible que us hagueu registrat recentment i que calgui que participeu en més discussions per que pugueu utilitzar aquesta característica.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Visualitzat',
