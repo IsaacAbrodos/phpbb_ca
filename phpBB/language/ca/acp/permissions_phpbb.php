@@ -79,7 +79,8 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Pot desar esborranys',
 	'ACL_U_CHGCENSORS'	=> 'Pot inhabilitar la censura de paraules',
 	'ACL_U_SIG'			=> 'Pot utilitzar una signatura',
-
+	'ACL_U_EMOJI'		=> 'Pot utilitzar emoji i caràcters de text enriquit al títol dels temes',
+	
 	'ACL_U_SENDPM'		=> 'Pot enviar missatges privats',
 	'ACL_U_MASSPM'		=> 'Pot enviar missatges privats a múltiples usuaris',
 	'ACL_U_MASSPM_GROUP'=> 'Pot enviar missatges privats a grups',

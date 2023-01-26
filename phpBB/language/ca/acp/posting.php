@@ -56,7 +56,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'El nom d’etiqueta BBCode que heu seleccionat ja existeix.',
 	'BBCODE_INVALID'			=> 'El BBCode està construït de manera no vàlida.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'El BBCode personalitzat ha de tenir tant l’etiqueta d’obertura com la de tancament.',
 	'BBCODE_TAG'				=> 'Etiqueta',
 	'BBCODE_TAG_TOO_LONG'		=> 'El nom d’etiqueta que heu seleccionat és massa llarg.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'La definició de l’etiqueta que heu introduït és massa llarga, escurceu la definició de l’etiqueta.',
@@ -78,13 +77,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'No podeu crear més BBCodes. Elimineu un o més BBCodes i torneu a intentar-ho.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Qualsevol text, incloent-hi caràcters estrangers, números, etc… És recomanable que no utilitzeu aquest testimoni a les etiquetes HTML. En el seu lloc intenteu utilitzar IDENTIFIER, INTTEXT o SIMPLETEXT.',
+		'TEXT'			=> 'Qualsevol text, incloent-hi caràcters estrangers, números, etc…',
 		'SIMPLETEXT'	=> 'Caràcters de l’alfabet llatí (A-Z), números, espais, comes, punts, menys, més, guió i caràcter de subratllat',
 		'INTTEXT'		=> 'Caràcters de lletres Unicode, números, espais, comes, punts, menys, més, guió, caràcter de subratllat i altres caràcters d’espaiat.',
 		'IDENTIFIER'	=> 'Caràcters de l’alfabet llatí (A-Z), números, guió i caràcter de subratllat',
 		'NUMBER'		=> 'Qualsevol sèrie de dígits',
 		'EMAIL'			=> 'Una adreça electrònica vàlida',
-		'URL'			=> 'Un URL vàlid que utilitzi qualsevol protocol (http, ftp, etc… no es pot utilitzar per aprofitar-se del javascript). Si no se’n proporciona cap, la cadena es prefixa amb “http://”.',
+		'URL'			=> 'Un URL vàlid que utilitzi qualsevol protocol permès (http, ftp, etc… no es pot utilitzar per aprofitar-se del javascript). Si no se’n proporciona cap, la cadena es prefixa amb “http://”.',
 		'LOCAL_URL'		=> 'Un URL local. L’URL ha de ser relatiu a la pàgina del tema i no pot contenir un nom de servidor ni un protocol, ja que els enllaços es prefixen amb “%s”',
 		'RELATIVE_URL'	=> 'Un URL relatiu. Podeu utilitzar-ho per tal que coincideixi amb parts d’un URL, aneu amb compte: un URL complet és un URL realtiu vàlid. Quan vulgueu utilitzar URL relatius al vostre fòrum, utilitzeu l’etiqueta LOCAL_URL.',
 		'COLOR'			=> 'Un color HTML, pot ser o bé en forma numèrica <samp>#FF1234</samp> o una <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">paraula clau de color CSS</a> com ara <samp>fuchsia</samp> o <samp>InactiveBorder</samp>',
