@@ -93,7 +93,6 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Descripció del camp',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'L’explicació presentada a l’usuari per aquest camp.',
 	'FIELD_DROPDOWN'			=> 'Desplegable',
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Identificador del camp',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'L’identificador que heu escollit ja existeix. Trieu un altre nom.',
 	'FIELD_IDENT_EXPLAIN'		=> 'L’identificador del camp és un nom que identifica el camp del perfil a la base de dades i les plantilles.',

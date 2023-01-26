@@ -35,6 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'La memòria cau APCu l’heu de purgar des del Tauler de control de l’administrador.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Marqueu aquesta opció si l’opció de configuració canvia massa sovint com per emmagatzemar-la de forma eficient a la memòria cau.',
 	'CLI_CONFIG_CURRENT'				=> 'Valor actual de la configuració, utilitzeu 0 i 1 per especificar valors booleans',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'S’ha eliminat la configuració %s correctament',

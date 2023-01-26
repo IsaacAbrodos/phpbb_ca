@@ -87,6 +87,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Limita els resultats als darrers',
 	'RESULT_SORT'			=> 'Ordena els resultats per',
 	'RETURN_FIRST'			=> 'Retorna els primers',
+	'RETURN_FIRST_EXPLAIN'	=> 'Poseu 0 per mostrar l’entrada sencera.',
 	'GO_TO_SEARCH_ADV'		=> 'Ves a la cerca avançada',
 
 	'SEARCHED_FOR'				=> 'Paraules utilitzades en la cerca',

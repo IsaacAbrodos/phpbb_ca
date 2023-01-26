@@ -168,6 +168,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Redueix la vista',
 	'CLOSE_WINDOW'			=> 'Tanca la finestra',
+	'CODE'					=> 'Codi',
 	'COLOUR_SWATCH'			=> 'Paleta de colors',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -205,6 +206,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Mostra els missatges dels darrers',
 	'DISPLAY_POSTS'			=> 'Mostra les entrades dels darrers',
 	'DISPLAY_TOPICS'		=> 'Mostra els temes dels darrers',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'El domini de correu electrònic introduït no té cap registre MX vàlid.',
 	'DOWNLOADED'			=> 'Baixat',
 	'DOWNLOADING_FILE'		=> 'S’està baixant el fitxer',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -309,7 +311,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'D’acord',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Ves a la primera entrada',
 	'GOTO_LAST_POST'			=> 'Ves a la darrera entrada',
 	'GOTO_PAGE'					=> 'Ves a la pàgina',
@@ -618,6 +619,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'		=> 'Aquesta entrada no està aprovada.',
 	'POST_UNAPPROVED_EXPLAIN'	=> 'Aquesta entrada no serà visible per als altres usuaris fins que l’aprovi un moderador.',
 	'POWERED_BY'			=> 'Funciona amb %s',
+
+	'QUOTE'					=> 'Citació',
+
 	'PREVIEW'				=> 'Previsualització',
 	'PREVIOUS'				=> 'Anterior',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Anterior',

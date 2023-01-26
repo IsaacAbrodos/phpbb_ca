@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'S’ha iniciat un procediment d’indexació. Per accedir a la pàgina de l’índex de cerques cal que el completeu o el cancel·leu.',
 	'CREATE_INDEX'							=> 'Crea l’índex',
 
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Nombre de caràcters que es retornen per defecte',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'El nombre de caràcters que es retornen per defecte quan es fa una cerca. El valor 0 fa que es retorni l’entrada sencera.',
 	'DELETE_INDEX'							=> 'Elimina l’índex',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'S’està eliminant l’índex',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'El motor de cerca està netejant el seu índex. Això pot trigar uns quants minuts.',

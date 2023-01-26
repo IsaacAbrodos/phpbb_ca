@@ -179,7 +179,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Renuncia al lideratge dels grups seleccionats',
 	'DISABLE_CENSORS'			=> 'Habilita la censura de paraules',
 	'DISPLAY_GALLERY'			=> 'Mostra la galeria',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'El domini de l’adreça electrònica introduïda no té un registre d’intercanvi de correu vàlid.',
 	'DOWNLOADS'					=> 'Baixades',
 	'DRAFTS_DELETED'			=> 'S’han eliminat correctament tos els esborranys seleccionats.',
 	'DRAFTS_EXPLAIN'			=> 'Aquí podeu visualitzar, editar, i eliminar els esborranys que heu desat.',
