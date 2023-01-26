@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Penjada d’avatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Pengeu el vostre avatar personalitzat.',
 	'AVATAR_EXPLAIN'				=> 'Mides màximes; amplària: %1$s, alçària: %2$s, mida del fitxer: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Mides màximes; amplària: %1$s, alçària: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Actualment la funció d’avatars està inhabilitada.',
 	'AVATAR_GALLERY'				=> 'Galeria local',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'No s’ha pogut penjar l’avatar a %s.',

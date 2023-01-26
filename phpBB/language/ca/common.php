@@ -336,6 +336,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Aficions',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Intent d’autenticació invalid.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> possiblement una adreça electrònica no vàlida?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'El canal d’informació seleccionat ha intentat obtenir adjunts amb restriccions no vàlides.',
 	'INVALID_PLURAL_RULE'		=> 'La regla de plurals escollida no és vàlida. Els valors vàlids són enters entre 0 i 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'La vostra IP %1$s està bloquejada perquè és en una llista negra. Podeu trobar més detalls a <a href="%2$s">%2$s</a>.',

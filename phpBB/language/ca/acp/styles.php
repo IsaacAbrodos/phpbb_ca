@@ -81,6 +81,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'L’estil "%s" no es pot desinstal·lar perquè es pare d’un o més estils.',
 	'STYLE_UNINSTALLED'			=> 'S’ha desinstal·lat l’estil  "%s" correctament.',
 	'STYLE_USED_BY'				=> 'Utilitzat per (incloent-hi els robots)',
+	'STYLE_VERSION'				=> 'Versió de l’estil',
 
 	'UNINSTALL_DEFAULT'		=> 'No es pot desinstal·lar l’estil per defecte.',
 

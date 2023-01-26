@@ -574,6 +574,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'S’estan actualitzant les dades',
 	'UPDATING_TO_LATEST_STABLE'		=> 'S’està actualitzant la base de dades a la versió estable més recent',
 	'UPDATED_VERSION'				=> 'Versió actualitzada',
+	'UPGRADE_INSTRUCTIONS'			=> 'Hi ha disponible la nova versió <strong>%1$s</strong>. Llegiu <a href="%2$s" title="%2$s"><strong>l’avís de llançament</strong></a> per assabentar-vos de què ofereix i com fer l’actualització.',
 	'UPLOAD_METHOD'					=> 'Mètode de penjada',
 
 	'UPDATE_DB_SUCCESS'				=> 'S’ha actualitzat la base de dades correctament.',

@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Nombre d’usuaris',
 	'NUMBER_ORPHAN'		=> 'Fitxers adjunts orfes',
 
-	'PHP_VERSION_OLD'	=> 'No podreu utilitzar futures versions del phpBB amb la versió del PHP instal·lada en aquest servidor. %sDetalls%s',
+	'PHP_VERSION_OLD'	=> 'No podreu utilitzar futures versions del phpBB amb la versió del PHP instal·lada en aquest servidor (%1$s). La versió mínima necessària serà el PHP %2$s. %3$sDetalls%4$s',
 
 	'POSTS_PER_DAY'		=> 'Entrades per dia',
 
@@ -417,11 +417,14 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Mida dels fitxers adjunts publicats',
 	'USERS_PER_DAY'		=> 'Usuaris per dia',
 
-	'VALUE'						=> 'Valor',
-	'VERSIONCHECK_FAIL'			=> 'No s’ha pogut obtenir la informació de la versió més recent.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Torna a comprovar la versió',
-	'VIEW_ADMIN_LOG'			=> 'Mostra el registre de l’administrador',
-	'VIEW_INACTIVE_USERS'		=> 'Mostra els usuaris inactius',
+	'VALUE'							=> 'Valor',
+	'VERSIONCHECK_FAIL'				=> 'No s’ha pogut obtenir la informació de la versió més recent.',
+	'VERSIONCHECK_FORCE_UPDATE'		=> 'Torna a comprovar la versió',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'La informació de la versió més recent conté una entrada no admesa.',
+	'VERSIONCHECK_INVALID_URL'		=> 'La informació de la versió més recent conté un URL no vàlid.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'La informació de la versió més recent conté una versió no vàlida.',
+	'VIEW_ADMIN_LOG'				=> 'Mostra el registre de l’administrador',
+	'VIEW_INACTIVE_USERS'			=> 'Mostra els usuaris inactius',
 
 	'WELCOME_PHPBB'			=> 'Benvingut al phpBB',
 	'WRITABLE_CONFIG'		=> 'El vostre fitxer de configuració (config.php) actualment pot ser modificat per qualsevol usuari. És molt recomanable que canvieu els permisos a 640 o, com a mínim, a 644 (per exemple: <a href="http://ca.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
