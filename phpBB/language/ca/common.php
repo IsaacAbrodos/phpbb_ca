@@ -432,6 +432,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Missatge',
 	'MESSAGES'				=> 'Missatges',
 	'MESSAGES_COUNT'		=> array(
+		0	=> 'missatges il·limitats',
 		1	=> '%d missatge',
 		2	=> '%d missatges',
 	),
@@ -603,7 +604,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED_FORUM'=> 'Com a mínim una de les entrades d’aquest fòrum no han estat aprovades.',
 	'POST_BY_AUTHOR'		=> 'Autor:',
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, el qual és a la vostra llista d’usuaris ignorats, ha escrit aquesta entrada.',
-	'POST_DISPLAY'			=> '%1$sMostra aquesta entrada%2$s.',
+	'POST_DISPLAY'			=> 'Mostra aquesta entrada.',
 	'POST_DAY'				=> '%.2f entrades per dia',
 	'POST_DELETED_ACTION'	=> 'Entrada eliminada:',
 	'POST_DELETED'			=> 'Aquesta entrada s’ha eliminat.',
