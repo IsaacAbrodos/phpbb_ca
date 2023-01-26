@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'ca',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -110,6 +110,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'No s’ha pogut penjar l’avatar.',
 	'AVATAR_NO_TEMP_DIR'			=> 'No s’ha trobat la carpeta temporal o no s’hi pot escriure.',
 	'AVATAR_NO_SIZE'				=> 'L’amplària o l’alçària de l’avatar no s’han pogut determinar. Si us plau, introduïu-les manualment.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'El camí d’emmagatzematge dels avatars no existeix o no s’hi pot escriure.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'La penjada d’avatars està habilitada però el camí d’emmagatzematge dels avatars no està definit.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'El fitxer especificat només s’ha carregat parcialment.',
 	'AVATAR_PHP_SIZE_NA'			=> 'La mida del fitxer d’avatar és massa gran.<br />No s’ha pogut determinar la mida màxima permesa definida a php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'La mida del fitxer d’avatar és massa gran. La mida màxima permesa és de %1$d %2$s.<br />Si us plau, tingueu en compte que això es defineix al fitxer php.ini i no es pot sobreescriure.',
@@ -488,9 +490,10 @@ $lang = array_merge($lang, array(
 	),
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Raó:</em> %1$s.',
-	'NOTIFICATION_REPORT_PM'			=> '<strong>Informe de missatge privat</strong> enviat per %1$s:',
-	'NOTIFICATION_REPORT_POST'			=> '<strong>Informe d’entrada</strong> enviat per %1$s:',
-	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Informe tancata</strong> per %1$s per:',
+	'NOTIFICATION_REPORT_PM'			=> '<strong>Informe de missatge privat enviat</strong> per %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Informe de missatge privat tancat</strong> per %1$s:',
+	'NOTIFICATION_REPORT_POST'			=> '<strong>Informe d’entrada enviat</strong> per %1$s:',
+	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Informe tancat</strong> per %1$s per:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Tema nou</strong> de %1$s:',
 	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Tema aprovat</strong>:',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Tema rebutjat</strong>:',

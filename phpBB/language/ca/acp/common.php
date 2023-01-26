@@ -235,6 +235,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'No s’ha trobat la tasca de cron “%s”.',
 	'CRON_NO_TASK'			=> 'Ara mateix no cal executar cap tasca cron.',
 	'CRON_NO_TASKS'			=> 'No s’ha trobat cap tasca cron.',
+	'CSV_INVALID'			=> 'La configuració separada per comes proporcionada “%1$s” no és vàlida. Els valors han d’estar delimitats només per comes, la configuració no ha de contenir delimitadors ni al principi ni al final.',
 	'CURRENT_VERSION'		=> 'Versió actual',
 
 	'DEACTIVATE'				=> 'Desactiva',
@@ -316,6 +317,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Tauler de control de l’usuari',
 	'URL_INVALID'			=> 'L’URL proporcionat per la configuració “%1$s” no és vàlid.',
+	'URL_SCHEME_INVALID'	=> 'La combinació proporcionada “%2$s” a la configuració separada per comes “%1$s” no és vàlida. La combinació ha de començar amb un caràcter de l’alfabet llatí seguit de caràcters alfanumèrics, guions o punts.',
 	'USERNAMES_EXPLAIN'		=> 'Introduïu cada nom d’usuari en una línia nova.',
 	'USER_CONTROL_PANEL'	=> 'Tauler de control de l’usuari',
 

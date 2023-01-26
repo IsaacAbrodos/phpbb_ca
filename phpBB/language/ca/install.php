@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'El phpBB no s’executarà si la vostra instal·lació del PHP no ha estat compilada amb compatibilitat per UTF-8 a l’extensió PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Compatibilitat PHP per JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Per que el phpBB funcioni correctament, l’extensió de PHP per JSON ha d’estar disponible.',
+	'PHP_MBSTRING_SUPPORT'				=> 'Compatibilitat PHP per mbstring',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Per que el phpBB funcioni correctament, l’extensió de PHP per mbstring ha d’estar disponible.',
 	'PHP_XML_SUPPORT'					=> 'Compatibilitat PHP per XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Per que el phpBB funcioni correctament, l’extensió de PHP per XML/DOM ha d’estar disponible.',
 	'PHP_SUPPORTED_DB'					=> 'Bases de dades compatibles',
@@ -237,7 +239,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Un text curt per descriure el fòrum',
 	'CONFIG_SITENAME'				=> 'elvostredomini.cat',
 
-	'DEFAULT_INSTALL_POST'			=> 'Aquesta és una entrada d’exemple per a la instal·lació del phpBB3. Sembla que tot funciona. Si voleu, podeu eliminar aquesta entrada i continuar amb la configuració del fòrum. Durant el procès d’instal·lació, s’ha assignat un grup adient de permisos a la primera categoria i el primer fòrum per als administradors de grups d’usuaris predefinits, robots, moderadors globals, visitants, usuaris registrats i usuaris COPPA registrats. Si també decidiu eliminar la primera categoria i el primer fòrum, no oblideu assignar permisos per tots els grups d’usuaris a totes les categories i fòrums nous que creeu. És aconsellable que canvieu el nom de la primera categoria i el primer fòrum i copieu els permisos des d’aquests mentre creeu noves categories i fòrums.',
+	'DEFAULT_INSTALL_POST'			=> '<t>Aquesta és una entrada d’exemple per a la instal·lació del phpBB3. Sembla que tot funciona. Si voleu, podeu eliminar aquesta entrada i continuar amb la configuració del fòrum. Durant el procès d’instal·lació, s’ha assignat un grup adient de permisos a la primera categoria i el primer fòrum per als administradors de grups d’usuaris predefinits, robots, moderadors globals, visitants, usuaris registrats i usuaris COPPA registrats. Si també decidiu eliminar la primera categoria i el primer fòrum, no oblideu assignar permisos per tots els grups d’usuaris a totes les categories i fòrums nous que creeu. És aconsellable que canvieu el nom de la primera categoria i el primer fòrum i copieu els permisos des d’aquests mentre creeu noves categories i fòrums.</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Primera categoria',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Descripció del primer fòrum.',

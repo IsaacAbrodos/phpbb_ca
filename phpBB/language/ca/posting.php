@@ -151,6 +151,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Cal que inicieu la sessió per poder citar entrades en aquest fòrum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Cal que inicieu la sessió per poder publicar respostes en aquest fòrum.',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Mida màxima de fitxer per penjada: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Podeu utilitzar lletres de mida %d com a màxim.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Els fitxers flash poden tenir un màxim d’%d píxel d’alçària.',
