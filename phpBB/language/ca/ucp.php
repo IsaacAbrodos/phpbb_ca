@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Desplaça els missatges de la carpeta eliminada a',
 	'MOVE_DOWN'						=> 'Baixa',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Desplaça els missatges marcats a %s',
-	'MOVE_PM_ERROR'					=> 'S’ha produït un error mentre es movien els missatges a la carpeta nova, només s’han mogut %1d missatges de %2d.',
+	'MOVE_PM_ERROR'					=> 'S’ha produït un error mentre es movien els missatges a la carpeta nova, només s’han mogut %1$d missatges de %2$d.',
 	'MOVE_TO_FOLDER'				=> 'Desplaça’l a la carpeta',
 	'MOVE_UP'						=> 'Puja',
 

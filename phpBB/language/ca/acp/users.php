@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'No esteu autoritzat a forçar la reactivació de comptes de fundadors.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'No esteu autoritzat a forçar la reactivació del vostre propi compte.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'No esteu autoritzat a eliminar el compte d’usuari visitant.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'No esteu autoritzat a eliminar comptes de fundadors.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'No esteu autoritzat a eliminar el vostre propi compte.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'No podeu ascendir a fundador usuaris ignorats.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Abans d’ascendir un usuari a fundador, cal que l’activeu. Només els usuaris activats poden ser ascendits.',

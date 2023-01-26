@@ -138,6 +138,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Connectat',
 	'USER_PRESENCE'			=> 'Presència als fòrums',
+	'USERS_PER_PAGE'		=> 'Usaris per pàgina',
 
 	'VIEWING_PROFILE'		=> 'Esteu veient el perfil de: %s',
 	'VISITED'				=> 'Darrera connexió',

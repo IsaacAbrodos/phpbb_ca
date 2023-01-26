@@ -178,6 +178,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Només podeu incrustar %1$d nivells de citacions.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'No s’ha pogut penjar el fitxer especificat perquè s’ha excedit el temps d’espera de la sol·licitud.',
 	'SAVE'						=> 'Desa',
 	'SAVE_DATE'					=> 'Desa a',
 	'SAVE_DRAFT'				=> 'Desa un esborrany',
@@ -219,7 +220,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sMostra el missatge enviat%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sMostra el missatge privat enviat%s',
 
-	'WRONG_FILESIZE'			=> 'El fitxer és massa gran, la mida màxima permesa és %1d %2s.',
+	'WRONG_FILESIZE'			=> 'El fitxer és massa gran, la mida màxima permesa és %1$d %2$s.',
 	'WRONG_SIZE'				=> 'La imatge ha de tenir com a mínim %1$d píxels d’amplària, %2$d píxels d’alçària i com a màxim %3$d píxels d’amplària i %4$d píxels d’alçària. La imatge que heu tramès té %5$d píxels d’amplària i %6$d píxels d’alçària.',
 ));
 

@@ -74,11 +74,11 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanent',
 	
 	'UNTIL'						=> 'Fins el',
-	'USER_BAN'					=> 'Bandeja un o més noms usuari',
+	'USER_BAN'					=> 'Bandeja un o més usuaris per nom d’usuari',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Habiliteu aquesta opció per excloure els usuaris introduïts de tots els bandejos actuals.',
 	'USER_BAN_EXPLAIN'			=> 'Podeu bandejar múltiples usuaris d’un sol cop introduïnt cada nom en una línia nova. Utilitzeu la funció <span style="text-decoration: underline;">Cerca un membre</span> per trobar i afegir un o més usuaris automàticament.',
 	'USER_NO_BANNED'			=> 'No hi ha noms d’usuari bandejats',
-	'USER_UNBAN'				=> 'Desbandeja o desexclou els noms d’usuari',
+	'USER_UNBAN'				=> 'Desbandeja o desexclou usuaris per nom d’usuari',
 	'USER_UNBAN_EXPLAIN'		=> 'Podeu desbandejar (o desexcloure) múltiples usuaris d’un sol cop si utilitzeu la combinació de ratolí i teclat adequada per al vostre ordinador i navegador. Els usuaris exclosos estan ressaltats.',
 ));
 
