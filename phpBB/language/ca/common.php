@@ -329,6 +329,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'El tipus d’imatge %d per al tipus MIME %s no està permès.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Tipus d’imatge incorrecte: l’extensió esperada és %1$s però s’ha rebut l’extensió %2$s.',
 	'IN'						=> 'a',
+	'INACTIVE'					=> 'Inactiu',
 	'INDEX'						=> 'Pàgina d’índex',
 	'INFORMATION'				=> 'Informació',
 	'INSECURE_REDIRECT'			=> 'S’ha intentat redirigir a un URL potencialment no segur.',
@@ -467,7 +468,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Tema rebutjat</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovació de tema</strong> sol·licitada per %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'El tipus de notificació "%s" no és al sistema de fitxers.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activation required</strong> for newly registered user: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Es requereix l’activació</strong> d’un usuari desactivat o que s’acaba de registrar: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'molts més',
 	'NOTIFICATION_X_OTHERS'				=> array(

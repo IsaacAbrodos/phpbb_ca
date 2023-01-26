@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Cal estar registrat i haver iniciat la sessió per cercar usuaris.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Cal estar registrat i haver iniciat la sessió per visualitzar perfils.',
 
+	'MANAGE_GROUP'			=> 'Gestiona grup',
 	'MORE_THAN'				=> 'Més de ',
 
 	'NO_CONTACT_FORM'		=> 'El formulari de contacte amb l’administrador del fòrum està desactivat.',

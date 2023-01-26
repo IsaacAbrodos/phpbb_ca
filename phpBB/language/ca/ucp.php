@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Algú us cita en una entrada',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Algú informa d’una entrada',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Algú crea un tema en un fòrum al qual esteu subscrit',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Es requereuix l’activació d’un usuari que s’acaba de registrar',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Es requereix l’activació d’un usuari',
 
 	'NOTIFY_METHOD'					=> 'Mètode de notificació',
 	'NOTIFY_METHOD_BOTH'			=> 'Ambdós',

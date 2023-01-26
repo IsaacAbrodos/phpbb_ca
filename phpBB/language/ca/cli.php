@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Habilita l’extensió especificada.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Troba migracions en les quals no es depèn.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obté el valor d’una opció de configuració',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrementa el valor d’una opció de configuració',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrementa el valor enter d’una opció de configuració',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista totes les extensions a la base de dades i al sistema de fitxers.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Executa’l en mode segur (sense extensions).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Executa l’intèrpret d’ordres.',
@@ -78,4 +78,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Habilitada',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'S’han recalculat tots les funcions de resum de les adreces electròniques.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalment, podeu indicar el nom d’una tasca “cron” per que s’executi només la tasca “cron” especificada.',
 ));
