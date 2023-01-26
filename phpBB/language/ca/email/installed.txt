@@ -1,6 +1,6 @@
 Subject: S’ha instal·lat el phpBB
 
-Felicitats,
+Enhorabona,
 
 Heu instal·lat correctament el phpBB en el vostre servidor.
 

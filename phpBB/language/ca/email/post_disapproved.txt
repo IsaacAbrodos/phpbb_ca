@@ -2,7 +2,7 @@ Subject: Entrada rebutjada - "{POST_SUBJECT}"
 
 Hola {USERNAME},
 
-Heu rebut aquesta notificació perquè la vostra entrada "{POST_SUBJECT}" a "{SITENAME}" ha estat rebutjada per un moderador o un administrador.
+La vostra entrada "{POST_SUBJECT}" a "{SITENAME}" ha estat rebutjada per un moderador o un administrador.
 
 S’ha donat la següent raó per al rebuig:
 

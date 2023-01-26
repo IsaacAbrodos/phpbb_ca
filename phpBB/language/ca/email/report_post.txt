@@ -2,7 +2,7 @@ Subject: Informe d´entrada - "{TOPIC_TITLE}"
 
 Hola {USERNAME},
 
-Heu rebut aquesta notificació perquè s’ha informat de l’entrada "{POST_SUBJECT}" a "{SITENAME}".
+S’ha informat de l’entrada "{POST_SUBJECT}" a "{SITENAME}".
 
 Si voleu visualitzar l’informe, feu clic a l’enllaç següent:
 {U_VIEW_REPORT}

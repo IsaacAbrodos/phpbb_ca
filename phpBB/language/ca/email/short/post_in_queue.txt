@@ -1,8 +1,8 @@
-Subject: Notificació per moderació d’entrades - "{TOPIC_TITLE}"
+Subject: Entrada pendent d’aprovació - "{TOPIC_TITLE}"
 
 Hola {USERNAME},
 
-Heu rebut aquesta notificació perquè l’entrada "{POST_SUBJECT}" a "{SITENAME}" està pendent d’aprovació.
+L’entrada "{POST_SUBJECT}" a "{SITENAME}" està pendent d’aprovació.
 
 Si voleu visualitzar l’entrada, feu clic a l’enllaç següent:
 {U_VIEW_POST}

@@ -727,7 +727,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Ha eliminat la raó d’informe/rebuig</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Ha actualitzat la raó d’informe/rebuig</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'		=> '<strong>Li ha fallat la validació de la pàgina d’origen</strong><br />»La pàgina d’origen era “<em>%1$s</em>”. S’ha rebutjat la petició i s’ha matat la sessió.',
+	'LOG_REFERER_INVALID'		=> '<strong>Li ha fallat la validació de la pàgina d’origen</strong><br />»La pàgina d’origen era “<em>%1$s</em>”. S’ha rebutjat la sol·licitud i s’ha matat la sessió.',
 	'LOG_RESET_DATE'			=> '<strong>Ha reinicialitzat la data d’inici del fòrum</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Ha reinicialitzat el nombre màxim d’usuaris connectats</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Ha resincronitzat les estadístiques de fitxers</strong>',

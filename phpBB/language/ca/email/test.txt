@@ -2,7 +2,7 @@ Subject: El phpBB està configurat correctament per enviar correus electrònics
 
 Hola {USERNAME},
 
-Felicitats. Si heu rebut aquest correu electrònic, el phpBB està configurat correctament per enviar correus electrònics.
+Enhorabona. Si heu rebut aquest correu electrònic, el phpBB està configurat correctament per enviar correus electrònics.
 
 <!-- IF MESSAGE -->
 {MESSAGE}

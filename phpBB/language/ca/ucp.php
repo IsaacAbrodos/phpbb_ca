@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_VALUE'				=> 'El camp “%s” conté un valor no vàlid.',
 
 	'FOE_MESSAGE'				=> 'Missatge d’un enemic',
-	'FOES_EXPLAIN'				=> 'Els enemics són usuaris que són ignorats per defecte. Les entrades d’aquests usuaris no seran completament visibles. El missatges personals dels enemics sí que es permeten. Tingueu en compte que no podeu ignorar els moderadors o els administradors.',
+	'FOES_EXPLAIN'				=> 'Els enemics són usuaris que són ignorats per defecte. Les entrades d’aquests usuaris no seran completament visibles. El missatges privats dels enemics sí que es permeten. Tingueu en compte que no podeu ignorar els moderadors o els administradors.',
 	'FOES_UPDATED'				=> 'S’ha actualitzat la vostra llista d’enemics correctament.',
 	'FOLDER_ADDED'				=> 'S’ha afegit la carpeta correctament.',
 	'FOLDER_MESSAGE_STATUS'		=> array(

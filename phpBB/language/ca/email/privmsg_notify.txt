@@ -1,9 +1,8 @@
-Subject: Ha arribat un missatge privat nou
+Subject: Missatge privat nou
 
 Hola {USERNAME},
 
-Heu rebut un missatge privat nou de "{AUTHOR_NAME}" al vostre compte a "{SITENAME}" amb l’assumpte següent:
-
+Ha arribat un missatge privat nou de "{AUTHOR_NAME}" al vostre compte a "{SITENAME}" amb l’assumpte següent:
 {SUBJECT}
 
 Podeu visualitzar el missatge nou fent clic a l’enllaç següent:

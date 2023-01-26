@@ -1,8 +1,8 @@
-Subject: Notificació per moderació de temes - "{TOPIC_TITLE}"
+Subject: Tema pendent d’aprovació - "{TOPIC_TITLE}"
 
 Hola {USERNAME},
 
-Heu rebut aquesta notificació perquè el tema "{TOPIC_TITLE}" a "{SITENAME}" està pendent d’aprovació.
+El tema "{TOPIC_TITLE}" a "{SITENAME}" està pendent d’aprovació.
 
 Si voleu visualitzar el tema, feu clic a l’enllaç següent:
 {U_VIEW_TOPIC}
