@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Els avatars són imatges generalment petites i úniques que un usuari pot associar amb si mateix. Depenent de l’estil se solen mostrar sota el nom de l’usuari en la visualització de temes. Aquí podeu determinar de quina manera els usuaris poden definir els seus avatars. Tingueu en compte que per penjar avatars cal que creeu el directori que definiu a sota i que us assegureu que el servidor web hi pot escriure. També tingueu en compte que els límits per a la mida del fitxer d’avatar només s’imposen als avatars penjats, no s’apliquen a les imatges enllaçades remotament.',
 
 	'ALLOW_AVATARS'					=> 'Habilita els avatars',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Permet l’ús d’avatars en general;<br />Si inhabiliteu els avatars en general o en qualsevol dels diferents modes, els avatars inhabilitats ja no es mostraran als fòrums però els usuaris encara podran baixar-se els seus propis avatars des del Tauler de control de l’usuari.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Permet l’ús d’avatars en general;<br>Si inhabiliteu els avatars en general o en qualsevol dels diferents modes, els avatars inhabilitats ja no es mostraran als fòrums però els usuaris encara podran baixar-se els seus propis avatars des del Tauler de control de l’usuari.',
 	'ALLOW_GRAVATAR'				=> 'Habilita els avatars gravatar',
 	'ALLOW_LOCAL'					=> 'Habilita la galeria d’avatars',
 	'ALLOW_REMOTE'					=> 'Habilita els avatars remots',
@@ -116,9 +116,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permet penjar avatars des d’un altre lloc web.',
 	'ALLOW_UPLOAD'					=> 'Habilita la penjada d’avatars',
 	'AVATAR_GALLERY_PATH'			=> 'Camí a la galeria d’avatars',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB per a imatges predefinides, p.ex. <samp>images/avatars/gallery</samp>.<br />Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB per a imatges predefinides, p.ex. <samp>images/avatars/gallery</samp>.<br>Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
 	'AVATAR_STORAGE_PATH'			=> 'Camí a l’emmagatzemament d’avatars',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/avatars/upload</samp>.<br />La penjada d’avatars <strong>no estarà disponible</strong> si no es pot escriure en aquest camí.<br />Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/avatars/upload</samp>.<br>La penjada d’avatars <strong>no estarà disponible</strong> si no es pot escriure en aquest camí.<br>Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensions màximes dels avatars',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Amplària x Alçària en píxels.',
 	'MAX_FILESIZE'					=> 'Mida màxima dels fitxers d’avatar',
@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Altres canals i configuracions',
 
 	'ACP_FEED_ENABLE'					=> 'Habilita els canals d’informació',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Habilita o inhabilita els canals d’informació ATOM a tots els fòrums.<br />Inhabilitar aquesta opció desactiva tots els canals independentment dels valors que hi hagi a les opcions a sota.',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Habilita o inhabilita els canals d’informació ATOM a tots els fòrums.<br>Inhabilitar aquesta opció desactiva tots els canals independentment dels valors que hi hagi a les opcions a sota.',
 	'ACP_FEED_LIMIT'					=> 'Nombre d’elements',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'El nombre màxim de canals que es mostren.',
 
@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Habilita el canal de temes actius',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Habilita el canal “Temes actius” que mostra els darrers temes actius i n’inclou la darrera entrada.',
 	'ACP_FEED_NEWS'						=> 'Canal de notícies',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Mostra la primera entrada dels fòrums que seleccioneu. Podeu inhabilitar aquest canal no seleccionant cap fòrum.<br />Podeu seleccionar diversos fòrums si manteniu premut <samp>CTRL</samp> mentre feu clic.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Mostra la primera entrada dels fòrums que seleccioneu. Podeu inhabilitar aquest canal no seleccionant cap fòrum.<br>Podeu seleccionar diversos fòrums si manteniu premut <samp>CTRL</samp> mentre feu clic.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Habilita el canal dels fòrums',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Habilita el canal “Tots els fòrums” que mostra una llista de fòrums.',
@@ -298,9 +298,9 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_HTTP_AUTH'				=> 'Permet l’autenticació HTTP',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Habilita l’autenticació HTTP que permet als usuaris rebre continguts que estan ocults per als usuaris visitants afegint el paràmetre <samp>auth=http</samp> a l’URL del canal. Tingueu en compte que agunes instal·lacions del PHP requereixen canvis addicionals al fitxer .htaccess en el qual podreu trobar més instruccions.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Estadístiques dels elements',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Mostra estadístiques individuals a sota dels elements del canal<br />(p.ex. autor, data i hora, respostes, visualitzacions)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Mostra estadístiques individuals a sota dels elements del canal<br>(p.ex. autor, data i hora, respostes, visualitzacions)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exclou aquests fòrums',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'El contingut d’aquests fòrums <strong>no s’inclourà als canals d’informació</strong>. Si no seleccioneu cap fòrum, s’obtindran dades de tots els fòrums.<br />Podeu seleccionar o desseleccionar diversos fòrums si manteniu premut <samp>CTRL</samp> mentre feu clic.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'El contingut d’aquests fòrums <strong>no s’inclourà als canals d’informació</strong>. Si no seleccioneu cap fòrum, s’obtindran dades de tots els fòrums.<br>Podeu seleccionar o desseleccionar diversos fòrums si manteniu premut <samp>CTRL</samp> mentre feu clic.',
 ));
 
 // Visual Confirmation Settings
@@ -351,13 +351,13 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Aquests detalls defineixen les dades que s’utilitzen per enviar galetes als navegadors dels usuaris. En la majoria de casos, els valors per defecte seran suficients. Si cal que en canvieu algun, feu-ho amb compte; una configuració incorrecta pot evitar que els usuaris iniciïn la sessió. Si els usuaris tenen problemes per mantenir la sessió oberta al vostre fòrum, visiteu la <b><a href="https://www.phpbb.com/support/go/cookie-settings/">Base de Coneixements de phpBB.com - Solució de configuracions incorrectes de galetes</a></b> (en anglès).',
 
 	'COOKIE_DOMAIN'				=> 'Domini de la galeta',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'En la majoria de casos el domini de la galeta és opcional. Deixeu-lo en blanc si no n’esteu segurs.<br /><br /> En el cas que tingueu el fòrum integrat amb altres aplicacions o tingueu múltiples dominis, per determinar el domini de la galeta heu de fer el següent: Si teniu una situació com <i>exemple.cat</i> i <i>forums.exemple.cat</i>, o potser <i>forums.exemple.cat</i> i <i>bloc.exemple.cat</i>, treieu els subdominis fins que tingueu el domini comú, <i>exemple.com</i> i afegiu-hi un punt al davant. En aquest cas caldria introduir .exemple.cat (fixeu-vos amb el punt al principi).',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'En la majoria de casos el domini de la galeta és opcional. Deixeu-lo en blanc si no n’esteu segurs.<br><br> En el cas que tingueu el fòrum integrat amb altres aplicacions o tingueu múltiples dominis, per determinar el domini de la galeta heu de fer el següent: Si teniu una situació com <i>exemple.cat</i> i <i>forums.exemple.cat</i>, o potser <i>forums.exemple.cat</i> i <i>bloc.exemple.cat</i>, treieu els subdominis fins que tingueu el domini comú, <i>exemple.com</i> i afegiu-hi un punt al davant. En aquest cas caldria introduir .exemple.cat (fixeu-vos amb el punt al principi).',
 	'COOKIE_NAME'				=> 'Nom de la galeta',
 	'COOKIE_NAME_EXPLAIN'		=> 'Podeu posar-hi el que vulgueu. Sempre que canvieu la configuració de la galeta n’haurieu de canviar el nom.',
 	'COOKIE_NOTICE'				=> 'Avís de galetes',
 	'COOKIE_NOTICE_EXPLAIN'		=> 'Si l’habiliteu, es mostrarà un avís de galetes als usuaris quan visitin els fòrums. És possible que sigui un requeriment legal depenent del contingut del fòrum o les extensions que tingueu habilitades.',
 	'COOKIE_PATH'				=> 'Camí de la galeta',
-	'COOKIE_PATH_EXPLAIN'		=> 'Tingueu en compte que sempres és una barra inclinada sense que importi l’URL del vostre fòrum.',
+	'COOKIE_PATH_EXPLAIN'		=> 'Normalment serà el mateix que el camí de l’script o simplement una barra inclinada per fer que la galeta sigui accessible a tot el domini del lloc web.',
 	'COOKIE_SECURE'				=> 'Galeta segura',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Si el vostre servidor s’executa sobre SSL habiliteu aquesta opció, en qualsevol altre cas deixeu-la inhabilitada. Si l’habiliteu i el servidor no s’executa sobre SSL es produiran errors del servidor durant les redireccions.',
 	'ONLINE_LENGTH'				=> 'Interval de temps per a Qui està connectat',
@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aquí podeu habilitar i inhabilitar la pàgina de contacte i també podeu afegir el text que es mostra a la pàgina.',
 
 	'CONTACT_US_ENABLE'				=> 'Habilita la pàgina de contacte',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics als admimnistradors del fòrum',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics als admimnistradors del fòrum. Tingueu en compte que cal que l’opció d’enviament de correu electònics del fòrum també estigui habilitada. Podeu trobar aquesta opció a General > Comunicació amb clients > Configuració del correu electrònic.',
 
 	'CONTACT_US_INFO'				=> 'Informació de contacte',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Aquest missatge es mostra a la pàgina de contacte',
@@ -430,7 +430,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Seleccioneu un mètode d’autenticació',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Heu de proporcionar tant la clau com el secret de cada proveïdor de servei OAuth habilitat. En algún proveïdor de servei OAuth només se n’ha proporcionat un dels dos.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Cada proveïdor OAuth requereix una combinació única de secret i clau per tal d’autenticar-se amb el servidor extern. Us els ha de proporcionar el servei Oauth quan registreu amb ells el vostre lloc web i els heu d’entrar exactament tal i com us els han comunicat.<br />Qualsevol servei per al qual no es proporcioni aquí tant la clau com el secret no estarà disponible per que l’utilitzin els usuaris del fòrum. Tingueu en compte que els usuaris encara poden registranr-se i iniciar sessió amb el connector d’autenticació per base de dades.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Cada proveïdor OAuth requereix una combinació única de secret i clau per tal d’autenticar-se amb el servidor extern. Us els ha de proporcionar el servei Oauth quan registreu amb ells el vostre lloc web i els heu d’entrar exactament tal i com us els han comunicat.<br>Qualsevol servei per al qual no es proporcioni aquí tant la clau com el secret no estarà disponible per que l’utilitzin els usuaris del fòrum. Tingueu en compte que els usuaris encara poden registranr-se i iniciar sessió amb el connector d’autenticació per base de dades.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Clau',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
@@ -446,7 +446,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'					=> 'L’atribut de correu electrònic especificat no existeix.',
 	'LDAP_NO_IDENTITY'				=> 'No s’ha trobat una identitat d’inici de sessió per a  %s.',
 	'LDAP_PASSWORD'					=> 'Contrasenya LDAP',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixeu-la buida per utilitzar la vinculació anònima. Altrament, introduïu la contrasenya de l’usuari que hi ha a sobre. És necessària per a servidors Active Directory.<br /><em><strong>Advertiment:</strong> Aquesta contrasenya s’emmagatzemarà a la base de dades com a text net i serà visible per a qualsevol que pugui accedir a la vostra base de dades o que pugui veure aquesta pàgina de configuració.</em>',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixeu-la buida per utilitzar la vinculació anònima. Altrament, introduïu la contrasenya de l’usuari que hi ha a sobre. És necessària per a servidors Active Directory.<br><em><strong>Advertiment:</strong> Aquesta contrasenya s’emmagatzemarà a la base de dades com a text net i serà visible per a qualsevol que pugui accedir a la vostra base de dades o que pugui veure aquesta pàgina de configuració.</em>',
 	'LDAP_PORT'						=> 'Port del servidor LDAP',
 	'LDAP_PORT_EXPLAIN'				=> 'Opcionalment, podeu especificar el port que s’ha d’utilitzar per connectar-se amb el servidor LDAP en lloc del port per defecte 389.',
 	'LDAP_SERVER'					=> 'Nom del servidor LDAP',
@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_TIME'			=> 'Temps de caducitat dels intents d’inici de sessió per adreça IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Els intents d’inici de sesió no es tenen en compte quan ha passat aquest interval.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Limita els intents d’inici de sesió mitjançant la capçalera <var>X_FORWARDED_FOR</var>',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'En lloc de limitar els intents d’inici de sesió per adreça IP, es limiten pels valors de <var>X_FORWARDED_FOR</var>. <br /><em><strong>Advertiment:</strong> No habiliteu aquesta característica a no ser que gestioneu un servidor intermediari que assigni valors fiables a <var>X_FORWARDED_FOR</var>.</em>',
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'En lloc de limitar els intents d’inici de sesió per adreça IP, es limiten pels valors de <var>X_FORWARDED_FOR</var>. <br><em><strong>Advertiment:</strong> No habiliteu aquesta característica a no ser que gestioneu un servidor intermediari que assigni valors fiables a <var>X_FORWARDED_FOR</var>.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Nombre màxim d’intents d’inici de sessió per nom d’usuari',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'El nombre d’intents d’inici de sessió permesos per un mateix nom d’usuari abans que s’activi la tasca contra robots de brossa. Si introduïu un 0, no es tindran en compte els noms d’usuari per activar la tasca contra robots de brossa.',
 	'NO_IP_VALIDATION'				=> 'Cap',
@@ -552,8 +552,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Aquesta informació s’utilitza quan el fòrum envia correus electrònics als usuaris. Assegureu-vos de que l’adreça electrònica que especifiqueu és vàlida, els missatges retornats o impossibles de lliurar s’enviaran probablement a aquesta adreça. Si el vostre amfitrió no us proporciona un servei de correu electrònic nadiu (basat en PHP), podeu enviar missatges directament utilitzant SMTP. Per això us cal l’adreça d’un servidor adequat (si cal, demaneu-la al vostre proveïdor). Si el servidor requereix autenticació (i només si la requereix) introduïu el nom d’usuari necessari, la contrasenya i el mètode d’autenticació.',
 
-	'ADMIN_EMAIL'					=> 'Adreça electrònica de resposta',
-	'ADMIN_EMAIL_EXPLAIN'			=> 'S’utilitzarà com a adreça electrònica de resposta en tots els correus electrònics, l’adreça electrònica de contacte tècnic. S’utilitzarà sempre com a adreça en els camps <samp>Return-Path</samp> i <samp>Sender</samp> dels correus electrònics.',
+	'ADMIN_EMAIL'					=> 'Adreça electrònica d’enviament',
+	'ADMIN_EMAIL_EXPLAIN'			=> 'S’utilitzarà com a adreça electrònica d’enviament en tots els correus electrònics, l’adreça electrònica de contacte tècnic. S’utilitzarà sempre com a adreça al camp <samp>Sender</samp> dels correus electrònics.',
 	'BOARD_EMAIL_FORM'				=> 'Els usuaris envien correus electrònics a través del fòrum',
 	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'En lloc de mostrar les adreces electròniques dels usuaris, els usuaris poden enviar-se correus electrònics a través del fòrum.',
 	'BOARD_HIDE_EMAILS'				=> 'Oculta les adreces electròniques',
@@ -562,8 +562,8 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_EXPLAIN'			=> 'S’utilitzarà aquesta adreça quan es necessiti un punt de contacte específic, p.ex. correu brossa, errors, etc. S’utilitzarà sempre com a adreça en els camps <samp>From</samp> i <samp>Reply-To</samp> dels correus electrònics.',
 	'CONTACT_EMAIL_NAME'			=> 'Nom de contacte',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Aquest es el nom de contacte que veuran els destinataris dels correus electrònics. Si no voleu tenir un nom de contacte, deixeu aquest camp en blanc.',
-	'EMAIL_FUNCTION_NAME'			=> 'Nom de la funció de correu electrònic',
-	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'La funció utilitzada per enviar correus electrònics a través del PHP.',
+	'EMAIL_FORCE_SENDER'			=> 'Força l’adreça electrònica d’enviament',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Fa que al camp <samp>Return-Path</samp> s’hi posi l’adreça electr+onica d’enviament en lloc d’utilitzar l’usuari local i el nom de màquina del servidor. Aquesta configuració no s’aplica si utilitzeu SMTP.<br><em><strong>Adevrtiment:</strong> Requereix que afegiu l’usuari amb el que s’executa el servidor web com usuari de confiança a la configuració de sendmail.</em>',
 	'EMAIL_PACKAGE_SIZE'			=> 'Mida dels paquets de correu electrònic',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'És el nombre màxim de correus electrònics que s’envien en un paquet. Aquesta configuració s’aplica a la cua interna de missatges; introduïu un 0 si teniu problemes amb correus de notificació que no s’han pogut lliurar.',
 	'EMAIL_SIG'						=> 'Signatura per als correus electrònics',
@@ -580,7 +580,7 @@ $lang = array_merge($lang, array(
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'Contrasenya SMTP',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Introduïu la contrasenya només si el servidor la requereix.<br /><em><strong>Advertiment:</strong> Aquesta contrasenya s’emmagatzemarà com a text net a la base de dades i serà visible per qualsevol persona que tingui accés directe a la vostra base de dades o pugui veure aquesta pàgina de configuració.</em>',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Introduïu la contrasenya només si el servidor la requereix.<br><em><strong>Advertiment:</strong> Aquesta contrasenya s’emmagatzemarà com a text net a la base de dades i serà visible per qualsevol persona que tingui accés directe a la vostra base de dades o pugui veure aquesta pàgina de configuració.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'Port del servidor SMTP',
@@ -594,7 +594,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Requereix la verificació del certificat SSL utilitzat pel servidor SMTP.<em><strong>Advertiment:</strong> Connectar-se a servidors amb un certificat SSL no verificat pot tenir implicacions de seguretat.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'Verifica el nom del servidor SMTP',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Requereix la verificació del nom dels servidors SMTP que utilitzen connexions SSL / TLS.<em><strong>Advertiment:</strong> Connectar-se a servidors amb nom no verificat pot tenir implicacions de seguretat.</em>',
-	'TEST_EMAIL_SENT'				=> 'S’ha enviat el correu electrònic de prova.<br />Si no l’heu rebut, comproveu la configuració d’enviament de correus electrònics.<br /><br />Si necessiteu ajuda, visiteu els <a href="https://www.phpbb.com/community/">fòrums d’assistència del phpBB</a> (en anglès).',
+	'TEST_EMAIL_SENT'				=> 'S’ha enviat el correu electrònic de prova.<br>Si no l’heu rebut, comproveu la configuració d’enviament de correus electrònics.<br><br>Si necessiteu ajuda, visiteu els <a href="https://www.phpbb.com/community/">fòrums d’assistència del phpBB</a> (en anglès).',
 
 	'USE_SMTP'						=> 'Utilitza el servidor SMTP per al correu electrònic',
 	'USE_SMTP_EXPLAIN'				=> 'Seleccioneu “Sí” si voleu o heu d’enviar els correus electrònics a través d’un servidor en lloc de la funcio de correu local.',

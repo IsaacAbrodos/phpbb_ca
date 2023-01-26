@@ -53,7 +53,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Hi ha entrades noves [ Bloquejat ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'No hi ha entrades noves [ Popular ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'No hi ha entrades noves [ Bloquejat ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'No teniu els permisos necessaris per llegir els temes d’aquest fòrum.',
+	'NO_READ_ACCESS'		=> 'No teniu els permisos necessaris per veure o llegir els temes d’aquest fòrum.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Aquesta categoria no té cap fòrum.',
 	'NO_UNREAD_POSTS_HOT'		=> 'No hi ha entrades no llegides [ Popular ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'No hi ha entrades no llegides [ Bloquejat ]',
 

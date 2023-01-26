@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'ca',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -556,6 +556,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Opcions',
 
+	'PAGE_NOT_FOUND'		=> 'No s’ha trobat la pàgina sol·licitada.',
 	'PAGE_OF'				=> 'Pàgina <strong>%1$d</strong> de <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Pàgina %s',
 	'PASSWORD'				=> 'Contrasenya',

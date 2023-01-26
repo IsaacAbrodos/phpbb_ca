@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Obteniu els vostres guanys',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Podeu obtenir els guanys del vostre fòrum amb els enllaços VigLink monetitzats en lloc de donar-los al projecte del phpBB. Per gestionar la configuració del vostre compte, registreu-vos amb un compte de tipus “VigLink Convert” fent clic a “Converteix compte”',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Converteix compte',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'No s’ha pogut obtenir l’enllaç de conversió de compte VigLink.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'No s’ha pogut obtenir l’enllaç de conversió de compte VigLink.',
 ));
