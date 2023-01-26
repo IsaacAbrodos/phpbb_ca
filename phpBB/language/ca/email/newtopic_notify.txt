@@ -2,7 +2,7 @@ Subject: Notificació de tema nou - "{FORUM_NAME}"
 
 Hola {USERNAME},
 
-Heu rebut aquesta notificació perquè esteu subscrits al fòrum "{FORUM_NAME}" a "{SITENAME}". En aquest fòrum<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME} ha<!-- ENDIF --><!-- IF AUTHOR_NAME === '' --> s’ha<!-- ENDIF --> publicat un tema nou des de la vostra darrera visita, "{TOPIC_TITLE}". Podeu utilitzar l’enllaç següent per veure el fòrum, no rebreu més notificacions fins que visiteu el fòrum.
+Heu rebut aquesta notificació perquè esteu subscrits al fòrum "{FORUM_NAME}" a "{SITENAME}". En aquest fòrum<!-- IF AUTHOR_NAME != '' --> {AUTHOR_NAME} ha<!-- ENDIF --><!-- IF AUTHOR_NAME === '' --> s’ha<!-- ENDIF --> publicat un tema nou des de la vostra darrera visita, "{TOPIC_TITLE}". Podeu utilitzar l’enllaç següent per veure el fòrum, no rebreu més notificacions fins que visiteu el fòrum.
 
 {U_FORUM}
 

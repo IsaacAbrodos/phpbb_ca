@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Comprovació de la configuració de l’administrador',
 	'ADMIN_USERNAME'			=> 'Nom d’usuari de l’administrador',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Introduïu un nom d’usuari d’entre 3 i 20 caràcters de longitud.',
-	'APP_MAGICK'				=> 'Compatibilitat amb Imagemagick [ Fitxers adjunts ]',
+	'APP_MAGICK'				=> 'Compatibilitat amb ImageMagick [ Fitxers adjunts ]',
 	'AUTHOR_NOTES'				=> 'Notes de l’autor<br />» %s',
 	'AVAILABLE'					=> 'Disponible',
 	'AVAILABLE_CONVERTORS'		=> 'Convertidors disponibles',
@@ -282,7 +282,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> 'No s’ha comprès %s #%d, taula %s (“%s”)',
 	'NO_CONVERTORS'				=> 'No hi ha cap convertidor disponible per utilitzar.',
 	'NO_CONVERT_SPECIFIED'		=> 'No s’ha especificat cap convertidor.',
-	'NO_LOCATION'				=> 'No s’ha pogut determinar la ubicació. Si sabeu que l’Imagemagick està instal·lat, podeu especificar la ubicació després des del Tauler de control de l’administrador',
+	'NO_LOCATION'				=> 'No s’ha pogut determinar la ubicació. Si sabeu que l’ImageMagick està instal·lat, podeu especificar la ubicació després des del Tauler de control de l’administrador',
 	'NO_TABLES_FOUND'			=> 'No s’ha trobat cap taula.',
 
 	'OVERVIEW_BODY'				=> 'Benvingut al phpBB3!<br /><br />El phpBB® és el programari lliure de fòrums més utilitzat del món. EL phpBB3 és la darrera versió d’un producte que va començar l’any 2000. Com els seus predecessors, el phpBB3 inclou moltes funcions, és amigable i disposa d’asistencia completa per part de l’equip del phppBB. El phpBB3 millora ampliament allò que va fer el phpBB2 popular i afegeix funcions sol·licitades freqüentment que no eren presents en versions anteriors. Esperem que sobrepassi les vostres espectatives.<br /><br />El sistema d’instal·lació us guiarà pel procés d’instal·lar el phpBB3, actualitzar des de versions anteriors a la versió més recent del phpBB3, o convertir al phpBB3 des de sistemes de fòrums diferents (el phpBB2 inclòs). Per obtenir més informació, us recomanem que llegiu <a href="../docs/INSTALL.html">la guia d’instal·lació</a>.<br /><br />Per llegir la llicència del phpBB3 o esbrinar com obtenir asistència i la nostra posició al respecte, seleccioneu les opcions adients del menú lateral. Per continuar, seleccioneu la pestanya adequada a sobre.',
@@ -301,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'El phpBB pot funcionar amb aquest paràmetre habilitat però, si és possible, és recomanable que es dehabiliti register_globals per raons de seguretat.',
 	'PHP_SAFE_MODE'					=> 'Mode segur',
 	'PHP_SETTINGS'					=> 'Versió del PHP i configuracions',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Necessari</strong> - Cal que tingueu com a mínim la versió 5.3.3 del PHP per instal·lar el phpBB. Si es mostra <var>mode segur</var> a sota, la vostra instal·lació del PHP s’està executant en aquest mode. Això imposa limitacions en l’administració remota i funcions similars.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Necessari</strong> - Cal que tingueu com a mínim la versió 5.3.3 del PHP per instal·lar el phpBB (la versió 7 del PHP no és compatible). Si es mostra <var>mode segur</var> a sota, la vostra instal·lació del PHP s’està executant en aquest mode. Això imposa limitacions en l’administració remota i funcions similars.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'El paràmetre <var>allow_url_fopen</var> del PHP està habilitat',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcional</strong> - Aquest parpàmetre és opcional, això no obstant, determinades funcions del phpBB com ara els avatars externs no funcionaran correctament si està inhabilitat.',
-	'PHP_VERSION_REQD'				=> 'Versió del PHP >= 5.3.3',
+	'PHP_VERSION_REQD'				=> 'Versió del PHP >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'ID de l’entrada',
 	'PREFIX_FOUND'					=> 'Un escaneig de les vostres taules ha mostrat una instal·lació vàlida que utilitza <strong>%s</strong> com a prefix de taula.',
 	'PREPROCESS_STEP'				=> 'S’estan executant les funcions/consultes de preprocessament',
@@ -398,8 +398,9 @@ $lang = array_merge($lang, array(
 	'DATABASE_TYPE'						=> 'Tipus de base de dades',
 	'DATABASE_UPDATE_COMPLETE'			=> 'S’ha completat l’actualització de la base de dades.',
 	'DATABASE_UPDATE_CONTINUE'			=> 'Continua amb l’actualització de la base de dades',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'El fitxer d’actualització de base de dades que hi ha al directori “install” és massa antic. Assegureu-vos de penjar la versió correcta del fitxer.',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'El fitxer d’actualització de la base de dades que hi ha al directori “install” és massa antic. Assegureu-vos de penjar la versió correcta del fitxer.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Encara no s’ha completat l’actualització de la base de dades.',
+	'DATABASE_VERSION'					=> 'Versió de la base de dades',
 	'DELETE_USER_REMOVE'				=> 'Elimina l’usuari i suprimeix-ne les entrades',
 	'DELETE_USER_RETAIN'				=> 'Elimina l’usuari però conserva’n les entrades',
 	'DESTINATION'						=> 'Fitxer de destí',
@@ -438,6 +439,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED'			=> 'Fitxers no modificats',
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Els fitxers següents no s estan modificats i representen els fitxer originals de la versió del phpBB que esteu actualitzant.',
 	'FILES_UP_TO_DATE'				=> 'Fitxers ja actualitzats',
+	'FILES_VERSION'					=> 'Versió dels fitxers',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Els fitxers següents ja estan al dia i no cal actualitzar-los.',
 	'FTP_SETTINGS'					=> 'Configuracions FTP',
 	'FTP_UPDATE_METHOD'				=> 'Penja per FTP',
@@ -485,7 +487,8 @@ $lang = array_merge($lang, array(
 
 	'OLD_UPDATE_FILES'		=> 'Els fitxers d’actualització no estan al dia. Els fitxers d’actualització que s’han trobat són per actualitzar del phpBB %1$s al phpBB %2$s però la versió més recent del phpBB és la %3$s.',
 
-	'PACKAGE_UPDATES_TO'				=> 'Aquest paquest informàtic actualitza a la versió',
+	'PACKAGE_UPDATES_TO'				=> 'Aquest paquest actualitza a la versió',
+	'PACKAGE_VERSION'					=> 'Versió instal·lada del paquet',
 	'PERFORM_DATABASE_UPDATE'			=> 'Realitza l’actualització de la base de dades',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'A continuació trobareu un botó a l’script d’actualització de la base de dades. L’actualització de la base de dades pot trigar una estona, per tant, no n’atureu l’execució tot i que sembli que s’ha penjat. Després que s’hagi realitzat l’actualització de la base de dades, simplement seguiu les instruccions per continuar amb el procés d’actualització.',
 	'PREVIOUS_VERSION'					=> 'Versió anterior',
@@ -530,6 +533,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'S’està actualitzant l’esquema de la base de dades',
 	'UPDATE_FILES'					=> 'Actualitza els fitxers',
 	'UPDATE_FILES_NOTICE'			=> 'Assegureu-vos de que també heu actualitzat els fitxers del fòrum, aquest fitxer només actualitza la base de dades.',
+	'UPDATE_INCOMPLETE'				=> 'La instal·lació del phpBB no s’ha actualitzat correctament.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Llegiu la informació a sota per arreglar l’error.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Actualització incompleta</h1>
+
+		<p>S’ha detectat que la darrera actualització de la instal·lació del phpBB no s’ha completat. Aneu a <a href="%1$s" title="%1$s">l’script database_update</a> i executeu-lo. Si no trobeu l’script, <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixeu-vos el paquet de la vostra versió</a>, pugeu la carpeta "install" al directori arrel del phpBB (on es troba el fitxer config.php) i <a href="%1$s" title="%1$s">executeu l’script d’actualització de la base de dades</a>.</p>',
+
 	'UPDATE_INSTALLATION'			=> 'Actualitza la instal·lació del phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos de que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització automàtica amb FTP</h2><p>Aquest mètode és similar al primer però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per utilitzar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos de que s’ha actualitzat tot correctament.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '

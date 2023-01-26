@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'El motor de cerca està netejant el seu índex. Això pot trigar uns quants minuts.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Només podeu utilitzar el motor MySQL fulltext amb MySQL4 o superior.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Els índexs MySQL fulltext només es poden utilitzar amb taules MyISAM o taules InnoDB. Per utilitzar índexs de text complet amb InnoDB és necessària la versió 5.6.4 o superior del MySQL.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Els índexs MySQL fulltext només es poden utilitzar amb taules MyISAM o taules InnoDB. Per utilitzar índexs de text complet amb InnoDB és necessària la versió 5.6.8 o superior del MySQL.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Nombre total d’entrades indexades',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Només s’indexaran per a les cerques les paraules que tinguin com a mínim aquest nombre de caràcters. Només podeu canviar aquest paràmetre modificant la configuració del MySQL.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Només s’indexaran per a les cerques les paraules que tinguin com a màxim aquest nombre de caràcters. Només podeu canviar aquest paràmetre modificant la configuració del MySQL.',

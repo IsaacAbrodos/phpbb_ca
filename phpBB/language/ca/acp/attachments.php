@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Dimensions d’enllaç a imatge',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Si la imatge adjunta és més gran, es mostrarà com un enllaç de text. Per inhabilitar aquest comportament, utilitzeu els valors 0px x 0px.',
-	'IMAGICK_PATH'				=> 'Camí de l’Imagemagick',
+	'IMAGICK_PATH'				=> 'Camí de l’ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Camí complet a l’aplicació de conversió imagemagick, p.ex. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Nombre màxim de fitxers adjunts per entrada',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Treu o desexclou les adreces IP/noms d’amfitrió <em>no permeses</em>',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Esteu segur de que voleu resincronitzar les estadístiques de fitxers?',
 
-	'SEARCH_IMAGICK'				=> 'Cerca l’Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Cerca l’ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Llista Permet/Denega',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Canvia el comportament per defecte de la llista Permet/Denega quan les baixades segures estan habilitades a una <strong>llista blanca</strong> (Permet) o a una <strong>llista negra</strong> (Denega).',
 	'SECURE_DOWNLOADS'				=> 'Habilita les baixades segures',

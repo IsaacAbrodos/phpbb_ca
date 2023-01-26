@@ -570,6 +570,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Port del servidor SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Canvieu-lo només si sabeu que el servidor SMTP utilitza un port diferent.',
 	'SMTP_SERVER'					=> 'Adreça del servidor SMTP',
+	'SMTP_SERVER_EXPLAIN'			=> 'Tingueu en compte que heu de proporcionar el protocol que utilitza el servidor. Si utilitza SSL, ha de ser del tipus “ssl://el.servidor.cat”',
 	'SMTP_SETTINGS'					=> 'Configuració SMTP',
 	'SMTP_USERNAME'					=> 'Nom d’usuari SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Introduïu el nom d’usuari només si el servidor el requereix.',
