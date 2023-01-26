@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<a href="https://abrodos.wordpress.com/phpbb/">Traducció del phpBB: Isaac Garcia Abrodos</a>',
+	'TRANSLATION_INFO'	=> 'Traducció del phpBB: Isaac Garcia Abrodos',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)

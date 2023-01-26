@@ -70,7 +70,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Inicia la restauració',
 	'STORE_AND_DOWNLOAD'	=> 'Emmagatzema’l i baixa’l',
 	'STORE_LOCAL'			=> 'Emmagatzema el fitxer localment',
-	'STRUCTURE_ONLY'		=> 'Només l’estructura',
 
 	'TABLE_SELECT'		=> 'Selecció de taules',
 	'TABLE_SELECT_ERROR'=> 'Cal que seleccioneu una taula com a mínim.',
