@@ -73,4 +73,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'Falten les variables d’idioma següents al paquet d’idioma “%s”',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Paquets d’idioma desinstal·lats',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Explora la base de dades de paquets d’idioma',
 ));

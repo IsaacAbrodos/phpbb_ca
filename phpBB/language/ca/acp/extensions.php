@@ -68,14 +68,20 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Nom de l’extensió',
 	'EXTENSION_ACTIONS'			=> 'Accions',
 	'EXTENSION_OPTIONS'			=> 'Opcions',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Actualització d’una extensió',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Com s’instal·la una extensió',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>Baixeu una extensió de la base de dades d’extensions del phpBB</li>
+			<li>Descomprimiu l’extensió i pengeu-la a la carpeta <samp>ext/</samp> del fòrum phpBB</li>
+			<li>Habiliteu l’extensió aquí, al gestor d’extensions</li>
+		</ol>',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Com s’actualitza una extensió',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Inhabiliteu l’extensió</li>
 			<li>Elimineu els fitxers de l’extensió al sistema de fitxers</li>
 			<li>Pengeu els fitxers nous</li>
 			<li>Habiliteu l’extensió</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Eliminar completament una extensió del fòrum',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Com s’elimina completament una extensió del fòrum',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
 			<li>Inhabiliteu l’extensió</li>
 			<li>Elimineu les dades de l’extensió</li>
@@ -118,6 +124,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Torna a comprovar totes les versions',
 	'FORCE_UNSTABLE'					=> 'Comprova sempre si hi ha versions no estables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Configuració de comprovació de versions',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Explora la base de dades d’extensions',
 
 	'META_FIELD_NOT_SET'	=> 'No s’ha establit el camp meta necessari %s.',
 	'META_FIELD_INVALID'	=> 'El camp meta %s no és vàlid.',

@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Personalitza',
+	'ACP_CAT_CUSTOMISE'			=> 'Personalització',
 	'ACP_CAT_DATABASE'			=> 'Base de dades',
 	'ACP_CAT_DOT_MODS'			=> 'Extensions',
 	'ACP_CAT_FORUMS'			=> 'Fòrums',
