@@ -678,6 +678,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sTorna al darrer tema visitat%s',
 	'RETURN_TO'					=> 'Torna a “%s”',
 	'RETURN_TO_INDEX'			=> 'Torna a l’índex del fòrum',
+
+	'ROUTE_NOT_FOUND'				=> 'No s’ha pogut trobar la ruta sol·licitada “%s”.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Shan passat paràmetres insuficients o no vàlids per la ruta “%s”.',
+	
 	'FEED'						=> 'Canal d’informació',
 	'FEED_NEWS'					=> 'Notícies',
 	'FEED_TOPICS_ACTIVE'		=> 'Temes actius',
