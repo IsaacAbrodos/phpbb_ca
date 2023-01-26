@@ -52,6 +52,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Això fa que el fòrum no estigui disponible per als usuaris que no siguin moderadors o administradors. També podeu introduir un missatge curt (255 caràcters) per que es mostri.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Mostra l’assumpte de la darrera entrada afegida a la llista dels fòrums',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'L’assumpte de la darrera entrada afegida es mostrarà a la llista de fòrums amb un enllaç a aquesta entrada. No es mostraran assumptes de fòrums protegits amb contrasenya o fòrums per als quals l’usuari no té permís de lectura.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Mostra entrades pendents d’aprovar a l’autor',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'L’autor pot veure les seves entrades pendents d’aprovar. No aplica a entrades d’usuaris visitants.',
 	'GUEST_STYLE'					=> 'Estil per visitants',
 	'GUEST_STYLE_EXPLAIN'			=> 'L’estil del fòrum per als usuaris visitants.',
 	'OVERRIDE_STYLE'				=> 'Sobreescriu l’estil dels usuaris',
@@ -437,7 +439,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Cal que configureu l’autenticació de l’Apache abans de canviar el phpBB a aquest mètode d’autenticació. Recordeu que el nom d’usuari que utilitzeu per a l’autenticació amb Apache ha de ser el mateix que el nom d’usuari al phpBB. L’autenticació amb Apache només es pot utilitzar amb mod_php (no amb una versió CGI) i safe_mode inhabilitat.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Cal que configureu l’autenticació de l’Apache abans de canviar el phpBB a aquest mètode d’autenticació. Recordeu que el nom d’usuari que utilitzeu per a l’autenticació amb Apache ha de ser el mateix que el nom d’usuari al phpBB. L’autenticació amb Apache només es pot utilitzar amb mod_php (no amb una versió CGI).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> '<var>dn</var> de la base LDAP',

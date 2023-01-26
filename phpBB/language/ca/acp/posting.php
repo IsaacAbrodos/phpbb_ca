@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'El BBCode és una implementació especial de l’HTML que ofereix un control més gran sobre què i com es mostra alguna cosa. Des d’aquesta pàgina podeu afegir, eliminar i editar BBCodes personalitzats.',
 	'ADD_BBCODE'				=> 'Afegeix un BBCode nou',
 
-	'BBCODE_DANGER'				=> 'Sembla que el BBCode que esteu afegint utilitza un testimoni {TEXT} dintre d’un atribut HTML. És possible que això provoqui un problema de seguretat XSS. Intenteu utilitzar en lloc seu els tipus {SIMPLETEXT} o {INTTEXT} que són més restrictius. Continueu només si enteneu els riscos que això implica i considereu que l’ús de {TEXT} és absolutament inevitable.',
+	'BBCODE_DANGER'				=> 'El BBCode que esteu afegint sembla que no és segur. Si el BBCode utilitza un testimoni {TEXT} dintre d’un context delicat, intenteu utilitzar un tipus més restricitu. Continueu només si enteneu els riscos que això implica.',
 	'BBCODE_DANGER_PROCEED'		=> 'Continua', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'Sha afegit el BBCode correctament.',
@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_INVALID_TAG_NAME'	=> 'El nom d’etiqueta BBCode que heu seleccionat ja existeix.',
 	'BBCODE_INVALID'			=> 'El BBCode està construït de manera no vàlida.',
 	'BBCODE_TAG'				=> 'Etiqueta',
+	'BBCODE_INVALID_TEMPLATE'	=> 'La plantilla del vostre BBCode no es vàlida.',
 	'BBCODE_TAG_TOO_LONG'		=> 'El nom d’etiqueta que heu seleccionat és massa llarg.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'La definició de l’etiqueta que heu introduït és massa llarga, escurceu la definició de l’etiqueta.',
 	'BBCODE_USAGE'				=> 'Sintaxi BBCode',

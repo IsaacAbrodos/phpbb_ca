@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'			=> 'Adverteix un usuari',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Esteu segur que voleu moure les entrades seleccionades?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Podeu moure les entrades seleccionades a un altre tema utilitzant el formulari següent. Les entrades es separaran d’aquest tema i es combinaran amb l’altre. Aquestes entrades no es reordenarán i apareixeran com si els usuaris les haguesin escrit al tema destí.<br />Introduïu l’id del tema destí o feu clic sobre “Selecciona un tema” per buscar-lo.',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Podeu moure les entrades seleccionades a un altre tema utilitzant el formulari següent. Les entrades es separaran d’aquest tema i es combinaran amb l’altre. Aquestes entrades no es reordenaran i apareixeran com si els usuaris les haguesin escrit al tema destí.<br />Introduïu l’id del tema destí o feu clic sobre “Selecciona un tema” per buscar-lo.',
 	'MERGE_TOPIC_ID'		=> 'Número d’identificació del tema destí',
 	'MERGE_TOPICS'			=> 'Combina els temes',
 	'MERGE_TOPICS_CONFIRM'	=> 'Esteu segur que voleu combinar els temes seleccionats?',

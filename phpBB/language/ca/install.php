@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Assistència',
-	'SUPPORT_BODY'		=> 'Es proporciona assistencia completa per a la verió estable actual del phpBB3, de forma gratuïta. Això inclou:</p><ul><li>instal·lació</li><li>configuració</li><li>preguntes tècniques</li><li>problemes relacionats amb possibles errades del programari</li><li>actualitzacions des de les versions candidates (RC) a la versió estable més recent</li><li>conversió des del phpBB 2.0.x al phpBB3</li><li>conversió des d’altres programaris de fòrums al phpBB3 (veieu el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fòrum de Conversors</a>)</li></ul><p>Recomanem als usuaris que encara estiguin utilitzant versions beta del phpBB3 que substitueixin la seva instal·lació amb una còpia neta de la versió més recent.</p><h2>Extensions / Estils</h2><p>Per questions relacionades amb les Extensions, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fòrum d’Extensions</a>.<br />Per questions relacionades amb els estils, plantilles i temes gràfics, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fòrum d’estils</a>.<br /><br />Si la vostra pregunta està relacionada amb un paquet determinat, feu-la directament al tema dedicat al paquet.</p><h2>Obtenció d’assistència</h2><p><a href="https://www.phpbb.com/support/">Secció d’assistència</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Guia d’inici ràpid</a><br /><br />Per assegurar-vos que us manteniu al dia amb les darreres notícies i versions, seguiu-nos a <a href="https://www.twitter.com/phpbb/">Twitter</a> i <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Es proporciona assistencia completa per a la verió estable actual del phpBB3, de forma gratuïta. Això inclou:</p><ul><li>instal·lació</li><li>configuració</li><li>preguntes tècniques</li><li>problemes relacionats amb possibles errades del programari</li><li>actualitzacions des de les versions candidates (RC) a la versió estable més recent</li><li>conversió des del phpBB 2.0.x al phpBB3</li><li>conversió des d’altres programaris de fòrums al phpBB3 (veieu el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fòrum de Conversors</a>)</li></ul><p>Recomanem als usuaris que encara estiguin utilitzant versions beta del phpBB3 que substitueixin la seva instal·lació amb una còpia neta de la versió més recent.</p><h2>Extensions / Estils</h2><p>Per questions relacionades amb les Extensions, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fòrum d’Extensions</a>.<br />Per questions relacionades amb els estils, plantilles i temes gràfics, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fòrum d’estils</a>.<br /><br />Si la vostra pregunta està relacionada amb un paquet determinat, feu-la directament al tema dedicat al paquet.</p><h2>Obtenció d’assistència</h2><p><a href="https://www.phpbb.com/support/">Secció d’assistència</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia d’inici ràpid</a><br /><br />Per assegurar-vos que us manteniu al dia amb les darreres notícies i versions, seguiu-nos a <a href="https://www.twitter.com/phpbb/">Twitter</a> i <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Llicència pública general',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 és compatible amb les següents bases de dades:</p>
 	<ul>
-		<li>MySQL 3.23 o superior (compatible amb MySQLi)</li>
+		<li>MySQL 4.1.3 o superior (MySQLi obligatori)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 o superior (directament o via ODBC)</li>
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Versió del PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'El phpBB requereix la versió 5.4.0 o superior del PHP.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'El phpBB requereix la versió 7.1.3 o superior del PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Es requereix la funció getimagesize() del PHP',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Per que el phpBB funcioni correctament, la funció getimagesize ha d’estar disponible.',
 	'PCRE_UTF_SUPPORT'					=> 'Compatibilitat amb PCRE UTF-8',
@@ -186,7 +186,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Natiu ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL amb extensió MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -371,7 +370,7 @@ $lang = array_merge($lang, array(
 			<li>Seguiu els passos per actualitzar la base de dades i deixeu que s’executi fins que acabi.</li>
 			<li>Elimineu via FTP o SSH la carpeta <code class="inline">/install</code> de la carpeta arrel del fòrum al servidor.<br><br></li>
 		</ol>
-		
+
 		<p>Ja tindreu el fòrum actualitzat amb tots els seus usuaris i entrades. Tasques de seguiment:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Actualitzeu el vostres paquet d’idioma</li>
@@ -423,7 +422,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOT_FOUND'	=> 'No s’ha trobat cap directori d’actualització vàlid, assegureu-vos que heu pujat els fitxers rellevants.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'La vostra versió está actualitzada. No cal que executeu l’eina d’actualització. Si desitgeu fer una comprovació d’integritat dels vostres fitxers, assegureu-vos que heu penjat els fitxers actualitzats correctes.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'La vostra versió està actualitzada. No cal que executeu l’eina d’actualització. Si desitgeu fer una comprovació d’integritat dels vostres fitxers, assegureu-vos que heu penjat els fitxers actualitzats correctes.',
 	'OLD_UPDATE_FILES'				=> 'Els fitxers d’actualització no estan actualitzats. Els fitxers d’actualització que s’han trobat són per actualitzar del phpBB %1$s al phpBB %2$s però la versió més recent del phpBB és la %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'Els fitxers d’actualització trobats no són compatibles amb la versió que teniu instal·lada. La vostra versió és la %1$s i els fitxers d’actualització són per actualitzar del phpBB %2$s al %3$s.',
 ));
@@ -531,7 +530,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PATH'				=> 'Camí del fòrum',
 	'FORUM_PATH_EXPLAIN'		=> 'És el camí <strong>relatiu</strong> al disc del <strong>directori arrel d’aquesta instal·lació del phpBB3</strong> al vostre antic fòrum.',
 	'REFRESH_PAGE'				=> 'Refresca aquesta pàgina per continuar amb la conversio',
-	'REFRESH_PAGE_EXPLAIN'		=> 'Si trieu Sí, el convertidor refrescará la pàgina per continuar amb la conversió després d’acabar un pas. Si aquesta és la vostra primera conversió per fer proves i determinar qualsevol error per endavant us recomanem que trieu No.',
+	'REFRESH_PAGE_EXPLAIN'		=> 'Si trieu Sí, el convertidor refrescarà la pàgina per continuar amb la conversió després d’acabar un pas. Si aquesta és la vostra primera conversió per fer proves i determinar qualsevol error per endavant us recomanem que trieu No.',
 
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'Conversió en curs',
@@ -565,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'S’ha acabat la conversió',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'S’ha convertit el vostre fòrum a phpBB 3.2 correctament. Ja podeu iniciar la sessió i <a href="../">accedir al vostre fòrum</a>. Assegureu-vos que les configuracions s’han transferit correctament abans d’habilitar el fòrum eliminant el directori “install”. Recordeu que disposeu d’ajuda en línia sobre l’ús del phpBB a la <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">documentació</a> (en anglès) i als <a href="https://www.phpbb.com/community/viewforum.php?f=466">fòrums d’assistència</a> (en anglès).',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'S’ha convertit el vostre fòrum a phpBB 3.3 correctament. Ja podeu iniciar la sessió i <a href="../">accedir al vostre fòrum</a>. Assegureu-vos que les configuracions s’han transferit correctament abans d’habilitar el fòrum eliminant el directori “install”. Recordeu que disposeu d’ajuda en línia sobre l’ús del phpBB a la <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentació</a> (en anglès) i als <a href="https://www.phpbb.com/community/viewforum.php?f=661">fòrums d’assistència</a> (en anglès).',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Les càrregues FTP per a fitxers adjunts estan habilitades al fòrum antic. Inhabiliteu l’opció de càrregues FTP i assegureu-vos que hi ha un directori de càrregues vàlid especificat, llavors copieu tots els fitxers adjunts a aquest directori nou accessible des d’Internet. Un cop ho hagueu fet, reinicieu el convertidor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'No hi ha informació de configuració disponible per a la conversió.',

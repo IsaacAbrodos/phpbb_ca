@@ -266,7 +266,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'S’ha reactivat el tema correctament.',
 
 	'UNAUTHORISED_BBCODE'		=> 'No podeu utilitzar determinats BBCodes: %s.',
-	'UNGLOBALISE_EXPLAIN'		=> 'Per canviar aquest tema de global a normal cal que seleccioneu el fòrum en el qual voleu que es mostri.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'El missatge conté els següents caràcters no permesos:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'L’assumpte conté els següents caràcters no permesos:<br />%s',
 	'UPDATE_COMMENT'			=> 'Actualitza el comentari',

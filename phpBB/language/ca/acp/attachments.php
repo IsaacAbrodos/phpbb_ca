@@ -68,7 +68,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Espai màxim en disc disponible per als fitxers adjunts de tot el fòrum, un 0 significa il·limitat.',
 	'ATTACH_TO_POST'					=> 'Adjunta el fitxer a l’entrada',
 
-	'CAT_FLASH_FILES'			=> 'Fitxers flash',
 	'CAT_IMAGES'				=> 'Imatges',
 	'CHECK_CONTENT'				=> 'Comprova els fitxers adjunts',
 	'CHECK_CONTENT_EXPLAIN'		=> 'A alguns navegadors se’ls pot enganyar per que assumeixin un tipus mime incorrecte per als fitxers penjats. Aquesta opció assegura que els fitxers susceptibles de causar aquest comportament es rebutgen.',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'Arxius',
 	'EXT_GROUP_DOCUMENTS'			=> 'Documents',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Fitxers per baixar',
-	'EXT_GROUP_FLASH_FILES'			=> 'Fitxers Flash',
 	'EXT_GROUP_IMAGES'				=> 'Imatges',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Text net',
 

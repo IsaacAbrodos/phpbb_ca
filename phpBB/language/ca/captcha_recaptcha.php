@@ -43,10 +43,10 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_INCORRECT'			=> 'La solució que heu proporcionat és incorrecta',
 	'RECAPTCHA_NOSCRIPT'			=> 'Habiliteu el JavaScript al vostre navegador per carregar el repte.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Clau pública reCaptcha',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'La vostra clau pública reCaptcha. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Clau privada reCaptcha',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'La vostra clau privada reCaptcha. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Clau del lloc web',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'La clau reCaptcha del vostre lloc web. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Si us plau, utilitzeu el distintiu de tipus reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_PRIVATE'				=> 'Clau secreta',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'La vostra clau reCaptcha secreta. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Si us plau, utilitzeu el distintiu de tipus reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Per prevenir les trameses automàtiques requerim que completeu el repte següent.',
+	'RECAPTCHA_INVISIBLE'			=> 'Aquest CAPTCHA és invisible. Per verificar que funciona, hauria d’aparèixer una icona petita al cantó inferior dret d’aquesta pàgina.',
 ));

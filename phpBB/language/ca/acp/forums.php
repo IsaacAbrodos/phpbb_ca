@@ -129,6 +129,8 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'Configuració general del fòrum',
 
 	'LINK'					    => 'Enllaç',
+	'LIMIT_SUBFORUMS'			=> 'Limita la llegenda als sub-fòrums que són fills directes',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Limita els subfòrums que es mostren als que són descendents directes (fills) del fòrum actual. Si ho inhabiliteu, es mostraran tots els subfòrums que tinguin l’opció “Llista els subfòrums a la llegenda” habilitada, independentment de la seva profunditat.',
 	'LIST_INDEX'			    => 'Llista el subfòrum a la llegenda del fòrum pare',
 	'LIST_INDEX_EXPLAIN'	    => 'Mostra aquest fòrum a l’índex i en altres pàgines com un enllaç a la llegenda del seu fòrum pare.',
 	'LIST_SUBFORUMS'			=> 'Llista els subfòrums a la llegenda',

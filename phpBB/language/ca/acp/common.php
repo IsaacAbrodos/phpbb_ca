@@ -226,16 +226,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Enrere',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'No s’ha pogut canviar el grup de fitxers',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'No s’han pogut canviar els permisos dels fitxers',
-	'CANNOT_COPY_FILES'		=> 'No s’han pogut copiar els fitxers',
-	'CANNOT_CREATE_SYMLINK'	=> 'No s’ha pogut crear l’enllaç simbòlic',
-	'CANNOT_DELETE_FILES'	=> 'No s’han pogut eliminar els fitxers del sistema',
-	'CANNOT_DUMP_FILE'		=> 'No s’ha pogut el fitxer de bolcat',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'No s’ha pogut replicar el directori',
-	'CANNOT_RENAME_FILE'	=> 'No s’ha pogut canviar el nom d’un fitxer del sistema',
-	'CANNOT_TOUCH_FILES'	=> 'No s’ha pogut determinar si el fitxer existeix',
-
 	'CONTAINER_EXCEPTION'	=> 'El phpBB ha generat un error en construir el contenidor a causa d’una de les extensions instal·lades. Per aquesta raó s’han inhabilitat temporalment totes les extensions. Proveu de netejar la memòria cau del fòrum. Totes les extensions s’habilitaran automàticament quan es resolgui l’error del contenidor. Si l’error continua, visiteu <a href="https://www.phpbb.com/support">phpBB.com</a> per rebre assistència.',
 	'EXCEPTION' 			=> 'Excepció',
 
@@ -373,7 +363,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Servidor de la base de dades',
 	'DATABASE_SIZE'			=> 'Mida de la base de dades',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'La sobrecàrrega de funcions està configurada incorrectament',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> s’ha d’establir a 0 o bé a 4. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'La codificació transparent de caràcters està configurada incorrectament',
@@ -418,7 +408,7 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE_CONFIRM'			=> 'Esteu segur que voleu reinicialitzar el nombre màxim d’usuaris connectats?',
 	'RESET_ONLINE_SUCCESS'				=> 'Reinicialitza el nombre màxim d’usuaris connectats',
 	'RESYNC_POSTCOUNTS'				=> 'Resincronitza els comptadors d’entrades',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Només es consideraran les entrades existents. Les entrades podades no es comptaràn.',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Només es consideraran les entrades existents. Les entrades podades no es comptaran.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Esteu segur que voleu resincronitzar els comptadors d’entrades?',
 	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'S’han resincronitzat els comptadors d’entrades',
 	'RESYNC_POST_MARKING'			=> 'Resincronitza els temes marcats',
@@ -585,9 +575,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Ha aprovat el tema</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>L’usuari ha reactivat el tema</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Ha eliminat l’entrada “%1$s” escrita per “%2$s” per la ráo següent</strong><br />» %3$s',
+	'LOG_DELETE_POST'			=> '<strong>Ha eliminat l’entrada “%1$s” escrita per “%2$s” per la raó següent</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Ha eliminat el tema ombra</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Ha eliminat el tema “%1$s” escrit per “%2$s” per la ráo següent</strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Ha eliminat el tema “%1$s” escrit per “%2$s” per la raó següent</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Ha copiat el tema</strong><br />» de %s',
 	'LOG_LOCK'					=> '<strong>Ha bloquejat el tema</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Ha bloquejat l’entrada</strong><br />» %s',
