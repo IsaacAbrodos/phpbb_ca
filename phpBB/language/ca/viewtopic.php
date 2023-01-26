@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'MAKE_STICKY'				=> 'Canvia’l a “Tema recurrent”',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> 'Podeu seleccionar <strong>%d</strong> opció',
-		2	=> 'odeu seleccionar fins a <strong>%d</strong> opcions',
+		2	=> 'Podeu seleccionar fins a <strong>%d</strong> opcions',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'El fitxer adjunt <strong>%s</strong> ja no està disponible',
 	'MOVE_TOPIC'				=> 'Desplaça el tema',
