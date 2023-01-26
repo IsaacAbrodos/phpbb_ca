@@ -181,6 +181,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Més informació',
 	'COOKIE_CONSENT_MSG'	=> 'Aquest lloc web utilitza galetes per fer que hi teniu la millor experiència possible.',
 	'COOKIE_CONSENT_OK'		=> 'D’acord',
+	'COOKIE_CONSENT_HREF'	=> 'http://www.navegaencatala.cat/politica-de-galetes',
 	'COOKIES_DELETED'		=> 'Totes les galetes del fòrum s’han eliminat correctament.',
 	'CURRENT_TIME'			=> 'Hora i data actual: %s',
 

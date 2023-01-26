@@ -241,9 +241,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Emoticones',
 	'SMILIES_ARE_OFF'			=> 'Les emoticones estan <em>INACTIVES</em>',
 	'SMILIES_ARE_ON'			=> 'Les emoticones estan <em>ACTIVES</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Límit de temps del Tema recurrent/Avís',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Límit de temps del Tema recurrent/Avís/Global',
 	'STICK_TOPIC_FOR'			=> 'Mostra’l com a Tema recurrent durant',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Introduïu un 0 per que sigui un Tema recurrent/Avís per sempre. Tingueu en compte que aquest número és relatiu a la data de l’entrada.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Introduïu un 0 per que sigui un Tema recurrent/Avís/Global per sempre. Tingueu en compte que aquest número és relatiu a la data de l’entrada.',
 	'STYLES_TIP'				=> 'Consell: Podeu aplicar estils ràpidament al text seleccionat.',
 
 	'TOO_FEW_CHARS'				=> 'El vostre missatge té massa pocs caràcters.',

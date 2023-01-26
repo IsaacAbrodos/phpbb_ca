@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Torna a comprovar els requeriments',
 
-	'STAGE_REQUIREMENTS'	=> 'Comprovació de requeriments'
+	'STAGE_REQUIREMENTS'	=> 'Comprovació de requeriments',
 ));
 
 // General error messages
@@ -199,6 +199,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'No heu especificat el nom de la base de dades.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'El fitxer de la base de dades que heu especificat es troba dintre de l’arbre de carpetes del fòrum. És molt recomanable que poseu aquest fitxer en una ubicació que no sigui accessible des d’Internet.',
 	'INST_ERR_DB_CONNECT'			=> 'No s’ha pogut connectar amb la base de dades, l’error es mostra a continuació.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'S’ha de poder escriure tant a la base de dades com al directori que la conté.',
 	'INST_ERR_DB_NO_ERROR'			=> 'No s’ha rebut cap missatge d’error.',
 	'INST_ERR_PREFIX'				=> 'Ja existeixen taules amb el prefix especificat, trieu-ne un altre.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'La versió de MySQL instal·lada en aquesta màquina no és compatible amb l’opció “MySQL amb extensió MySQLi” que heu seleccionat. Proveu-ho amb l’opció “MySQL”.',
@@ -224,6 +225,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Hi ha disponible la nova versió <strong>%1$s</strong>. Llegiu <a href="%2$s" title="%2$s"><strong>l’avís de llançament</strong></a> per assabentar-vos de què ofereix i com fer l’actualització.',
 	'SERVER_CONFIG'				=> 'Configuració del servidor',
 	'SCRIPT_PATH'				=> 'Camí de l’script',
 	'SCRIPT_PATH_EXPLAIN'		=> 'El camí on està ubicat el phpBB relatiu al nom de domini, p.ex. <samp>/phpBB3</samp>.',
@@ -296,9 +298,10 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'S’estan creant les taules',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'S’estan registrant els robots',
-	'TASK_ADD_LANGUAGES'	=> 'S’estan instal·lant els idiomes disponibles',
-	'TASK_ADD_MODULES'		=> 'S’estan instal·lant els mòduls',
+	'TASK_ADD_BOTS'				=> 'S’estan registrant els robots',
+	'TASK_ADD_LANGUAGES'		=> 'S’estan instal·lant els idiomes disponibles',
+	'TASK_ADD_MODULES'			=> 'S’estan instal·lant els mòduls',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'S’està creant l’índex de cerca',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'S’estan instal·lant els paquets d’extensions',

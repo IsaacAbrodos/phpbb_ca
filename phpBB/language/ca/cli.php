@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Inhabilita l’extensió especificada.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Habilita l’extensió especificada.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Troba migracions en les quals no es depèn.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Repara l’estructura en arbre dels fòrums i els mòduls.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obté el valor d’una opció de configuració',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrementa el valor enter d’una opció de configuració',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista totes les extensions a la base de dades i al sistema de fitxers.',
@@ -91,7 +92,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Executa l’ordre de comprovació amb memòria cau.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Executa l’ordre amb l’opció de comprovar només versions estables o inestables.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" no és una estabilitat vàlida.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualitza els resums de contrasenya obsolets per utilitzar la funció de resum bcrypt.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" s’ha de definir com a "estable" o "inestable".',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activa (o desactiva) el compte d’un usuari.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nom d’usuari del compte que voleu activar.',
@@ -110,8 +113,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'No s’ha pogut inhabilitar l’extensió %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'S’ha inhabilitat l’extensió %s correctament',
+	'CLI_EXTENSION_DISABLED'			=> 'L’extensió %s no està habilitada',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'No s’ha pogut habilitar l’extensió %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'S’ha habilitat l’extensió %s correctament',
+	'CLI_EXTENSION_ENABLED'				=> 'L’extensió %s ja està habilitada',
 	'CLI_EXTENSION_NAME'				=> 'Nom de l’extensió',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'No s’ha pogut purgar l’extensió %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'S’ha purgat l’extensió %s correctament',
@@ -122,7 +127,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Inhabilitada',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Habilitada',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'S’han recalculat tots les funcions de resum de les adreces electròniques.',
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'S’ha reparat correctament l’estructura en arbre dels fòrums i els mòduls.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'S’han recalculat totes les funcions de resum de les adreces electròniques.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'S’han actualitzat correctament a bcrypt els resums de contrasenya obsolets.',
 
 	'CLI_MIGRATION_NAME'					=> 'Nom de la migració, amb l’espai de noms inclòs (utilitzeu barres inclinades en lloc de barres inverses per evitar problemes).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migracions disponibles',
