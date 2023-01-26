@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,55 +36,56 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Aquí podeu gestionar els estils disponibles al fòrum. Podeu modificar estils existents, eliminar-los, desactivar-los, reactivar-los o instal·lar-ne de nous. També podeu veure quin aspecte tindrà un estil utilitzant la funció de previsualització. També es llista el nombre total d’usuaris per cada estil, tingueu en compte que la sobreescriptura de l’estil triat pels usuaris no es reflecteix aquí.',
+$lang = array_merge($lang, [
+	'ACP_STYLES_EXPLAIN'						=> 'Aquí podeu gestionar els estils disponibles al fòrum.<br>Tingueu en compte que no podeu desinstal·lar l’estil “<strong>prosilver</strong>” ja que és l’estil per defecte del phpBB i l’estil pare primari.',
 
-	'CANNOT_BE_INSTALLED'			=> 'No es pot instal·lar',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Esteu segur que voleu desinstal·lar els estils seleccionats?',
-	'COPYRIGHT'						=> 'Copyright',
+	'CANNOT_BE_INSTALLED'						=> 'No es pot instal·lar',
+	'CONFIRM_UNINSTALL_STYLES'					=> 'Esteu segur que voleu desinstal·lar els estils seleccionats?',
+	'COPYRIGHT'									=> 'Copyright',
 
-	'DEACTIVATE_DEFAULT'		=> 'No podeu desactivar l’estil per defecte.',
-	'DELETE_FROM_FS'			=> 'Elimina’l del sistema de fitxers',
-	'DELETE_STYLE_FILES_FAILED'	=> 'S’ha produït un error eliminant els fitxers de l’estil "%s".',
-	'DELETE_STYLE_FILES_SUCCESS'	=> 'S’han eliminat els fitxers de l’estil "%s".',
-	'DETAILS'					=> 'Detalls',
+	'DEACTIVATE_DEFAULT'						=> 'No podeu desactivar l’estil per defecte.',
+	'DELETE_FROM_FS'							=> 'Elimina’l del sistema de fitxers',
+	'DELETE_STYLE_FILES_FAILED'					=> 'S’ha produït un error eliminant els fitxers de l’estil "%s".',
+	'DELETE_STYLE_FILES_SUCCESS'				=> 'S’han eliminat els fitxers de l’estil "%s".',
+	'DETAILS'									=> 'Detalls',
 
-	'INHERITING_FROM'			=> 'Hereta de',
-	'INSTALL_STYLE'				=> 'Instal·la l’estil',
-	'INSTALL_STYLES'			=> 'Instal·la els estils',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Aquí podeu instal·lar estils nous.<br />Si no trobeu un estil concret a la llista de sota, assegureu-vos que l’estil ja estigui instal·lat. Si no està instal·lat, comproveu que l’hagueu penjat correctament.',
-	'INVALID_STYLE_ID'			=> 'Id d’estil no vàlid.',
+	'INHERITING_FROM'							=> 'Hereta de',
+	'INSTALL_STYLE'								=> 'Instal·la l’estil',
+	'INSTALL_STYLES'							=> 'Instal·la els estils',
+	'INSTALL_STYLES_EXPLAIN'					=> 'Aquí podeu instal·lar estils nous.<br>Si no trobeu un estil concret a la llista de sota, assegureu-vos que l’estil ja estigui instal·lat. Si no està instal·lat, comproveu que l’hagueu penjat correctament.',
+	'INVALID_STYLE_ID'							=> 'Id d’estil no vàlid.',
 
-	'NO_MATCHING_STYLES_FOUND'	=> 'Cap estil coincideix amb la consulta.',
-	'NO_UNINSTALLED_STYLE'		=> 'No s’han detectat estils desinstal·lats.',
+	'NO_MATCHING_STYLES_FOUND'					=> 'Cap estil coincideix amb la consulta.',
+	'NO_UNINSTALLED_STYLE'						=> 'No s’han detectat estils desinstal·lats.',
 
-	'PURGED_CACHE'				=> 'S’ha buidat la memòria cau.',
+	'PURGED_CACHE'								=> 'S’ha buidat la memòria cau.',
 
-	'REQUIRES_STYLE'			=> 'Per utilitzar aquest estil cal que tingueu l’estil "%s" instal·lat.',
+	'REQUIRES_STYLE'							=> 'Per utilitzar aquest estil cal que tingueu l’estil "%s" instal·lat.',
 
-	'STYLE_ACTIVATE'			=> 'Activa',
-	'STYLE_ACTIVE'				=> 'Actiu',
-	'STYLE_DEACTIVATE'			=> 'Desactiva',
-	'STYLE_DEFAULT'				=> 'És l’estil per defecte',
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Heu d’activar l’estil abans de marcar-lo com a estil per defecte.',
-	'STYLE_ERR_INVALID_PARENT'	=> 'Estil pare no vàlid.',
-	'STYLE_ERR_NAME_EXIST'		=> 'Ja existeix un estil amb aquest nom.',
-	'STYLE_ERR_STYLE_NAME'		=> 'Heu de proporcionar un nom per aquest estil.',
-	'STYLE_INSTALLED'			=> 'S’ha instal·lat l’estil "%s".',
+	'STYLE_ACTIVATE'							=> 'Activa',
+	'STYLE_ACTIVE'								=> 'Actiu',
+	'STYLE_DEACTIVATE'							=> 'Desactiva',
+	'STYLE_DEFAULT'								=> 'És l’estil per defecte',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'				=> 'Heu d’activar l’estil abans de marcar-lo com a estil per defecte.',
+	'STYLE_ERR_INVALID_PARENT'					=> 'Estil pare no vàlid.',
+	'STYLE_ERR_NAME_EXIST'						=> 'Ja existeix un estil amb aquest nom.',
+	'STYLE_ERR_STYLE_NAME'						=> 'Heu de proporcionar un nom per aquest estil.',
+	'STYLE_INSTALLED'							=> 'S’ha instal·lat l’estil "%s".',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Torna a la llista d’estils instal·lats',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Instal·la més estils',
-	'STYLE_NAME'				=> 'Nom de l’estil',
-	'STYLE_NAME_RESERVED'		=> 'No es pot instal·lar l’estil "%s" perquè el nom està reservat.',
-	'STYLE_NOT_INSTALLED'		=> 'No s’ha instal·lat l’estil "%s".',
-	'STYLE_PATH'				=> 'Camí de l”estil',
-	'STYLE_UNINSTALL'			=> 'Desinstal·la’l',
-	'STYLE_UNINSTALL_DEPENDENT'	=> 'L’estil "%s" no es pot desinstal·lar perquè es pare d’un o més estils.',
-	'STYLE_UNINSTALLED'			=> 'S’ha desinstal·lat l’estil  "%s" correctament.',
-	'STYLE_PHPBB_VERSION'		=> 'Versió del phpBB',
-	'STYLE_USED_BY'				=> 'Utilitzat per (incloent-hi els robots)',
-	'STYLE_VERSION'				=> 'Versió de l’estil',
+	'STYLE_NAME'								=> 'Nom de l’estil',
+	'STYLE_NAME_RESERVED'						=> 'No es pot instal·lar l’estil "%s" perquè el nom està reservat.',
+	'STYLE_NOT_INSTALLED'						=> 'No s’ha instal·lat l’estil "%s".',
+	'STYLE_PATH'								=> 'Camí de l”estil',
+	'STYLE_UNINSTALL'							=> 'Desinstal·la’l',
+	'STYLE_UNINSTALL_DEPENDENT'					=> 'L’estil "%s" no es pot desinstal·lar perquè es pare d’un o més estils.',
+	'STYLE_UNINSTALLED'							=> 'S’ha desinstal·lat l’estil  "%s" correctament.',
+	'STYLE_PHPBB_VERSION'						=> 'Versió del phpBB',
+	'STYLE_USED_BY'								=> 'Utilitzat per (incloent-hi els robots)',
+	'STYLE_VERSION'								=> 'Versió de l’estil',
 
-	'UNINSTALL_DEFAULT'		=> 'No es pot desinstal·lar l’estil per defecte.',
+	'UNINSTALL_PROSILVER'						=> 'No es pot desinstal·lar l’estil “prosilver”.',
+	'UNINSTALL_DEFAULT'							=> 'No es pot desinstal·lar l’estil per defecte.',
 
-	'BROWSE_STYLES_DATABASE'	=> 'Explora la base de dades d’estils',
-));
+	'BROWSE_STYLES_DATABASE'					=> 'Explora la base de dades d’estils',
+]);

@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<a href="http://abrodos.wordpress.com/phpbb/">Traducció del phpBB: Isaac Garcia Abrodos</a>',
+	'TRANSLATION_INFO'	=> '<a href="https://abrodos.wordpress.com/phpbb/">Traducció del phpBB: Isaac Garcia Abrodos</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'La imatge que heu intentat adjuntar no és vàlida.',
 	'AUTHOR'						=> 'Autor',
 	'AUTH_NO_PROFILE_CREATED'		=> 'No s’ha pogut crear el perfil d’usuari.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Aquest servei extern ja està associat amb un altre compte del fòrum.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Registre de base de dades no vàlid.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'El tipus de servei proporcionat al gestor de serveis OAuth no és valid.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'No s’ha creat el servei OAuth',
@@ -519,6 +520,7 @@ $lang = array_merge($lang, array(
 	'NO_FEED_ENABLED'			=> 'No hi ha canals d’informació disponibles en aquest fòrum.',
 	'NO_FEED'					=> 'El canal d’informació sol·licitat no està disponible.',
 	'NO_STYLE_DATA'				=> 'No s’han pogut obtenir les dades d’estil',
+	'NO_STYLE_CFG'				=> 'No s’ha pogut obtenir el fitxer de configuració d’estil per: %s',
 	'NO_SUBJECT'				=> 'No s’ha especificat cap assumpte',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'El mòdul de cerca especificat no existeix.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'No hi ha cap dels mètodes d’autenticació permesos.',

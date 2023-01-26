@@ -1,3 +1,3 @@
 AUTHOR
 ------
-Isaac Garcia Abrodos <http://abrodos.wordpress.com/phpbb/>
+Isaac Garcia Abrodos <https://abrodos.wordpress.com/phpbb/>

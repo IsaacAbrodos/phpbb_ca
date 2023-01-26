@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Primera opció',
 
 	'HIDE_PROFILE_FIELD'			=> 'Oculta el camp del perfil',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Amaga el camp del perfil per a tots els usuaris excepte per al propi usuari, els administradors i els moderadors, que també el poden veure. Si l’opció Mostra’l al Tauler de control de l’usuari està inhabilitada, l’usuari no podrà veure o canviar el camp i aquest només el podran canviar els administradors.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Amaga el camp del perfil per a tots els usuaris exceptuant els administradors i els moderadors, que també el poden veure. Si l’opció Mostra’l al Tauler de control de l’usuari està inhabilitada, l’usuari no podrà veure o canviar el camp i aquest només el podran canviar els administradors.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'L’identificador del camp només pot contenir lletres en minúscula a-z i _',
 	'INVALID_FIELD_IDENT_LEN'	=> 'L’identificador del camp només pot tenir 17 caràcters',

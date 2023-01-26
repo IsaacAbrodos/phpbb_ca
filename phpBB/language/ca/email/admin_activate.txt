@@ -7,7 +7,7 @@ S’ha desactivat o creat el compte de "{USERNAME}", cal que reviseu (si s’esc
 Utilitzeu aquest enllaç per visualitzar el perfil de l’usuari:
 {U_USER_DETAILS}
 
-Utilitzeu aquest enllaç per activar el compte:
+Podeu activar el compte de forma immediata fent clic en aquest enllaç:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Creació d’una enquesta',
 	'ADD_POLL_EXPLAIN'			=> 'Si no voleu afegir una enquesta al tema, deixeu els camps en blanc.',
 	'ALREADY_DELETED'			=> 'Aquest missatge ja ha estat eliminat.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'El comentari del fitxer adjunt conté caràcters no admesos (emoji).',
 	'ATTACH_DISK_FULL'			=> 'No hi ha prou espai lliure al disc per adjuntar aquest fitxer.',
 	'ATTACH_QUOTA_REACHED'		=> 'S’ha arribat al límit de fitxers adjunts del fòrum.',
 	'ATTACH_SIG'				=> 'Inclou la signatura (les signatures es poden canviar a través del TCU)',

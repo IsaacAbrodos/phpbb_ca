@@ -89,6 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Aquesta és una llista dels fitxers que heu adjuntat a les entrades d’aquest fòrum.',
 	'ATTACHMENTS_DELETED'			=> 'S’han eliminat els fitxers adjunts correctament.',
 	'ATTACHMENT_DELETED'			=> 'S’ha eliminat el fitxer adjunt correctament.',
+	'ATTACHMENT_LOCKED'				=> 'El tema està bloquejat, no podeu eliminar el fitxer adjunt.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Les claus d’inici de sessió tipus "Recorda’m" s’han eliminat correctament.',
 	'AVATAR_CATEGORY'				=> 'Categoria',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
@@ -115,7 +116,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Data de naixement',
 	'BIRTHDAY_EXPLAIN'			=> 'Si definiu un any, es mostrarà la vostra edat quan sigui el vostre aniversari.',
 	'BOARD_DATE_FORMAT'			=> 'Format de data',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'La sintaxi utilitzada és idèntica a la de la funció <a href="http://www.php.net/date">date()</a> del PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'La sintaxi utilitzada és idèntica a la de la funció <a href="https://secure.php.net/manual/function.date.php">date()</a> del PHP.',
 	'BOARD_LANGUAGE'			=> 'Idioma',
 	'BOARD_STYLE'				=> 'Estil del fòrum',
 	'BOARD_TIMEZONE'			=> 'Fus horari',
@@ -613,9 +614,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'				=> 'La vostra activitat',
 	'YOUR_FOES'					=> 'Els vostres enemics',
-	'YOUR_FOES_EXPLAIN'			=> 'Per treure noms d’usuari seccioneu-los i feu clic al botó <em>Tramet</em>.',
+	'YOUR_FOES_EXPLAIN'			=> 'Per treure noms d’usuari seccioneu-los i feu clic al botó Tramet.',
 	'YOUR_FRIENDS'				=> 'Els vostres amics',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Per treure noms d’usuari seccioneu-los i feu clic al botó <em>Tramet</em>.',
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Per treure noms d’usuari seccioneu-los i feu clic al botó Tramet.',
 	'YOUR_WARNINGS'				=> 'El vostre nivell d’advertiments',
 
 	'PM_ACTION' => array(

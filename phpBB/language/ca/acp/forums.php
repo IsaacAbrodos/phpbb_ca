@@ -97,6 +97,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Registra el nombre de vegades que s’ha fet clic a l’enllaç del fòrum.',
 	'FORUM_NAME'						=> 'Nom del fòrum',
 	'FORUM_NAME_EMPTY'					=> 'Heu d’introduïr un nom per al fòrum.',
+	'FORUM_NAME_EMOJI'					=> 'El nom del fòrum que heu introduït no és vàlid.<br>Conté els següents caràcters no admesos:<br>%s',
 	'FORUM_PARENT'						=> 'Fòrum pare',
 	'FORUM_PASSWORD'					=> 'Contrasenya del fòrum',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Confirmació de la contrasenya del fòrum',
