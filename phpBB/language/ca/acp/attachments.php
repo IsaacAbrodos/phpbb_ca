@@ -111,6 +111,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Dimensions d’enllaç a imatge',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Si la imatge adjunta és més gran, es mostrarà com un enllaç de text. Per inhabilitar aquest comportament, utilitzeu els valors 0px x 0px.',
+	'IMAGE_QUALITY'				=> 'Qualitat de les imatges adjuntes penjades (només per JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Especifiqueu un valor entre 50% (mida del fitxer més petita) i 90% (millor qualitat). Els valors de qualitat majors que 90% incrementen la mida dels fitxers i estan inhabilitats. Aquesta configuració només s’aplica si poseu les dimensions màximes de les imatges a uns valors que no siguin 0px x 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Elimina les metadades de la imatge (només per JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Elimina les metadades Exif, p.ex. nom de l’autor, coordenades GPS i detalls de la càmera. Aquesta configuració només s’aplica si poseu les dimensions màximes de les imatges a uns valors que no siguis 0px x 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Nombre màxim de fitxers adjunts per entrada',
 	'MAX_ATTACHMENTS_PM'			=> 'Nombre màxim de fitxers adjunts per missatge privat',
@@ -129,6 +133,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'No assignat',
 	'NO_ATTACHMENTS'			=> 'No s’ha trobat cap fitxer adjunt en aquest període.',
 	'NO_EXT_GROUP'				=> 'Cap',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'No hi ha cap <a href="%s">grup d’extensions permès</a> per missatges privats.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'No hi ha cap <a href="%s">grup d’extensions permès</a> per entrades.',
 	'NO_EXT_GROUP_NAME'			=> 'No heu introduït el nom del grup',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'No heu especificat cap grup d’extensions.',
 	'NO_FILE_CAT'				=> 'Cap',

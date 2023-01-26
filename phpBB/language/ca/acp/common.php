@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS'			=> 'Moderadors globals',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Permisos globals',
 	'ACP_GROUPS'					=> 'Grups',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permisos grups de de fòrums',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permisos de grups de fòrums',
 	'ACP_GROUPS_MANAGE'				=> 'Gestió dels grups',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Gestió de grups',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permisos de grups',
@@ -827,7 +827,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_EDIT'			=> '<strong>Ha editat la paraula censurada</strong><br />» %s',
 
 	'LOG_EXT_ENABLE'	=> '<strong>Ha habilitat l’extensió</strong><br />» %s',
-	'LOG_EXT_DISABLE'	=> '<strong>Ha deshabilitat l’extensió</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Ha inhabilitat l’extensió</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Ha eliminat les dades de l’extensió</strong><br />» %s',
 	'LOG_EXT_UPDATE'	=> '<strong>Extensió actualitzada</strong><br />» %s',
 ));

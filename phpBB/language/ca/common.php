@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<a href="https://abrodos.wordpress.com/phpbb/">Traducció del phpBB: Isaac Garcia Abrodos</a>',
+	'TRANSLATION_INFO'	=> 'Traducció del phpBB: Isaac Garcia Abrodos',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -168,6 +168,7 @@ $lang = array_merge($lang, array(
 	'COLLAPSE_VIEW'			=> 'Redueix la vista',
 	'CLOSE_WINDOW'			=> 'Tanca la finestra',
 	'COLOUR_SWATCH'			=> 'Paleta de colors',
+	'CODE'					=> 'Codi',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
 	'CONFIRM'				=> 'Confirmació',
@@ -204,6 +205,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Mostra els missatges dels darrers',
 	'DISPLAY_POSTS'			=> 'Mostra les entrades dels darrers',
 	'DISPLAY_TOPICS'		=> 'Mostra els temes dels darrers',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'El domini de correu electrònic introduït no té cap registre MX vàlid.',
 	'DOWNLOADED'			=> 'Baixat',
 	'DOWNLOADING_FILE'		=> 'S’està baixant el fitxer',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -605,6 +607,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED_ACTION'	=> 'Entrada pendent d’aprovació:',
 	'POST_UNAPPROVED'		=> 'Aquesta entrada no està aprovada.',
 	'POWERED_BY'			=> 'Funciona amb %s',
+
+	'QUOTE'					=> 'Citació',
+
 	'PREVIEW'				=> 'Previsualització',
 	'PREVIOUS'				=> 'Anterior',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Anterior',

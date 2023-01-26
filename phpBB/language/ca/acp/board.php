@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME'				=> 'Limita el temps d’edició',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Limita el temps disponible per editar un missatge privat que encara bo s’hagi entregat. Introduir un 0 inhabilita aquesta característica.',
 	'PM_MAX_RECIPIENTS'			=> 'Nombre màxim de destinataris permès',
-	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'El nombre màxim de detinataris permesos en un missatge privat. Si introduïu un 0, es permet un nombre il·limitat. Podeu configurar aquest valor per cada grup a la pàgina de configuració del grup.',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'El nombre màxim de destinataris permesos en un missatge privat. Si introduïu un 0, es permet un nombre il·limitat. Podeu configurar aquest valor per cada grup a la pàgina de configuració del grup.',
 ));
 
 // Post Settings
@@ -183,10 +183,10 @@ $lang = array_merge($lang, array(
 	'MAX_POLL_OPTIONS'				=> 'Nombre màxim d’opcions en una enquesta',
 	'MAX_POST_FONT_SIZE'			=> 'Mida màxima de la lletra a les entrades',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Mida màxima de la lletra permesa en una entrada. Introduïu un 0 per a una mida il·limitada.',
-	'MAX_POST_IMG_HEIGHT'			=> 'Alçària màxima de les imatges a les entrades',
-	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Alçària màxima d’una imatge/fitxer flash en una entrada. Introduïu un 0 per a una alçària il·limitada.',
-	'MAX_POST_IMG_WIDTH'			=> 'Amplària màxima de les imatges a les entrades',
-	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Amplària màxima d’una imatge/fitxer flash en una entrada. Introduïu un 0 per a una amplària il·limitada.',
+	'MAX_POST_IMG_HEIGHT'			=> 'Alçària màxima de flash a les entrades',
+	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Alçària màxima d’un fitxer flash en una entrada. Introduïu un 0 per a una alçària il·limitada.',
+	'MAX_POST_IMG_WIDTH'			=> 'Amplària màxima de flash a les entrades',
+	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Amplària màxima d’un fitxer flash en una entrada. Introduïu un 0 per a una amplària il·limitada.',
 	'MAX_POST_URLS'					=> 'Nombre màxim d’enllaços per entrada',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Nombre màxim d’URL en una entrada. Introduïu un 0 per a enllaços il·limitats.',
 	'MIN_CHAR_LIMIT'				=> 'Nombre mínim de caràcters per entrada/missatge',
