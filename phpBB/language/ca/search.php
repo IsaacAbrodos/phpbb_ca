@@ -71,6 +71,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'No s’ha fet cap cerca recentment.',
 	'NO_SEARCH'				=> 'No se us permet utilitzar el sistema de cerques.',
 	'NO_SEARCH_RESULTS'		=> 'No s’ha trobat cap coincidència.',
+	'NO_SEARCH_LOAD'		=> 'No se us permet utilitzar la cerca ara mateix. El servidor esta sotmès a una càrrega elevada. Intenteu-ho de nou més tard.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a %d segon.',
 		2	=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a %d segons.',

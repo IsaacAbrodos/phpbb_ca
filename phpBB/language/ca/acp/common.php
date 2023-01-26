@@ -558,6 +558,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Ha bloquejat l’entrada</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Ha combinat entrades</strong> al tema<br />» %s',
 	'LOG_MOVE'					=> '<strong>Ha desplaçat el tema</strong><br />» de %1$s a %2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>Ha desplaçat el tema</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Ha tancat l’informe de missatge privat</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Ha eliminat l’informe de missatge privat</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Ha aprovat l’entrada</strong><br />» %s',

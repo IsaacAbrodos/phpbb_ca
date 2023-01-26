@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'La cerca sphinx del phpBB només es compatible amb MySQL i PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Fitxer de configuració de sphinx',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'El contingut generat del fitxer de configuració de sphinx. Aquestes dades s’han d’enganxar al fitxer sphinx.conf que utilitza el dimoni de cerca sphinx. Substituïu el text [dbuser] i [dbpassword] amb les vostres credencials d’accés a la base de dades.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Els camins als directoris de dades i configuració no estan definits. Definiu-los per generar el fitxer de configuració.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'El camí al directori de dades no està definit. Definiu el camí i trameteu-lo per generar el fitxer de configuració.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configuracions generals de les cerques',
 	'GO_TO_SEARCH_INDEX'					=> 'Ves a la pàgina d’índexs de cerca',
