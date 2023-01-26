@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aquí podeu habilitar i inhabilitar la pàgina de contacte i també podeu afegir el text que es mostra a la pàgina.',
 
 	'CONTACT_US_ENABLE'				=> 'Habilita la pàgina de contacte',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics als admimnistradors del fòrum. Tingueu en compte que cal que l’opció d’enviament de correu electònics del fòrum també estigui habilitada. Podeu trobar aquesta opció a General > Comunicació amb clients > Configuració del correu electrònic.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics als admimnistradors del fòrum. Tingueu en compte que cal que l’opció d’enviament de correu electònics del fòrum també estigui habilitada. Podeu trobar aquesta opció a General &gt; Comunicació amb clients &gt; Configuració del correu electrònic.',
 
 	'CONTACT_US_INFO'				=> 'Informació de contacte',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Aquest missatge es mostra a la pàgina de contacte',

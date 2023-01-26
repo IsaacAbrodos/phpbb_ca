@@ -111,8 +111,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Dimensions d’enllaç a imatge',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Si la imatge adjunta és més gran, es mostrarà com un enllaç de text. Per inhabilitar aquest comportament, utilitzeu els valors 0px x 0px.',
-	'IMAGICK_PATH'				=> 'Camí de l’ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Camí complet a l’aplicació de conversió imagemagick, p.ex. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Nombre màxim de fitxers adjunts per entrada',
 	'MAX_ATTACHMENTS_PM'			=> 'Nombre màxim de fitxers adjunts per missatge privat',
@@ -135,7 +133,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'No heu especificat cap grup d’extensions.',
 	'NO_FILE_CAT'				=> 'Cap',
 	'NO_IMAGE'					=> 'Sense imatge',
-	'NO_THUMBNAIL_SUPPORT'		=> 'S’ha inhabilitat l’ús de miniatures. Per funcionar correctament, cal que l’extensió GD estigui disponible o que l’imagemagick estigui instal·lat. No s’ha trobat cap dels dos.',
 	'NO_UPLOAD_DIR'				=> 'El directori de penjades que heu especificat no existeix.',
 	'NO_WRITE_UPLOAD'			=> 'No es pot escriure al directori de penjades que heu especificat. Modifiqueu els permisos per permetre que el servidor web hi pugui escriure.',
 
@@ -147,7 +144,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Treu o desexclou les adreces IP/noms d’amfitrió <em>no permeses</em>',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Esteu segur que voleu resincronitzar les estadístiques de fitxers?',
 
-	'SEARCH_IMAGICK'				=> 'Cerca l’ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Llista Permet/Denega',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Canvia el comportament per defecte de la llista Permet/Denega quan les baixades segures estan habilitades a una <strong>llista blanca</strong> (Permet) o a una <strong>llista negra</strong> (Denega).',
 	'SECURE_DOWNLOADS'				=> 'Habilita les baixades segures',

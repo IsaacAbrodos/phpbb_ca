@@ -1,4 +1,5 @@
 Subject: Notificació d’entrada nova en el fòrum "{FORUM_NAME}"
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Hola {USERNAME},
 

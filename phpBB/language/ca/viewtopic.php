@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'No hi ha entrades no llegides en aquest tema.',
 	'NO_VOTE_OPTION'		=> 'Quan voteu heu de triar una opció.',
 	'NO_VOTES'				=> 'No hi ha cap vot',
+	'NO_AUTH_PRINT_TOPIC'	=> 'No esteu autoritzat a imprimir temes.',
 
 	'POLL_ENDED_AT'			=> 'L’enquesta ha acabat el %s',
 	'POST_DELETED_RESTORE'	=> 'Aquesta entrada està eliminada. Es pot restaurar.',

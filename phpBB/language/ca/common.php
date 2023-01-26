@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'El vostre compte ja ha estat activat.',
 	'ACCOUNT_DEACTIVATED'			=> 'El vostre compte ha estat desactivat manualment. Només el pot reactivar un administrador.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'El vostre compte encara no ha estat activat.',
 	'ACP'							=> 'Tauler de control de l’administrador',
 	'ACP_SHORT'						=> 'TCA',
 	'ACTIVE'						=> 'actiu',
@@ -522,7 +521,7 @@ $lang = array_merge($lang, array(
 	'NO_STYLE_DATA'				=> 'No s’han pogut obtenir les dades d’estil',
 	'NO_SUBJECT'				=> 'No s’ha especificat cap assumpte',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'El mòdul de cerca especificat no existeix.',
-	'NO_SUPPORTED_AUTH_METHODS'	=> 'No hi ha cap dels mètodes d’autenticació permesos.',
+	'NO_SUPPORTED_AUTH_METHODS'	=> 'No hi ha cap dels mètodes d’autenticació admesos.',
 	'NO_TOPIC'					=> 'El tema sol·licitat no existeix.',
 	'NO_TOPIC_FORUM'			=> 'El tema o fòrum ja no existeix.',
 	'NO_TOPICS'					=> 'No hi temes ni entrades en aquest fòrum.',
@@ -1422,8 +1421,7 @@ $lang = array_merge($lang, array(
 		'd M Y, H:i'			=> '01 gen 2007, 13:37',
 		'd M Y H:i'				=> '01 gen 2007 13:37',
 		//'M jS, \'y, H:i'		=> 'gen 1er, \'07, 13:37',
-		//'D M d, Y g:i a'		=> 'dl gen 01, 2007 1:37 pm',
-		'D d M Y, g:i a'		=> 'dl 01 gen 2007, 1:37 pm',
+		'D d M Y, g:i a'		=> 'dl 01 gen 2007, 1:37 pm', //'D M d, Y g:i a'		=> 'dl gen 01, 2007 1:37 pm',
 		//'F jS, Y, g:i a'		=> 'gener 1er, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Avui, 13:37 / 01 gen 2007, 13:37',
 		//'|F jS, Y|, g:i a'		=> 'Avui, 1:37 pm / gener 1er, 2007, 1:37 pm',

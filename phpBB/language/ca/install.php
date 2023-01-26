@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'PHP_XML_SUPPORT'					=> 'Compatibilitat PHP per XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Per que el phpBB funcioni correctament, l’extensió de PHP per XML/DOM ha d’estar disponible.',
 	'PHP_SUPPORTED_DB'					=> 'Bases de dades compatibles',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'El PHP ha de funcionar amb almenys una de les bases de dades compatibles. Si no es mostra cap mòdul de base de dades cal que contacteu amb el vostre proveïdor d’hostatge o revisar la documentació d’instal·lació relevant del PHP.',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'El PHP ha de funcionar amb almenys una de les bases de dades compatibles. Si no es mostra cap mòdul de base de dades cal que contacteu amb el vostre proveïdor d’hostatge o revisar la documentació d’instal·lació rellevant del PHP.',
 
 	'RETEST_REQUIREMENTS'	=> 'Torna a comprovar els requeriments',
 
