@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_profile [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: profile.php 9342 2009-02-26 23:46:46Z terrafrost $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,8 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'S’ha afegit el camp personalitzat del perfil correctament.',
+	'ALPHA_DOTS'			=> 'Només alfanumèrics i punts',
 	'ALPHA_ONLY'			=> 'Només alfanumèrics',
-	'ALPHA_SPACERS'			=> 'Alfanumèrics i d’espaiat',
+	'ALPHA_SPACERS'			=> 'Alfanumèrics i caràcters d’espaiat',
+	'ALPHA_UNDERSCORE'		=> 'Alfanumèrics i caràcters de subratllat',
+	'ALPHA_PUNCTUATION'		=> 'Alfanumèrics amb comes, punts, caràcters de subratllat i guions que comencin amb una lletra',
 	'ALWAYS_TODAY'			=> 'Sempre la data actual',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Introduïu les opcions ara',
@@ -66,6 +70,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Els usuaris poden canviar aquest camp del perfil des del Tauler de control de l’usuari.',
 	'DISPLAY_AT_REGISTER'			=> 'Mostra’l a la pantalla de registre',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Si aquesta opció està habilitada, el camp es mostrarà durant el registre d’usuaris.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Mostra’l a la pantalla de la llista de membres',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Si aquesta opció està habilitada, el camp es mostrarà a les files d’usuaris a la pantalla de la llista de membres',
+	'DISPLAY_ON_PM'					=> 'Mostra’l a la pantalla de visualització de missatges privats',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Si aquesta opció està habilitada, el camp es mostrarà al mini-perfil a la pantalla de visualització de missatges privats',
 	'DISPLAY_ON_VT'					=> 'Mostra’l a la pantalla d’entrades',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Si aquesta opció està habilitada, el camp es mostrarà al miniperfil a la pantalla d’entrades.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Mostra el camp del perfil publicament',
@@ -79,20 +87,26 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Tot correcte',
 
 	'FIELD_BOOL'				=> 'Booleà (Sí/No)',
+	'FIELD_CONTACT_DESC'		=> 'Descripció de contacte',
+	'FIELD_CONTACT_URL'			=> 'Enllaç de contacte',
 	'FIELD_DATE'				=> 'Data',
 	'FIELD_DESCRIPTION'			=> 'Descripció del camp',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'L’explicació presentada a l’usuari per aquest camp.',
 	'FIELD_DROPDOWN'			=> 'Desplegable',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Identificador del camp',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'L’identificador que heu escollit ja existeix. Trieu un altre nom.',
 	'FIELD_IDENT_EXPLAIN'		=> 'L’identificador del camp és un nom que identifica el camp del perfil a la base de dades i les plantilles.',
 	'FIELD_INT'					=> 'Números',
+	'FIELD_IS_CONTACT'			=> 'Mostra el camp com un camp de contacte',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Els camps de contacte es mostren a la secció de contacte del perfil de l’usuari i es mostren de forma diferent al mini-perfil al costat de les entrades i els missatges privats. Podeu utilitzar <samp>%s</samp> com a text variable que se substituirà per un valor proporcionat per l’usuari.',
 	'FIELD_LENGTH'				=> 'Longitud de la casella de text',
 	'FIELD_NOT_FOUND'			=> 'No s’ha trobat el camp del perfil.',
 	'FIELD_STRING'				=> 'Camp de text simple',
 	'FIELD_TEXT'				=> 'Àrea de text',
 	'FIELD_TYPE'				=> 'Tipus de camp',
 	'FIELD_TYPE_EXPLAIN'		=> 'No es pot canviar el tipus de camp més endavant.',
+	'FIELD_URL'					=> 'URL (enllaç)',
 	'FIELD_VALIDATION'			=> 'Validació del camp',
 	'FIRST_OPTION'				=> 'Primera opció',
 
@@ -104,6 +118,12 @@ $lang = array_merge($lang, array(
 	'ISO_LANGUAGE'				=> 'Idioma [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Opcions específiques de l’idioma [<strong>%s</strong>]',
+
+	'LETTER_NUM_DOTS'			=> 'Qualsevol lletra, números i punts',
+	'LETTER_NUM_ONLY'			=> 'Qualsevol lletra i números',
+	'LETTER_NUM_PUNCTUATION'	=> 'Qualsevol lletra, números, comes, punts, caràcters de subrratllat i guions que comencin amb una lletra',
+	'LETTER_NUM_SPACERS'		=> 'Qualsevol lletra, números i caràcters d’espaiat',
+	'LETTER_NUM_UNDERSCORE'		=> 'Qualsevol lletra, números i caràcters de subrratllat',
 
 	'MAX_FIELD_CHARS'		=> 'Nombre màxim de caràcters',
 	'MAX_FIELD_NUMBER'		=> 'Número màxim permès',
@@ -154,5 +174,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'Opcions de visibilitat',
 ));
-
-?>

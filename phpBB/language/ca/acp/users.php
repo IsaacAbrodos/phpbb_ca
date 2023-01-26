@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_users [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: users.php,v 1.32 2007/10/08 14:38:26 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -52,6 +53,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'No esteu autoritzat a forçar la reactivació de comptes de fundadors.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'No esteu autoritzat a forçar la reactivació del vostre propi compte.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'No esteu autoritzat a eliminar el compte d’usuari visitant.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'No esteu autoritzat a eliminar comptes de fundadors.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'No esteu autoritzat a eliminar el vostre propi compte.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'No podeu ascendir a fundador usuaris ignorats.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Abans d’ascendir un usuari a fundador, cal que l’activeu. Només els usuaris activats poden ser ascendits.',
@@ -139,5 +141,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'No hi ha informació disponible. Probablement l’entrada del registre ha estat eliminada.',
 	'USER_TOOLS'					=> 'Eines bàsiques',
 ));
-
-?>

@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_board [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: board.php 9497 2009-04-29 16:00:59Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,18 +39,29 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aquí podeu determinar l’operació bàsica del vostre fòrum, donar-li un nom i una descripció adequats i, entre altres configuracions, ajustar els valors per defecte per al fus horari i l’idioma.',
+	'BOARD_INDEX_TEXT'				=> 'Text de l’índex del fòrum',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Aquest text es mostra com a l’índex del fòrum a la ruta de navegació del fòrum. Si no l’especifiqueu, el valor per defecte és “Índex del fòrum”.',
+	'BOARD_STYLE'					=> 'Estil del fòrum',
 	'CUSTOM_DATEFORMAT'				=> 'Personalizat…',
 	'DEFAULT_DATE_FORMAT'			=> 'Format de data',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'El format de data és el mateix que el de la funció <code>date</code> del PHP.',
 	'DEFAULT_LANGUAGE'				=> 'Idioma per defecte',
 	'DEFAULT_STYLE'					=> 'Estil per defecte',
+	'DEFAULT_STYLE_EXPLAIN'			=> 'L’estil per defecte per a usuaris nous.',
 	'DISABLE_BOARD'					=> 'Inhabilita el fòrum',
-	'DISABLE_BOARD_EXPLAIN'			=> 'Això fa que el fòrum no estigui disponible per als usuaris. També podeu introduir un missatge curt (255 caràcters) per que es mostri.',
+	'DISABLE_BOARD_EXPLAIN'			=> 'Això fa que el fòrum no estigui disponible per als usuaris que no siguin moderadors o administradors. També podeu introduir un missatge curt (255 caràcters) per que es mostri.',
+	'DISPLAY_LAST_SUBJECT'			=> 'Mostra l’assumpte de la darrera entrada afegida a la llista dels fòrums',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'L’assumpte de la darrera entrada afegida es mostrarà a la llista de fòrums amb un enllaç a aquesta entrada. No es mostraran assumptes de fòrums protegits amb contrasenya o fòrums per als quals l’usuari no té permís de lectura.',
+	'GUEST_STYLE'					=> 'Estil per visitants',
+	'GUEST_STYLE_EXPLAIN'			=> 'L’estil del fòrum per als usuaris visitants.',
 	'OVERRIDE_STYLE'				=> 'Sobreescriu l’estil dels usuaris',
-	'OVERRIDE_STYLE_EXPLAIN'		=> 'Reemplaça l’estil dels usuaris amb l’estil per defecte.',
+	'OVERRIDE_STYLE_EXPLAIN'		=> 'Reemplaça l’estil dels usuaris (i dels visitants) amb l’estil definit a "Estil per defecte".',
 	'SITE_DESC'						=> 'Descripció del lloc web',
+	'SITE_HOME_TEXT'				=> 'Text per la pàgina inicial',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Aquest text es mostrarà com un enllaç a la pàgina inicial del vostre lloc web a la ruta de navegació del fòrum. Si no l’especifiqueu, el valor per defecte és “Pàgina inicial”.',
+	'SITE_HOME_URL'					=> 'URL de la pàgina inicial',
+	'SITE_HOME_URL_EXPLAIN'			=> 'Si l’especifiqueu, es prefixarà un enllaç a aquest URL a la ruta de navegació del fòrum i el logo del fòrum enllaçarà a aquest URL en lloc de l’índex del fòrum. És necessari un URL absolut, p.ex. <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Nom del lloc web',
-	'SYSTEM_DST'					=> 'Habilita l’horari d’estiu/<abbr title="Daylight Saving Time">DST</abbr>',
 	'SYSTEM_TIMEZONE'				=> 'Fus horari dels visitants',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Fus horari utilitzat per mostrar hores als usuaris que no han iniciat sessió (visitants, robots). Els usuaris que han iniciat sessió decideixen el seu fus horari durant el procediment de registre i poden canviar-lo al Tauler de control de l’usuari.',
 	'WARNINGS_EXPIRE'				=> 'Durada dels advertiments',
@@ -91,24 +103,25 @@ $lang = array_merge($lang, array(
 
 // Avatar Settings
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Els avatars són imatges generalment petites i úniques que un usuari pot associar amb si mateix. Depenent de l’estil se solen mostrar sota el nom de l’usuari en la visualització de temes. Aquí podeu determinar de quina manera els usuaris poden definir els seus avatars. Tingueu en compte que per pujar avatars cal que creeu el directori que definiu a sota i que us assegureu que el servidor web hi pot escriure. També tingueu en compte que els límits per a la mida del fitxer d’avatar només s’imposen als avatars pujats, no s’apliquen a les imatges enllaçades remotament.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Els avatars són imatges generalment petites i úniques que un usuari pot associar amb si mateix. Depenent de l’estil se solen mostrar sota el nom de l’usuari en la visualització de temes. Aquí podeu determinar de quina manera els usuaris poden definir els seus avatars. Tingueu en compte que per penjar avatars cal que creeu el directori que definiu a sota i que us assegureu que el servidor web hi pot escriure. També tingueu en compte que els límits per a la mida del fitxer d’avatar només s’imposen als avatars penjats, no s’apliquen a les imatges enllaçades remotament.',
 
 	'ALLOW_AVATARS'					=> 'Habilita els avatars',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Permet l’ús d’avatars en general;<br />Si inhabiliteu els avatars en general o en qualsevol dels diferents modes, els avatars inhabilitats ja no es mostraran als fòrums però els usuaris encara podran baixar-se els seus propis avatars des del Tauler de control de l’usuari.',
+	'ALLOW_GRAVATAR'				=> 'Habilita els avatars gravatar',
 	'ALLOW_LOCAL'					=> 'Habilita la galeria d’avatars',
 	'ALLOW_REMOTE'					=> 'Habilita els avatars remots',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Avatars enllaçats des d’un altre lloc web.',
-	'ALLOW_REMOTE_UPLOAD'			=> 'Habilita la pujada d’avatars remots',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permet pujar avatars des d’un altre lloc web.',
-	'ALLOW_UPLOAD'					=> 'Habilita la pujada d’avatars',
+	'ALLOW_REMOTE_UPLOAD'			=> 'Habilita la penjada d’avatars remots',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permet penjar avatars des d’un altre lloc web.',
+	'ALLOW_UPLOAD'					=> 'Habilita la penjada d’avatars',
 	'AVATAR_GALLERY_PATH'			=> 'Camí a la galería d’avatars',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB per a imatges predefinides, p.ex. <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB per a imatges predefinides, p.ex. <samp>images/avatars/gallery</samp>.<br />Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
 	'AVATAR_STORAGE_PATH'			=> 'Camí a l’emmagatzemament d’avatars',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/avatars/upload</samp>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/avatars/upload</samp>.<br />La penjada d’avatars <strong>no estarà disponible</strong> si no es pot escriure en aquest camí.<br />Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensions màximes dels avatars',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Amplària x Alçària en píxels.',
 	'MAX_FILESIZE'					=> 'Mida màxima dels fitxers d’avatar',
-	'MAX_FILESIZE_EXPLAIN'			=> 'Per a fitxers d’avatar pujats. Si el valor és 0, la mida del fitxer a pujar només està limitada per la configuració del PHP.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Per a fitxers d’avatar penjats. Si el valor és 0, la mida del fitxer a penjar només està limitada per la configuració del PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Dimensions mínimes dels avatars',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Amplària x Alçària en píxels.',
 ));
@@ -208,7 +221,8 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Aquí podeu definir la configuració relacionada amb el procediment de registre i el perfil.',
 
 	'ACC_ACTIVATION'				=> 'Activació de comptes',
-	'ACC_ACTIVATION_EXPLAIN'		=> 'Això determina si els usuaris tenen accés immediat al fòrum o si cal una confirmació. També podeu inhabilitar completament els nous registres. Cal que la característica d’enviament de correus electrònics del fòrum estigui habilitada per tal d’utilitzar l’activació per usuaris o administradors.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Això determina si els usuaris tenen accés immediat al fòrum o si cal una confirmació. També podeu inhabilitar completament els nous registres. <em>Cal que la característica d’enviament de correus electrònics del fòrum estigui habilitada per tal d’utilitzar l’activació per usuaris o administradors.</em>',
+	'ACC_ACTIVATION_WARNING'		=> 'Tingueu en compte que el mètode d’activació seleccionat actualment requereix que l’enviament de correus electrònics estigui habilitat; si no és així, el registre d’usuaris estarà inhabilitat. És recomanable que seleccioneu un altre mètode d’activació o torneu a activar l’enviament de correus electrònics.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Límit d’entrades per usuaris nous',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Els usuaris nous són al grup <em>Nous usuaris registrats</em> fins que arriben a aquest nombre d’entrades. Podeu utilitzar aquest grup per evitar que utilitzin el sistema de missatgeria privada o per revisar les seves entrades. <strong>Introduïu un 0 per inhabilitar aquesta funció.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Assigna el grup Nous usuaris registrats com a grup per defecte',
@@ -289,6 +303,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Aquí podeu seleccionar i configurar connectors que estan dissenyats per bloquejar la tramesa automàtica de formularis per part dels robots de brossa (spambots en anglès). Aquests connectors típicament funcionen plantejant a l’usuari un <em>CAPTCHA</em>, una prova que està dissenyada per que sigui dificil que un ordinador la resolgui.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Per trobar connectors contra brossa addicionals millors visiteu la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de dades d’extensions de phpBB.com</strong></a>. Per obtenir més informació sobre com prevenir les entrades brossa al vostre fòrum visiteu la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de coneixements de phpBB.com</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Connectors disponibles',
 	'CAPTCHA_UNAVAILABLE'					=> 'No podeu seleccionar aquest connector ja que no es compleixen els seus requeriments.',
 	'CAPTCHA_GD'							=> 'Imatge GD',
@@ -343,20 +358,40 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Les sessións venceran després d’aquest temps en segons.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aquí podeu habilitar i inhabilitar la pàgina de contacte i també podeu afegir el text que es mostra a la pàgina.',
+
+	'CONTACT_US_ENABLE'				=> 'Habilita la pàgina de contacte',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics amb els admimnistradors del fòrum',
+
+	'CONTACT_US_INFO'				=> 'Informació de contacte',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Aquest missatge es mostra a la pàgina de contacte',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Pàgina d’informació de contacte - Previsualització',
+	'CONTACT_US_INFO_UPDATED'		=> 'S’ha actualitzat la pàgina d’informació de contacte.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Aquí podeu habilitar i inhabilitar determinades funcions del fòrum per reduir la quantitat necessària de processament. En la majoria de servidors no cal inhabilitar cap funció. Això no obstant, en determinats sistemes o en entorns d’allotjament compartit pot ser beneficiós inhabilitar capacitats que no necessiteu realment. També podeu especificar límits per a la càrrega del sistema i sessions actives més enllà de les quals el fòrum es quedarà fora de línia.',
 
+	'ALLOW_CDN'						=> 'Permet la utilització de xarxes de distribució de continguts externes',
+	'ALLOW_CDN_EXPLAIN'				=> 'Si habiliteu aquesta configuració, alguns fitxers se serviran des de servidors externs en lloc del vostre servidor. Això redueix l’ample de banda necessari pel vostre servidor però pot ser un problema de privacitat per alguns administradors de fòrums. En una instalació per defecte del phpBB això inclou carregar “jQuery” i la font “Open Sans” des de la xarxa de distribució de continguts de Google.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Permet les cerques actives',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Si habiliteu aquesta configuració, es suggereix als usuaris paraules clau mentre escriuen en determinats camps de text del fòrum.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Camps personalitzats del perfil',
 	'LIMIT_LOAD'					=> 'Limita la càrrega del sistema',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Si la càrrega del sistema per a 1 minut sobrepassa aquest valor, el fòrum quedarà automàticament fora de línia. El valor 1.0 equival a una utilització aproximada del 100% d’un processador. Això només funciona en servidors basats en UNIX i on aquesta informació estigui accessible. Aquest valor es reinicialitza automàticament a 0 si el phpBB no es capaç d’obtenir el límit de càrrega.',
 	'LIMIT_SESSIONS'				=> 'Limita les sessions',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Si el nombre de sessions sobrepassa aquest valor dintre d’un periode d’un minut, el fòrum quedarà fora de línia. Introduïu un 0 per a sessions il·limitades.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Permet que els estils mostrin camps personalitzats del perfil a la llista de membres',
+	'LOAD_CPF_PM'					=> 'Mostra els camps personalitzats del perfil als missatges privats',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Mostra els camps personalitzats del perfil als perfils d’usuari',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Mostra els camps personalitzats del perfil a les pàgines dels temes',
 	'LOAD_USER_ACTIVITY'			=> 'Mostra l’activitat de l’usuari',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Mostra els temes/fòrums actius als perfils de l’usuari i al tauler de control de l’usuari. És recomanable inhabilitar aquesta opció en fòrums amb més d’un milió d’entrades.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Caducitat de les notificacions de lectura',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Nombre de dies que han de passar abans que una notificació de lectura s’elimini automàticament. Introduïu un 0 per fer que les notificacions siguin permanents.',
 	'RECOMPILE_STYLES'				=> 'Recompila els elements dels estils desactualitzats',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Comprova si hi ha elements dels estils actualitzats al sistema de fitxers i els recompila.',
 	'YES_ANON_READ_MARKING'			=> 'Habilita el marcat de temes per als usuaris visitants',
@@ -380,12 +415,19 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'El phpBB permet l’ús de connectors o mòduls d’autenticació. Aquests us permeten determinar com s’autentiquen els usuaris quan inicien la sessió al fòrum. Per defecte es proporcionen tres connectors; base de dades, LDAP i Apache. No tots els mètodes necessiten informació addicional, només introduïu els camps que siguin rellevants per al mètode seleccionat.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'El phpBB permet l’ús de connectors o mòduls d’autenticació. Aquests us permeten determinar com s’autentiquen els usuaris quan inicien la sessió al fòrum. Per defecte es proporcionen quatre connectors: base de dades, LDAP, Apache i OAuth. No tots els mètodes necessiten informació addicional, només introduïu els camps que siguin rellevants per al mètode seleccionat.',
 
 	'AUTH_METHOD'				=> 'Seleccioneu un mètode d’autenticació',
 
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Heu de proporcionar tant la clau com el secret de cada proveïdor de servei OAuth habilitat. En algún proveïdor de servei OAuth només se n’ha proporcionat un dels dos.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Cada proveïdor OAuth requereix una combinació única de secret i clau per tal d’autenticar-se amb el servidor extern. Us els ha de proporcionar el servei Oauth quan registreu amb ells el vostre lloc web i els heu d’entrar exactament tal i com us els han comunicat.<br />Qualsevol servei per al qual no es proporcioni aquí tant la clau com el secret no estarà disponible per que l’utilitzin els usuaris del fòrum. Tingueu en compte que els usuaris encara poden registranr-se i iniciar sessió amb el connector d’autenticació per base de dades.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Clau',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
+
 	'APACHE_SETUP_BEFORE_USE'	=> 'Cal que configureu l’autenticació de l’Apache abans de canviar el phpBB a aquest mètode d’autenticació. Recordeu que el nom d’usuari que utilitzeu per a l’autenticació amb Apache ha de ser el mateix que el nom d’usuari al phpBB. L’autenticació amb Apache només es pot utilitzar amb mod_php (no amb una versió CGI) i safe_mode inhabilitat.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> '<var>dn</var> de la base LDAP',
 	'LDAP_DN_EXPLAIN'				=> 'Això es el “Distinguished Name”, que localitza la informació d’usuari, p.ex. <samp>o=La meva companyia,c=ES</samp>.',
 	'LDAP_EMAIL'					=> 'Atribut de correu electrònic de LDAP',
@@ -417,6 +459,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Si l’habiliteu, s’utilitzarà la configuració del servidor definida aquí en lloc dels valors determinats automàticament.',
 	'ICONS_PATH'				=> 'Camí d’emmagatzemament de les icones per a les entrades',
 	'ICONS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/icons</samp>.',
+	'MOD_REWRITE_ENABLE'		=> 'Permet la reescriptura d’URLs',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URLs que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URLs del vostre fòrum deixin de funcionar.</strong>',
+	'MOD_REWRITE_DISABLED'		=> 'El mòdul <strong>mod_rewrite</strong> del vostre servidor Apache està inhabilitat. Habiliteu el módul o poseu-vos en contacte amb el vostre proveïdor d’allotjament web si voleu habilitar aquesta funció.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URLs. Podeu habilitar aquesta configuració però si la reescriptura d’URLs no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs de que aquesta funció es pugui activar de forma segura.',
 	'PATH_SETTINGS'				=> 'Configuració dels camins',
 	'RANKS_PATH'				=> 'Camí d’emmagatzemament de les imatges de rang',
 	'RANKS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/ranks</samp>.',
@@ -433,6 +479,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Camí d’emmagatzemament de les icones dels grups d’extensions',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/upload_icons</samp>.',
+	'USE_SYSTEM_CRON'		=> 'Executa les tasques periòdiques amb el cron del sistema',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Si ho inhabiliteu, el phpBB organitzarà l’execució automàtica de tasques periòdiques. Si ho habiliteu, el phpBB no planificarà cap tasca periòdica per sí mateix; caldrà que un administrador del sistema organitzi l’execució de <code>bin/phpbbcli.php cron:run</code> amb la utilitat cron del sistema a intervals regulars (p.ex. cada 5 minuts).',
 ));
 
 // Security Settings
@@ -440,10 +488,12 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Aquí podeu definir les configuracions relacionades amb les session i l’inici de sessions.',
 
 	'ALL'							=> 'Tota',
-	'ALLOW_AUTOLOGIN'				=> 'Permet l’inici de sessió persistent',
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Determina si els usuaris poden iniciar la sessió automàticament quan visiten el fòrum.',
-	'AUTOLOGIN_LENGTH'				=> 'Durada de la clau d’inici de sessió persistent (en dies)',
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Nombre de dies després dels quals s’eliminen les claus d’inici de sessió persistent. Introduïu un zero per inhabilitar-ho.',
+	'ALLOW_AUTOLOGIN'				=> 'Permet l’inici de sessió automàtic',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Determina si es mostra als usuaris l’opció “Recorda’m” quan visiten el fòrum.',
+	'ALLOW_PASSWORD_RESET'			=> 'Permet la reinicialització de la contrasenya (“He oblidat la meva contrasenya”)',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Determina si els usuaris poden utilitzar l’enllaç “He oblidat la meva contrasenya” de la pàgina d’inici de sessió per recuperar el seu compte. Si utilitzeu un sistema d’autenticació extern, és possible que vulgueu inhabilitar aquesta funció.',
+	'AUTOLOGIN_LENGTH'				=> 'Durada (en dies) de la clau d’inici de sessió tipus “Recorda’m”',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Nombre de dies després dels quals s’eliminen les claus d’inici de sessió tipus “Recorda’m”. Introduïu un zero per inhabilitar-ho.',
 	'BROWSER_VALID'					=> 'Validació del navegador',
 	'BROWSER_VALID_EXPLAIN'			=> 'Habilita la validació del navegador per cada sessió per millorar la seguretat.',
 	'CHECK_DNSBL'					=> 'Comprova l’adreça IP contra la llista DNS Blackhole List',
@@ -470,7 +520,6 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'En lloc de limitar els intents d’inici de sesió per adreça IP, es limiten pels valors de <var>X_FORWARDED_FOR</var>. <br /><em><strong>Advertiment:</strong> No habiliteu aquesta característica a no ser que gestioneu un servidor intermediari que assigni valors fiables a <var>X_FORWARDED_FOR</var>.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Nombre màxim d’intents d’inici de sessió per nom d’usuari',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'El nombre d’intents d’inici de sessió permesos per un mateix nom d’usuari abans que s’activi la tasca contra robots de brossa. Si introduïu un 0, no es tindran en compte els noms d’usuari per activar la tasca contra robots de brossa.',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Després d’aquest nombre d’intents d’inici de sessió incorrectes l’usuari ha de resoldre addicionalment la tasca contra robots de brossa.',
 	'NO_IP_VALIDATION'				=> 'Cap',
 	'NO_REF_VALIDATION'				=> 'Cap',
 	'PASSWORD_TYPE'					=> 'Complexitat de la contrasenya',
@@ -481,8 +530,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Ha de contenir símbols',
 	'REF_HOST'						=> 'Valida només l’amfitrió',
 	'REF_PATH'						=> 'Valida també el camí',
-	'REFERER_VALID'					=> 'Valida la pàgina d’origen',
-	'REFERER_VALID_EXPLAIN'			=> 'Si l’habiliteu, es comprovarà la pàgina des de la qual es fan les peticions POST segons la configuració d’amfitrió/camí. Això pot donar problemes amb fòrums que utilitzin diversos dominis i/o un inici de sessió extern.',
+	'REFERRER_VALID'				=> 'Valida la pàgina d’origen',
+	'REFERRER_VALID_EXPLAIN'		=> 'Si l’habiliteu, es comprovarà la pàgina des de la qual es fan les peticions POST segons la configuració d’amfitrió/camí. Això pot donar problemes amb fòrums que utilitzin diversos dominis i/o un inici de sessió extern.',
 	'TPL_ALLOW_PHP'					=> 'Permet el php a les plantilles',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Si s’habilita aquesta opció, les sentències <code>PHP</code> i <code>INCLUDEPHP</code> a les plantilles es reconeixeran i s’analitzaran.',
 ));
@@ -499,6 +548,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Aquesta funció manté les adreces electròniques completament privades.',
 	'CONTACT_EMAIL'					=> 'Adreça electrònica de contacte',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'S’utilitzarà aquesta adreça quan es necessiti un punt de contacte específic, p.ex. correu brossa, errors, etc. S’utilitzarà sempre com a adreça en els camps <samp>From</samp> i <samp>Reply-To</samp> dels correus electrònics.',
+	'CONTACT_EMAIL_NAME'			=> 'Nom de contacte',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Aquest es el nom de contacte que veuran els destinataris dels correus electrònics. Si no voleu tenir un nom de contacte, deixeu aquest camp en blanc.',
 	'EMAIL_FUNCTION_NAME'			=> 'Nom de la funció de correu electrònic',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'La funció utilitzada per enviar correus electrònics a través del PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Mida dels paquets de correu electrònic',
@@ -506,7 +557,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'Signatura per als correus electrònics',
 	'EMAIL_SIG_EXPLAIN'				=> 'Aquest text s’adjuntarà a tots els correus electrònics que enviï el fòrum.',
 	'ENABLE_EMAIL'					=> 'Habilita els correus electrònics del fòrum',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Si s’inhabilita, el fòrum no enviarà cap correu electrònic. <em>Tingueu en compte que cal que aquesta opció estigui habilitada per a la configuració d’activació de comptes d’usuaris i administradors. Si actualment esteu utilizant l’opció d’activació per “usuari” o “administrador”, inhabilitar l’enviament de correus farà que no es requereixi activació dels comptes nous.</em>',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Si s’inhabilita, el fòrum no enviarà cap correu electrònic. <em>Tingueu en compte que cal que aquesta opció estigui habilitada per a la configuració d’activació de comptes d’usuaris i administradors. Si actualment esteu utilizant l’opció d’activació per “usuari” o “administrador”, inhabilitar l’enviament de correus inhabilitarà el registre de comptes nous.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Mètode d’autenticació SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Només s’utilitza si s’ha introduït un nom d’usuari i contrasenya, pregunteu al vostre proveïdor si no esteu segur de quin mètode utilitzar.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -547,5 +598,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Nom d’usuari Jabber o JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Especifiqueu un nom d’usuari registrat o un JID vàlid. No es comprovarà que el nom d’usuari sigui vàlid. Si només eswpecifiqueu un nom d’usuari, el vostre JID serà el nom d’usuari i el servidor el que s’ha especificat a sobre. Altrament, especifiqueu un JID vàlid, per exemple usuari@jabber.org.',
 ));
-
-?>

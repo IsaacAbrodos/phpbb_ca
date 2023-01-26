@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_posting [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: posting.php 9375 2009-03-16 16:47:16Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -46,6 +47,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'Sha afegit el BBCode correctament.',
 	'BBCODE_EDITED'				=> 'S’ha editat el BBCode correctament.',
+	'BBCODE_DELETED'			=> 'S’ha eliminat el BBCode correctament.',
 	'BBCODE_NOT_EXIST'			=> 'El BBCode que heu seleccionat no existeix.',
 	'BBCODE_HELPLINE'			=> 'Línia d’ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Aquest camp conté el text que es mostra en passar el ratolí per damunt del text del BBCode.',
@@ -85,8 +87,8 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Un URL vàlid que utilitzi qualsevol protocol (http, ftp, etc… no es pot utilitzar per aprofitar-se del javascript). Si no se’n proporciona cap, la cadena es prefixa amb “http://”.',
 		'LOCAL_URL'		=> 'Un URL local. L’URL ha de ser relatiu a la pàgina del tema i no pot contenir un nom de servidor ni un protocol, ja que els enllaços es prefixen amb “%s”',
 		'RELATIVE_URL'	=> 'Un URL relatiu. Podeu utilitzar-ho per a que coincideixi amb parts d’un URL, aneu amb compte: un URL complet és un URL realtiu vàlid. Quan vulgueu utilitzar URL relatius al vostre fòrum, utilitzeu l’etiqueta LOCAL_URL.',
-		'COLOR'			=> 'Un color HTML, pot ser o bé en forma numèrica <samp>#FF1234</samp> o una <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">paraula clau de color CSS</a> com ara <samp>fuchsia</samp> o <samp>InactiveBorder</samp>'
-	)
+		'COLOR'			=> 'Un color HTML, pot ser o bé en forma numèrica <samp>#FF1234</samp> o una <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">paraula clau de color CSS</a> com ara <samp>fuchsia</samp> o <samp>InactiveBorder</samp>',
+	),
 ));
 
 // Smilies and topic icons
@@ -109,8 +111,6 @@ $lang = array_merge($lang, array(
 	'DISPLAY_POSTING'			=> 'A la pàgina de publicació d’entrades',
 	'DISPLAY_POSTING_NO'		=> 'No a la pàgina de publicació d’entrades',
 
-
-
 	'EDIT_ICONS'				=> 'Edita les icones',
 	'EDIT_SMILIES'				=> 'Edita les emoticones',
 	'EMOTION'					=> 'Emoció',
@@ -122,15 +122,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Primer',
 
 	'ICONS_ADD'				=> 'Afegeix una icona nova',
-	'ICONS_NONE_ADDED'		=> 'No s’ha afegit cap icona.',
-	'ICONS_ONE_ADDED'		=> 'S’ha afegit la icona correctament.',
-	'ICONS_ADDED'			=> 'S’han afegit les icones correctament.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'No s’ha afegit cap icona.',
+		1	=> 'S’ha afegit la icona correctament.',
+		2	=> 'S’han afegit les icones correctament.',
+	),
 	'ICONS_CONFIG'			=> 'Configuració d’icones',
 	'ICONS_DELETED'			=> 'S’ha eliminat la icona correctament.',
 	'ICONS_EDIT'			=> 'Edita la icona',
-	'ICONS_ONE_EDITED'		=> 'S’ha actualitzat la icona correctament.',
-	'ICONS_NONE_EDITED'		=> 'No s’ha actualitzat cap icona.',
-	'ICONS_EDITED'			=> 'S’han actualitzat les icones correctament.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'No s’ha actualitzat cap icona.',
+		1	=> 'S’ha actualitzat la icona correctament.',
+		2	=> 'S’han actualitzat les icones correctament.',
+	),
 	'ICONS_HEIGHT'			=> 'Alçària de la icona',
 	'ICONS_IMAGE'			=> 'Imatge de la icona',
 	'ICONS_IMPORTED'		=> 'S’ha instal·lat el paquet d’icones correctament.',
@@ -162,9 +166,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Seleccioneu un fitxer de paquet',
 	'SMILIES_ADD'				=> 'Afegeix una emoticona nova',
-	'SMILIES_NONE_ADDED'		=> 'No s’ha afegit cap emoticona.',
-	'SMILIES_ONE_ADDED'			=> 'S’ha afegit l’emoticona correctament.',
-	'SMILIES_ADDED'				=> 'S’han afegit les emoticones correctament.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'No s’ha afegit cap emoticona.',
+		1	=> 'S’ha afegit l’emoticona correctament.',
+		2	=> 'S’han afegit les emoticones correctament.',
+	),
 	'SMILIES_CODE'				=> 'Codi de l’emoticona',
 	'SMILIES_CONFIG'			=> 'Configuració d’emoticones',
 	'SMILIES_DELETED'			=> 'S’ha eliminat l’emoticona correctament.',
@@ -172,9 +178,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'			=> 'S’ha ignorat l’emoticona “%s” perquè no heu introduït cap codi.',
 	'SMILIE_NO_EMOTION'			=> 'S’ha ignorat l’emoticona “%s” perquè no heu introduït cap emoció.',
 	'SMILIE_NO_FILE'			=> 'S’ha ignorat l’emoticona “%s” perquè no s’ha trobat el fitxer.',
-	'SMILIES_NONE_EDITED'		=> 'S’ha actualitzat l’emoticona correctament.',
-	'SMILIES_ONE_EDITED'		=> 'S’han actualitzat les emoticones correctament.',
-	'SMILIES_EDITED'			=> 'S’ha editat l’emoticona correctament.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'No s’ha actualitzat cap emoticona.',
+		1	=> 'S’ha actualitzat l’emoticona correctament.',
+		2	=> 'S’han actualitzat les emoticones correctament.',
+	),
 	'SMILIES_EMOTION'			=> 'Emoció',
 	'SMILIES_HEIGHT'			=> 'Alçària de l’emoticona',
 	'SMILIES_IMAGE'				=> 'Imatge de l’emoticona',
@@ -186,7 +194,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'Fitxer d’imatge de l’emoticona',
 	'SMILIES_WIDTH'				=> 'Amplària de l’emoticona',
 
-	'TOO_MANY_SMILIES'			=> 'Heu arribat al límit permès %d emoticones.',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'Heu arribat al límit permès d’%d emoticona.',
+		2	=> 'Heu arribat al límit permès de %d emoticones.',
+	),
 
 	'WRONG_PAK_TYPE'	=> 'El paquet especificat no conté les dades adequades.',
 ));
@@ -278,5 +289,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'S’utilitza als informes',
 ));
-
-?>

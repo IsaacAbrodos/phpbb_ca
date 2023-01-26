@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_database [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: database.php,v 1.25 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -49,7 +50,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Utilitats de bases de dades',
 	'DATA_ONLY'			=> 'Només les dades',
 	'DELETE_BACKUP'		=> 'Esborra la còpia de seguretat',
-	'DELETE_SELECTED_BACKUP'	=> 'Esteu segur que voleu eliminar la còpia de seguretat seleccionada?',
+	'DELETE_SELECTED_BACKUP'	=> 'Esteu segur de que voleu eliminar la còpia de seguretat seleccionada?',
 	'DESELECT_ALL'		=> 'Desselecciona-les totes',
 	'DOWNLOAD_BACKUP'	=> 'Baixa la còpia de seguretat',
 
@@ -59,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'És possible que el fitxer de còpia de seguretat estigui malmès.',
 	'RESTORE_OPTIONS'		=> 'Opcions de restauració',
-	'RESTORE_SELECTED_BACKUP'	=> 'Esteu segur que voleu restaurar la còpia de seguretat seleccionada?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Esteu segur de que voleu restaurar la còpia de seguretat seleccionada?',
 	'RESTORE_SUCCESS'		=> 'S’ha restaurat la base de dades correctament.<br /><br />El fòrum ha de trobar-se en el mateix estat que quan es va fer la còpia de seguretat.',
 
 	'SELECT_ALL'			=> 'Selecciona-les totes',
@@ -73,5 +74,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> 'Selecció de taules',
 	'TABLE_SELECT_ERROR'=> 'Cal que seleccioneu una taula com a mínim.',
 ));
-
-?>

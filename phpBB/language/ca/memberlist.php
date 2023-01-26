@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* memberlist [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: memberlist.php,v 1.32 2007/05/16 14:44:56 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -47,11 +48,13 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Abans',
 
-	'CC_EMAIL'				=> 'Envia’m una còpia d’aquest correu.',
-	'CONTACT_USER'			=> 'Contacta amb',
+	'CC_SENDER'				=> 'Envia’m una còpia d’aquest correu.',
+	'CONTACT_ADMIN'			=> 'Contact amb un administrador del fòrum',
 
 	'DEST_LANG'				=> 'Idioma',
 	'DEST_LANG_EXPLAIN'		=> 'Selecioneu l’idioma adient per al destinatari d’aquest missatge, si és que està disponible.',
+
+	'EDIT_PROFILE'			=> 'Edita el perfil',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Aquest missatge s’enviarà com text net, no hi inclogueu HTML ni BBCode. L’adreça de resposta per aquest missatge serà la vostra adreça electrònica.',
 	'EMAIL_DISABLED'		=> 'Les funcions d’enviament de correu electrònic estan desactivades.',
@@ -61,6 +64,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Heu d’introduir un missatge per enviar el correu.',
 	'EMPTY_MESSAGE_IM'		=> 'Heu d’introduir un missatge.',
 	'EMPTY_NAME_EMAIL'		=> 'Heu d’introduir el nom real del destinatari.',
+	'EMPTY_SENDER_EMAIL'	=> 'Heu d’especificar una adreça electrònica vàlida.',
+	'EMPTY_SENDER_NAME'		=> 'Heu d’especificar un nom.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Heu d’especificar un assumpte per al correu.',
 	'EQUAL_TO'				=> 'Igual a',
 
@@ -72,16 +77,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Oculta la cerca de membres',
 
 	'IM_ADD_CONTACT'		=> 'Afegeix un contacte',
-	'IM_AIM'				=> 'Tingueu en compte que cal tenir l’AOL Instant Messenger instal·lat per utilitzar aquesta funció.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Baixa l’aplicació',
-	'IM_ICQ'				=> 'Tingueu en compte que els usuaris poden haver demanat no rebre missatges instantanis d’usuaris desconeguts.',
 	'IM_JABBER'				=> 'Tingueu en compte que els usuaris poden haver demanat no rebre missatges instantanis d’usuaris desconeguts.',
 	'IM_JABBER_SUBJECT'		=> 'Aquest és un missatge automàtic, no hi respongueu! Missatge de l’usuari %1$s a les %2$s.',
 	'IM_MESSAGE'			=> 'El vostre missatge',
-	'IM_MSNM'				=> 'Tingueu en compte que cal tenir el Windows Messenger instal·lat per utilitzar aquesta funció.',
-	'IM_MSNM_BROWSER'		=> 'El vostre navegador no és compatible amb aquesta funció.',
-	'IM_MSNM_CONNECT'		=> 'No esteu connectat al MSNM.\nHeu de connectar-vos al MSNM per continuar.',
 	'IM_NAME'				=> 'El vostre nom',
 	'IM_NO_DATA'			=> 'No hi ha informació de contacte adient per aquest usuari.',
 	'IM_NO_JABBER'			=> 'La missatgeria directa d’usuaris Jabber no està permesa en aquest fòrum. Necessitareu un client Jabber instal·lat a la vostra màquina per posar-vos en contacte amb el destinatari llistat a sobre.',
@@ -93,15 +92,19 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Darrera connexió',
 	'LESS_THAN'					=> 'Menys de ',
-	'LIST_USER'					=> '1 usuari',
-	'LIST_USERS'				=> '%d usuaris',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Cal estar registrat i haver iniciat la sessió per mostrar el llistat amb l’equip del fòrum.',
+	'LIST_USERS'				=> array(
+		1	=> '%d usuari',
+		2	=> '%d usuaris',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Cal estar registrat i haver iniciat la sessió per mostrar el llistat amb l’equip del fòrum.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Cal estar registrat i haver iniciat la sessió per accedir a la llista de membres.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Cal estar registrat i haver iniciat la sessió per cercar usuaris.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Cal estar registrat i haver iniciat la sessió per visualitzar perfils.',
 
 	'MORE_THAN'				=> 'Més de ',
 
+	'NO_CONTACT_FORM'		=> 'El formulari de contacte amb l’administrador del fòrum està desactivat.',
+	'NO_CONTACT_PAGE'		=> 'La pàgina de contacte amb l’administrador del fòrum està desactivada.',
 	'NO_EMAIL'				=> 'No se us permet enviar correus electrònics a aquest usuari.',
 	'NO_VIEW_USERS'			=> 'No esteu autoritzat a veure la llista d’usuaris ni els perfils.',
 
@@ -117,12 +120,12 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Selecciona els marcats',
 	'SELECT_SORT_METHOD'	=> 'Selecciona el mètode d’ordenació',
-	'SEND_AIM_MESSAGE'		=> 'Envia un missatge AIM',
+	'SENDER_EMAIL_ADDRESS'	=> 'La vostra adreça electrònica',
+	'SENDER_NAME'			=> 'El vostre nom',
 	'SEND_ICQ_MESSAGE'		=> 'Envia un missatge ICQ',
 	'SEND_IM'				=> 'Missatgeria instantània',
 	'SEND_JABBER_MESSAGE'	=> 'Envia un missatge Jabber',
 	'SEND_MESSAGE'			=> 'Missatge',
-	'SEND_MSNM_MESSAGE'		=> 'Envia un missatge MSNM/WLM',
 	'SEND_YIM_MESSAGE'		=> 'Envia un missatge YIM',
 	'SORT_EMAIL'			=> 'Adreça electrònica',
 	'SORT_LAST_ACTIVE'		=> 'Darrera connexió',
@@ -135,14 +138,16 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'No hi ha cap recordatori enviat actualment',
 		1		=> '%1$d recordatori enviat<br />» %2$s',
+		2		=> '%1$d recordatoris enviats<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Connectat',
 	'USER_PRESENCE'			=> 'Presència als fòrums',
+	'USERS_PER_PAGE'		=> 'Usuaris per pàgina',
 
 	'VIEWING_PROFILE'		=> 'Esteu veient el perfil de: %s',
-	'VISITED'				=> 'Darrera connexió',
-
-	'WWW'					=> 'Lloc web',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Mostra el perfil de Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'Mostra el perfil de  Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'Mostra el perfil de  Twitter',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Mostra el canal de YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Mostra el perfil de  Google+',
 ));
-
-?>

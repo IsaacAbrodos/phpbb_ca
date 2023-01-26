@@ -1,11 +1,14 @@
 <?php
 /**
-* acp_permissions_phpbb (phpBB Permission Set) [Catalan]
 *
-* @package language
-* @version $Id: permissions_phpbb.php 8911 2008-09-23 13:03:33Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
 /**
@@ -34,208 +37,175 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 /**
-*	MODDERS PLEASE NOTE
+*	EXTENSION-DEVELOPERS PLEASE NOTE
 *
-*	You are able to put your permission sets into a separate file too by
-*	prefixing the new file with permissions_ and putting it into the acp
-*	language folder.
-*
-*	An example of how the file could look like:
-*
-*	<code>
-*
-*	if (empty($lang) || !is_array($lang))
-*	{
-*		$lang = array();
-*	}
-*
-*	// Adding new category
-*	$lang['permission_cat']['bugs'] = 'Bugs';
-*
-*	// Adding new permission set
-*	$lang['permission_type']['bug_'] = 'Bug Permissions';
-*
-*	// Adding the permissions
-*	$lang = array_merge($lang, array(
-*		'acl_bug_view'		=> array('lang' => 'Can view bug reports', 'cat' => 'bugs'),
-*		'acl_bug_post'		=> array('lang' => 'Can post bugs', 'cat' => 'post'), // Using a phpBB category here
-*	));
-*
-*	</code>
+*	You are able to put your permission sets into your extension.
+*	The permissions logic should be added via the 'core.permissions' event.
+*	You can easily add new permission categories, types and permissions, by
+*	simply merging them into the respective arrays.
+*	The respective language strings should be added into a language file, that
+*	start with 'permissions_', so they are automatically loaded within the ACP.
 */
 
-// Define categories and permission types
 $lang = array_merge($lang, array(
-	'permission_cat'	=> array(
-		'actions'		=> 'Accions',
-		'content'		=> 'Contingut',
-		'forums'		=> 'Fòrums',
-		'misc'			=> 'Miscel·lània',
-		'permissions'	=> 'Permisos',
-		'pm'			=> 'Missatges privats',
-		'polls'			=> 'Enquestes',
-		'post'			=> 'Entrada',
-		'post_actions'	=> 'Accions d’entrades',
-		'posting'		=> 'Publicació d’entrades',
-		'profile'		=> 'Perfil',
-		'settings'		=> 'Configuracions',
-		'topic_actions'	=> 'Accions de temes',
-		'user_group'	=> 'Usuaris i grups',
-	),
-
-	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
-	'permission_type'	=> array(
-		'u_'			=> 'Permisos d’usuari',
-		'a_'			=> 'Permisos d’administrador',
-		'm_'			=> 'Permisos de moderador',
-		'f_'			=> 'Permisos del fòrum',
-		'global'		=> array(
-			'm_'			=> 'Permisos dels moderadors globals',
-		),
-	),
+		'ACL_CAT_ACTIONS'		=> 'Accions',
+		'ACL_CAT_CONTENT'		=> 'Contingut',
+		'ACL_CAT_FORUMS'		=> 'Fòrums',
+		'ACL_CAT_MISC'			=> 'Miscel·lània',
+		'ACL_CAT_PERMISSIONS'	=> 'Permisos',
+		'ACL_CAT_PM'			=> 'Missatges privats',
+		'ACL_CAT_POLLS'			=> 'Enquestes',
+		'ACL_CAT_POST'			=> 'Entrada',
+		'ACL_CAT_POST_ACTIONS'	=> 'Accions d’entrades',
+		'ACL_CAT_POSTING'		=> 'Publicació d’entrades',
+		'ACL_CAT_PROFILE'		=> 'Perfil',
+		'ACL_CAT_SETTINGS'		=> 'Configuracions',
+		'ACL_CAT_TOPIC_ACTIONS'	=> 'Accions de temes',
+		'ACL_CAT_USER_GROUP'	=> 'Usuaris i grups',
 ));
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => 'Pot veure perfils, la llista de membres i la llista d’usuaris connectats', 'cat' => 'profile'),
-	'acl_u_chgname'		=> array('lang' => 'Pot canviar el seu nom d’usuari', 'cat' => 'profile'),
-	'acl_u_chgpasswd'	=> array('lang' => 'Pot canviar la seva contrasenya', 'cat' => 'profile'),
-	'acl_u_chgemail'	=> array('lang' => 'Pot canviar la seva adreça electrònica', 'cat' => 'profile'),
-	'acl_u_chgavatar'	=> array('lang' => 'Pot canviar el seu avatar', 'cat' => 'profile'),
-	'acl_u_chggrp'		=> array('lang' => 'Pot canviar el seu grup per defecte', 'cat' => 'profile'),
+	'ACL_U_VIEWPROFILE'	=> 'Pot veure perfils, la llista de membres i la llista d’usuaris connectats',
+	'ACL_U_CHGNAME'		=> 'Pot canviar el seu nom d’usuari',
+	'ACL_U_CHGPASSWD'	=> 'Pot canviar la seva contrasenya',
+	'ACL_U_CHGEMAIL'	=> 'Pot canviar la seva adreça electrònica',
+	'ACL_U_CHGAVATAR'	=> 'Pot canviar el seu avatar',
+	'ACL_U_CHGGRP'		=> 'Pot canviar el seu grup per defecte',
+	'ACL_U_CHGPROFILEINFO'	=> 'Pot canviar informació de camps del perfil',
 
-	'acl_u_attach'		=> array('lang' => 'Pot adjuntar fitxers', 'cat' => 'post'),
-	'acl_u_download'	=> array('lang' => 'Pot baixar fitxers', 'cat' => 'post'),
-	'acl_u_savedrafts'	=> array('lang' => 'Pot desar esborranys', 'cat' => 'post'),
-	'acl_u_chgcensors'	=> array('lang' => 'Pot inhabilitar la censura de paraules', 'cat' => 'post'),
-	'acl_u_sig'			=> array('lang' => 'Pot utilitzar una signatura', 'cat' => 'post'),
+	'ACL_U_ATTACH'		=> 'Pot adjuntar fitxers',
+	'ACL_U_DOWNLOAD'	=> 'Pot baixar fitxers',
+	'ACL_U_SAVEDRAFTS'	=> 'Pot desar esborranys',
+	'ACL_U_CHGCENSORS'	=> 'Pot inhabilitar la censura de paraules',
+	'ACL_U_SIG'			=> 'Pot utilitzar una signatura',
 
-	'acl_u_sendpm'		=> array('lang' => 'Pot enviar missatges privats', 'cat' => 'pm'),
-	'acl_u_masspm'		=> array('lang' => 'Pot enviar missatges privats a múltiples usuaris', 'cat' => 'pm'),
-	'acl_u_masspm_group'=> array('lang' => 'Pot enviar missatges privats a grups', 'cat' => 'pm'),
-	'acl_u_readpm'		=> array('lang' => 'Pot llegir missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_edit'		=> array('lang' => 'Pot editar els seus missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_delete'	=> array('lang' => 'Pot eliminar missatges privats de la seva carpeta', 'cat' => 'pm'),
-	'acl_u_pm_forward'	=> array('lang' => 'Pot reenviar missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_emailpm'	=> array('lang' => 'Pot enviar per correu electrònic missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_printpm'	=> array('lang' => 'Pot imprimir missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_attach'	=> array('lang' => 'Pot adjuntar fitxers als missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_download'	=> array('lang' => 'Pot baixar fitxers als missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_bbcode'	=> array('lang' => 'Pot utilitzar el BBCode als missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_smilies'	=> array('lang' => 'Pot utilitzar emoticones als missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => 'Pot utilitzar l’etiqueta del BBCode [img] als missatges privats', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => 'Pot utilitzar l’etiqueta del BBCode [flash] als missatges privats', 'cat' => 'pm'),
+	'ACL_U_SENDPM'		=> 'Pot enviar missatges privats',
+	'ACL_U_MASSPM'		=> 'Pot enviar missatges privats a múltiples usuaris',
+	'ACL_U_MASSPM_GROUP'=> 'Pot enviar missatges privats a grups',
+	'ACL_U_READPM'		=> 'Pot llegir missatges privats',
+	'ACL_U_PM_EDIT'		=> 'Pot editar els seus missatges privats',
+	'ACL_U_PM_DELETE'	=> 'Pot eliminar missatges privats de la seva carpeta',
+	'ACL_U_PM_FORWARD'	=> 'Pot reenviar missatges privats',
+	'ACL_U_PM_EMAILPM'	=> 'Pot enviar per correu electrònic missatges privats',
+	'ACL_U_PM_PRINTPM'	=> 'Pot imprimir missatges privats',
+	'ACL_U_PM_ATTACH'	=> 'Pot adjuntar fitxers als missatges privats',
+	'ACL_U_PM_DOWNLOAD'	=> 'Pot baixar fitxers als missatges privats',
+	'ACL_U_PM_BBCODE'	=> 'Pot utilitzar el BBCode als missatges privats',
+	'ACL_U_PM_SMILIES'	=> 'Pot utilitzar emoticones als missatges privats',
+	'ACL_U_PM_IMG'		=> 'Pot utilitzar l’etiqueta del BBCode [img] als missatges privats',
+	'ACL_U_PM_FLASH'	=> 'Pot utilitzar l’etiqueta del BBCode [flash] als missatges privats',
 
-	'acl_u_sendemail'	=> array('lang' => 'Pot enviar correus electrònics', 'cat' => 'misc'),
-	'acl_u_sendim'		=> array('lang' => 'Pot enviar missatges instantanis', 'cat' => 'misc'),
-	'acl_u_ignoreflood'	=> array('lang' => 'Pot ignorar el límit d’inundació', 'cat' => 'misc'),
-	'acl_u_hideonline'	=> array('lang' => 'Pot ocultar la seva presència', 'cat' => 'misc'),
-	'acl_u_viewonline'	=> array('lang' => 'Pot veure els usuaris ocults', 'cat' => 'misc'),
-	'acl_u_search'		=> array('lang' => 'Pot cercar el fòrum', 'cat' => 'misc'),
+	'ACL_U_SENDEMAIL'	=> 'Pot enviar correus electrònics',
+	'ACL_U_SENDIM'		=> 'Pot enviar missatges instantanis',
+	'ACL_U_IGNOREFLOOD'	=> 'Pot ignorar el límit d’inundació',
+	'ACL_U_HIDEONLINE'	=> 'Pot ocultar la seva presència',
+	'ACL_U_VIEWONLINE'	=> 'Pot veure els usuaris ocults',
+	'ACL_U_SEARCH'		=> 'Pot cercar el fòrum',
 ));
 
 // Forum Permissions
 $lang = array_merge($lang, array(
-	'acl_f_list'		=> array('lang' => 'Pot veure el fòrum', 'cat' => 'post'),
-	'acl_f_read'		=> array('lang' => 'Pot llegir el fòrum', 'cat' => 'post'),
-	'acl_f_post'		=> array('lang' => 'Pot crear temes nous', 'cat' => 'post'),
-	'acl_f_reply'		=> array('lang' => 'Pot respondre als temes', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'Pot utilitzar les icones de tema/entrada', 'cat' => 'post'),
-	'acl_f_announce'	=> array('lang' => 'Pot publicar avisos', 'cat' => 'post'),
-	'acl_f_sticky'		=> array('lang' => 'Pot publicar temes recurrents', 'cat' => 'post'),
+	'ACL_F_LIST'		=> 'Pot veure el fòrum',
+	'ACL_F_READ'		=> 'Pot llegir el fòrum',
+	'ACL_F_SEARCH'		=> 'Pot cercar el fòrum',
+	'ACL_F_SUBSCRIBE'	=> 'Es pot subscriure al fòrum',
+	'ACL_F_PRINT'		=> 'Pot imprimir temes',
+	'ACL_F_EMAIL'		=> 'Pot enviar temes per correu electrònic',
+	'ACL_F_BUMP'		=> 'Pot reactivar temes',
+	'ACL_F_USER_LOCK'	=> 'Pot bloquejar els seus temes',
+	'ACL_F_DOWNLOAD'	=> 'Pot baixar fitxers',
+	'ACL_F_REPORT'		=> 'Pot informar d’entrades',
 
-	'acl_f_poll'		=> array('lang' => 'Pot crear enquestes', 'cat' => 'polls'),
-	'acl_f_vote'		=> array('lang' => 'Pot votar a les enquestes', 'cat' => 'polls'),
-	'acl_f_votechg'		=> array('lang' => 'Pot canviar el seu vot', 'cat' => 'polls'),
+	'ACL_F_POST'		=> 'Pot crear temes nous',
+	'ACL_F_STICKY'		=> 'Pot publicar temes recurrents',
+	'ACL_F_ANNOUNCE'	=> 'Pot publicar avisos',
+	'ACL_F_REPLY'		=> 'Pot respondre als temes',
+	'ACL_F_EDIT'		=> 'Pot editar les seves entrades',
+	'ACL_F_DELETE'		=> 'Pot eliminar permanentment les seves entrades',
+	'ACL_F_SOFTDELETE'	=> 'Pot eliminar temporalment les seves entrades<br /><em>Els moderadors, que tenen permisos d’aprovació d’entrades, poden restaurar les entrades eliminades temporalment.</em>',
+	'ACL_F_IGNOREFLOOD' => 'Pot ignorar el límit d’inundació',
+	'ACL_F_POSTCOUNT'	=> 'Incrementa el comptador d’entrades<br /><em>Tingueu en compte que aquesta configuració només afecta les entrades noves.</em>',
+	'ACL_F_NOAPPROVE'	=> 'Pot publicar entrades sense que siguin aprovades',
 
-	'acl_f_attach'		=> array('lang' => 'Pot adjuntar fitxers', 'cat' => 'content'),
-	'acl_f_download'	=> array('lang' => 'Pot baixar fitxers', 'cat' => 'content'),
-	'acl_f_sigs'		=> array('lang' => 'Pot utilitzar signatures', 'cat' => 'content'),
-	'acl_f_bbcode'		=> array('lang' => 'Pot utilitzar el BBCode', 'cat' => 'content'),
-	'acl_f_smilies'		=> array('lang' => 'Pot utilitzar emoticones', 'cat' => 'content'),
-	'acl_f_img'			=> array('lang' => 'Pot utilitzar l’etiqueta del BBCode [img]', 'cat' => 'content'),
-	'acl_f_flash'		=> array('lang' => 'Pot utilitzar l’etiqueta del BBCode [flash]', 'cat' => 'content'),
-
-	'acl_f_edit'		=> array('lang' => 'Pot editar les seves entrades', 'cat' => 'actions'),
-	'acl_f_delete'		=> array('lang' => 'Pot eliminar les seves entrades', 'cat' => 'actions'),
-	'acl_f_user_lock'	=> array('lang' => 'Pot bloquejar els seus temes', 'cat' => 'actions'),
-	'acl_f_bump'		=> array('lang' => 'Pot reactivar temes', 'cat' => 'actions'),
-	'acl_f_report'		=> array('lang' => 'Pot informar d’entrades', 'cat' => 'actions'),
-	'acl_f_subscribe'	=> array('lang' => 'Es Pot subscriure al fòrum', 'cat' => 'actions'),
-	'acl_f_print'		=> array('lang' => 'Pot imprimir temes', 'cat' => 'actions'),
-	'acl_f_email'		=> array('lang' => 'Pot enviar temes per correu electrònic', 'cat' => 'actions'),
-
-	'acl_f_search'		=> array('lang' => 'Pot cercar el fòrum', 'cat' => 'misc'),
-	'acl_f_ignoreflood' => array('lang' => 'Pot ignorar el límit d’inundació', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => 'Incrementa el comptador d’entrades<br /><em>Tingueu en compte que aquesta configuració només afecta les entrades noves.</em>', 'cat' => 'misc'),
-	'acl_f_noapprove'	=> array('lang' => 'Pot publicar entrades sense que siguin aprovades', 'cat' => 'misc'),
+	'ACL_F_ATTACH'		=> 'Pot adjuntar fitxers',
+	'ACL_F_ICONS'		=> 'Pot utilitzar les icones de tema/entrada',
+	'ACL_F_BBCODE'		=> 'Pot utilitzar el BBCode',
+	'ACL_F_FLASH'		=> 'Pot utilitzar l’etiqueta del BBCode [flash]',
+	'ACL_F_IMG'			=> 'Pot utilitzar l’etiqueta del BBCode [img]',
+	'ACL_F_SIGS'		=> 'Pot utilitzar signatures',
+	'ACL_F_SMILIES'		=> 'Pot utilitzar emoticones',
+	
+	'ACL_F_POLL'		=> 'Pot crear enquestes',
+	'ACL_F_VOTE'		=> 'Pot votar a les enquestes',
+	'ACL_F_VOTECHG'		=> 'Pot canviar el seu vot',
 ));
 
 // Moderator Permissions
 $lang = array_merge($lang, array(
-	'acl_m_edit'		=> array('lang' => 'Pot editar entrades', 'cat' => 'post_actions'),
-	'acl_m_delete'		=> array('lang' => 'Pot eliminar entrades', 'cat' => 'post_actions'),
-	'acl_m_approve'		=> array('lang' => 'Pot aprovar entrades', 'cat' => 'post_actions'),
-	'acl_m_report'		=> array('lang' => 'Pot tancar i eliminar informes', 'cat' => 'post_actions'),
-	'acl_m_chgposter'	=> array('lang' => 'Pot canviar l’autor de les entrades', 'cat' => 'post_actions'),
+	'ACL_M_EDIT'		=> 'Pot editar entrades',
+	'ACL_M_DELETE'		=> 'Pot eliminar entrades permanentment',
+	'ACL_M_SOFTDELETE'	=> 'Pot eliminar entrades de temporalment<br /><em>Els moderadors, que tenen permisos d’aprovació d’entrades, poden restaurar entrades eliminades temporalment.</em>',
+	'ACL_M_APPROVE'		=> 'Pot aprovar i restaurar entrades',
+	'ACL_M_REPORT'		=> 'Pot tancar i eliminar informes',
+	'ACL_M_CHGPOSTER'	=> 'Pot canviar l’autor de les entrades',
 
-	'acl_m_move'	=> array('lang' => 'Pot desplaçar temes', 'cat' => 'topic_actions'),
-	'acl_m_lock'	=> array('lang' => 'Pot bloquejar temes', 'cat' => 'topic_actions'),
-	'acl_m_split'	=> array('lang' => 'Pot dividir temes', 'cat' => 'topic_actions'),
-	'acl_m_merge'	=> array('lang' => 'Pot combinar temes', 'cat' => 'topic_actions'),
+	'ACL_M_MOVE'	=> 'Pot desplaçar temes',
+	'ACL_M_LOCK'	=> 'Pot bloquejar temes',
+	'ACL_M_SPLIT'	=> 'Pot dividir temes',
+	'ACL_M_MERGE'	=> 'Pot combinar temes',
 
-	'acl_m_info'	=> array('lang' => 'Pot veure els detalls de les entrades', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'Pot fer advertiments a usuaris<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
-	'acl_m_ban'		=> array('lang' => 'Pot gestionar bandejos<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'ACL_M_INFO'	=> 'Pot veure els detalls de les entrades',
+	'ACL_M_WARN'	=> 'Pot fer advertiments a usuaris<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'		=> 'Pot gestionar bandejos<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'Pot modificar la configuració del fòrum/comprovar si hi ha actualitzacions', 'cat' => 'settings'),
-	'acl_a_server'		=> array('lang' => 'Pot modificar la configuració de servidor/comunicacions', 'cat' => 'settings'),
-	'acl_a_jabber'		=> array('lang' => 'Pot modificar la configuració del Jabber', 'cat' => 'settings'),
-	'acl_a_phpinfo'		=> array('lang' => 'Pot veure la configuració del PHP', 'cat' => 'settings'),
+	'ACL_A_BOARD'		=> 'Pot modificar la configuració del fòrum/comprovar si hi ha actualitzacions',
+	'ACL_A_SERVER'		=> 'Pot modificar la configuració de servidor/comunicacions',
+	'ACL_A_JABBER'		=> 'Pot modificar la configuració del Jabber',
+	'ACL_A_PHPINFO'		=> 'Pot veure la configuració del PHP',
 
-	'acl_a_forum'		=> array('lang' => 'Pot gestionar fòrums', 'cat' => 'forums'),
-	'acl_a_forumadd'	=> array('lang' => 'Pot crear fòrums nous', 'cat' => 'forums'),
-	'acl_a_forumdel'	=> array('lang' => 'Pot eliminar fòrums', 'cat' => 'forums'),
-	'acl_a_prune'		=> array('lang' => 'Pot podar fòrums', 'cat' => 'forums'),
+	'ACL_A_FORUM'		=> 'Pot gestionar fòrums',
+	'ACL_A_FORUMADD'	=> 'Pot crear fòrums nous',
+	'ACL_A_FORUMDEL'	=> 'Pot eliminar fòrums',
+	'ACL_A_PRUNE'		=> 'Pot podar fòrums',
 
-	'acl_a_icons'		=> array('lang' => 'Pot modificar les icones de tema/entrada i les emoticones', 'cat' => 'posting'),
-	'acl_a_words'		=> array('lang' => 'Pot modificar les paraules censurades', 'cat' => 'posting'),
-	'acl_a_bbcode'		=> array('lang' => 'Pot definir etiquetes BBCode', 'cat' => 'posting'),
-	'acl_a_attach'		=> array('lang' => 'Pot modificar la configuració de fitxers adjunts', 'cat' => 'posting'),
+	'ACL_A_ICONS'		=> 'Pot modificar les icones de tema/entrada i les emoticones',
+	'ACL_A_WORDS'		=> 'Pot modificar les paraules censurades',
+	'ACL_A_BBCODE'		=> 'Pot definir etiquetes BBCode',
+	'ACL_A_ATTACH'		=> 'Pot modificar la configuració de fitxers adjunts',
 
-	'acl_a_user'		=> array('lang' => 'Pot gestionar usuaris<br /><em>Això també inclou veure la cadena d’identificació del navegador de l’usuari a la llista d’usuaris connectats.</em>', 'cat' => 'user_group'),
-	'acl_a_userdel'		=> array('lang' => 'Pot eliminar/podar usuaris', 'cat' => 'user_group'),
-	'acl_a_group'		=> array('lang' => 'Pot gestionar grups', 'cat' => 'user_group'),
-	'acl_a_groupadd'	=> array('lang' => 'Pot afegir grups nous', 'cat' => 'user_group'),
-	'acl_a_groupdel'	=> array('lang' => 'Pot eliminar grups', 'cat' => 'user_group'),
-	'acl_a_ranks'		=> array('lang' => 'Pot gestionar els rangs', 'cat' => 'user_group'),
-	'acl_a_profile'		=> array('lang' => 'Pot gestionar els camps personalitzats del perfil', 'cat' => 'user_group'),
-	'acl_a_names'		=> array('lang' => 'Pot gestionar els noms prohibits', 'cat' => 'user_group'),
-	'acl_a_ban'			=> array('lang' => 'Pot gestionar els bandejos', 'cat' => 'user_group'),
+	'ACL_A_USER'		=> 'Pot gestionar usuaris<br /><em>Això també inclou veure la cadena d’identificació del navegador de l’usuari a la llista d’usuaris connectats.</em>',
+	'ACL_A_USERDEL'		=> 'Pot eliminar/podar usuaris',
+	'ACL_A_GROUP'		=> 'Pot gestionar grups',
+	'ACL_A_GROUPADD'	=> 'Pot afegir grups nous',
+	'ACL_A_GROUPDEL'	=> 'Pot eliminar grups',
+	'ACL_A_RANKS'		=> 'Pot gestionar els rangs',
+	'ACL_A_PROFILE'		=> 'Pot gestionar els camps personalitzats del perfil',
+	'ACL_A_NAMES'		=> 'Pot gestionar els noms prohibits',
+	'ACL_A_BAN'			=> 'Pot gestionar els bandejos',
 
-	'acl_a_viewauth'	=> array('lang' => 'Pot veure màscares de permisos', 'cat' => 'permissions'),
-	'acl_a_authgroups'	=> array('lang' => 'Pot modificar els permisos de grups individuals', 'cat' => 'permissions'),
-	'acl_a_authusers'	=> array('lang' => 'Pot modificar els permisos d’usuaris individuals', 'cat' => 'permissions'),
-	'acl_a_fauth'		=> array('lang' => 'Pot modificar la classe de permisos del fòrum', 'cat' => 'permissions'),
-	'acl_a_mauth'		=> array('lang' => 'Pot modificar la classe de permisos dels moderadors', 'cat' => 'permissions'),
-	'acl_a_aauth'		=> array('lang' => 'Pot modificar la classe de permisos dels administradors', 'cat' => 'permissions'),
-	'acl_a_uauth'		=> array('lang' => 'Pot modificar la classe de permisos dels usuaris', 'cat' => 'permissions'),
-	'acl_a_roles'		=> array('lang' => 'Pot gestionar rols', 'cat' => 'permissions'),
-	'acl_a_switchperm'	=> array('lang' => 'Pot utilitzar els permisos d’altres usuaris', 'cat' => 'permissions'),
+	'ACL_A_VIEWAUTH'	=> 'Pot veure màscares de permisos',
+	'ACL_A_AUTHGROUPS'	=> 'Pot modificar els permisos de grups individuals',
+	'ACL_A_AUTHUSERS'	=> 'Pot modificar els permisos d’usuaris individuals',
+	'ACL_A_FAUTH'		=> 'Pot modificar la classe de permisos del fòrum',
+	'ACL_A_MAUTH'		=> 'Pot modificar la classe de permisos dels moderadors',
+	'ACL_A_AAUTH'		=> 'Pot modificar la classe de permisos dels administradors',
+	'ACL_A_UAUTH'		=> 'Pot modificar la classe de permisos dels usuaris',
+	'ACL_A_ROLES'		=> 'Pot gestionar rols',
+	'ACL_A_SWITCHPERM'	=> 'Pot utilitzar els permisos d’altres usuaris',
 
-	'acl_a_styles'		=> array('lang' => 'Pot gestionar els estils', 'cat' => 'misc'),
-	'acl_a_viewlogs'	=> array('lang' => 'pot veurer els registres', 'cat' => 'misc'),
-	'acl_a_clearlogs'	=> array('lang' => 'Pot eliminar els registres', 'cat' => 'misc'),
-	'acl_a_modules'		=> array('lang' => 'Pot gestionar els mòduls', 'cat' => 'misc'),
-	'acl_a_language'	=> array('lang' => 'Pot gestionar els paquets d’idioma', 'cat' => 'misc'),
-	'acl_a_email'		=> array('lang' => 'Pot enviar correus eletrònics massius', 'cat' => 'misc'),
-	'acl_a_bots'		=> array('lang' => 'Pot gestionar els robots', 'cat' => 'misc'),
-	'acl_a_reasons'		=> array('lang' => 'Pot gestionar les raons d’informe/denegació', 'cat' => 'misc'),
-	'acl_a_backup'		=> array('lang' => 'Pot fer una còpia de seguretat/restaurar la base de dades', 'cat' => 'misc'),
-	'acl_a_search'		=> array('lang' => 'Pot gestionar la configuració de cerca i els motors', 'cat' => 'misc'),
+	'ACL_A_STYLES'		=> 'Pot gestionar els estils',
+	'ACL_A_EXTENSIONS'	=> 'Pot gestionar extensions',
+	'ACL_A_VIEWLOGS'	=> 'pot veurer els registres',
+	'ACL_A_CLEARLOGS'	=> 'Pot eliminar els registres',
+	'ACL_A_MODULES'		=> 'Pot gestionar els mòduls',
+	'ACL_A_LANGUAGE'	=> 'Pot gestionar els paquets d’idioma',
+	'ACL_A_EMAIL'		=> 'Pot enviar correus eletrònics massius',
+	'ACL_A_BOTS'		=> 'Pot gestionar els robots',
+	'ACL_A_REASONS'		=> 'Pot gestionar les raons d’informe/denegació',
+	'ACL_A_BACKUP'		=> 'Pot fer una còpia de seguretat/restaurar la base de dades',
+	'ACL_A_SEARCH'		=> 'Pot gestionar la configuració de cerca i els motors',
 ));
-
-?>

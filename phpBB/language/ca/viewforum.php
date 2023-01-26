@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* viewforum [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: viewforum.php,v 1.17 2007/05/10 15:31:21 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -64,8 +65,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_POSTS_LOCKED'	=> 'Entrades no llegides [ Bloquejat ]',
 
 	'VIEW_FORUM'			=> 'Mostra el fòrum',
-	'VIEW_FORUM_TOPIC'		=> '1 tema',
-	'VIEW_FORUM_TOPICS'		=> '%d temes',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> '%d tema',
+		2	=> '%d temes',
+	),
 ));
-
-?>

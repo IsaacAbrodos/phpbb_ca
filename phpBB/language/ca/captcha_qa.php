@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* captcha_qa [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: captcha_qa.php 9966 2009-08-12 15:12:03Z Kellanved $
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -52,7 +53,6 @@ $lang = array_merge($lang, array(
 	'QUESTION_LANG'				=> 'Idioma',
 	'QUESTION_LANG_EXPLAIN'		=> 'L’idioma en què estan escrites la pregunta i les respostes.',
 	'QUESTION_STRICT'			=> 'Comprovació estricta',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
 	'QUESTION_STRICT_EXPLAIN'	=> 'Habiliteu aquesta opció per que es comprovin les majúscules, les minúscules els signes de puntuació i els espais en blanc.',
 
 	'QUESTION_TEXT'				=> 'Pregunta',
@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	'QA_LAST_QUESTION'			=> 'No podeu eliminar totes les preguntes mentre el connector està activat.',
 
 ));
-
-?>

@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_search [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php 9438 2009-04-11 11:09:45Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,7 +42,7 @@ $lang = array_merge($lang, array(
 
 	'COMMON_WORD_THRESHOLD'					=> 'Llindar per a paraules comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Les paraules que apareguin en un percentatge més gran d’entre totes les entrades es consideraran comuns. Les paraules comuns s’ignoren en les consultes de cerca. Utilitzeu el zero per inhabilitar-ho. Només té efecte si hi ha més de 100 entrades. Si voleu que es reconsiderin paraules actualment considerades comuns, cal que torneu a crear l’índex.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Esteu segur que voleu canviar a un motor de cerca diferent? Després de canviar el motor de cerca, caldrà que creeu un índex per al nou motor. Si no teniu pensat tornar al motor de cerca antic, també podeu eliminar l’índex del motor antic per alliberar recursos del sistema.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Esteu segur de que voleu canviar a un motor de cerca diferent? Després de canviar el motor de cerca, caldrà que creeu un índex per al nou motor. Si no teniu pensat tornar al motor de cerca antic, també podeu eliminar l’índex del motor antic per alliberar recursos del sistema.',
 	'CONTINUE_DELETING_INDEX'				=> 'Continua amb el procediment d’eliminació de l’índex anterior',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'S’ha iniciat un procediment d’eliminació d’índex. Per accedir a la pàgina de l’índex de cerques cal que el completeu o el cancel·leu.',
 	'CONTINUE_INDEXING'						=> 'Continua el procediment d’indexació anterior',
@@ -52,15 +53,38 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'S’està eliminant l’índex',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'El motor de cerca està netejant el seu índex. Això pot trigar uns quants minuts.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Només podeu utilitzar el motor MySQL fulltext amb MySQL4 o superior.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Només podeu utilitzar el motor MySQL fulltext amb MySQL4 o superior.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Els índexs MySQL fulltext només es poden utilitzar amb taules MyISAM o taules InnoDB. Per utilitzar índexs de text complet amb InnoDB és necessària la versió 5.6.4 o superior del MySQL.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Nombre total d’entrades indexades',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'Compatibilitat per caràcters UTF-8 no llatins utilitzant mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> 'Compatibilitat per caràcters UTF-8 no llatins utilitzant PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Si PCRE no té propietats de caràcters unicode, el motor de cerca intentarà utilitzar el motor d’expressions regulars de mbstring.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Aquest motor de cerca necessita les propietats de caràcters unicode del PCRE que només estan disponibles al PHP 4.4, 5.1 i superiors, si voleu fer cerques utilitzant caràcters no llatins.',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Només s’indexaran per a les cerques les paraules que tinguin com a mínim aquest nombre de caràcters. Només podeu canviar aquest paràmetre modificant la configuració del MySQL.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Només s’indexaran per a les cerques les paraules que tinguin com a màxim aquest nombre de caràcters. Només podeu canviar aquest paràmetre modificant la configuració del MySQL.',
+
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Només podeu utilitzar el motor PostgreSQL fulltext amb PostgreSQL.',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Nombre total d’entrades indexades',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'Versió del PostgreSQL',
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Perfil de configuració de cerca de text:',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Longitud mínima de les paraules clau',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Longitud màxima de les paraules clau',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'	=> 'Aquest motor de cerca necessita la versió 8.3 o superior del PostgreSQL.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'			=> 'El perfil de configuració de cerca de text que s’utilitza per determinar l’analitzador i el diccionari.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'Les paraules que tinguin com a mínim aquest quantitat de caràcters s’inclouran a la consulta a la base de dades.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Les paraules que tinguin com a màxim aquest quantitat de caràcters s’inclouran a la consulta a la base de dades.',
+
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Proporcioneu els paràmetres següents per generar un fitxer de configuració sphinx',
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Camí al directori de dades',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 's’utilitzarà per emmagatzemar els índexos i els fitxers de registre. És aconsellable crear el directori fora dels directaris accessibles des del web y ha d’acabar amb el caràcter de barra inclinada.',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Nombre d’entrades a l’índex delta actualitzat freqüentment',
+	'FULLTEXT_SPHINX_HOST'					=> 'Amfitrió del dimoni de cerca sphinx',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Amfitrió en el qual escolta el dimoni de cerca sphinx (searchd). Deixu-lo buit per utilitzar el valor per defecte localhost',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Límit de memòria de l’indexador',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'En tot moment aquest número ha de ser inferior a la RAM disponible en la vostra màquina. Si detecteu problemes periòdics de rendiment és possible que la causa sigui que l’indexador està consumint massa recursos. Per evitar-ho reduïu la quantitat de memòria disponible per a l’indexador.',
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Nombre d’entrades a l’índex principal',
+	'FULLTEXT_SPHINX_PORT'					=> 'Port del dimoni de cerca sphinx',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'port en el qual escolta el dimoni de cerca sphinx (searchd). Deixu-lo buit per utilitzar el valor per defecte 9312',
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'La cerca sphinx del phpBB només es compatible amb MySQL i PostgreSQL.',
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Fitxer de configuració de sphinx',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'El contingut generat del fitxer de configuració de sphinx. Aquestes dades s’han d’enganxar al fitxer sphinx.conf que utilitza el dimoni de cerca sphinx. Substituïu el text [dbuser] i [dbpassword] amb les vostres credencials d’accés a la base de dades.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Els camins als directoris de dades i configuració no estan definits. Definiu-los per generar el fitxer de configuració.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configuracions generals de les cerques',
 	'GO_TO_SEARCH_INDEX'					=> 'Ves a la pàgina d’índexs de cerca',
@@ -85,8 +109,17 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Interval d’inundació de cerques per a visitants',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Nombre de segons que han d’esperar els visitants entre dues cerques consecutives. Si un dels visitants fa una cerca, tots els altres s’han d’esperar fins que l’interval de temps hagi passat.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Totes les entrades fins l’entrada amb l’id %1$d s’han indexat, de les quals %2$d entrades estaven dintre d’aquest pas.<br />La velocitat d’indexació actual és d’aproximadament %3$.1f entrades per segon.<br />Indexació en curs…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Totes les entrades fins l’entrada amb l’id %1$d s’han tret de l’índex de cerca.<br />Eliminació en curs…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		1	=> 'Totes les entrades fins l’entrada amb l’id %2$d s’han indexat, de les quals %1$d entrada estava dintre d’aquest pas.<br />',
+		2	=> 'Totes les entrades fins l’entrada amb l’id %2$d s’han indexat, de les quals %1$d entrades estaven dintre d’aquest pas.<br />',
+	),
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		1	=> 'La velocitat d’indexació actual és d’aproximadament %1$.1f entrada per segon.<br />Indexació en curs…',
+		2	=> 'La velocitat d’indexació actual és d’aproximadament %1$.1f entrades per segon.<br />Indexació en curs…',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		2	=> 'Totes les entrades fins l’entrada amb l’id %2$d s’han tret de l’índex de cerca.<br />Eliminació en curs…',
+	),
 	'SEARCH_INDEX_CREATED'					=> 'S’han indexat totes les entrades de la base de dades del fòrum correctament.',
 	'SEARCH_INDEX_REMOVED'					=> 'S’ha eliminat l’índex de cerca d’aquest motor correctament.',
 	'SEARCH_INTERVAL'						=> 'Interval d’inundació de cerques per a usuaris',
@@ -105,5 +138,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Habilita l’actualització fulltext',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Actualització d’índexs fulltext quan es trameten entrades, s’ignora si la cerca està inhabilitada.',
 ));
-
-?>

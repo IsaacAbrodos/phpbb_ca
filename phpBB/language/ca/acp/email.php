@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_email [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: email.php,v 1.16 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Aquí podeu enviar un missatge per correu electrònic a tots els usuaris o tots els usuaris d’un grup específic <strong>que tinguin activada l’opció de rebre correu massiu</strong>. Per aconseguir-ho s’enviarà un correu electrònic a l’adreça proporcionapa per l’administrador, amb copia oculta a tots els destinataris. La configuració per defecte només inclou 50 destinataris per cada correu electrònic, per més destinataris s’enviaran més correus. Si esteu enviant correu a un grup molt gran de gent, sigueu pacient després de trametre el formulari i no pareu la pàgina a mitges. És normal que l’enviament massiu de correu trigui molt, rebreu una notificació quan l’script hagi acabat.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Aquí podeu enviar un missatge per correu electrònic a tots els usuaris o tots els usuaris d’un grup específic <strong>que tinguin activada l’opció de rebre correu massiu</strong>. Per aconseguir-ho s’enviarà un correu electrònic a l’adreça proporcionapa per l’administrador, amb copia oculta a tots els destinataris. La configuració per defecte només inclou 20 destinataris per cada correu electrònic, per més destinataris s’enviaran més correus. Si esteu enviant correu a un grup molt gran de gent, sigueu pacient després de trametre el formulari i no pareu la pàgina a mitges. És normal que l’enviament massiu de correu trigui molt, rebreu una notificació quan l’script hagi acabat.',
 	'ALL_USERS'						=> 'Tots els usuaris',
 
 	'COMPOSE'				=> 'Redacció del correu',
@@ -65,5 +66,3 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'		=> 'Cal que introduïu un missatge.',
 	'NO_EMAIL_SUBJECT'		=> 'Cal que especifiqueu un assumpte per al missatge.',
 ));
-
-?>

@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* viewtopic [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: viewtopic.php 8775 2008-08-21 15:41:12Z Kellanved $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,6 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'APPROVE'							=> 'Aprova',
 	'ATTACHMENT'						=> 'Fitxer adjunt',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'La funció de fitxers adjunts està inhabilitada.',
 
@@ -48,19 +50,22 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Reactiva el tema',
 
 	'CODE'					=> 'Codi',
-	'COLLAPSE_QR'			=> 'Oculta la reposta ràpida',
 
 	'DELETE_TOPIC'			=> 'Elimina el tema',
+	'DELETED_INFORMATION'	=> 'Eliminat per %1$s a %2$s',
+	'DISAPPROVE'					=> 'Rebutja',
 	'DOWNLOAD_NOTICE'		=> 'No teniu els permisos necessaris per veure els fitxers adjunts d’aquesta entrada.',
 
-	'EDITED_TIMES_TOTAL'	=> '%1$s l’ha editat per darrera vegada el dia: %2$s, en total s’ha editat %3$d vegades.',
-	'EDITED_TIME_TOTAL'		=> '%1$s l’ha editat per darrera vegada el dia: %2$s, en total s’ha editat %3$d vegada.',
-	'EMAIL_TOPIC'			=> 'Envia’l per correu electrònic a un amic',
+	'EDITED_TIMES_TOTAL'	=> array(
+		1	=> '%2$s l’ha editat per darrera vegada el dia: %3$s, en total s’ha editat %1$d vegada.',
+		2	=> '%2$s l’ha editat per darrera vegada el dia: %3$s, en total s’ha editat %1$d vegades.',
+	),
+	'EMAIL_TOPIC'			=> 'Envia el tema per correu electrònic',
 	'ERROR_NO_ATTACHMENT'	=> 'El fitxer adjunt seleccionat ja no existeix.',
 
 	'FILE_NOT_FOUND_404'	=> 'El fitxer <strong>%s</strong> no existeix.',
 	'FORK_TOPIC'			=> 'Copia el tema',
-	'FULL_EDITOR'			=> 'Editor complet',
+	'FULL_EDITOR'			=> 'Editor complet i previsualització',
 
 	'LINKAGE_FORBIDDEN'		=> 'No esteu autoritzat a veure, baixar o enllaçar des de/cap a aquest lloc web.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Heu rebut un avís sobre aquest tema, si us plau inicieu la sessió per veure’l.',
@@ -70,8 +75,10 @@ $lang = array_merge($lang, array(
 	'MAKE_GLOBAL'				=> 'Canvia’l a “Global”',
 	'MAKE_NORMAL'				=> 'Canvia’l a “Tema estàndard”',
 	'MAKE_STICKY'				=> 'Canvia’l a “Tema recurrent”',
-	'MAX_OPTIONS_SELECT'		=> 'Podeu seleccionar fins a <strong>%d</strong> opcions',
-	'MAX_OPTION_SELECT'			=> 'Podeu seleccionar <strong>1</strong> opció',
+	'MAX_OPTIONS_SELECT'		=> array(
+		1	=> 'Podeu seleccionar <strong>%d</strong> opció',
+		2	=> 'odeu seleccionar fins a <strong>%d</strong> opcions',
+	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'El fitxer adjunt <strong>%s</strong> ja no està disponible',
 	'MOVE_TOPIC'				=> 'Desplaça el tema',
 
@@ -83,6 +90,7 @@ $lang = array_merge($lang, array(
 	'NO_VOTES'				=> 'No hi ha cap vot',
 
 	'POLL_ENDED_AT'			=> 'L’enquesta ha acabat el %s',
+	'POST_DELETED_RESTORE'	=> 'Aquesta entrada està eliminada. Es pot restaurar.',
 	'POLL_RUN_TILL'			=> 'L’enquesta dura fins %s',
 	'POLL_VOTED_OPTION'		=> 'Heu votat per aquesta opció',
 	'PRINT_TOPIC'			=> 'Vista d’impressió',
@@ -92,11 +100,13 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Citació',
 
 	'REPLY_TO_TOPIC'		=> 'Respon al tema',
+	'RESTORE'				=> 'Restaura',
+	'RESTORE_TOPIC'			=> 'Restaura el tema',
 	'RETURN_POST'			=> '%sTorna a l’entrada%s',
 
-	'SHOW_QR'				=> 'Resposta ràpida',
 	'SUBMIT_VOTE'			=> 'Emet el vot',
 
+	'TOPIC_TOOLS'			=> 'Eines del tema',
 	'TOTAL_VOTES'			=> 'Vots totals',
 
 	'UNLOCK_TOPIC'			=> 'Desbloqueja el tema',
@@ -105,13 +115,12 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_TOPIC'		=> 'Tema següent',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Tema precedent',
 	'VIEW_RESULTS'			=> 'Mostra els resultats',
-	'VIEW_TOPIC_POST'		=> '1 entrada',
-	'VIEW_TOPIC_POSTS'		=> '%d entrades',
+	'VIEW_TOPIC_POSTS'		=> array(
+		1	=> '%d entrada',
+		2	=> '%d entrades',
+	),
 	'VIEW_UNREAD_POST'		=> 'Primera entrada no llegida',
-	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'S’ha emès el vostre vot.',
 	'VOTE_CONVERTED'		=> 'No es permet el canvi de vot en enquestes convertides des d’un altre tipus de fòrum.',
 
 ));
-
-?>

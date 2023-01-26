@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_common [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: common.php 9382 2009-03-17 11:54:26Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -50,7 +51,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> 'Bandeig',
 	'ACP_BAN_EMAILS'			=> 'Bandeig d’adreces electròniques',
 	'ACP_BAN_IPS'				=> 'Bandeig d’adreces IP',
-	'ACP_BAN_USERNAMES'			=> 'Bandeig de noms d’usuari',
+	'ACP_BAN_USERNAMES'			=> 'Bandeig d’usuaris',
 	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> 'Configuració del fòrum',
 	'ACP_BOARD_FEATURES'		=> 'Característiques del fòrum',
@@ -60,8 +61,9 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
+	'ACP_CAT_CUSTOMISE'			=> 'Personalitza',
 	'ACP_CAT_DATABASE'			=> 'Base de dades',
-	'ACP_CAT_DOT_MODS'			=> '.MODs',
+	'ACP_CAT_DOT_MODS'			=> 'Extensions',
 	'ACP_CAT_FORUMS'			=> 'Fòrums',
 	'ACP_CAT_GENERAL'			=> 'General',
 	'ACP_CAT_MAINTENANCE'		=> 'Manteniment',
@@ -73,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Usuaris',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Comunicació amb clients',
 	'ACP_COOKIE_SETTINGS'		=> 'Configuració de les galetes',
+	'ACP_CONTACT'				=> 'Pàgina de contacte',
+	'ACP_CONTACT_SETTINGS'		=> 'Configuració de la pàgina de contacte',
 	'ACP_CRITICAL_LOGS'			=> 'Registre d’errors',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Camps del perfil personalitzats',
 
@@ -81,7 +85,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Prohibició de noms d’usuari',
 
 	'ACP_EMAIL_SETTINGS'		=> 'Configuració del correu electrònic',
-	'ACP_EXTENSION_GROUPS'		=> 'Gestió de grups d’extensions',
+	'ACP_EXTENSION_GROUPS'		=> 'Gestió de grups d’extensions de fitxers adjunts',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Gestió d’extensions',
+	'ACP_EXTENSIONS'			=> 'Gestiona les extensions',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Permisos a nivell de fòrum',
 	'ACP_FORUM_LOGS'				=> 'Registres de fòrums',
@@ -100,10 +106,10 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Gestió dels grups',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Gestió de grups',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permisos de grups',
+	'ACP_GROUPS_POSITION'			=> 'Gestiona posicions de grups',
 
 	'ACP_ICONS'					=> 'Icones de tema',
 	'ACP_ICONS_SMILIES'			=> 'Icones de tema/emoticones',
-	'ACP_IMAGESETS'				=> 'Grups d’imatges',
 	'ACP_INACTIVE_USERS'		=> 'Usuaris inactius',
 	'ACP_INDEX'					=> 'Índex del TCA',
 
@@ -115,7 +121,11 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'Enregistrament',
 
 	'ACP_MAIN'					=> 'Índex del TCA',
-	'ACP_MANAGE_EXTENSIONS'		=> 'Gestió de les extensions',
+
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Gestió de fitxers adjunts',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aquí podeu llistar i eliminar fitxers adjunts a entrades i missatges privats.',
+
+	'ACP_MANAGE_EXTENSIONS'		=> 'Gestió de les extensions de fitxers adjunts',
 	'ACP_MANAGE_FORUMS'			=> 'Gestió dels fòrums',
 	'ACP_MANAGE_RANKS'			=> 'Gestió dels rangs',
 	'ACP_MANAGE_REASONS'		=> 'Gestió de les raons d’informe/rebuig',
@@ -162,9 +172,10 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'Configuració del servidor',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Configuració de les signatures',
 	'ACP_SMILIES'				=> 'Emoticones',
-	'ACP_STYLE_COMPONENTS'		=> 'Elements dels estils',
 	'ACP_STYLE_MANAGEMENT'		=> 'Gestió dels estils',
 	'ACP_STYLES'				=> 'Estils',
+	'ACP_STYLES_CACHE'			=> 'Buida la memoria cau',
+	'ACP_STYLES_INSTALL'		=> 'Instal·la estils',
 
 	'ACP_SUBMIT_CHANGES'		=> 'Tramet els canvis',
 
@@ -216,6 +227,10 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'Mostra de colors Web-safe',
 	'CONFIG_UPDATED'		=> 'La configuració s’ha actualitzat correctament.',
+	'CRON_LOCK_ERROR'		=> 'No sha pogut obtenir el bloqueig del cron.',
+	'CRON_NO_SUCH_TASK'		=> 'No s’ha trobat la tasca de cron “%s”.',
+	'CRON_NO_TASK'			=> 'Ara mateix no cal executar cap tasca cron.',
+	'CRON_NO_TASKS'			=> 'No s’ha trobat cap tasca cron.',
 
 	'DEACTIVATE'				=> 'Desactiva',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'El camí introduït “%s” no existeix.',
@@ -226,6 +241,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Anomena i baixa',
 	'DOWNLOAD_STORE'			=> 'Baixa o emmagatzema un fitxer',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Podeu baixar directament el fitxer o desar-lo al directori <samp>store/</samp>.',
+	'DOWNLOADS'					=> 'Baixades',
 
 	'EDIT'					=> 'Edita',
 	'ENABLE'				=> 'Habilita',
@@ -240,6 +256,8 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP de l’usuari',
 	'IP_HOSTNAME'			=> 'Adreces IP o noms d’amfitrió',
 
+	'LOAD_NOTIFICATIONS'			=> 'Mostra les notificacions',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostra la llista de notificacions a totes les pàgines (habitualment a a capçalera).',
 	'LOGGED_IN_AS'			=> 'Heu iniciat la sessió com:',
 	'LOGIN_ADMIN'			=> 'Per administrar el fòrum, heu de ser un usuari autenticat.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'Per administrar el fòrum us heu de reautenticar.',
@@ -257,6 +275,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Notificació',
 	'NO_ADMIN'				=> 'No esteu autoritzat a administrar aquest fòrum.',
 	'NO_EMAILS_DEFINED'		=> 'No s’ha trobat cap adreça electrònica vàlida.',
+	'NO_FILES_TO_DELETE'	=> 'Els fitxers adjunts que heu seleccionat per eliminar no existeixen.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Cal que introduïu la vostra contrasenya per accedir al Tauler de control de l’administrador.',
 
 	'OFF'					=> 'Inactiu',
@@ -271,8 +290,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Recordatori',
 	'RESYNC'							=> 'Resincronitza',
-	'RETURN_TO'							=> 'Torna a…',
 
+	'RUNNING_TASK'			=> 'Executant la tasca: %s.',
 	'SELECT_ANONYMOUS'		=> 'Selecciona l’usuari anònim',
 	'SELECT_OPTION'			=> 'Seleccioneu una opció',
 
@@ -282,6 +301,10 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_SHORT'		=> 'El valor proporcionat per a la configuració “%1$s” no es prou llarg. La llargada mínima acceptada és %2$d.',
 
 	'SHOW_ALL_OPERATIONS'	=> 'Mostra totes les operacions',
+
+	'TASKS_NOT_READY'			=> 'Tasques no preparades:',
+	'TASKS_READY'			=> 'Tasques preparades:',
+	'TOTAL_SIZE'			=> 'Mida total',
 
 	'UCP'					=> 'Tauler de control de l’usuari',
 	'USERNAMES_EXPLAIN'		=> 'Introduïu cada nom d’usuari en una línia nova.',
@@ -342,6 +365,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Compressió gzip',
 
+	'NO_SEARCH_INDEX'	=> 'el sistema de cerques seleccionat no té cap índex de cerca.<br />Creeu l’índex per “%1$s” a la secció %2$síndex de cerca%3$s.',
 	'NOT_AVAILABLE'		=> 'No disponible',
 	'NUMBER_FILES'		=> 'Nombre de fitxers adjunts',
 	'NUMBER_POSTS'		=> 'Nombre d’entrades',
@@ -356,29 +380,38 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Buida la memòria cau',
 	'PURGE_CACHE_CONFIRM'	=> 'Esteu segur de que voleu buidar la memòria cau?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Elimina tots els elements relacionats amb la memòria cau, això inclu fitxers de plantilla i consultes.',
+	'PURGE_CACHE_SUCCESS'	=> 'S’ha buidat la memoria cau correctament.',
 
 	'PURGE_SESSIONS'			=> 'Elimina totes les sessions',
-	'PURGE_SESSIONS_CONFIRM'	=> 'Esteu segur que voleu eliminar totes les sessions? Això finalitzarà la sessió de tots els usuaris.',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Esteu segur de que voleu eliminar totes les sessions? Això finalitzarà la sessió de tots els usuaris.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Elimina totes les sessions. Això finalitzarà la sessió de tots els usuaris truncant la taula de sessions.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'S’han eliminat les sessions sorrectament.',
 
 	'RESET_DATE'					=> 'Reinicialitza la data d’inici del fòrum',
 	'RESET_DATE_CONFIRM'			=> 'Esteu segur de que voleu reinicialitzar la data d’inici del fòrum?',
+	'RESET_DATE_SUCCESS'				=> 'Reinicialitza la data d’inici del fòrum',
 	'RESET_ONLINE'					=> 'Reinicialitza el nombre màxim d’usuaris connectats',
 	'RESET_ONLINE_CONFIRM'			=> 'Esteu segur de que voleu reinicialitzar el nombre màxim d’usuaris connectats?',
+	'RESET_ONLINE_SUCCESS'				=> 'Reinicialitza el nombre màxim d’usuaris connectats',
 	'RESYNC_POSTCOUNTS'				=> 'Resincronitza els comptadors d’entrades',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Només es consideraran les entrades existents. Les entrades podades no es comptaràn.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Esteu segur de que voleu resincronitzar els comptadors d’entrades?',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'S’han resincronitzat els comptadors d’entrades',
 	'RESYNC_POST_MARKING'			=> 'Resincronitza els temes marcats',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Esteu segur de que voleu resincronitzar els temes marcats?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Primer desmarca tots els temes i llavors marca correctament els temes que han tingut alguna activitat durant els darrers 6 mesos.',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'S’han resincronitzat els temes marcats',
 	'RESYNC_STATS'					=> 'Resincronitza les estadístiques',
 	'RESYNC_STATS_CONFIRM'			=> 'Esteu segur de que voleu resincronitzar les estadístiques?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Recalcula el nombre total d’entrades, temes, usuaris i fitxers.',
+	'RESYNC_STATS_SUCCESS'			=> 'S’han resincronitzat les estadístiques',
 	'RUN'							=> 'Executa',
 
 	'STATISTIC'					=> 'Estadística',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resincronitza o reinicialitza les estadístiques',
 
+	'TIMEZONE_INVALID'	=> 'El fus horari que heu seleccionat no es vàlid.',
+	'TIMEZONE_SELECTED'	=> '(seleccionat actualment)',
 	'TOPICS_PER_DAY'	=> 'Temes per dia',
 
 	'UPLOAD_DIR_SIZE'	=> 'Mida dels fitxers adjunts publicats',
@@ -470,7 +503,7 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Ha afegit el grup d’extensions</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Ha editat el grup d’extensions</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Ha eliminat el grup d’extensions</strong><br />» %s',
-	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Ha pujat els fitxers adjunts orfes a l’entrada</strong><br />» ID %1$d - %2$s',
+	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Ha penjat els fitxers adjunts orfes a l’entrada</strong><br />» ID %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Ha eliminat els fitxers adjunts orfes</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Ha exclòs l’usuari del bandeig</strong> per la raó “<em>%1$s</em>”<br />» %2$s',
@@ -517,9 +550,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Ha aprovat el tema</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>L’usuari ha reactivat el tema</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Ha eliminat l’entrada “%1$s” escrita per</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Ha eliminat l’entrada “%1$s” escrita per “%2$s” per la ráo següent</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Ha eliminat el tema ombra</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Ha eliminat el tema “%1$s” escrit per</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Ha eliminat el tema “%1$s” escrit per “%2$s” per la ráo següent</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Ha copiat el tema</strong><br />» de %s',
 	'LOG_LOCK'					=> '<strong>Ha bloquejat el tema</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Ha bloquejat l’entrada</strong><br />» %s',
@@ -528,15 +561,20 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Ha tancat l’informe de missatge privat</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Ha eliminat l’informe de missatge privat</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Ha aprovat l’entrada</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Ha rebutjat l’entrada “%1$s” per la raó següent</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Ha editat l’entrada “%1$s” escrita per</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Ha rebutjat l’entrada “%1$s” escrita per “%3$s” per la raó següent</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Ha editat l’entrada “%1$s” escrita per “%2$s” per la raó següent</strong><br />» %3$s',
+	'LOG_POST_RESTORED'			=> '<strong>Ha restaurat l’entrada</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Ha tancat l’informe</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Ha eliminat l’informe</strong><br />» %s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Ha restaurat el tema “%1$s” escrit per</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Ha eliminat temporalment l’entrada “%1$s” escrita per “%2$s” per la raó següent</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Ha eliminat temporalment el tema “%1$s” escrit per “%2$s” per la raó següent</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Ha desplaçat les entrades dividides</strong><br />» a %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Ha dividit les entrades</strong><br />» de %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Ha aprovat el tema</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Ha rebutjat el tema “%1$s” per la raó següent</strong><br />%2$s',
+	'LOG_TOPIC_RESTORED'		=> '<strong>Ha restaurat el tema</strong><br />» %s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Ha rebutjat el tema “%1$s” escrit per “%3$s” per la raó següent</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Ha resincronitzat els comptadors de temes</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ha canviat el tipus de tema</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Ha desbloquejat el tema</strong><br />» %s',
@@ -588,16 +626,6 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>S’ha produït un error mentre es creava la imatge</strong><br />» Error a %1$s a la línia %2$s: %3$s',
 
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>Ha afegit un nou grup d’imatges a la base de dades</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>Ha afegit un nou grup d’imatges al sistema de fitxers</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'			=> '<strong>Ha eliminat el grup d’imatges</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Ha editat els detalls del grup d’imatges</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'				=> '<strong>Ha editat el grup d’imatges</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'			=> '<strong>Ha exportat el grup d’imatges</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Falta la localització “%2$s” del grup d’imatges</strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Ha refrescat la localització “%2$s” del grup d’imatges</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>Ha refrescat el grup d’imatges</strong><br />» %s',
-
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Ha activat els usuaris inactius</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Ha eliminat els usuaris inactius</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'	=> '<strong>Ha enviat un correu electrònic de recordatori als usuaris inactius</strong><br />» %s',
@@ -642,6 +670,8 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Ha editat el rol d’usuari</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Ha eliminat el rol d’usuari</strong><br />» %s',
 
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>No s’ha pogut obrir %1$s per netejar-lo, comproveu-ne els permisos.</strong><br />Excepció: %2$s<br />Traça: %3$s',
+
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Ha activat el camp del perfil</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Ha afegit el camp del perfil</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Ha desactivat el camp del perfil</strong><br />» %s',
@@ -650,13 +680,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Ha podat els fòrums</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>S’han podat automàticament els fòrums</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>S’han podat automàticament els temes ombra</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Ha desactivat els usuaris</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Ha podat els usuaris eliminant-ne les entrades</strong><br />» %s',
-	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Ha podat els usuaris mantenint les entrades</strong><br />» %s',
+	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Ha podat els usuaris mantenint-ne les entrades</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>Ha buidat la memòria cau</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>Ha eliminat totes les sessions</strong>',
-
 
 	'LOG_RANK_ADDED'		=> '<strong>Ha afegit el nou rang</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Ha eliminat el rang</strong><br />» %s',
@@ -669,33 +699,41 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Li ha fallat la validació de la pàgina d’origen</strong><br />»La pàgina d’origen era “<em>%1$s</em>”. S’ha rebutjat la petició i s’ha matat la sessió.',
 	'LOG_RESET_DATE'			=> '<strong>Ha reinicialitzat la data d’inici del fòrum</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Ha reinicialitzat el nombre màxim d’usuaris connectats</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Ha resincronitzat les estadístiques de fitxers</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Ha resincronitzat els comptadors d’entrades</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Ha resincronitzat els temes marcats</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Ha resincronitzat les estadístiques d’entrades, temes i usuaris</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Ha creat un índex de cerca per</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Ha eliminat l’índex de cerca per</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Error de Sphinx</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Ha afegit el nou estil</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Ha eliminat l’estil</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Ha editat l’estil</strong><br />» %s',
 	'LOG_STYLE_EXPORT'			=> '<strong>Ha exportat l’estil</strong><br />» %s',
 
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Ha afegit a la base de dades el grup de plantilles</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Ha afegit al sistema de fitxers el grup de plantilles</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Ha eliminat les versions emmagatzemades a la memòria cau dels fitxers de plantilla del grup de plantilles <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>Ha eliminat el grup de plantilles</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>Ha editat el grup de plantilles <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Ha editat els detalls del grup de plantilles</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>Ha exportat el grup de plantilles</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Ha refrescat el grup de plantilles</strong><br />» %s',
 
+	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>Ha afegit a la base de dades el tema gràfic nou</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'			=> '<strong>Ha afegit al sistema de fitxers el tema gràfic nou</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Ha eliminat el tema gràfic</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Ha editat els detalls del tema gràfic</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Ha editat el tema gràfic <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Ha editat el tema gràfic <em>%1$s</em></strong><br />» Ha modificat el fitxer <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Ha exportat el tema gràfic</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_REFRESHED'		=> '<strong>Ha refrescat el tema gràfic</strong><br />» %s',
 
 	'LOG_UPDATE_DATABASE'	=> '<strong>Ha actualitzat la base de dades de la versió %1$s a la versió %2$s</strong>',
@@ -706,7 +744,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_BAN_IP'		=> '<strong>Ha bandejat l’adreça IP a través de la gestió d’usuaris</strong> per la raó “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'	=> '<strong>Ha bandejat la direcció electrònica a través de la gestió d’usuaris</strong> per la raó “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Ha eliminat l’usuari</strong><br />» %s',
-	'LOG_USER_DEL_ATTACH'	=> '<strong>Ha eliminat tots els fitxers adjunts pujats per l’usuari</strong><br />» %s',
+	'LOG_USER_DEL_ATTACH'	=> '<strong>Ha eliminat tots els fitxers adjunts penjats per l’usuari</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Ha eliminat l’avatar de l’usuari</strong><br />» %s',
 	'LOG_USER_DEL_OUTBOX'	=> '<strong>Ha buidat la safata de sortida de l’usuari</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Ha eliminat totes les entrades fetes per l’usuari</strong><br />» %s',
@@ -741,12 +779,17 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>L’usuari ha abandonat el grup</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Ha eliminat un advertiment de l’usuari</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Ha eliminat %2$s advertiments de l’usuari</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Ha eliminat un advertiment de l’usuari</strong><br />» %1$s',
+		2 => '<strong>Ha eliminat %2$d advertiments de l’usuari</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Ha eliminat tots els advertiments de l’usuari</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Ha afegit la paraula censurada</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Ha eliminat la paraula censurada</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Ha editat la paraula censurada</strong><br />» %s',
-));
 
-?>
+	'LOG_EXT_ENABLE'	=> '<strong>Ha habilitat l’extensió</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Ha deshabilitat l’extensió</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Ha eliminat les dades de l’extensió</strong><br />» %s',
+));

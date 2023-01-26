@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_groups [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: groups.php 8911 2008-09-23 13:03:33Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,6 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aquí podeu administrar tots els grups d’usuaris. Podeu eliminar, crear i editar grups existents. A més, podeu triar líders de grup, canviar l’estat dels grups a obert/ocult/tancat i definir el nom del grup i la seva descripció.',
+	'ADD_GROUP_CATEGORY'			=> 'Afegeix una categoria',
 	'ADD_USERS'						=> 'Afegeix usuaris',
 	'ADD_USERS_EXPLAIN'				=> 'Aquí podeu afegir usuaris nous al grup. Podeu seleccionar si aquest grup es converteix en el nou grup per defecte per als usuaris seleccionats. Addicionalment, podeu fer-los líders del grup. Introduïu cada usuari en una línia nova.',
 
@@ -51,11 +53,14 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Membres aprovats',
 	'GROUP_AVATAR'					=> 'Avatar del grup',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Aquesta imatge es mostrarà al Tauler de control del grup.',
+	'GROUP_CATEGORY_NAME'			=> 'Nom de la categoria',
 	'GROUP_CLOSED'					=> 'Tancat',
 	'GROUP_COLOR'					=> 'Color del grup',
 	'GROUP_COLOR_EXPLAIN'			=> 'Defineix el color amb el qual apareixerà el nom d’usuari dels membres, deixeu-lo en blanc per utilitzar el color per defecte de l’usuari.',
-	'GROUP_CONFIRM_ADD_USER'		=> 'Esteu segur de que voleu afegir l’usuari %1$s al grup?',
-	'GROUP_CONFIRM_ADD_USERS'		=> 'Esteu segur de que voleu afegir els usuaris %1$s al grup?',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> 'Esteu segur de que voleu afegir l’usuari %2$s al grup?',
+		2	=> 'Esteu segur de que voleu afegir els usuaris %2$s al grup?',
+	),
 	'GROUP_CREATED'					=> 'S’ha creat el grup correctament.',
 	'GROUP_DEFAULT'					=> 'Fes que sigui el grup per defecte del membre',
 	'GROUP_DEFS_UPDATED'			=> 'S’ha establert el grup per defecte per tots els membres seleccionats.',
@@ -97,6 +102,8 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'Configuració del grup',
 	'GROUP_SKIP_AUTH'				=> 'Exclou al líder dels permisos del grup',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Si habiliteu aquesta opció, el líder no heretarà els permisos del grup.',
+	'GROUP_SPECIAL'					=> 'Predefinit',
+	'GROUP_TEAMPAGE'				=> 'Mostra el grup a la pàgina de l’equip',
 	'GROUP_TYPE'					=> 'Tipus de grup',
 	'GROUP_TYPE_EXPLAIN'			=> 'Això determina quins usuaris poden unir-se o veure el grup.',
 	'GROUP_UPDATED'					=> 'S’han actualitzat les preferències del grup correctament.',
@@ -105,19 +112,37 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_EXIST'				=> 'Els usuaris seleccionats ja són membres.',
 	'GROUP_USERS_REMOVE'			=> 'S’han tret els usuaris del grup i s’han definit els nous valors per defecte correctament.',
 
+	'LEGEND_EXPLAIN'				=> 'Aquests són els grups que es mostren a la llegenda de grups:',
+	'LEGEND_SETTINGS'				=> 'Configuració de llegenda',
+	'LEGEND_SORT_GROUPNAME'			=> 'Ordena la llegenda per nom de grup',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Quan s’activa aquesta opció s’ignora l’ordre de sota.',
+
+	'MANAGE_LEGEND'			=> 'Gestiona llegenda del grup',
+	'MANAGE_TEAMPAGE'		=> 'Gestiona la pàgina de l’equip',
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Fes que sigui el grup per defecte de tots els membres',
 	'MEMBERS'				=> 'Membres',
 
 	'NO_GROUP'					=> 'No s’ha especificat cap grup.',
+	'NO_GROUPS_ADDED'			=> 'Encara no s’ha afegit cap grup.',
 	'NO_GROUPS_CREATED'			=> 'Encara no s’ha creat cap grup.',
 	'NO_PERMISSIONS'			=> 'No copiïs els permisos',
 	'NO_USERS'					=> 'No heu introduït cap usuari.',
 	'NO_USERS_ADDED'			=> 'No s’ha afegit cap usuari al grup.',
 	'NO_VALID_USERS'			=> 'No heu introduït cap usuari per al qual estigui permesa aquesta acció.',
 
+	'SELECT_GROUP'				=> 'Seleccioneu un grup',
 	'SPECIAL_GROUPS'			=> 'Grups predefinits',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Els grups predefinits són grups especials, no es poden eliminar ni modificar directament. Això no obstant, podeu afegir-hi usuaris i modificar configuracions bàsiques.',
 
+	'TEAMPAGE'					=> 'Pàgina de l’equip',
+	'TEAMPAGE_DISP_ALL'			=> 'Totes les afiliacions',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'Només el grup per defecte de l’usuari',
+	'TEAMPAGE_DISP_FIRST'		=> 'Només la primera afiliació',
+	'TEAMPAGE_EXPLAIN'			=> 'Aquests són els grups que es mostren a la pàgina de l’equip:',
+	'TEAMPAGE_FORUMS'			=> 'Mostra els fòrums moderats',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Si marqueu sí, a la fila de cada moderador es mostrarà una llista amb tots els fòrums on té permisos de moderador. Si el fòrum és molt gran, això pot ser una tasca intensiva per a la base de dades.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Mostra les afiliacions de l’usuari',
+	'TEAMPAGE_SETTINGS'			=> 'Configuració de la pàgina de l’equip',
 	'TOTAL_MEMBERS'				=> 'Membres',
 
 	'USERS_APPROVED'				=> 'S’han aprovat les sol·licituds d’afiliació correctament.',
@@ -128,5 +153,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Triar Sí farà que aquest grup sigui el grup per defecte per als usuaris que s’afegeixin.',
 	'USER_GROUP_LEADER'				=> 'Fes-lo líder del grup',
 ));
-
-?>

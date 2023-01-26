@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_permissions [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: permissions.php 9443 2009-04-12 13:28:12Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -58,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Mai',
 	'ACL_SET'				=> 'Definició de permisos',
-	'ACL_SET_EXPLAIN'		=> 'Els permisos es basen en un sistema simple de tipus <samp>Sí</samp>/<samp>No</samp>. Si trieu l’opció <samp>Mai</samp> per a un usuari o grup d’usuaris, sobreescriu qualsevol altre valor que se li assigni. Si no voleu assignar un valor per una opció per aquest usuari o grup d’usuaris, seleccioneu <samp>No</samp>. Si s’assignen valors per aquesta opció en un altre lloc, s’utilitzaran preferentment, si no s’assumeix el valor <samp>Mai</samp>. Tots els objectes marcats (amb la casella de selecció del davant) copiaran el grup de permisos que heu definit.',
+	'ACL_SET_EXPLAIN'		=> 'Els permisos es basen en un sistema simple de tipus <strong>Sí</strong>/<strong>No</strong>. Si trieu l’opció <strong>Mai</strong> per a un usuari o grup d’usuaris, sobreescriu qualsevol altre valor que se li assigni. Si no voleu assignar un valor per una opció per aquest usuari o grup d’usuaris, seleccioneu <strong>No</strong>. Si s’assignen valors per aquesta opció en un altre lloc, s’utilitzaran preferentment, si no s’assumeix el valor <strong>Mai</strong>. Tots els objectes marcats (amb la casella de selecció del davant) copiaran el grup de permisos que heu definit.',
 	'ACL_SETTING'			=> 'Configuració',
 
 	'ACL_TYPE_A_'			=> 'Permisos administratius',
@@ -101,16 +102,16 @@ $lang = array_merge($lang, array(
 	'ADD_USERS'					=> 'Afegeix usuaris',
 	'ADVANCED_PERMISSIONS'		=> 'Permisos avançats',
 	'ALL_GROUPS'				=> 'Selecciona tots els grups',
-	'ALL_NEVER'					=> 'Tots <samp>Mai</samp>',
-	'ALL_NO'					=> 'Tots <samp>No</samp>',
+	'ALL_NEVER'					=> 'Tots <strong>Mai</strong>',
+	'ALL_NO'					=> 'Tots <strong>No</strong>',
 	'ALL_USERS'					=> 'Selecciona tots els usuaris',
-	'ALL_YES'					=> 'Tots <samp>Sí</samp>',
+	'ALL_YES'					=> 'Tots <strong>Sí</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> 'Aplica tots els permisos',
 	'APPLY_PERMISSIONS'			=> 'Aplica els permisos',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Els permisos i rol definits per aquest element només s’aplicaran a aquest element i tots els elements marcats.',
 	'AUTH_UPDATED'				=> 'S’han actualitzat els permisos.',
 
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Esteu segur que voleu dur a terme aquesta operació? Tingueu en compte que se sobreecriuran els permisos existents dels destins seleccionats.',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Esteu segur de que voleu dur a terme aquesta operació? Tingueu en compte que se sobreecriuran els permisos existents dels destins seleccionats.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'El fòrum origen des d’on voleu copiar els permisos.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Els fòrums destí on voleu aplicar els permisos copiats.',
 	'COPY_PERMISSIONS_FROM'					=> 'Copia els permisos des de',
@@ -138,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'No hi ha definida una configuració de permisos.',
 	'NO_ROLE_ASSIGNED'			=> 'No hi ha cap rol assignat',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Assignar aquest rol no canvia els permisos de la dreta. Si voleu treure tots els permisos heu d’utilitzar l’enllaç “Tots <samp>No</samp>”.',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Assignar aquest rol no canvia els permisos de la dreta. Si voleu treure tots els permisos heu d’utilitzar l’enllaç “Tots <strong>No</strong>”.',
 	'NO_ROLE_AVAILABLE'			=> 'No hi ha rols disponibles',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Indiqueu un nom per al rol.',
 	'NO_ROLE_SELECTED'			=> 'No s’ha pogut trobar el rol.',
@@ -183,7 +184,6 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_STANDARD'		=> 'Característiques estàndard',
 	'ROLE_USER_NEW_MEMBER'		=> 'Característiques d’usuari acabat de registrar',
 
-
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Pot accedir a la gestió de fòrums i a la configuració de permisos del fòrum.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Té accés a totes les funcions administratives d’aquest fòrum.<br />No és recomanable.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Té accés a la majoría de les funcions administratives però no pot utilitzar les eines relacionades amb el servidor o el sistema.',
@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Com Accés estàndard però també pot crear enquestes.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Pot llegir el fòrum però no pot crear temes nous ni respondre entrades.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Pot utilitzar la majoría de característiques del fòrum incloent-hi els fitxers adjunts i eliminar els temes propis però no pot bloquejar-los ni crear enquestes.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <samp>Mai</samp> per bloquejar característiques per als nous usuaris.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <strong>Mai</strong> per bloquejar característiques per als nous usuaris.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Pot utilitzar totes les característiques de moderació, incloent-hi el bandeig.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Pot utilitzar la cua de moderació per validar i editar entrades, però res mes.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Només pot utilitzar accions de tema bàsiques. No pot enviar advertiments ni utilitzar la cua de moderació.',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Te un grup de característiques limitat i no pot utilitzar un avatar.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Te un grup de característiques limitat i no pot enviar missatges privats.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Pot accedir a la majoría de les característiques d’usuari però no a totes. Per exemple, no pot canviar el seu nom d’usuari ni ignorar el límit d’inundació.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <samp>Mai</samp> per bloquejar característiques per als nous usuaris.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <strong>Mai</strong> per bloquejar característiques per als nous usuaris.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Podeu introduir una explicació curta de què fa el rol o quin és el seu objectiu. El text que introduïu aquí també es mostrarà a les pantalles de permisos.',
 	'ROLE_DESCRIPTION_LONG'			=> 'La descripció del rol és massa llarga, limiteu-la a 4000 caràcters.',
@@ -228,48 +228,48 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> 'Defineix els permisos dels usuaris',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'Defineix els permisos de fòrum dels usuaris',
 
-	'TRACE_DEFAULT'					=> 'Per defecte tots els permisos són <samp>No</samp> (no definit). D’aquesta manera els permisos poden ser sobreescrits per altres configuracions.',
+	'TRACE_DEFAULT'					=> 'Per defecte tots els permisos són <strong>No</strong> (no definit). D’aquesta manera els permisos poden ser sobreescrits per altres configuracions.',
 	'TRACE_FOR'						=> 'Traça per a',
 	'TRACE_GLOBAL_SETTING'			=> '%s (global)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'El permís d’aquest grup té el valor <samp>Mai</samp> com el resultat total i, per tant, es manté el resultat antic.',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<samp>Mai</samp> com el resultat total i, per tant, es manté el resultat antic.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'El permís d’aquest grup té el valor <samp>Mai</samp> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <samp>No</samp>).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<samp>Mai</samp> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <samp>No</samp>).',
-	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'El permís d’aquest grup té el valor <samp>Mai</samp> que sobreescriu el valor total <samp>Sí</samp> amb un <samp>Mai</samp> per aquest usuari.',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<samp>Mai</samp> que sobreescriu el valor total <samp>Sí</samp> amb un <samp>Mai</samp> per aquest usuari.',
-	'TRACE_GROUP_NO'				=> 'El permís val <samp>No</samp> per a aquest grup i, per tant, es manté el valor total antic.',
-	'TRACE_GROUP_NO_LOCAL'			=> 'El permís val <samp>No</samp> per a aquest grup en aquest fòrum i, per tant, es manté el valor total antic.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'El permís d’aquest grup té el valor <samp>Sí</samp> però el total <samp>Mai</samp> no es pot sobreescriure.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <samp>Sí</samp> però el total <samp>Mai</samp> no es pot sobreescriure.',
-	'TRACE_GROUP_YES_TOTAL_NO'		=> 'El permís d’aquest grup té el valor <samp>Sí</samp> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <samp>No</samp>).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <samp>Sí</samp> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <samp>No</samp>).',
-	'TRACE_GROUP_YES_TOTAL_YES'		=> 'El permís d’aquest grup té el valor <samp>Sí</samp> i el permís total ja té el valor <samp>Sí</samp> i, per tant, es manté el resultat total.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <samp>Sí</samp> i el permís total ja té el valor <samp>Sí</samp> i, per tant, es manté el resultat total.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'El permís d’aquest grup té el valor <strong>Mai</strong> com el resultat total i, per tant, es manté el resultat antic.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<strong>Mai</strong> com el resultat total i, per tant, es manté el resultat antic.',
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'El permís d’aquest grup té el valor <strong>Mai</strong> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <strong>No</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<strong>Mai</strong> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <strong>No</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'El permís d’aquest grup té el valor <strong>Mai</strong> que sobreescriu el valor total <strong>Sí</strong> amb un <strong>Mai</strong> per aquest usuari.',
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<strong>Mai</strong> que sobreescriu el valor total <strong>Sí</strong> amb un <strong>Mai</strong> per aquest usuari.',
+	'TRACE_GROUP_NO'				=> 'El permís val <strong>No</strong> per a aquest grup i, per tant, es manté el valor total antic.',
+	'TRACE_GROUP_NO_LOCAL'			=> 'El permís val <strong>No</strong> per a aquest grup en aquest fòrum i, per tant, es manté el valor total antic.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'El permís d’aquest grup té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_GROUP_YES_TOTAL_NO'		=> 'El permís d’aquest grup té el valor <strong>Sí</strong> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <strong>No</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <strong>Sí</strong> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <strong>No</strong>).',
+	'TRACE_GROUP_YES_TOTAL_YES'		=> 'El permís d’aquest grup té el valor <strong>Sí</strong> i el permís total ja té el valor <strong>Sí</strong> i, per tant, es manté el resultat total.',
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <strong>Sí</strong> i el permís total ja té el valor <strong>Sí</strong> i, per tant, es manté el resultat total.',
 	'TRACE_PERMISSION'				=> 'Traça el permís - %s',
 	'TRACE_RESULT'					=> 'Resultat de la traça',
 	'TRACE_SETTING'					=> 'Traça la configuració',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <samp>Sí</samp> però el permís total ja té el valor <samp>Sí</samp> i, per tant, es manté el resultat total. %sTraça els permisos globals%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <samp>Sí</samp> que sobreescriu el resultat local actual <samp>Mai</samp>. %sTraça els permisos globals%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'El permís d’usuari, independent del fòrum, s’avalua com un <samp>Mai</samp> que no influeix el permís local. %sTraça els permisos globals%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Sí</strong> però el permís total ja té el valor <strong>Sí</strong> i, per tant, es manté el resultat total. %sTraça els permisos globals%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Sí</strong> que sobreescriu el resultat local actual <strong>Mai</strong>. %sTraça els permisos globals%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Mai</strong> que no influeix el permís local. %sTraça els permisos globals%s',
 
-	'TRACE_USER_FOUNDER'					=> 'L’usuari és un fundador, per tant, els permisos d’administrador sempre tenen el valor <samp>Sí</samp>.',
-	'TRACE_USER_KEPT'						=> 'El permís de l’usuari val <samp>No</samp> i, per tant, es manté el valor total antic.',
-	'TRACE_USER_KEPT_LOCAL'					=> 'El permís de l’usuari per aquest fòrum val <samp>No</samp> i, per tant, es manté el valor total antic.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'El permís de l’usuari té el valor <samp>Mai</samp> i el valor total val <samp>Mai</samp> i, per tant, no canvia res.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'El permís de l’usuari per aquest fòrum té el valor <samp>Mai</samp> i el valor total val <samp>Mai</samp> i, per tant, no canvia res.',
-	'TRACE_USER_NEVER_TOTAL_NO'				=> 'El permís de l’usuari té el valor <samp>Mai</samp> que esdevé el valor total perquè valia <samp>No</samp>.',
-	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <samp>Mai</samp> que esdevé el valor total perquè valia <samp>No</samp>.',
-	'TRACE_USER_NEVER_TOTAL_YES'			=> 'El permís de l’usuari té el valor <samp>Mai</samp> i sobreescriu el <samp>Sí</samp> anterior.',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <samp>Mai</samp> i sobreescriu el <samp>Sí</samp> anterior.',
-	'TRACE_USER_NO_TOTAL_NO'				=> 'El permís de l’usuari val <samp>No</samp> i el valor total valia No, per tant, per defecte queda <samp>Mai</samp>.',
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'El permís de l’usuari per aquest fòrum val <samp>No</samp> i el valor total valia No, per tant, per defecte queda <samp>Mai</samp>.',
-	'TRACE_USER_YES_TOTAL_NEVER'			=> 'El permís de l’usuari té el valor <samp>Sí</samp> però el total <samp>Mai</samp> no es pot sobreescriure.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <samp>Sí</samp> però el total <samp>Mai</samp> no es pot sobreescriure.',
-	'TRACE_USER_YES_TOTAL_NO'				=> 'El permís de l’usuari té el valor <samp>Sí</samp> que esdevé el valor total perquè tenia el valor <samp>No</samp>.',
-	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'El permís de l’usuari per aquest fòrum té el valor <samp>Sí</samp> que esdevé el valor total perquè tenia el valor <samp>No</samp>.',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'El permís de l’usuari té el valor <samp>Sí</samp> i el valor total val <samp>Sí</samp> i, per tant, no canvia res.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <samp>Sí</samp> i el valor total val <samp>Sí</samp> i, per tant, no canvia res.',
+	'TRACE_USER_FOUNDER'					=> 'L’usuari és un fundador, per tant, els permisos d’administrador sempre tenen el valor <strong>Sí</strong>.',
+	'TRACE_USER_KEPT'						=> 'El permís de l’usuari val <strong>No</strong> i, per tant, es manté el valor total antic.',
+	'TRACE_USER_KEPT_LOCAL'					=> 'El permís de l’usuari per aquest fòrum val <strong>No</strong> i, per tant, es manté el valor total antic.',
+	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'El permís de l’usuari té el valor <strong>Mai</strong> i el valor total val <strong>Mai</strong> i, per tant, no canvia res.',
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Mai</strong> i el valor total val <strong>Mai</strong> i, per tant, no canvia res.',
+	'TRACE_USER_NEVER_TOTAL_NO'				=> 'El permís de l’usuari té el valor <strong>Mai</strong> que esdevé el valor total perquè valia <strong>No</strong>.',
+	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Mai</strong> que esdevé el valor total perquè valia <strong>No</strong>.',
+	'TRACE_USER_NEVER_TOTAL_YES'			=> 'El permís de l’usuari té el valor <strong>Mai</strong> i sobreescriu el <strong>Sí</strong> anterior.',
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Mai</strong> i sobreescriu el <strong>Sí</strong> anterior.',
+	'TRACE_USER_NO_TOTAL_NO'				=> 'El permís de l’usuari val <strong>No</strong> i el valor total valia No, per tant, per defecte queda <strong>Mai</strong>.',
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'El permís de l’usuari per aquest fòrum val <strong>No</strong> i el valor total valia No, per tant, per defecte queda <strong>Mai</strong>.',
+	'TRACE_USER_YES_TOTAL_NEVER'			=> 'El permís de l’usuari té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_USER_YES_TOTAL_NO'				=> 'El permís de l’usuari té el valor <strong>Sí</strong> que esdevé el valor total perquè tenia el valor <strong>No</strong>.',
+	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Sí</strong> que esdevé el valor total perquè tenia el valor <strong>No</strong>.',
+	'TRACE_USER_YES_TOTAL_YES'				=> 'El permís de l’usuari té el valor <strong>Sí</strong> i el valor total val <strong>Sí</strong> i, per tant, no canvia res.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Sí</strong> i el valor total val <strong>Sí</strong> i, per tant, no canvia res.',
 	'TRACE_WHO'								=> 'Qui',
 	'TRACE_TOTAL'							=> 'Total',
 
@@ -285,5 +285,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_TYPE'				=> 'Heu seleccionat un tipus de permís erroni.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Les configuracions de permisos tenen un format erroni, el phpBB no pot processar-les correctament.',
 ));
-
-?>

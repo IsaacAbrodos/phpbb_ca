@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_forums [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: forums.php 9309 2009-01-27 19:16:29Z terrafrost $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -43,6 +44,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Temps en dies entre execucions automàtiques de poda.',
 	'AUTO_PRUNE_VIEWED'			=> 'Poda automàtica per temps de visualització',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Nombre de dies des de la darrera visualització després dels quals s’elimina el tema.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Freqüència de poda automàtica de temes ombra',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Interval  poda automàtica de temes ombra',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Nombre de dies desprès dels quals s’elimina un tema ombra.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Temps en dies entre esdeveniments de poda.',
 
 	'CONTINUE'						=> 'Continua',
 	'COPY_PERMISSIONS'				=> 'Copia els permisos des de',
@@ -102,6 +107,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'La contrasenya del fòrum utilitza una funció de resum antiga i és recomanable que la canvieu.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Les contrasenyes que heu introduït no coincideixen.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Configuració de poda del fòrum',
+	'FORUM_PRUNE_SHADOW'				=> 'Habilita la poda automàtica de temes ombra',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Poda els temes ombra del fòrum, indiqueu la freqüencia/interval a sota.',
 	'FORUM_RESYNCED'					=> 'El fòrum “%s” s’ha resincronitzat correctament',
 	'FORUM_RULES_EXPLAIN'				=> 'Les regles del fòrum es mostren a qualsevol pagina del propi fòrum.',
 	'FORUM_RULES_LINK'					=> 'Enllaç a les regles del fòrum',
@@ -156,5 +163,3 @@ $lang = array_merge($lang, array(
 
 	'UNLOCKED'			=> 'Desbloquejat',
 ));
-
-?>

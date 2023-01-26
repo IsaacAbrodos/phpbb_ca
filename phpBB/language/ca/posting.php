@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* posting [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: posting.php 9464 2009-04-17 15:52:40Z acydburn $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -59,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Llista ordenada: p.ex. [list=1][*]Primer punt[/list] o [list=a][*]Punt a[/list]',
 	'BBCODE_P_HELP'				=> 'Insereix una imatge: [img]http://url_imatge[/img]',
 	'BBCODE_Q_HELP'				=> 'Cita un text: [quote]text[/quote]',
-	'BBCODE_S_HELP'				=> 'Color de lletra: [color=red]text[/color]  Consell: també podeu utilitzar color=#FF0000',
+	'BBCODE_S_HELP'				=> 'Color de lletra: [color=red]text[/color] o [color=#FF0000]text[/color]',
 	'BBCODE_U_HELP'				=> 'Text subratllat: [u]text[/u]',
 	'BBCODE_W_HELP'				=> 'Insereix una URL: [url]http://url[/url] o [url=http://url]text de l’URL[/url]',
 	'BBCODE_Y_HELP'				=> 'Llista: Afegeix un element a la llista',
@@ -71,15 +72,35 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'No podeu publicar avisos.',
 	'CANNOT_POST_STICKY'		=> 'No podeu publicar temes recurrents.',
 	'CHANGE_TOPIC_TO'			=> 'Canvia el tipus del tema a',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'El missatge conté %1$d caràcter.',
+		2	=> 'El missatge conté %1$d caràcters.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'La vostra signatura conté %1$d caràcter.',
+		2	=> 'La vostra signatura conté %1$d caràcters.',
+	),
 	'CLOSE_TAGS'				=> 'Tanca les etiquetes',
 	'CURRENT_TOPIC'				=> 'Tema actual',
 
 	'DELETE_FILE'				=> 'Elimina el fitxer',
 	'DELETE_MESSAGE'			=> 'Elimina el missatge',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Esteu segur que voleu eliminar aquest missatge?',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest missatge?',
 	'DELETE_OWN_POSTS'			=> 'Només podeu eliminar les vostres entrades.',
-	'DELETE_POST_CONFIRM'		=> 'Esteu segur que voleu eliminar aquesta entrada?',
-	'DELETE_POST_WARN'			=> 'Un cop eliminada, l’entrada ja no es pot restablir',
+	'DELETE_PERMANENTLY'		=> 'Elimina-la permanentment',
+	'DELETE_POST_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquesta entrada?',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquesta entrada <strong>permanentment</strong>?',
+	'DELETE_POST_PERMANENTLY'	=> 'Elimina aquesta entrada de forma permanent per que no es pugui restablir',
+	'DELETE_POSTS_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquestes entrades?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquestes entrades <strong>permanentment</strong>?',
+	'DELETE_REASON'				=> 'Raó de l’eliminació',
+	'DELETE_REASON_EXPLAIN'		=> 'La raó que especifiqueu per l’eliminació serà visible per als moderadors.',
+	'DELETE_POST_WARN'			=> 'Elimina aquesta entrada',
+	'DELETE_TOPIC_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquest tema?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Elimina aquest tema de forma permanent per que no es pugui restablir',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest tema <strong>permanentment</strong>?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquests temes?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquests temes <strong>permanentment</strong>?',
 	'DISABLE_BBCODE'			=> 'Desactiva el BBCode',
 	'DISABLE_MAGIC_URL'			=> 'No transformis automàticament els URLs',
 	'DISABLE_SMILIES'			=> 'Desactiva les emoticones',
@@ -122,13 +143,29 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Cal que inicieu la sessió per poder citar entrades en aquest fòrum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Cal que inicieu la sessió per poder publicar respostes en aquest fòrum.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Podeu utilitzar lletres de mida %1$d com a màxim.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Els fitxers flash poden tenir un màxim de %1$d píxels d’alçària.',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Els fitxers flash poden tenir un màxim de %1$d píxels d’amplària.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Les imatges poden tenir un màxim de %1$d píxels d’alçària.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Les imatges poden tenir un màxim de %1$d píxels d’amplària.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Podeu utilitzar lletres de mida %d com a màxim.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Els fitxers flash poden tenir un màxim d’%d píxel d’alçària.',
+		2	=> 'Els fitxers flash poden tenir un màxim de %d píxels d’alçària.',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Els fitxers flash poden tenir un màxim d’%d píxel d’amplària.',
+		2	=> 'Els fitxers flash poden tenir un màxim de %d píxels d’amplària.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Les imatges poden tenir un màxim d’%d píxel d’alçària.',
+		2	=> 'Les imatges poden tenir un màxim de %d píxels d’alçària.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Les imatges poden tenir un màxim d’%d píxel d’amplària.',
+		2	=> 'Les imatges poden tenir un màxim de %d píxels d’amplària.',
+	),
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Introduïu el vostre missatge aquí, no pot contenir més de <strong>%d</strong> caràcters.',
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Introduïu el vostre missatge aquí, no pot contenir més d’<strong>%d</strong> caràcter.',
+		2	=> 'Introduïu el vostre missatge aquí, no pot contenir més de <strong>%d</strong> caràcters.',
+	),
 	'MESSAGE_DELETED'			=> 'Aquest missatge s’ha eliminat correctament.',
 	'MORE_SMILIES'				=> 'Mostra més emoticones',
 
@@ -146,12 +183,18 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Situa’l en línia',
 	'POLL_DELETE'				=> 'Elimina l’enquesta',
 	'POLL_FOR'					=> 'Durada de l’enquesta',
-	'POLL_FOR_EXPLAIN'			=> 'Introduïu un 0 o deixeu-lo en blanc per que l’enquesta no acabi mai.',
+	'POLL_FOR_EXPLAIN'			=> 'Introduïu un 0 per que l’enquesta no acabi mai.',
 	'POLL_MAX_OPTIONS'			=> 'Opcions per usuari',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Nombre d’opcions que cada usuari pot seleccionar quan vota.',
 	'POLL_OPTIONS'				=> 'Opcions de l’enquesta',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Situeu cada opció en una línia nova. Podeu introduir fins a <strong>%d</strong> opcions.',
-	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Situeu cada opció en una línia nova. Podeu introduir fins a <strong>%d</strong> opcions. Si elimineu o afegiu opcions els vots existents es reinicialitzaran.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> 'Situeu cada opció en una línia nova. Podeu introduir <strong>%d</strong> opció.',
+		2	=> 'Situeu cada opció en una línia nova. Podeu introduir fins a <strong>%d</strong> opcions.',
+	),
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> 'Situeu cada opció en una línia nova. Podeu introduir <strong>%d</strong> opció. Si elimineu o afegiu opcions els vots existents es reinicialitzaran.',
+		2	=> 'Situeu cada opció en una línia nova. Podeu introduir fins a <strong>%d</strong> opcions. Si elimineu o afegiu opcions els vots existents es reinicialitzaran.',
+	),
 	'POLL_QUESTION'				=> 'Pregunta de l’enquesta',
 	'POLL_TITLE_TOO_LONG'		=> 'El títol de l’enquesta ha de tenir menys de 100 caràcters.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> 'El títol de l’enquesta és massa gran, proveu de treure BBCodes o emoticones.',
@@ -176,8 +219,13 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'				=> 'Publica el tema com',
 	'PROGRESS_BAR'				=> 'Barra de progrés',
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Només podeu incrustar %1$d nivells de citacions.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> 'Només podeu incrustar %d nivell de citacions.',
+		2	=> 'Només podeu incrustar %d nivells de citacions.',
+	),
+	'QUOTE_NO_NESTING'			=> 'No podeu incrustar cap citació dintre d’una citació.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'No s’ha pogut penjar el fitxer especificat perquè s’ha excedit el temps d’espera de la sol·licitud.',
 	'SAVE'						=> 'Desa',
 	'SAVE_DATE'					=> 'Desa a',
 	'SAVE_DRAFT'				=> 'Desa un esborrany',
@@ -187,16 +235,20 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Les emoticones estan <em>ACTIVES</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Límit de temps del Tema recurrent/Avís',
 	'STICK_TOPIC_FOR'			=> 'Mostra’l com a Tema recurrent durant',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Introduïu un 0 o deixeu-lo en blanc per que sigui un Tema recurrent/Avís per sempre. Tingueu en compte que aquest número és relatiu a la data de l’entrada.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Introduïu un 0 per que sigui un Tema recurrent/Avís per sempre. Tingueu en compte que aquest número és relatiu a la data de l’entrada.',
 	'STYLES_TIP'				=> 'Consell: Podeu aplicar estils ràpidament al text seleccionat.',
 
 	'TOO_FEW_CHARS'				=> 'El vostre missatge té massa pocs caràcters.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'El vostre missatge conté %1$d caràcters. Cal que introduïu un mínim de %2$d caràcters.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'Cal que introduïu, com a mínim, %1$d caràcter.',
+		2	=> 'Cal que introduïu, com a mínim, %1$d caràcters.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Com a mínim heu d’introduir dues opcions a l’enquesta.',
 	'TOO_MANY_ATTACHMENTS'		=> 'No podeu afegir un altre fitxer adjunt, el màxim és %d.',
 	'TOO_MANY_CHARS'			=> 'El vostre missatge té massa caràcters.',
-	'TOO_MANY_CHARS_POST'		=> 'El vostre missatge conté %1$d caràcters. El nombre màxim de caràcters permesos és %2$d.',
-	'TOO_MANY_CHARS_SIG'		=> 'La vostra signatura conté %1$d caràcters. El nombre màxim de caràcters permesos és %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'El nombre màxim de caràcters permesos és %2$d.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Heu introduït massa opcions a l’enquesta.',
 	'TOO_MANY_SMILIES'			=> 'El vostre missatge té massa emoticones. El nombre màxim d’emoticones permeses és %d.',
 	'TOO_MANY_URLS'				=> 'El vostre missatge té massa URL. El nombre màxim d’URL permeses és %d.',
@@ -205,8 +257,10 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'No podeu utilitzar determinats BBCodes: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Per canviar aquest tema de global a normal cal que seleccioneu el fòrum en el qual voleu que es mostri.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'El missatge conté els següents caràcters no permesos:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'L’assumpte conté els següents caràcters no permesos:<br />%s',
 	'UPDATE_COMMENT'			=> 'Actualitza el comentari',
-	'URL_INVALID'				=> 'L’URL que heu especificat no és vàlida.',
+	'URL_INVALID'				=> 'L’URL que heu especificat no és vàlid.',
 	'URL_NOT_FOUND'				=> 'El fitxer que heu especificat no és vàlid.',
 	'URL_IS_OFF'				=> '[url] està <em>INACTIU</em>',
 	'URL_IS_ON'					=> '[url] està <em>ACTIU</em>',
@@ -219,8 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sMostra el missatge enviat%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sMostra el missatge privat enviat%s',
 
-	'WRONG_FILESIZE'			=> 'El fitxer és massa gran, la mida màxima permesa és %1d %2s.',
-	'WRONG_SIZE'				=> 'La imatge ha de tenir com a mínim %1$d píxels d’amplària, %2$d píxels d’alçària i com a màxim %3$d píxels d’amplària i %4$d píxels d’alçària. La imatge que heu tramès té %5$d píxels d’amplària i %6$d píxels d’alçària.',
+	'WRONG_FILESIZE'			=> 'El fitxer és massa gran, la mida màxima permesa és %1$d %2$s.',
+	'WRONG_SIZE'				=> 'La imatge ha de tenir com a mínim %1$s d’amplària, %2$s d’alçària i com a màxim %3$s d’amplària i %4$s d’alçària. La imatge que heu tramès té %5$s d’amplària i %6$s d’alçària.',
 ));
-
-?>

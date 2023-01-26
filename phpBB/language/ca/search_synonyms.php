@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* search_synonyms [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search_synonyms.php,v 1.2 2007/04/16 17:14:18 shs Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -16,6 +17,7 @@ if (!defined('IN_PHPBB'))
 }
 
 $synonyms = array(
+	'facha'			=> 'fatxa',
 	'pero'			=> 'però',
+	'texts'			=> 'textos',
 );
-?>

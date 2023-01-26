@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* groups [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: groups.php,v 1.21 2007/05/10 15:31:21 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -45,7 +46,7 @@ $lang = array_merge($lang, array(
 	'CHANGED_DEFAULT_GROUP'	    => 'El grup per defecte s’ha canviat correctament.',
 
 	'GROUP_AVATAR'						=> 'Avatar del grup',
-	'GROUP_CHANGE_DEFAULT'				=> 'Esteu segur que voleu canviar la vostra afiliació per defecte al grup “%s”?',
+	'GROUP_CHANGE_DEFAULT'				=> 'Esteu segur de que voleu canviar la vostra afiliació per defecte al grup “%s”?',
 	'GROUP_CLOSED'						=> 'Tancat',
 	'GROUP_DESC'						=> 'Descripció del grup',
 	'GROUP_HIDDEN'						=> 'Ocult',
@@ -56,9 +57,9 @@ $lang = array_merge($lang, array(
 	'GROUP_IS_OPEN'						=> 'Aquest grup és obert, podeu sol·licitar-hi l’afiliació.',
 	'GROUP_IS_SPECIAL'					=> 'Aquest grup és especial, els grups especials són gestionats pels administradors del fòrum.',
 	'GROUP_JOIN'						=> 'Afilia’m al grup',
-	'GROUP_JOIN_CONFIRM'				=> 'Esteu segur que voleu sol·licitar l’afiliació al grup seleccionat?',
+	'GROUP_JOIN_CONFIRM'				=> 'Esteu segur de que voleu sol·licitar l’afiliació al grup seleccionat?',
 	'GROUP_JOIN_PENDING'				=> 'Sol·licitud d’afiliació al grup',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Esteu segur que voleu sol·licitar l’afiliació al grup seleccionat?',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Esteu segur de que voleu sol·licitar l’afiliació al grup seleccionat?',
 	'GROUP_JOINED'						=> 'Us heu afiliat amb èxit al grup seleccionat.',
 	'GROUP_JOINED_PENDING'				=> 'S’ha sol·licitat amb èxit l’afiliació al grup. Si us plau, espereu-vos a que un líder del grup aprovi la vostra afiliació.',
 	'GROUP_LIST'						=> 'Gestiona els usuaris',
@@ -67,9 +68,9 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'						=> 'Obert',
 	'GROUP_RANK'						=> 'Rang del grup',
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Cancel·la l’afiliació al grup',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Esteu segur que voleu cancel·lar l’afiliació al grup seleccionat?',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Esteu segur de que voleu cancel·lar l’afiliació al grup seleccionat?',
 	'GROUP_RESIGN_PENDING'				=> 'Cancel·la la sol·licitud d’afiliació al grup',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Esteu segur que voleu cancel·lar la sol·licitud d’afiliació al grup seleccionat?',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Esteu segur de que voleu cancel·lar la sol·licitud d’afiliació al grup seleccionat?',
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Heu abandonat correctament el grup seleccionat.',
 	'GROUP_RESIGNED_PENDING'			=> 'La vostra sol·licitud d’afiliació al grup seleccionat s’ha cancel·lat correctament.',
 	'GROUP_TYPE'						=> 'Tipus de grup',
@@ -82,15 +83,13 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'L’operació sol·licitada no es pot dur a terme perquè no sou líder del grup seleccionat.',
 	'NOT_MEMBER_OF_GROUP'			=> 'L’operació sol·licitada no es pot dur a terme perquè no sou membre del grup seleccionat o encara no s’ha aprovat la vostra afiliació.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'No podeu cancel·lar l’afiliació al vostre grup per defecte.',
-	
+
 	'PRIMARY_GROUP'		=> 'Grup primari',
 
 	'REMOVE_SELECTED'		=> 'Suprimeix els seleccionats',
 
 	'USER_GROUP_CHANGE'			=> 'Del grup “%1$s” a “%2$s”',
 	'USER_GROUP_DEMOTE'			=> 'Renuncia al lideratge',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Esteu segur que voleu deixar de ser líder del grup seleccionat?',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Esteu segur de que voleu deixar de ser líder del grup seleccionat?',
 	'USER_GROUP_DEMOTED'		=> 'Heu renunciat al vostre lideratge correctament.',
 ));
-
-?>

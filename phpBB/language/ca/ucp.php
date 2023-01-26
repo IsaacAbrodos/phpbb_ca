@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* ucp [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: ucp.php 9478 2009-04-22 13:08:23Z acydburn $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -39,12 +40,12 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'En accedir a “%1$s” (a partir d’ara “nosaltres”, “%1$s”, “%2$s”), accepteu les condicions legals següents. Si no accepteu totes les condicions legals següents, si us plau no accediu ni utilitzeu “%1$s”. Aquestes condicions poden canviar en qualsevol moment i ens esforçarem al màxim per informar-vos. Això no obstant, és recomanable que les reviseu regularment ja que l’ús continuat de “%1$s” després que aquestes canvïin implica que les accepteu a mesura que s’actualitzen o s’esmenen.<br />
 	<br />
-	Els nostres fòrums utilitzen phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) un programa per a la creació de fòrums distribuït sota la “<a href="http://opensource.org/licenses/gpl-license.php">Llicència pública general</a>” (a partir d’ara la “GPL”) que us podeu baixar des de <a href="https://www.phpbb.com/">www.phpbb.com</a>. El phpBB només facilita els debats a través d’Internet, el phpBB Group no és responsable de què permet o no en termes de cotingut o conducta. Per a més informació sobre el phpBB, dirigiu-vos a: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
+	Els nostres fòrums utilitzen phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) un programa per a la creació de fòrums distribuït sota la “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (a partir d’ara la “GPL”) que us podeu baixar des de <a href="https://www.phpbb.com/">www.phpbb.com</a>. El phpBB només facilita els debats a través d’Internet; phpBB Limted no és responsable de què permet o no en termes de cotingut o conducta. Per a més informació sobre el phpBB, dirigiu-vos a: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Accepteu no publicar material abusiu, obscè, vulgar, difamatori, d’odi, amenaçant, orientat sexualment o de qualsevol altre tipus que pugui violar qualsevol de les lleis del vostre país, del país en què “%1$s” està allotjat o qualsevol llei intenacional. Si ho feu, és possible que us expulsin de manera immediata i permanent, amb una notificació al vostre proveïdor d’Internet si fos necessari. L’adreça IP de totes les vostres entrades és enregistrada per ajudar a fer complir aquestes condicions. Accepteu que a “%1$s” tenim dret a eliminar, editar, moure o tancar qualsevol tema quan ho considerem necessari. Com a usuari accepteu que la informació que heu introduït quedi emmagatzemada en una base de dades. Tot i que aquesta informació no es proporcionarà a tercers sense el vostre consentiment, ni “%1$s” ni phpBB assumiran cap responsabilitat per qualsevol atac al sistema que pugui comprometre les dades.
 	',
 
-	'PRIVACY_POLICY'		=> 'Aquestes normes expliquen en detall com “%1$s” a més de les seves companyies afiliades (a partir d’ara “nosaltres”, “%1$s”, “%2$s”) i phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) utilitzen la informació recollida durant una de les vostres sessions (a partir d’ara “la vostra informació”).<br />
+	'PRIVACY_POLICY'		=> 'Aquestes normes expliquen en detall com “%1$s” a més de les seves companyies afiliades (a partir d’ara “nosaltres”, “%1$s”, “%2$s”) i phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB limited”, “phpBB Teams”) utilitzen la informació recollida durant una de les vostres sessions (a partir d’ara “la vostra informació”).<br />
 	<br />
 	La vostra informació es recull de dues maneres diferents. Primerament, navegar per “%1$s” farà que el phpBB creï una sèrie de galetes, uns petis fitxers de text que es baixen com a fitxers temporals del navegador al vostre ordinador. Les dues primeres galetes només contenen un identificador d’usuari (a partir d’ara “id d’usuari”) i un identificador de sessió anònim (a partir d’ara “id de sessió”), que se us assigna automàticament pel phpBB. Es crearà una tercera galeta un cop hagueu navegat pels temes de “%1$s” que s’utilitza per emmagatzemar quins temes ja heu llegit, amb la qual cosa es millora la usabilitat dels fòrums.<br />
 	<br />
@@ -88,13 +89,24 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Aquesta és una llista dels fitxers que heu adjuntat a les entrades d’aquest fòrum.',
 	'ATTACHMENTS_DELETED'			=> 'S’han eliminat els fitxers adjunts correctament.',
 	'ATTACHMENT_DELETED'			=> 'S’ha eliminat el fitxer adjunt correctament.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Les claus d’inici de sessió tipus "Recorda’m" s’han eliminat correctament.',
 	'AVATAR_CATEGORY'				=> 'Categoria',
-	'AVATAR_EXPLAIN'				=> 'Mides màximes; amplària: %1$d píxels, alçària: %2$d píxels, mida del fitxer: %3$.2f KiB.',
+	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar és un servei que us permet mantenir el mateix avatar a través de múltiples llocs web. Visiteu <a href="http://www.gravatar.com/">Gravatar</a> per obtenir més informació.',
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Galeria d’avatars',
+	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'Podeu triar el vostre avatar d’un conjunt d’avatars disponibles localment.',
+	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Avatar remot',
+	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Enllaceu a imatges d’avatar d’un altre lloc web.',
+	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Penjada d’avatar',
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Pengeu el vostre avatar personalitzat.',
+	'AVATAR_EXPLAIN'				=> 'Mides màximes; amplària: %1$s, alçària: %2$s, mida del fitxer: %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Actualment la funció d’avatars està inhabilitada.',
 	'AVATAR_GALLERY'				=> 'Galeria local',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'No s’ha pogut penjar l’avatar a %s.',
 	'AVATAR_NOT_ALLOWED'			=> 'No es pot mostrar el vostre avatar perquè els avatars estan inhabilitats.',
 	'AVATAR_PAGE'					=> 'Pàgina',
+	'AVATAR_SELECT'					=> 'Seleccioneu el vostre avatar',
+	'AVATAR_TYPE'					=> 'Tipus d’avatar',
 	'AVATAR_TYPE_NOT_ALLOWED'		=> 'El vostre avatar actual no es pot mostrar perquè aquest tipus d’avatar està inhabilitat.',
 
 	'BACK_TO_DRAFTS'			=> 'Torna als esborranys desats',
@@ -103,7 +115,6 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'Si definiu un any, es mostrarà la vostra edat quan sigui el vostre aniversari.',
 	'BOARD_DATE_FORMAT'			=> 'Format de data',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'La sintaxi utilitzada és idèntica a la de la funció <a href="http://www.php.net/date">date()</a> del PHP.',
-	'BOARD_DST'					=> 'L’horari d’estiu/<abbr title="Daylight Saving Time">DST</abbr> està activat',
 	'BOARD_LANGUAGE'			=> 'Idioma',
 	'BOARD_STYLE'				=> 'Estil del fòrum',
 	'BOARD_TIMEZONE'			=> 'Fus horari',
@@ -123,8 +134,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sTorna a la meva carpeta “%3$s”%2$s',
 	'CONFIRMATION'				=> 'Confirmació de registre',
 	'CONFIRM_CHANGES'			=> 'Confirma els canvis',
-	'CONFIRM_EMAIL'				=> 'Confirmeu l’adreça electrònica',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Només cal que l’especifiqueu si voleu canviar la vostra adreça electrònica.',
 	'CONFIRM_EXPLAIN'			=> 'Per tal de prevenir els registres automàtics cal que introduïu un codi de confirmació. El codi es mostra en la imatge que veieu a sota. Si teniu problemes de visió o per alguna raó no podeu llegir aquest codi, si us plau poseu-vos en contacte amb l’%sadministrador del fòrum%s.',
 	'VC_REFRESH'				=> 'Refresca el codi de confirmació',
 	'VC_REFRESH_EXPLAIN'		=> 'Si no podeu llegir el codi, podeu demanar-ne un de nou fent clic al botó.',
@@ -153,18 +162,18 @@ $lang = array_merge($lang, array(
 	'DELETED_TOPIC'				=> 'S’ha eliminat el tema.',
 	'DELETE_ATTACHMENT'			=> 'Elimina el fitxer adjunt',
 	'DELETE_ATTACHMENTS'		=> 'Elimina els fitxers adjunts',
-	'DELETE_ATTACHMENT_CONFIRM'	=> 'Esteu segur que voleu eliminar aquest fitxer adjunt?',
-	'DELETE_ATTACHMENTS_CONFIRM'=> 'Esteu segur que voleu eliminar aquests fitxers adjunts?',
+	'DELETE_ATTACHMENT_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest fitxer adjunt?',
+	'DELETE_ATTACHMENTS_CONFIRM'=> 'Esteu segur de que voleu eliminar aquests fitxers adjunts?',
 	'DELETE_AVATAR'				=> 'Elimina la imatge',
-	'DELETE_COOKIES_CONFIRM'	=> 'Esteu segur que voleu eliminar totes les galetes creades pel fòrum?',
+	'DELETE_COOKIES_CONFIRM'	=> 'Esteu segur de que voleu eliminar totes les galetes creades pel fòrum?',
 	'DELETE_MARKED_PM'			=> 'Elimina els missatges marcats',
-	'DELETE_MARKED_PM_CONFIRM'	=> 'Esteu segur que voleu eliminar els missatges marcats?',
+	'DELETE_MARKED_PM_CONFIRM'	=> 'Esteu segur de que voleu eliminar els missatges marcats?',
 	'DELETE_OLDEST_MESSAGES'	=> 'Elimina els missatges més antics',
 	'DELETE_MESSAGE'			=> 'Elimina el missatge',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Esteu segur que voleu eliminar aquest missatge privat?',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest missatge privat?',
 	'DELETE_MESSAGES_IN_FOLDER'	=> 'Suprimeix tots els missatges de la carpeta eliminada',
 	'DELETE_RULE'				=> 'Elimina la regla',
-	'DELETE_RULE_CONFIRM'		=> 'Esteu segur que voleu eliminar aquesta regla?',
+	'DELETE_RULE_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquesta regla?',
 	'DEMOTE_SELECTED'			=> 'Renuncia al lideratge dels grups seleccionats',
 	'DISABLE_CENSORS'			=> 'Habilita la censura de paraules',
 	'DISPLAY_GALLERY'			=> 'Mostra la galeria',
@@ -188,27 +197,49 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'Exporta aquesta vista',
 
 	'FIELD_REQUIRED'					=> 'El camp “%s” s’ha d’emplenar.',
-	'FIELD_TOO_SHORT'					=> 'El camp “%1$s” és massa curt, calen un mínim de %2$d caràcters.',
-	'FIELD_TOO_LONG'					=> 'El camp “%1$s” és massa llarg, es permet un màxim de %2$d caràcters.',
-	'FIELD_TOO_SMALL'					=> 'El valor de “%1$s” és massa petit, cal un valor mínim de %2$d.',
-	'FIELD_TOO_LARGE'					=> 'El valor de “%1$s” és massa gran, es permet un valor màxim de %2$d.',
+	'FIELD_TOO_SHORT'					=> array(
+		1	=> 'El camp “%2$s” és massa curt, cal un mínim d’%1$d caràcter.',
+		2	=> 'El camp “%2$s” és massa curt, calen un mínim de %1$d caràcters.',
+	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> 'El camp “%2$s” és massa llarg, es permet un màxim d’%1$d caràcter.',
+		2	=> 'El camp “%2$s” és massa llarg, es permet un màxim de %1$d caràcters.',
+	),
+	'FIELD_TOO_SMALL'					=> 'El valor de “%2$s” és massa petit, cal un valor mínim de %1$d.',
+	'FIELD_TOO_LARGE'					=> 'El valor de “%2$s” és massa gran, es permet un valor màxim de %1$d.',
+	'FIELD_INVALID_CHARS_INVALID'		=> 'El camp “%s” té caràcters no vàlids.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten números.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten caràcters alfanumèrics o punts.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten caràcters alfanumèrics.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten caràcters alfanumèrics, espais o -+_[]',
+	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten caràcters alfanumèrics, espais o _,-. i el primer caràcter ha de ser alfabètic.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten caràcters alfanumèrics, espais o -+_[]',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten caràcters alfanumèrics o _',
+	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten lletres, números o punts.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten lletres i números.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'El camp “%s” conte caràcters no vàlids, només es permeten lletres, números o _,-. i el primer caràcter ha de ser alfabètic.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'El camp “%s” conte caràcters no vàlids, només es permeten lletres, números o -+_[]',
+	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'El camp “%s” conte caràcters no vàlids, només es permeten lletres, números o _',
 	'FIELD_INVALID_DATE'				=> 'El camp “%s” conté una data no vàlida.',
+	'FIELD_INVALID_URL'					=> 'El camp “%s” conté un URL no vàlid.',
 	'FIELD_INVALID_VALUE'				=> 'El camp “%s” conté un valor no vàlid.',
 
 	'FOE_MESSAGE'				=> 'Missatge d’un enemic',
 	'FOES_EXPLAIN'				=> 'Els enemics són usuaris que són ignorats per defecte. Les entrades d’aquests usuaris no seran completament visibles. El missatges personals dels enemics sí que es permeten. Tingueu en compte que no podeu ignorar els moderadors o els administradors.',
 	'FOES_UPDATED'				=> 'S’ha actualitzat la vostra llista d’enemics correctament.',
 	'FOLDER_ADDED'				=> 'S’ha afegit la carpeta correctament.',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d missatges emmagatzemats de %2$d',
+	'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> '%2$d emmagatzemat de %1$s',
+		2	=> '%2$d emmagatzemats de %1$s',
+	),
 	'FOLDER_NAME_EMPTY'			=> 'Cal que introduïu un nom per aquesta carpeta.',
 	'FOLDER_NAME_EXIST'			=> 'La carpeta <strong>%s</strong> ja existeix.',
 	'FOLDER_OPTIONS'			=> 'Opcions de la carpeta',
 	'FOLDER_RENAMED'			=> 'S’ha canviat el nom de la carpeta correctament.',
 	'FOLDER_REMOVED'			=> 'S’ha eliminat correctament la carpeta.',
-	'FOLDER_STATUS_MSG'			=> 'La utilització de la carpeta és del %1$d%% (%2$d missatges emmagatzemats de %3$d)',
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> 'La utilització de la carpeta és del %3$d%% (%2$d emmagatzemat de %1$s)',
+		2	=> 'La utilització de la carpeta és del %3$d%% (%2$d emmagatzemats de %1$s)',
+	),
 	'FORWARD_PM'				=> 'Reenvia el MP',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Abans de continuar navegant pel fòrum cal que canvieu la vostra contrasenya.',
 	'FRIEND_MESSAGE'			=> 'Missatge d’un amic',
@@ -225,6 +256,11 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'Destinatari: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Avís global',
+
+	'GRAVATAR_AVATAR_EMAIL'			=> 'Adreça electronica del gravatar',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Introduïu l’adreça electrònica que vau utilitzar per registrar el vostre compte a <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_SIZE'			=> 'Dimensions de l’avatar',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Especifiqueu l’amplària i l’alçària de l’avatar, deixeu-ho en blanc per intentar la verificació automàtica.',
 
 	'HIDE_ONLINE'				=> 'Oculta la meva presència quan estic connectat',
 	'HIDE_ONLINE_EXPLAIN'		=> 'El canvi en aquesta configuració no es farà efectiu fins al següent cop que visiteu el fòrum.',
@@ -246,6 +282,12 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'Mides de l’avatar',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Especifiqueu l’amplària i l’alçària de l’avatar, deixeu-les en blanc per intentar la verificació automàtica.',
 	'LOGIN_EXPLAIN_UCP'			=> 'Si us plau inicieu la sessió per accedir al Tauler de control de l’usuari.',
+	'LOGIN_LINK'					=> 'Enllaceu o registreu el vostre compte d’un servei extern amb el vostre compte del fòrum',
+	'LOGIN_LINK_EXPLAIN'			=> 'Heu intentat iniciar la sessió amb un servei extern que encara no està connectat amb un compte d’aquet fòrum. Cal que enllaceu aquest compte amb un compte existent o que creeu un compte nou.',
+	'LOGIN_LINK_MISSING_DATA'		=> 'Les dades necessaries per enllaçar el vostre compte amb el servei extern no estan disponibles. torneu a començar el procés d’inici de sessió.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'No data has been provided to this page to link an external account to a forum account. Please contact the board administrator if you continue to experience problems.',
+	'LOGIN_KEY'					=> 'Clau d’inici de sessió',
+	'LOGIN_TIME'				=> 'Hora d’inici de sessió',
 	'LOGIN_REDIRECT'			=> 'Heu iniciat la sessió correctament.',
 	'LOGOUT_FAILED'				=> 'No heu finalitzat la sessió ja que la sol·licitud no coincidia amb la vostra sessió. Si us plau poseu-vos en contacte amb l’administrador del fòrum si contineu expermientant aquest problema.',
 	'LOGOUT_REDIRECT'			=> 'Heu finalitzat la sessió correctament.',
@@ -266,16 +308,39 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Desplaça els missatges de la carpeta eliminada a',
 	'MOVE_DOWN'						=> 'Baixa',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Desplaça els missatges marcats a %s',
-	'MOVE_PM_ERROR'					=> 'S’ha produït un error mentre es movien els missatges a la carpeta nova, només s’han mogut %1d missatges de %2d.',
+	'MOVE_PM_ERROR'					=> array(
+		1	=> 'S’ha produït un error mentre es movien els missatges a la carpeta nova, només s’ha mogut %2$d dels %1$s.',
+		2	=> 'S’ha produït un error mentre es movien els missatges a la carpeta nova, només s’han mogut %2$d dels %1$s.',
+	),
 	'MOVE_TO_FOLDER'				=> 'Desplaça’l a la carpeta',
 	'MOVE_UP'						=> 'Puja',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'No heu introduït l’adreça electrònica de confirmació.',
-	'NEW_EMAIL_ERROR'				=> 'Les adreces electròniques que heu introduït no coincideixen.',
 	'NEW_FOLDER_NAME'				=> 'Nom de la carpeta nova',
 	'NEW_PASSWORD'					=> 'Contrasenya nova',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'No heu introduït la contrasenya de confirmació.',
 	'NEW_PASSWORD_ERROR'			=> 'Les contrasenyes que heu heu introduït no coincideixen.',
+
+	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Marca totes les notificacions com a llegides',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Esteu segur de que voleu marcar totes les notificacions com a llegides?',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'S’han marcat totes les notificacions com a llegides',
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Notificacions miscel·lànies',
+	'NOTIFICATION_GROUP_MODERATION'						=> 'Notificacions de moderació',
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Notificacions d’administració',
+	'NOTIFICATION_GROUP_POSTING'						=> 'Notifications de publicació',
+	'NOTIFICATION_METHOD_EMAIL'							=> 'Correu electrònic',
+	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
+	'NOTIFICATION_TYPE'									=> 'tipus de notificació',
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Algú respon en un tema que teniu a les adrece d’interès',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Algú sol·licita l’afiliació a un grup que lidereu',
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Una entrada o tema necessiten aprovació',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Els vostres temes o entrades son aprovats o rebutjats per un moderador',
+	'NOTIFICATION_TYPE_PM'								=> 'Algú us envia un missatge privat',
+	'NOTIFICATION_TYPE_POST'							=> 'Algú respon en un tema al qual esteu subscrit',
+	'NOTIFICATION_TYPE_QUOTE'							=> 'Algú us cita en una entrada',
+	'NOTIFICATION_TYPE_REPORT'							=> 'Algú informa d’una entrada',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Algú crea un tema en un fòrum al qual esteu subscrit',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Es requereuix l’activació d’un usuari que s’acaba de registrar',
+
 	'NOTIFY_METHOD'					=> 'Mètode de notificació',
 	'NOTIFY_METHOD_BOTH'			=> 'Ambdós',
 	'NOTIFY_METHOD_EMAIL'			=> 'Només per correu electrònic',
@@ -293,10 +358,13 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'No podeu afegir-vos a la llista d’enemics.',
 	'NOT_AGREE'						=> 'No accepto aquestes condicions',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'La carpeta de destí “%s” és plena. L’acció sol·licitada no s’ha dut a terme.',
-	'NOT_MOVED_MESSAGE'				=> 'Actualment teniu 1 missatge privat retingut perquè la carpeta és plena.',
-	'NOT_MOVED_MESSAGES'			=> 'Actualment teniu %d missatges privats retinguts perquè la carpeta és plena.',
+	'NOT_MOVED_MESSAGES'			=> array(
+		1	=> 'Actualment teniu %d missatge privat retingut perquè la carpeta és plena.',
+		2	=> 'Actualment teniu %d missatges privats retinguts perquè la carpeta és plena.',
+	),
 	'NO_ACTION_MODE'				=> 'No s’ha especificat cap acció per al missatge.',
 	'NO_AUTHOR'						=> 'No s’ha especificat cap autor per aquest missatge',
+	'NO_AVATAR'						=> 'No he seleccionat cap avatar',
 	'NO_AVATAR_CATEGORY'			=> 'Cap',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'No esteu autoritzat a eliminar missatges privats.',
@@ -304,6 +372,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'No esteu autoritzat a reenviar missatges privats.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'No esteu autoritzat a enviar missatges privats a grups.',
 	'NO_AUTH_PASSWORD_REMINDER'		=> 'No esteu autoritzat a sol·licitar una contrasenya nova.',
+	'NO_AUTH_PROFILEINFO'			=> 'No esteu autoritzat a canviar la informació del vostre perfil.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'No esteu autoritzat a llegir missatges privats retinguts.',
 	'NO_AUTH_READ_MESSAGE'			=> 'No esteu autoritzat a llegir missatges privats.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'No podeu llegir aquest missatge privat perquè l’autor l’ha eliminat.',
@@ -334,10 +403,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'No heu seleccionat cap tema o fòrum al qual estigueu subscrit.',
 	'NO_WATCHED_TOPICS'			=> 'No esteu subscrit a cap tema.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'La contrasenya ha de tenir entre %1$d i %2$d caràcters i ha de contenir majúscules, minúscules i números.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Ha de tenir una longitud d’entre %1$d i %2$d caràcters.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'La contrasenya ha de tenir entre %1$d i %2$d caràcters i ha de contenir majúscules, minúscules.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'La contrasenya ha de tenir entre %1$d i %2$d caràcters i ha de contenir majúscules, minúscules, números i signes.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'La contrasenya ha de tenir entre %1$s i %2$s i ha de contenir majúscules, minúscules i números.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Ha de tenir una longitud d’entre %1$s i %2$s.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'La contrasenya ha de tenir entre %1$s i %2$s i ha de contenir majúscules, minúscules.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'La contrasenya ha de tenir entre %1$s i %2$s i ha de contenir majúscules, minúscules, números i signes.',
 	'PASSWORD'					=> 'Contrasenya',
 	'PASSWORD_ACTIVATED'		=> 'S’ha activat la vostra contrasenya nova.',
 	'PASSWORD_UPDATED'			=> 'S’ha enviat una contrasenya nova a l’adreça electrònica amb la que us vau registrar.',
@@ -348,13 +417,16 @@ $lang = array_merge($lang, array(
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Aquest missatge l’ha enviat un usuari que ja no està registrat.',
 	'PM_ICON'					=> 'Icona MP',
 	'PM_INBOX'					=> 'Safata d’entrada',
+	'PM_MARK_ALL_READ'			=> 'Marca tots els missatges com a llegits',
+	'PM_MARK_ALL_READ_SUCCESS'	=> 'S’han  marcat com a llegits tots els missatges privats d’aquesta carpeta',
 	'PM_NO_USERS'				=> 'Els usuaris que heu intentat afegir no existeixen.',
 	'PM_OUTBOX'					=> 'Safata de sortida',
 	'PM_SENTBOX'				=> 'Missatges enviats',
 	'PM_SUBJECT'				=> 'Assumpte del missatge',
 	'PM_TO'						=> 'Envia’l a',
+	'PM_TOOLS'					=> 'Eines dels missatges',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'No s’ha pogut afegir alguns usuaris perquè no tenen permís per llegir missatges privats.',
 	'PM_USERS_REMOVED_NO_PM'	=> 'No s’han pogut afegir alguns usuaris perquè han inhabilitat la recepció de missatges privats.',
-	'POPUP_ON_PM'				=> 'Mostra una finestra emergent quan rebi un missatge privat nou',
 	'POST_EDIT_PM'				=> 'Edició de missatges',
 	'POST_FORWARD_PM'			=> 'Reenviament de missatges',
 	'POST_NEW_PM'				=> 'Redacció de missatges',
@@ -366,6 +438,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'S’han actualitzat les vostres preferències.',
 	'PROFILE_INFO_NOTICE'		=> 'Tingueu en compte que aquesta informació pot ser vista per altres membres. Sigueu prudent amb la informació personal que afegiu. Els camps marcats amb un * són obligatoris.',
 	'PROFILE_UPDATED'			=> 'S’ha actualitzat el vostre perfil.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'Les claus d’inici de sessió tipus "Recorda’m" inicien la vostra sessió automàticament quan visiteu el fòrum. Si finalitzeu la sessió, la clau s’elimina només a l’ordinador que esteu utilitzant per finalitzar la sessió. Aquí podeu veure claus d’inici de sessió que heu creat en altres ordinadors que heu utilitzat per accedir a aquest lloc web.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'No hi ha cap clau d’inici de sessió tipus "Recorda’m".',
 
 	'RECIPIENT'							=> 'Destinatari',
 	'RECIPIENTS'						=> 'Destinataris',
@@ -373,10 +447,10 @@ $lang = array_merge($lang, array(
 	'RELEASE_MESSAGES'					=> '%sAllibera tots els missatges retinguts%s… s’assignaran a les carpetes apropiades si hi ha espai suficient.',
 	'REMOVE_ADDRESS'					=> 'Elimina l’adreça',
 	'REMOVE_SELECTED_BOOKMARKS'			=> 'Elimina les adreces d’interès seleccionades',
-	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Esteu segur que voleu eliminar totes les adreces d’interès seleccionades?',
+	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Esteu segur de que voleu eliminar totes les adreces d’interès seleccionades?',
 	'REMOVE_BOOKMARK_MARKED'			=> 'Elimina les adreces d’interès marcades',
 	'REMOVE_FOLDER'						=> 'Elimina la carpeta',
-	'REMOVE_FOLDER_CONFIRM'				=> 'Esteu segur que voleu eliminar aquesta carpeta?',
+	'REMOVE_FOLDER_CONFIRM'				=> 'Esteu segur de que voleu eliminar aquesta carpeta?',
 	'RENAME'							=> 'Canvia el nom',
 	'RENAME_FOLDER'						=> 'Canvia el nom de la carpeta',
 	'REPLIED_MESSAGE'					=> 'Missatge respost',
@@ -390,8 +464,10 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'						=> 'S’ha eliminat la regla correctament.',
 	'RULE_LIMIT_REACHED'				=> 'No podeu afegir més regles de MP. Heu assolit el nombre màxim de regles.',
 	'RULE_NOT_DEFINED'					=> 'No s’ha especificat la regla correctament.',
-	'RULE_REMOVED_MESSAGE'				=> 'S’ha eliminat 1 missatge privat a causa dels filtres.',
-	'RULE_REMOVED_MESSAGES'				=> 'S’han eliminat %d missatges privats a causa dels filtres.',
+	'RULE_REMOVED_MESSAGES'				=> array(
+		1	=> 'S’ha eliminat %d missatge privat a causa dels filtres.',
+		2	=> 'S’han eliminat %d missatges privats a causa dels filtres.',
+	),
 
 	'SAME_PASSWORD_ERROR'		=> 'La contrasenya nova que heu introduït és la mateixa que la vostra contrasenya actual.',
 	'SEARCH_YOUR_POSTS'			=> 'Mostra les meves entrades',
@@ -402,6 +478,8 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_PREVIEW'			=> 'La vostra signatura apareixerà així a les entrades',
 	'SIGNATURE_TOO_LONG'		=> 'La vostra signatura és massa llarga.',
 	'SORT'						=> 'Ordena',
+	'SELECT_CURRENT_TIME'		=> 'Seleccioneu l’hora actual',
+	'SELECT_TIMEZONE'			=> 'Seleccioneu el fus horari',
 	'SORT_COMMENT'				=> 'Comentari del fitxer',
 	'SORT_DOWNLOADS'			=> 'Baixades',
 	'SORT_EXTENSION'			=> 'Extensió',
@@ -410,20 +488,33 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'Mida del fitxer',
 
 	'TIMEZONE'					=> 'Fus horari',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'Suggeriment: %s',
+	'TIMEZONE_INVALID'			=> 'El fus horari que heu seleccionat no es vàlid.',
 	'TO'						=> 'Destinatari',
+	'TO_MASS'					=> 'Destinataris',
+	'TO_ADD'					=> 'Afegeix destinatari',
+	'TO_ADD_MASS'				=> 'Afegeix destinataris',
+	'TO_ADD_GROUPS'				=> 'Afegeix grups',
 	'TOO_MANY_RECIPIENTS'		=> 'Heu provat d’enviar un missatge privat a massa destinataris.',
 	'TOO_MANY_REGISTERS'		=> 'Heu excedit el nombre màxim d’intents de registre durant aquesta sessió. Si us plau, torneu a intentar-ho més tard.',
 
 	'UCP'						=> 'Tauler de control de l’usuari',
 	'UCP_ACTIVATE'				=> 'Activa el compte',
 	'UCP_ADMIN_ACTIVATE'		=> 'Tingueu en compte que haureu d’introduir una adreça electrònica vàlida abans que el vostre compte sigui activat. L’administrador revisarà el vostre compte i si l’aprova rebreu un correu electrònic a l’adreça que heu especificat.',
-	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'Fitxers adjunts',
+	'UCP_AUTH_LINK'				=> 'Comptes externs',
+	'UCP_AUTH_LINK_ASK'			=> 'Actualment no teniu cap compte associat amb aquest servei extern. Feu clic al botó a sota per vincular el vostre compte del fòrum a un compte d’aquest servei extern.',
+	'UCP_AUTH_LINK_ID'			=> 'Identificador únic',
+	'UCP_AUTH_LINK_LINK'		=> 'Vincula',
+	'UCP_AUTH_LINK_MANAGE'		=> 'Gestiona les associacions amb comptes externs',
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'El metode actual d’autenticació d’aquest fòrum no permet la vinculació de comptes del fòrum a serveis externs.',
+	'UCP_AUTH_LINK_TITLE'		=> 'Gestiona les associacions amb comptes externs',
+	'UCP_AUTH_LINK_UNLINK'		=> 'Desvincula',
 	'UCP_COPPA_BEFORE'			=> 'Abans del %s',
 	'UCP_COPPA_ON_AFTER'		=> 'Durant o després del %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'Tingueu en compte que haureu d’introduir una adreça electrònica vàlida abans que el vostre compte sigui activat. Rebreu un correu electrònic que conté un enllaç d’activació a l’adreça que heu especificat.',
-	'UCP_ICQ'					=> 'Número ICQ',
 	'UCP_JABBER'				=> 'Adreça Jabber',
+	'UCP_LOGIN_LINK'			=> 'Configura una associació amb un compte extern',
 
 	'UCP_MAIN'					=> 'Principal',
 	'UCP_MAIN_ATTACHMENTS'		=> 'Gestió dels fitxers adjunts',
@@ -432,8 +523,12 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Pàgina principal',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Gestió de les subscripcions',
 
-	'UCP_MSNM'					=> 'WL/MSN Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'No heu publicat cap fitxer.',
+
+	'UCP_NOTIFICATION_LIST'				=> 'Gestiona les notificacions',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Aquí podeu veure totes les notificacions que heu rebut.',
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Edita les opcions de notificació',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Aquí podeu configurar el vostre mètode de notificació preferit per al fòrum.',
 
 	'UCP_PREFS'					=> 'Preferències del fòrum',
 	'UCP_PREFS_PERSONAL'		=> 'Edició de les preferències globals',
@@ -444,8 +539,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> 'Redacció de missatges',
 	'UCP_PM_DRAFTS'				=> 'Gestió dels esborranys de MP',
 	'UCP_PM_OPTIONS'			=> 'Regles, carpetes i preferències',
-	'UCP_PM_POPUP'				=> 'Missatges privats',
-	'UCP_PM_POPUP_TITLE'		=> 'Finestra emergent per a missatges privats',
 	'UCP_PM_UNREAD'				=> 'Missatges no llegits',
 	'UCP_PM_VIEW'				=> 'Visualització dels missatges',
 
@@ -454,16 +547,17 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Edició del perfil',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Edició del compte',
 	'UCP_PROFILE_SIGNATURE'		=> 'Edició de la signatura',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Gestiona les claus d’inici de sessió tipus "Recorda’m"',
 
 	'UCP_USERGROUPS'			=> 'Grups d’usuaris',
 	'UCP_USERGROUPS_MEMBER'		=> 'Edició de les afiliacions',
 	'UCP_USERGROUPS_MANAGE'		=> 'Gestió dels grups',
 
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'La funcionalitat de reinicialització de contrasenya està desactivada. Si necessiteu ajuda per accedir al vostre compte, poseu-vos en contacte amb els %sadministradors del fòrum%s',
 	'UCP_REGISTER_DISABLE'			=> 'No és possible crear un compte nou actualment.',
 	'UCP_REMIND'					=> 'Envia la contrasenya',
 	'UCP_RESEND'					=> 'Envia el correu electrònic d’activació',
 	'UCP_WELCOME'					=> 'Benvingut al Tauler de control de l’usuari. Des d’aquí podeu visualitzar, actualitzar i fer un seguiment del vostre perfil, preferències, i subscripcions. També podeu enviar missatges a altres usuaris si se’n permet l’ús. Asegureu-vos de llegir els possibles avisos abans de continuar.',
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Amics i enemics',
 	'UCP_ZEBRA_FOES'				=> 'Gestió dels enemics',
 	'UCP_ZEBRA_FRIENDS'				=> 'Gestió dels amics',
@@ -473,12 +567,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Penja’l des de la meva màquina',
 	'UPLOAD_AVATAR_URL'				=> 'Penja’l des d’un URL',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Introduïu l’URL on està ubicada la imatge. La imatge es copiarà en aquest lloc web.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$d i %2$d caràcters i només es poden utilitzar caràcters alfanumèrics.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$d i %2$d caràcters i només es poden utilitzar caràcters alfanumèrics, espais o els caràcters -+_[]',
-	'USERNAME_ASCII_EXPLAIN'		=> 'El nom d’usuari ha de tenir entre %1$d i %2$d caràcters i només es poden utilitzar caràcters ASCII, és a dir sense signes especials.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$d i %2$d caràcters i només es poden utilitzar lletres i números.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$d i %2$d caràcters i només es poden utilitzar lletres, números, espais o els caràcters -+_[]',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Ha de tenir una longitud d’entre %1$d i %2$d caràcters.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar caràcters alfanumèrics.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar caràcters alfanumèrics, espais o els caràcters -+_[]',
+	'USERNAME_ASCII_EXPLAIN'		=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar caràcters ASCII, és a dir sense signes especials.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar lletres i números.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar lletres, números, espais o els caràcters -+_[]',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Ha de tenir una longitud d’entre %1$s i %2$s.',
 	'USERNAME_TAKEN_USERNAME'		=> 'El nom d’usuari que heu introduït ja existeix, si us plau trieu un nom d’usuari diferent.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'El nom d’usuari que heu introduït no està permès o conté una paraula no permesa. Si us plau, trieu nom d’usuari diferent.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Els noms d’usuari que heu especificat no s’han pogut trobar o bé són d’usuaris no activats.',
@@ -491,10 +585,13 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'MP següent',
 	'VIEW_PM'					=> 'Mostra el missatge',
 	'VIEW_PM_INFO'				=> 'Detalls del missatge',
-	'VIEW_PM_MESSAGE'			=> '1 missatge',
-	'VIEW_PM_MESSAGES'			=> '%d missatges',
+	'VIEW_PM_MESSAGES'			=> array(
+		1	=> '%d missatge',
+		2	=> '%d missatges',
+	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'MP precedent de l’historial',
 	'VIEW_PREVIOUS_PM'			=> 'MP precedent',
+	'VIEW_PROFILE'				=> 'Visualitza el perfil',
 	'VIEW_SIGS'					=> 'Mostra les signatures',
 	'VIEW_SMILIES'				=> 'Mostra les emoticones amb imatges',
 	'VIEW_TOPICS_DAYS'			=> 'Mostra els temes dels darrers dies',
@@ -520,14 +617,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'Desplaça’l a la carpeta',
 		'MARK_AS_READ'		=> 'Marca’l com a llegit',
 		'MARK_AS_IMPORTANT'	=> 'Marca el missatge',
-		'DELETE_MESSAGE'	=> 'Elimina el missatge'
+		'DELETE_MESSAGE'	=> 'Elimina el missatge',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'l’assumpte',
 		'SENDER'	=> 'el remitent',
 		'MESSAGE'	=> 'el missatge',
 		'STATUS'	=> 'l’estat del missatge',
-		'TO'		=> 'me l’han enviat'
+		'TO'		=> 'me l’han enviat',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'és similar a',
@@ -540,12 +637,11 @@ $lang = array_merge($lang, array(
 		'IS_FOE'		=> 'és un enemic',
 		'IS_USER'		=> 'és un usuari',
 		'IS_GROUP'		=> 'és del grup d’usuaris',
-		'ANSWERED'		=> 'contestat',
+		'ANSWERED'		=> 'respost',
 		'FORWARDED'		=> 'reenviat',
 		'TO_GROUP'		=> 'al meu grup per defecte',
-		'TO_ME'			=> 'a mi'
+		'TO_ME'			=> 'a mi',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'Els grups d’usuaris permeten als administradors del fòrum gestionar milllor els usuaris. Per defecte se us assignarà a un grup específic (el vostre grup per defecte). Aquest grup determina com apareixeu als altres usuaris, per exemple el color del vostre nom d’usuari, avatar, rang, etc. Si l’administrador ho permet, és possible canviar el vostre grup per defecte. També se us pot assignar a altres grups o permetre que us hi afilieu. Alguns grups poden donar-vos permisos addicionals per veure determinats continguts o augmentar les vostres capacitats en altres àrees.',
 	'GROUP_LEADER'		=> 'Grups dels que sou líder',
@@ -559,5 +655,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'No teniu cap afiliació pendent',
 	'NO_NONMEMBER'	=> 'No hi ha cap grup al qual no estigueu afiliat',
 ));
-
-?>

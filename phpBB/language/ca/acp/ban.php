@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_ban [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: ban.php,v 1.19 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -74,12 +75,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanent',
 	
 	'UNTIL'						=> 'Fins el',
-	'USER_BAN'					=> 'Bandeja un o més noms usuari',
+	'USER_BAN'					=> 'Bandeja un o més usuaris per nom d’usuari',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Habiliteu aquesta opció per excloure els usuaris introduïts de tots els bandejos actuals.',
 	'USER_BAN_EXPLAIN'			=> 'Podeu bandejar múltiples usuaris d’un sol cop introduïnt cada nom en una línia nova. Utilitzeu la funció <span style="text-decoration: underline;">Cerca un membre</span> per trobar i afegir un o més usuaris automàticament.',
 	'USER_NO_BANNED'			=> 'No hi ha noms d’usuari bandejats',
-	'USER_UNBAN'				=> 'Desbandeja o desexclou els noms d’usuari',
+	'USER_UNBAN'				=> 'Desbandeja o desexclou usuaris per nom d’usuari',
 	'USER_UNBAN_EXPLAIN'		=> 'Podeu desbandejar (o desexcloure) múltiples usuaris d’un sol cop si utilitzeu la combinació de ratolí i teclat adequada per al vostre ordinador i navegador. Els usuaris exclosos estan ressaltats.',
 ));
-
-?>

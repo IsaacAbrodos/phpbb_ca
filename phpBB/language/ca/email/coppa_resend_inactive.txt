@@ -15,12 +15,12 @@ o envieu-lo per correu tradicional a:
 ------------------------------ TALLEU PER AQUÍ ------------------------------
 Permis per participar a "{SITENAME}" - {U_BOARD}
 
-Nom d'usuari: {USERNAME}
+Nom d’usuari: {USERNAME}
 Correu electrònic: {EMAIL_ADDRESS}
 
 HE REVISAT LA INFORMACIÓ PROPORCIONADA PEL MEU FILL/A I PER LA PRESENT DONO EL MEU PERMÍS A "{SITENAME}" PER QUE EMMAGATZEMI AQUESTA INFORMACIÓ. 
 ENTENC QUE AQUESTA INFORMACIÓ ES POT CANVIAR EN QUALSEVOL MOMENT INTRODUÏNT UNA CONTRASENYA. 
-ENTENC QUE TINC DRET A DEMANAR QUE AQUESTA INFORMACIÓ S'ELIMINI DE "{SITENAME}" EN QUALSEVOL MOMENT.
+ENTENC QUE TINC DRET A DEMANAR QUE AQUESTA INFORMACIÓ S’ELIMINI DE "{SITENAME}" EN QUALSEVOL MOMENT.
 
 
 Pare, mare o tutor 
@@ -33,9 +33,9 @@ Data: _______________
 ------------------------------ TALLEU PER AQUÍ ------------------------------
 
 
-Un cop l'administrador hagi rebut el formulari anterior per fax o per correu tradicional, el vostre compte serà activat.
+Un cop l’administrador hagi rebut el formulari anterior per fax o per correu tradicional, el vostre compte serà activat.
 
-La vostra contrasenya està emmagatzemada de forma segura a la base de dades i no podeu recuperar el text desencriptat. Si l'oblideu, podeu reiniciar-la utilitzant el correu electrònic associat al vostre compte.
+La vostra contrasenya està emmagatzemada de forma segura a la base de dades i no podeu recuperar el text desencriptat. Si l’oblideu, podeu reiniciar-la utilitzant el correu electrònic associat al vostre compte.
 
 Gràcies per registrar-vos.
 

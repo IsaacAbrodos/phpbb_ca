@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* search [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php 9438 2009-04-11 11:09:45Z acydburn $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,9 +42,14 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_RESULTS'		=> 'Mostra els resultats com',
 
-	'FOUND_SEARCH_MATCH'		=> 'La cerca ha trobat %d coincidència',
-	'FOUND_SEARCH_MATCHES'		=> 'La cerca ha trobat %d coincidències',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'La cerca ha trobat més de %d coincidències',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> 'La cerca ha trobat %d coincidència',
+		2	=> 'La cerca ha trobat %d coincidències',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		1	=> 'La cerca ha trobat més d’%d coincidència',
+		2	=> 'La cerca ha trobat més de %d coincidències',
+	),
 
 	'GLOBAL'				=> 'Avís global',
 
@@ -56,24 +62,31 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Cal que esteu registrat i amb la sessió iniciada per visualitzar les vostres entrades no llegides.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Cal que esteu registrat i amb la sessió iniciada per visualitzar les entrades noves des de la vostra darrera visita.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Heu especificat massa paraules per a la cerca. No introduïu més de %1$d paraules.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'Heu especificat massa paraules per a la cerca. No introduïu més d’%1$d paraula.',
+		2	=> 'Heu especificat massa paraules per a la cerca. No introduïu més de %1$d paraules.',
+	),
 
-	'NO_KEYWORDS'			=> 'Heu d’especificar com a mínim una paraula per a la cerca. Cada paraula ha de tenir un mínim de %d caràcters i no pot contenir més de %d caràcters sense tenir en compte els comodins.',
+	'NO_KEYWORDS'			=> 'Heu d’especificar com a mínim una paraula per a la cerca. Cada paraula ha de tenir un mínim de %s i no pot contenir més de %s sense tenir en compte els comodins.',
 	'NO_RECENT_SEARCHES'	=> 'No s’ha fet cap cerca recentment.',
 	'NO_SEARCH'				=> 'No se us permet utilitzar el sistema de cerques.',
 	'NO_SEARCH_RESULTS'		=> 'No s’ha trobat cap coincidència.',
-	'NO_SEARCH_TIME'		=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a uns minuts.',
+	'NO_SEARCH_TIME'		=> array(
+		1	=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a %d segon.',
+		2	=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a %d segons.',
+	),
 	'NO_SEARCH_UNREADS'		=> 'La cerca d’entrades no llegides està inhabilitada en aquest fòrum.',
 	'WORD_IN_NO_POST'		=> 'No s’ha trobat cap entrada perquè la paraula <strong>%s</strong> no apareix en cap entrada.',
 	'WORDS_IN_NO_POST'		=> 'No s’ha trobat cap entrada perquè les paraules <strong>%s</strong> no apareixen en cap entrada.',
 
 	'POST_CHARACTERS'		=> 'caràcters de les entrades',
+	'PHRASE_SEARCH_DISABLED'	=> 'Aquest fòrum no permet la cerca per frase exacta.',
 
 	'RECENT_SEARCHES'		=> 'Cerques recents',
 	'RESULT_DAYS'			=> 'Limita els resultats als darrers',
 	'RESULT_SORT'			=> 'Ordena els resultats per',
 	'RETURN_FIRST'			=> 'Retorna els primers',
-	'RETURN_TO_SEARCH_ADV'	=> 'Torna a la cerca avançada',
+	'GO_TO_SEARCH_ADV'		=> 'Ves a la cerca avançada',
 
 	'SEARCHED_FOR'				=> 'Paraules utilitzades en la cerca',
 	'SEARCHED_TOPIC'			=> 'Tema on s’ha fet la cerca',
@@ -100,8 +113,11 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Fòrum',
 	'SORT_POST_SUBJECT'			=> 'Assumpte de l’entrada',
 	'SORT_TIME'					=> 'Data de l’entrada',
+	'SPHINX_SEARCH_FAILED'		=> 'La cerca ha fallat: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'No s’ha pogut dur a terme la cerca. S’ha registrat més informació sobre aquesta fallada al fitxer de registre d’errors.',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Heu d’especificar com a mínim %d caràcters del nom de l’autor.',
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'Heu d’especificar, com a mínim, %d caràcter del nom de l’autor.',
+		2	=> 'Heu d’especificar, com a mínim, %d caràcters del nom de l’autor.',
+	),
 ));
-
-?>

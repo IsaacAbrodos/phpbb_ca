@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_modules [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: modules.php,v 1.13 2007/10/04 15:07:24 acydburn Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aquí podeu gestionar tot tipus de mòduls. Tingueu en compte que el TCA té una estructura de menús de tres nivells (Categoria -> Categoria -> Mòdul) mentre que els altres tenen una estructura de menús de dos nivells (Categoria -> Mòdul) que s’ha de mantenir. També heu de ser conscients que és possible que bloquegeu el vostre propi accés si inhabiliteu o elimineu els moduls responsables de la pròpia gestió de mòduls.',
 	'ADD_MODULE'					=> 'Afegeix el mòdul',
-	'ADD_MODULE_CONFIRM'			=> 'Esteu segur que voleu afegir el mòdul seleccionat amb el mode seleccionat?',
+	'ADD_MODULE_CONFIRM'			=> 'Esteu segur de que voleu afegir el mòdul seleccionat amb el mode seleccionat?',
 	'ADD_MODULE_TITLE'				=> 'Afegeix el mòdul',
 
 	'CANNOT_REMOVE_MODULE'	=> 'No es pot eliminar el mòdul ja que té fills assignats. Elimineu o moveu tots els fills abans de realitzar aquesta acció.',
@@ -51,7 +52,7 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATED_MODULE'	=> 'Mòdul desactivat',
 	'DELETE_MODULE'			=> 'Eliminació del mòdul',
-	'DELETE_MODULE_CONFIRM'	=> 'Esteu segur que voleu eliminar aquest mòdul?',
+	'DELETE_MODULE_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquest mòdul?',
 
 	'EDIT_MODULE'			=> 'Edició del mòdul',
 	'EDIT_MODULE_EXPLAIN'	=> 'Aquí podeu seleccionar configuracions específiques del mòdul.',
@@ -80,5 +81,3 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MODULE'			=> 'Seleccioneu un mòdul',
 ));
-
-?>

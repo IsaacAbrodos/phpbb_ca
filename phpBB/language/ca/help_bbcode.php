@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* help_bbcode [Catalan]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: help_bbcode.php 9461 2009-04-17 15:23:17Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -89,7 +90,7 @@ $help = array(
 	),
 	array(
 		0 => 'Enllaços a altres llocs web',
-		1 => 'El BBCode admet diverses maneres diferents de crear enllaços.<ul><li>La primera utilitza l’etiqueta <strong>[url=][/url]</strong>, qualsevol cosa que escrigueu despres del signe = farà que el contingut de l’etiqueta es tracti com un URL. Per exemple, per enllaçar amb phpBB.com podeu utilitzar:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Visiteu el lloc web del phpBB!<strong>[/url]</strong><br /><br />Això es convertirà en l’enllaç següent, <a href="http://www.phpbb.com/">Visiteu el lloc web del phpBB!</a> Tingueu en compte que l’enllaç s’obrirà en la mateixa finestra o bé en una finestra nova depenent de la configuració del navegador de l’usuari.</li><li>Si voleu que el propi URL es mostri en el text de l’enllaç, simplement utilitzeu:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />que es convertirà en l’enllaç següent, <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>A més, el phpBB us proporciona una funció anomenada <i>Enllaços Màgics</i>, que convertirà qualsevol URL sintàcticament correcte en un enllaç sense que us calgui especificar ni les etiquetes ni el prefix http://. Per exemple, si escriviu www.phpbb.com en un missatge, automàticament es convertirà en <a href="http://www.phpbb.com/">www.phpbb.com</a> quan el visualitzeu.</li><li>El mateix passa amb les adreces de correu electrònic, podeu especificar l’adreça explicitament:<br /><br /><strong>[email]</strong>ningu@domini.adr<strong>[/email]</strong><br /><br />la qual cosa es convertirà en <a href="mailto:ningu@domini.adr">ningu@domini.adr</a> o bé simplement escriviu ningu@domini.adr dintre del vostre missatge i es farà la conversió automàticament quan el visualitzeu.</li></ul>De la mateixa manera que les altres etiquetes del BBCode, podeu posar un enllaç dintre d’altres etiquetes com ara <strong>[img][/img]</strong> (vegeu l’entrada següent), <strong>[b][/b]</strong>, etc. Igual que amb les etiquetes de formatació, cal que respecteu l’ordre en què s’obren i es tanquen, per exemple:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br /><span style="text-decoration: underline">no</span> és correcte la qual cosa podria provocar que l’entrada sigui eliminada.'
+		1 => 'El BBCode admet diverses maneres diferents de crear enllaços.<ul><li>La primera utilitza l’etiqueta <strong>[url=][/url]</strong>, qualsevol cosa que escrigueu despres del signe = farà que el contingut de l’etiqueta es tracti com un URL. Per exemple, per enllaçar amb phpBB.com podeu utilitzar:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Visiteu el lloc web del phpBB!<strong>[/url]</strong><br /><br />Això es convertirà en l’enllaç següent, <a href="http://www.phpbb.com/">Visiteu el lloc web del phpBB!</a> Tingueu en compte que l’enllaç s’obrirà en la mateixa finestra o bé en una finestra nova depenent de la configuració del navegador de l’usuari.</li><li>Si voleu que el propi URL es mostri en el text de l’enllaç, simplement utilitzeu:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />que es convertirà en l’enllaç següent, <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>A més, el phpBB us proporciona una funció anomenada <i>Enllaços Màgics</i>, que convertirà qualsevol URL sintàcticament correcte en un enllaç sense que us calgui especificar ni les etiquetes ni el prefix http://. Per exemple, si escriviu www.phpbb.com en un missatge, automàticament es convertirà en <a href="http://www.phpbb.com/">www.phpbb.com</a> quan el visualitzeu.</li><li>El mateix passa amb les adreces de correu electrònic, podeu especificar l’adreça explicitament:<br /><br /><strong>[email]</strong>ningu@domini.adr<strong>[/email]</strong><br /><br />la qual cosa es convertirà en <a href="mailto:ningu@domini.adr">ningu@domini.adr</a> o bé simplement escriviu ningu@domini.adr dintre del vostre missatge i es farà la conversió automàticament quan el visualitzeu.</li></ul>De la mateixa manera que les altres etiquetes del BBCode, podeu posar un enllaç dintre d’altres etiquetes com ara <strong>[img][/img]</strong> (vegeu l’entrada següent), <strong>[b][/b]</strong>, etc. Igual que amb les etiquetes de formatació, cal que respecteu l’ordre en què s’obren i es tanquen, per exemple:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br /><span style="text-decoration: underline">no</span> és correcte la qual cosa podria provocar que l’entrada sigui eliminada.'
 	),
 	array(
 		0 => '--',
@@ -97,7 +98,7 @@ $help = array(
 	),
 	array(
 		0 => 'Afegir una imatge a una entrada',
-		1 => 'El BBCode té una etiqueta per incloure imatges en les entrades. Les dues coses que cal recordar quan utilitzeu aquesta etiqueta són: les entrades on es mostren moltes imatges molesten a la majoria d’usuaris i, sobretot, cal que la imatge que voleu mostrar estigui disponible a Internet (això vol dir que no pot existir només en el vostre ordinador si no és que es tracta d’un servidor web!). Per mostrar una imatge heu de posar l’URL que l’identifica entre etiquetes <strong>[img][/img]</strong>. Per exemple:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />Tal com s’ha explicat en la secció d’enllaços, podeu posar una imatge dintre de les etiquetes <strong>[url][/url]</strong>, per exemple:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />es convertirà en:<br /><br /><a href="http://www.google.com/"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
+		1 => 'El BBCode té una etiqueta per incloure imatges en les entrades. Les dues coses que cal recordar quan utilitzeu aquesta etiqueta són: les entrades on es mostren moltes imatges molesten a la majoria d’usuaris i, sobretot, cal que la imatge que voleu mostrar estigui disponible a Internet (això vol dir que no pot existir només en el vostre ordinador si no és que es tracta d’un servidor web!). Per mostrar una imatge heu de posar l’URL que l’identifica entre etiquetes <strong>[img][/img]</strong>. Per exemple:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />Tal com s’ha explicat en la secció d’enllaços, podeu posar una imatge dintre de les etiquetes <strong>[url][/url]</strong>, per exemple:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />es convertirà en:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
 	),
 	array(
 		0 => 'Afegir fitxers adjunts a una entrada',
@@ -110,7 +111,5 @@ $help = array(
 	array(
 		0 => 'Puc afegir les meves pròpies etiquetes?',
 		1 => 'Si sou un administrador d’aquest fòrum i teniu els permisos adequats, podeu afegir BBCodes addicionals a la secció BBCodes Personalitzats.'
-	)
+	),
 );
-
-?>
