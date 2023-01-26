@@ -366,14 +366,16 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'Mida de la base de dades',
 
 	// Environment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'La sobrecàrrega de funcions està configurada incorrectament',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'La sobrecàrrega de funcions no està configurada correctament',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> s’ha d’establir a 0 o bé a 4. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'La codificació transparent de caràcters està configurada incorrectament',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'La codificació transparent de caràcters no està configurada correctament',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> s’ha d’establir a 0. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
-	'ERROR_MBSTRING_HTTP_INPUT'						=> 'La conversió de caràcters d’entrada HTTP està configurada incorrectament',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> s’ha d’establir a <samp>pass</samp>. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
-	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'La conversió de caràcters de sortida HTTP està configurada incorrectament',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> s’ha d’establir a <samp>pass</samp>. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'La conversió de caràcters d’entrada HTTP no està configurada correctament',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> s’ha de deixar en blanc. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'La conversió de caràcters de sortida HTTP no està configurada correctament',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> s’ha de deixar en blanc. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'El joc de caràcters per defecte no està configurat correctament',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> s’ha d’establir a <samp>UTF-8</samp>. Podeu comprovar el valor actual a la pàgina d’<samp>informació del PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Fitxers adjunts per dia',
 	'FORUM_STATS'		=> 'Estadístiques del fòrum',

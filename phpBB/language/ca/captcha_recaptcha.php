@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
 	// If no code exists for your language you can use "en" or leave the string empty
 	'RECAPTCHA_LANG'				=> 'ca',
@@ -73,4 +73,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Llindar per enviar informes',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Llindars',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 torna una puntuació (<samp>1.0</samp> és, molt probablement, una interacció de qualitat, <samp>0.0</samp> segurament és un robot). Aquí podeu indicar la puntació mínima per cada acció.',
-));
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 necessita saber quin mètode dels disponibles voleu utilitzar quan es verifiqui la petició.',
+]);
