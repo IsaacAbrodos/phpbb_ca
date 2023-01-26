@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Clau privada reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'La vostra clau privada reCaptcha. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Per prevenir les trameses automàtiques requerim que introduïu les dues paraules que es mostren al camp de text a continuació.',
+	'RECAPTCHA_EXPLAIN'				=> 'Per prevenir les trameses automàtiques requerim que escriviu el text que es mostra al camp de sota.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'S’ha produït un problema amb la connexió al servei RECAPTCHA: no s’ha pogut obrir el sòcol. Intenteu-ho més tard.',
 ));

@@ -52,6 +52,13 @@ $lang = array_merge($lang, array(
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instal·lat: %1$s; Temps: %2$.2f seconds',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'S’està instal·lant l’esquema: %s.',
 
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Una migració no és vàlida. A una sentencia “if” d’ajuda li falta una condició.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Una migració no és vàlida. A una sentencia “if” d’ajuda li falta una crida vàlida a un pas de migració.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Una migració no és vàlida. No s’ha pogut cridar una funció cridable personalitzada.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Una migració no és vàlida. S’ha trobat un tipus d’eina de migració desconegut.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Una migració no és vàlida. S’ha trobat una eina de migració no definida.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Una migració no és vàlida. S’ha trobat una mètode d’eina de migració no definit.',
+
 	'MODULE_ERROR'						=> 'S’ha produït un error mentre es creava un mòdul: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Falta un fitxer necessari d’informació del mòdul: %2$s',
 	'MODULE_NOT_EXIST'					=> 'No existeix un mòdul necessari: %s',
