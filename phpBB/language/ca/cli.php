@@ -50,7 +50,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Imprimeix una llista dels treballs cron llestos i no llestos.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Executa totes les tasques cron que estan llestes.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Indiqueu la tasca a executar',
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Llista totes les migracions instal·lades i disponibles.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Actualitza la base de dades aplicant migracions.',
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Revertir una migració.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Elimina una opció de configuració',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Inhabilita l’extensió especificada.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Habilita l’extensió especificada.',
@@ -58,12 +60,53 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obté el valor d’una opció de configuració',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrementa el valor enter d’una opció de configuració',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista totes les extensions a la base de dades i al sistema de fitxers.',
+
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'El nom de l’Entorn.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Executa’l en mode segur (sense extensions).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Executa l’intèrpret d’ordres.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purga l’extensió especificada.',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula la columna user_email_hash de la taula d’usuaris.',
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Estableix el valor d’una opció de configuració només si el valor vell coincideix amb el valor nou',
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Estableix el valor d’una opció de configuració',
+
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Llista els tipus de text que es poden reanalitzar.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Reanalitzadors disponibles:',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reanalitza text emmagatzemat amb els serveis text_formatter actuals.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Tipus de text a reanalitzar. Deixeu-lo en blanc per reanalitzar-ho tot.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'No desis els canvis; mostra només el que passaria',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Mínim ID de registre a processar',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Màxim ID de registre a processar',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Nombre aproximat de registres a tractar a la vegada',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Comença a reanalitzar on s’ha aturat la darrera execució',
+
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Recalcula la columna user_email_hash de la taula d’usuaris.',
+
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Estableix el valor d’una opció de configuració només si el valor vell coincideix amb el valor nou',
+	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Estableix el valor d’una opció de configuració',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Elimina totes les miniatures existents.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Genera totes les miniatures que falten.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Torna a crear totes les miniatures.',
+
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Comprova si el fòrum està actualitzat.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Nom de ’extensió a comprovar (si utilitzeu l’opció “all”, comprova totes les extensions)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Executa l’ordre de comprovació amb memòria cau.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Executa l’ordre amb l’opció de comprovar només versions estables o inestables.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" no és una estabilitat vàlida.',
+
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activa (o desactiva) el compte d’un usuari.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nom d’usuari del compte que voleu activar.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Desactiva el compte de l’usuari',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'L’usuari ja és actiu.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'L’usuari ja és inactiu.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Afegeix un usuari nou.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Nom d’usuari del nou usuari',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Contrasenya  del nou usuari',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Adreça electrònica del nou usuari',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Envia un correu d’activació de compte al nou usuari (no s’envia per defecte)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Elimina un compte d’usuari.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nom d’usuari de l’usuari que voleu eliminar',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Elimina totes les entrades fetes per l’usuari. Si no marqueu aquesta opció, es conservaran les entrades de l’usuari.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Neteja els noms d’usuaris.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'No s’ha pogut inhabilitar l’extensió %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'S’ha inhabilitat l’extensió %s correctament',
@@ -72,15 +115,55 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Nom de l’extensió',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'No s’ha pogut purgar l’extensió %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'S’ha purgat l’extensió %s correctament',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'No s’ha pogut actualitzar l’extensió %s',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'S’ha actualitzat correctament l’extensió %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'No s’ha trobat cap extensió.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponible',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Inhabilitada',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Habilitada',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'S’han recalculat tots les funcions de resum de les adreces electròniques.',
+
+	'CLI_MIGRATION_NAME'					=> 'Nom de la migració, amb l’espai de noms inclòs (utilitzeu barres inclinades en lloc de barres inverses per evitar problemes).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migracions disponibles',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Migracions instal·lades',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Mostra només les migracions disponibles',
+	'CLI_MIGRATIONS_EMPTY'                  => 'No hi ha migracions.',
+
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reanalitzant %1$s (rang %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reanalitzant %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'El reanàlisi ha finalitzat correctament',
+
+	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
+	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
+	'CLI_THUMBNAIL_DELETED'		=> 'S’ha eliminat %1$s (%2$s).',
+	'CLI_THUMBNAIL_DELETING'	=> 'S’estan eliminant les miniatures',
+	'CLI_THUMBNAIL_SKIPPED'		=> 'S’ha omès %1$s (%2$s).',
+	'CLI_THUMBNAIL_GENERATED'	=> 'S’ha generat %1$s (%2$s).',
+	'CLI_THUMBNAIL_GENERATING'	=> 'S’estan generant les miniatures',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'S’han regenerat totes les miniatures.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'S’han eliminat totes les miniatures.',
+
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No hi ha miniatures per generar.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No hi ha miniatures per eliminar.',
+
+	'CLI_USER_ADD_SUCCESS'		=> 'S’ha afegit correctament l’usuari %s.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Esteu segur de voler eliminar ‘%s’? [y/N]',
+	'CLI_USER_RECLEAN_START'	=> 'S’estan netejant els noms d’usuari',
+	'CLI_USER_RECLEAN_DONE'		=> [
+		0	=> 'Neteja completa. No ha calgut netejar cap nom d’usuari.',
+		1	=> 'Neteja completa. S’ha netejat %d nom d’usuari.',
+		2	=> 'Neteja completa. S’han netejat %d noms d’usuari.',
+	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalment, podeu indicar el nom d’una tasca “cron” per que s’executi només la tasca “cron” especificada.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Activeu o desactiveu un compte d’usuari utilitzant l’opció <info>--deactivate</info>.
+Opcionalment, per enviar a l’usuari un correu electrònic d’activació, utilitzeu l’opció <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'			=> 'L’ordre <info>%command.name%</info> afegeix un usuari nou:
+Si executeu l’ordre sense opcions , se us demanarà que les introduïu.
+Opcionalment, per enviar a l’usuari nou un correu electrònic, utilitzeu l’opció <info>--send-email</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Netejar els noms d’usuari comprobarà tots els noms d’usuari emmagatzemats i s’assegurarà que també s’emmagatzemen versions netes. Els noms d’usuari nets són una forma que no distingeix entre majúscules i minúscules, normalitzada amb NFC i transformada a ASCII.',
 ));

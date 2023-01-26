@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MEMBERS'					=> 'Membres del grup',
 	'GROUP_MEMBERS_EXPLAIN'			=> 'És una llista completa de tots els membres d’aquest grup d’usuaris. Inclou seccions separades per a líders, membres amb sol·licituds d’afiliació pendents i membres ja acceptats. Des d’aquí podeu gestionar tots els aspectes de qui és membre d’aquest grup i quin és el seu rol. Per treure un líder però mantenir-lo al grup utilitzeu Degrada en lloc de Treu. De manera similar, utilitzeu Ascendeix per convertir un membre en líder.',
 	'GROUP_MESSAGE_LIMIT'			=> 'Límit de missatges privats per carpeta per al grup',
-	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Aquesta configuració sobreescriu el límit de missatges per carpeta de l’usuari. El valor 0 significa que s’utilitzarà el límit per defecte de l’usuari.',
+	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Aquesta configuració sobreescriu el límit de missatges per carpeta de l’usuari. S’utilitza el màxim de tots els grups de l’usuari per determinar-ne el valor.<br /> Introduïu un 0 per sobreescriure la configuració de tots els usuaris d’aquest grup amb la configuració global del fòrum.',
 	'GROUP_MODS_ADDED'				=> 'S’han afegit els nous líders del grup correctament.',
 	'GROUP_MODS_DEMOTED'			=> 'S’han degradat els líders del grup correctament.',
 	'GROUP_MODS_PROMOTED'			=> 'S’han ascendit els membres del grup correctament.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'					=> 'Obert',
 	'GROUP_PENDING'					=> 'Membres amb sol·licitud d’afiliació pendent',
 	'GROUP_MAX_RECIPIENTS'			=> 'Nombre màxim de destinataris permesos per missatge privat',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'El nombre màxim de destinataris permesos en un missatge privat. Si introduïu un 0, s’utilitzarà el valor de la configuració global del fòrum.',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'El nombre màxim de destinataris permesos en un missatge privat. S’utilitza el màxim de tots els grups de l’usuari per determinar-ne el valor.<br /> Introduïu un 0 per sobreescriure la configuració de tots els usuaris d’aquest grup amb la configuració global del fòrum.',
 	'GROUP_OPTIONS_SAVE'			=> 'Opcions de tot el grup',
 	'GROUP_PROMOTE'					=> 'Ascendeix-lo a líder del grup',
 	'GROUP_RANK'					=> 'Rang del grup',
@@ -129,6 +129,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS'					=> 'No heu introduït cap usuari.',
 	'NO_USERS_ADDED'			=> 'No s’ha afegit cap usuari al grup.',
 	'NO_VALID_USERS'			=> 'No heu introduït cap usuari per al qual estigui permesa aquesta acció.',
+
+	'PENDING_MEMBERS'			=> 'Pendents',
 
 	'SELECT_GROUP'				=> 'Seleccioneu un grup',
 	'SPECIAL_GROUPS'			=> 'Grups predefinits',

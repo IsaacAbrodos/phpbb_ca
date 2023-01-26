@@ -70,9 +70,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Fitxers flash',
 	'CAT_IMAGES'				=> 'Imatges',
-	'CAT_QUICKTIME_FILES'		=> 'Fitxers Quicktime',
-	'CAT_RM_FILES'				=> 'Fitxers RealMedia',
-	'CAT_WM_FILES'				=> 'Fitxers Windows Media',
 	'CHECK_CONTENT'				=> 'Comprova els fitxers adjunts',
 	'CHECK_CONTENT_EXPLAIN'		=> 'A alguns navegadors se’ls pot enganyar per que assumeixin un tipus mime incorrecte per als fitxers penjats. Aquesta opció assegura que els fitxers susceptibles de causar aquest comportament es rebutgen.',
 	'CREATE_GROUP'				=> 'Crea un grup nou',
@@ -105,9 +102,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Fitxers Flash',
 	'EXT_GROUP_IMAGES'				=> 'Imatges',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Text net',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
 	'FILES_GONE'			=> 'Alguns dels fitxers adjunts que heu seleccionat per eliminar no existeixen. Potser ja s’havien eliminat. Els fitxers adjunts que sí que existien s’han eliminat.',
 	'FILES_STATS_WRONG'		=> 'Les vostres estadístiques de fitxers probablement són incorrectes i s’han de resincronitzar. Valors reals: nombre de fitxers adjunts = %1$d, mida total dels fitxers adjunts = %2$s.<br />Feu clic %3$saquí%4$s per resincronitzar-los.',

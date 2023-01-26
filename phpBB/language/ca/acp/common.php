@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permisos de grups',
 	'ACP_GROUPS_POSITION'			=> 'Gestiona posicions de grups',
 
+	'ACP_HELP_PHPBB'			=> 'Ajuda al suport del phpBB',
+
 	'ACP_ICONS'					=> 'Icones de tema',
 	'ACP_ICONS_SMILIES'			=> 'Icones de tema/emoticones',
 	'ACP_INACTIVE_USERS'		=> 'Usuaris inactius',
@@ -167,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Configuració de cerca',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Configuració de seguretat',
-	'ACP_SEND_STATISTICS'		=> 'Envia informació estadística',
 	'ACP_SERVER_CONFIGURATION'	=> 'Configuració del servidor',
 	'ACP_SERVER_SETTINGS'		=> 'Configuració del servidor',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Configuració de les signatures',
@@ -225,12 +226,26 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Enrere',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'No s’ha pogut canviar el grup de fitxers',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'No s’han pogut canviar els permisos dels fitxers',
+	'CANNOT_COPY_FILES'		=> 'No s’han pogut copiar els fitxers',
+	'CANNOT_CREATE_SYMLINK'	=> 'No s’ha pogut crear l’enllaç simbòlic',
+	'CANNOT_DELETE_FILES'	=> 'No s’han pogut eliminar els fitxers del sistema',
+	'CANNOT_DUMP_FILE'		=> 'No s’ha pogut el fitxer de bolcat',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'No s’ha pogut replicar el directori',
+	'CANNOT_RENAME_FILE'	=> 'No s’ha pogut canviar el nom d’un fitxer del sistema',
+	'CANNOT_TOUCH_FILES'	=> 'No s’ha pogut determinar si el fitxer existeix',
+
+	'CONTAINER_EXCEPTION'	=> 'El phpBB ha generat un error en construir el contenidor a causa d’una de les extensions instal·lades. Per aquesta raó s’han inhabilitat temporalment totes les extensions. Proveu de netejar la memòria cau del fòrum. Totes les extensions s’habilitaran automàticament quan es resolgui l’error del contenidor. Si l’error continua, visiteu <a href="https://www.phpbb.com/support">phpBB.com</a> per rebre assistència.',
+	'EXCEPTION' 			=> 'Excepció',
+
 	'COLOUR_SWATCH'			=> 'Mostra de colors Web-safe',
 	'CONFIG_UPDATED'		=> 'La configuració s’ha actualitzat correctament.',
 	'CRON_LOCK_ERROR'		=> 'No sha pogut obtenir el bloqueig del cron.',
 	'CRON_NO_SUCH_TASK'		=> 'No s’ha trobat la tasca de cron “%s”.',
 	'CRON_NO_TASK'			=> 'Ara mateix no cal executar cap tasca cron.',
 	'CRON_NO_TASKS'			=> 'No s’ha trobat cap tasca cron.',
+	'CURRENT_VERSION'		=> 'Versió actual',
 
 	'DEACTIVATE'				=> 'Desactiva',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'El camí introduït “%s” no existeix.',
@@ -256,6 +271,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP de l’usuari',
 	'IP_HOSTNAME'			=> 'Adreces IP o noms d’amfitrió',
 
+	'LATEST_VERSION'		=> 'Versió més recent',
 	'LOAD_NOTIFICATIONS'			=> 'Mostra les notificacions',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostra la llista de notificacions a totes les pàgines (habitualment a a capçalera).',
 	'LOGGED_IN_AS'			=> 'Heu iniciat la sessió com:',
@@ -288,7 +304,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Actualment teniu els permisos de %1$s. Podeu navegar pel fòrum amb els permisos d’aquest usuari, però no podeu accedir al Tauler de control de l’administrador ja que no s’han transferit els permisos d’administració. Podeu <a href="%2$s"><strong>tornar al vostre grup de permisos</strong></a> en qualsevol moment.',
 	'PROCEED_TO_ACP'					=> '%sContinua cap al TCA%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Avís',
 	'REMIND'							=> 'Recordatori',
+	'REPARSE_LOCK_ERROR'				=> 'Ja hi ha un reanàlisi en curs per un altre procés.',
 	'RESYNC'							=> 'Resincronitza',
 
 	'RUNNING_TASK'			=> 'Executant la tasca: %s.',
@@ -309,6 +327,10 @@ $lang = array_merge($lang, array(
 	'UCP'					=> 'Tauler de control de l’usuari',
 	'USERNAMES_EXPLAIN'		=> 'Introduïu cada nom d’usuari en una línia nova.',
 	'USER_CONTROL_PANEL'	=> 'Tauler de control de l’usuari',
+
+	'UPDATE_NEEDED'			=> 'El fòrum no està actualitzat.',
+	'UPDATE_NOT_NEEDED'		=> 'El fòrum està actualitzat.',
+	'UPDATES_AVAILABLE'		=> 'Actualitzacions disponibles:',
 
 	'WARNING'				=> 'Advertiment',
 ));
@@ -420,6 +442,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Valor',
 	'VERSIONCHECK_FAIL'			=> 'No s’ha pogut obtenir la informació de la versió més recent.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Torna a comprovar la versió',
+	'VERSION_CHECK'				=> 'Comprovació de versió',
+	'VERSION_CHECK_EXPLAIN'		=> 'Comprova si la instal·lació del phpBB està actualitzada.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'La instal·lació del phpBB no està actualitzada.<br />A continuació hi ha un enllaç a l’avís de llançament que conté més informació així com instruccions sobre el procés d’actualització.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'La instal·lació del phpBB no està actualitzada.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'La vostra instal·lació del phpBB està actualitzada. No hi ha cap actualització disponible actualment.',
 	'VIEW_ADMIN_LOG'			=> 'Mostra el registre de l’administrador',
 	'VIEW_INACTIVE_USERS'		=> 'Mostra els usuaris inactius',
 
@@ -452,16 +479,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'L’usuari és inactiu',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Si us plau envieu informació sobre el vostre servidor i configuracions del fòrum al web del phpBB per fer-ne una anàlisi estadística. S’ha suprimit tota la informació que pot identificar-vos o identificar el vostre lloc web - les dades són completament <strong>anònimes</strong>. Basem les decisions sobre futures versions del phpBB en aquesta informació. Les estadístiques es fan públiques. També compartim questes dades amb el projecte PHP, el llenguatge de programació en què està escrit el phpBB.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Utilitzant el botó a sota podeu previsualitzar totes les variables que es transmetran.',
 	'DONT_SEND_STATISTICS'		=> 'Torneu al TCA si no voleu enviar informació estadística al web del phpBB.',
 	'GO_ACP_MAIN'				=> 'Ves a la pàgina d’inici del TCA',
 	'HIDE_STATISTICS'			=> 'Oculta els detalls',
-	'SEND_STATISTICS'			=> 'Envia la informació estadística',
+	'SEND_STATISTICS'			=> 'Envia estadístiques',
+	'SEND_STATISTICS_LONG'		=> 'Envia informació estadística',
 	'SHOW_STATISTICS'			=> 'Mostra els detalls',
 	'THANKS_SEND_STATISTICS'	=> 'Gràcies per trametre la vostra informació.',
+	'FAIL_SEND_STATISTICS'		=> 'No s’ha pogut enviar les estadístiques',
 ));
 
 // Log Entries
@@ -794,4 +823,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Ha habilitat l’extensió</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Ha deshabilitat l’extensió</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Ha eliminat les dades de l’extensió</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Extensió actualitzada</strong><br />» %s',
 ));

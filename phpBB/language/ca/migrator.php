@@ -48,10 +48,18 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migració ja instal·lada de forma efectiva (s’ha omès): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'S’ha produït un error durant la sol·licitud i s’ha llançat una excepció. Els canvis fets abans de l’error s’han invertit dintre del que és possible però és recomanable que verifique el fòrum per si hi ha errors.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migració "%1$s" no es pot completar, falta la migració "%2$s".',
+	'MIGRATION_NOT_INSTALLED'			=> 'La migració "%s" no està instal·lada.',
 	'MIGRATION_NOT_VALID'				=> '%s no és una migració vàlida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instal·lat: %1$s; Temps: %2$.2f segons',
 	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'S’està instal·lant l’esquema: %1$s; Temps: %2$.2f segons',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'S’està instal·lant l’esquema: %s.',
+
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Dades revertides: %1$s; Temps: %2$.2f segons',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'S’estan revertint les dades: %1$s; Temps: %2$.2f segons',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'S’estan revertint les dades: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Esquema revertit: %1$s; Temps: %2$.2f segons',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'S’està revertint l’esquema: %1$s; Temps: %2$.2f segons',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'S’està revertint l’esquema: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Una migració no és vàlida. A una sentencia “if” d’ajuda li falta una condició.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Una migració no és vàlida. A una sentencia “if” d’ajuda li falta una crida vàlida a un pas de migració.',
@@ -60,14 +68,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Una migració no és vàlida. S’ha trobat una eina de migració no definida.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Una migració no és vàlida. S’ha trobat una mètode d’eina de migració no definit.',
 
-	'MODULE_ERROR'						=> 'S’ha produït un error durant la creció d’un mòdul: %s',
+	'MODULE_ERROR'						=> 'S’ha produït un error mentre es creava un mòdul: %s',
 	'MODULE_EXISTS'						=> 'Ja existeix un mòdul: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Ja existeixen diversos mòduls amb el “langname” proporcionat pel mòdul pare: %s. Proveu a utilitzar claus com ara pre/post per fer més clara la ubicació dels mòduls.',
+	'MODULE_EXIST_MULTIPLE'				=> 'Ja existeixen diversos mòduls amb el nom de mòdul proporcionat per al mòdul pare: %s. Proveu a utilitzar claus com ara pre/post per fer més clara la ubicació dels mòduls.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Falta un fitxer necessari d’informació del mòdul: %2$s',
 	'MODULE_NOT_EXIST'					=> 'No existeix un mòdul necessari: %s',
 
 	'PARENT_MODULE_FIND_ERROR'			=> 'No s’ha pogut determinar l’identificador del mòdul pare: %s',
-	'PERMISSION_NOT_EXIST'				=> 'El paràmetre de permisos "%s" no existeix (error no esperat).',
+	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" no existeix (error no esperat).',
 
 	'ROLE_NOT_EXIST'					=> 'El rol de permisos "%s" no existeix (error no esperat).',
 ));

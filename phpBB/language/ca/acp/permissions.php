@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Per obtenir més informació sobre com definir i gestionar els permisos del fòrum phpBB3, vegeu la secció de <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Configuració de permisos de la Guía d’inici ràpid</a>.</p>
+		<p>Per obtenir més informació sobre com definir i gestionar els permisos del fòrum phpBB3, vegeu la secció de <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Configuració de permisos de la Guia d’inici ràpid</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Mai',
@@ -186,27 +186,27 @@ $lang = array_merge($lang, array(
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Pot accedir a la gestió de fòrums i a la configuració de permisos del fòrum.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Té accés a totes les funcions administratives d’aquest fòrum.<br />No és recomanable.',
-	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Té accés a la majoría de les funcions administratives però no pot utilitzar les eines relacionades amb el servidor o el sistema.',
+	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Té accés a la majoria de les funcions administratives però no pot utilitzar les eines relacionades amb el servidor o el sistema.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Pot gestionar grups i usuaris: Pot canviar permisos, configuracions, gestionar bandejos i rangs.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Aquest rol és el recomanat per a robots i les aranyes de cerca.',
 	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Pot utilitzar totes les característiques del fòrum, incloent-hi la publicació d’avisos i temes recurrents. També pot ignorar el límit d’inundació.<br />No és recomanable per a usuaris normals.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Pot utilitzar algunes característiques del fòrum però no pot adjuntar fitxers ni utilitzar les icones d’entrada.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Com accés limitat però també pot crear enquestes.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'No pot ni veure ni accedir al fòrum.',
-	'ROLE_DESCRIPTION_FORUM_ONQUEUE'		=> 'Pot utilitzar la majoría de característiques del fòrum incloent-hi els fitxers adjunts, però un moderador ha d’aprovar les seves entrades i temes.',
+	'ROLE_DESCRIPTION_FORUM_ONQUEUE'		=> 'Pot utilitzar la majoria de característiques del fòrum incloent-hi els fitxers adjunts, però un moderador ha d’aprovar les seves entrades i temes.',
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Com Accés estàndard però també pot crear enquestes.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Pot llegir el fòrum però no pot crear temes nous ni respondre entrades.',
-	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Pot utilitzar la majoría de característiques del fòrum incloent-hi els fitxers adjunts i eliminar els temes propis però no pot bloquejar-los ni crear enquestes.',
+	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Pot utilitzar la majoria de característiques del fòrum incloent-hi els fitxers adjunts i eliminar els temes propis però no pot bloquejar-los ni crear enquestes.',
 	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <strong>Mai</strong> per bloquejar característiques per als nous usuaris.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Pot utilitzar totes les característiques de moderació, incloent-hi el bandeig.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Pot utilitzar la cua de moderació per validar i editar entrades, però res mes.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Només pot utilitzar accions de tema bàsiques. No pot enviar advertiments ni utilitzar la cua de moderació.',
-	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Pot utilitzar la majoría de les eines de moderació però no pot bandejar usuaris ni canviar l’autor d’una entrada.',
+	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Pot utilitzar la majoria de les eines de moderació però no pot bandejar usuaris ni canviar l’autor d’una entrada.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> 'Pot utilitzar totes les característiques del fòrum disponibles als usuaris, incloent-hi canviar el seu nom d’usuari o ignorar el límit d’inundació.<br />No és recomanable.',
 	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Té accés a algunes característiques d’usuari. No es permeten fitxers adjunts, correus electrònics o missatges instantanis.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Te un grup de característiques limitat i no pot utilitzar un avatar.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Te un grup de característiques limitat i no pot enviar missatges privats.',
-	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Pot accedir a la majoría de les característiques d’usuari però no a totes. Per exemple, no pot canviar el seu nom d’usuari ni ignorar el límit d’inundació.',
+	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Pot accedir a la majoria de les característiques d’usuari però no a totes. Per exemple, no pot canviar el seu nom d’usuari ni ignorar el límit d’inundació.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <strong>Mai</strong> per bloquejar característiques per als nous usuaris.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Podeu introduir una explicació curta de què fa el rol o quin és el seu objectiu. El text que introduïu aquí també es mostrarà a les pantalles de permisos.',

@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_Q_HELP'				=> 'Cita un text: [quote]text[/quote]',
 	'BBCODE_S_HELP'				=> 'Color de lletra: [color=red]text[/color] o [color=#FF0000]text[/color]',
 	'BBCODE_U_HELP'				=> 'Text subratllat: [u]text[/u]',
-	'BBCODE_W_HELP'				=> 'Insereix una URL: [url]http://url[/url] o [url=http://url]text de l’URL[/url]',
+	'BBCODE_W_HELP'				=> 'Insereix un URL: [url]http://url[/url] o [url=http://url]text de l’URL[/url]',
 	'BBCODE_Y_HELP'				=> 'Llista: Afegeix un element a la llista',
 	'BUMP_ERROR'				=> 'No podeu reactivar aquest tema tan aviat després de la darrera entrada.',
 
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPICS_CONFIRM'		=> 'Esteu segur de que voleu eliminar aquests temes?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Esteu segur de que voleu eliminar aquests temes <strong>permanentment</strong>?',
 	'DISABLE_BBCODE'			=> 'Desactiva el BBCode',
-	'DISABLE_MAGIC_URL'			=> 'No transformis automàticament els URLs',
+	'DISABLE_MAGIC_URL'			=> 'No transformis automàticament els URL',
 	'DISABLE_SMILIES'			=> 'Desactiva les emoticones',
 	'DISALLOWED_CONTENT'		=> 'El fitxer a penjar ha estat rebutjat perquè s’ha identificat com un possible vector d’atac.',
 	'DISALLOWED_EXTENSION'		=> 'L’extensió %s no està permesa.',
@@ -182,7 +182,9 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Cal que introduïu un títol per a l’enquesta.',
 	'NO_POST'					=> 'L’entrada sol·licitada no existeix.',
 	'NO_POST_MODE'				=> 'No s’ha especificat mode de l’entrada.',
+	'NO_TEMP_DIR'				=> 'No s’ha trobat la carpeta temporal o no s’hi pot escriure.',
 
+	'PHP_UPLOAD_STOPPED'		=> 'Una extensió del PHP ha aturat la penjada del fitxer.',
 	'PARTIAL_UPLOAD'			=> 'El fitxer penjat només s’ha transmès parcialment.',
 	'PHP_SIZE_NA'				=> 'La mida del fitxer adjunt és massa gran.<br />No s’ha pogut determinar la mida màxima definida pel PHP a php.ini.',
 	'PHP_SIZE_OVERRUN'			=> 'La mida del fitxer adjunt és massa gran, la mida màxima de les penjades és %1$d %2$s.<br />Si us plau, tingueu en compte que això es defineix al fitxer php.ini i no es pot sobreescriure.',
@@ -257,7 +259,7 @@ $lang = array_merge($lang, array(
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Heu introduït massa opcions a l’enquesta.',
 	'TOO_MANY_SMILIES'			=> 'El vostre missatge té massa emoticones. El nombre màxim d’emoticones permeses és %d.',
-	'TOO_MANY_URLS'				=> 'El vostre missatge té massa URL. El nombre màxim d’URL permeses és %d.',
+	'TOO_MANY_URLS'				=> 'El vostre missatge té massa URL. El nombre màxim d’URL permesos és %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'No podeu especificar més opcions per usuari de les que té l’enquesta.',
 	'TOPIC_BUMPED'				=> 'S’ha reactivat el tema correctament.',
 

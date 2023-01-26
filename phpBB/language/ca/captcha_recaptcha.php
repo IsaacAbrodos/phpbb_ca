@@ -40,13 +40,13 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'ca',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Per tal d’utilitzar reCaptcha heu de crear un compte al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'El codi de confirmació visual que heu tramés és incorrecte',
+	'RECAPTCHA_INCORRECT'			=> 'La solució que heu proporcionat és incorrecta',
+	'RECAPTCHA_NOSCRIPT'			=> 'Habiliteu el JavaScript al vostre navegador per carregar el repte.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Clau pública reCaptcha',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'La vostra clau pública reCaptcha. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Clau privada reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'La vostra clau privada reCaptcha. Podeu aconseguir claus al lloc web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Per prevenir les trameses automàtiques requerim que escriviu el text que es mostra al camp de sota.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'S’ha produït un problema amb la connexió al servei RECAPTCHA: no s’ha pogut obrir el sòcol. Intenteu-ho més tard.',
+	'RECAPTCHA_EXPLAIN'				=> 'Per prevenir les trameses automàtiques requerim que completeu el repte següent.',
 ));

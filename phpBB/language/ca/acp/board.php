@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Permet la subscripció a temes',
 	'BOARD_PM'					=> 'Missatgeria privada',
 	'BOARD_PM_EXPLAIN'			=> 'Habilita la missatgeria privada per a tots els usuaris.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Permet notificacions del fòrum',
 ));
 
 // Avatar Settings
@@ -114,7 +115,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD'			=> 'Habilita la penjada d’avatars remots',
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permet penjar avatars des d’un altre lloc web.',
 	'ALLOW_UPLOAD'					=> 'Habilita la penjada d’avatars',
-	'AVATAR_GALLERY_PATH'			=> 'Camí a la galería d’avatars',
+	'AVATAR_GALLERY_PATH'			=> 'Camí a la galeria d’avatars',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB per a imatges predefinides, p.ex. <samp>images/avatars/gallery</samp>.<br />Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
 	'AVATAR_STORAGE_PATH'			=> 'Camí a l’emmagatzemament d’avatars',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/avatars/upload</samp>.<br />La penjada d’avatars <strong>no estarà disponible</strong> si no es pot escriure en aquest camí.<br />Els punts dobles com ara <samp>../</samp> s’eliminaran del camí per raons de seguretat.',
@@ -150,9 +151,9 @@ $lang = array_merge($lang, array(
 	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Acció per defecte que es duu a terme quan una carpeta d’un usuari està plena assumint que l’acció de l’usuari per a la carpeta, estigui o no definida, no és aplicable. L’única excepció és la carpeta “Missatges enviats” on l’acció per defecte és sempre eliminar els misatges més antics.',
 	'HOLD_NEW_MESSAGES'			=> 'Retenir els missatges nous',
 	'PM_EDIT_TIME'				=> 'Limita el temps d’edició',
-	'PM_EDIT_TIME_EXPLAIN'		=> 'Limita el temps disponible per editar un missatge privat que encara bo s’hagi entregat. Utilitzar un 0 inhabilita aquesta característica.',
+	'PM_EDIT_TIME_EXPLAIN'		=> 'Limita el temps disponible per editar un missatge privat que encara bo s’hagi entregat. Introduir un 0 inhabilita aquesta característica.',
 	'PM_MAX_RECIPIENTS'			=> 'Nombre màxim de destinataris permès',
-	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'El nombre màxim de detinataris permesos en un missatge privat. Si utilitzeu un 0, es permet un nombre il·limitat. Podeu configurar aquest valor per cada grup a la pàgina de configuració del grup.',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'El nombre màxim de detinataris permesos en un missatge privat. Si introduïu un 0, es permet un nombre il·limitat. Podeu configurar aquest valor per cada grup a la pàgina de configuració del grup.',
 ));
 
 // Post Settings
@@ -309,7 +310,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD'							=> 'Imatge GD',
 	'CAPTCHA_GD_3D'							=> 'Imatge GD 3D',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Soroll en primer pla',
-	'CAPTCHA_GD_EXPLAIN'					=> 'Utilitza la llibrería gràfica GD per fer una imatge més avançada contra els robots de brossa.',
+	'CAPTCHA_GD_EXPLAIN'					=> 'Utilitza la llibreria gràfica GD per fer una imatge més avançada contra els robots de brossa.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Utilitza soroll en primer pla per fer que la imatge sigui més difícil de llegir.',
 	'CAPTCHA_GD_X_GRID'						=> 'Soroll de fons segons l’eix x',
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilitzeu valors baixos per fer que la imatge sigui més difícil de llegir. Un 0 inhabilita el soroll de fons segons l’eix x.',
@@ -349,6 +350,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Domini de la galeta',
 	'COOKIE_NAME'				=> 'Nom de la galeta',
+	'COOKIE_NOTICE'				=> 'Avís de galetes',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Si l’habiliteu, es mostrarà un avís de galetes als usuaris quan visitin els fòrums. És possible que sigui un requeriment legal depenent del contingut del fòrum o les extensions que tingueu habilitades.',
 	'COOKIE_PATH'				=> 'Camí de la galeta',
 	'COOKIE_SECURE'				=> 'Galeta segura',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Si el vostre servidor s’executa sobre SSL habiliteu aquesta opció, en qualsevol altre cas deixeu-la inhabilitada. Si l’habiliteu i el servidor no s’executa sobre SSL es produiran errors del servidor durant les redireccions.',
@@ -363,7 +366,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aquí podeu habilitar i inhabilitar la pàgina de contacte i també podeu afegir el text que es mostra a la pàgina.',
 
 	'CONTACT_US_ENABLE'				=> 'Habilita la pàgina de contacte',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics amb els admimnistradors del fòrum',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Aquesta pàgina permet als usuaris enviar correus electrònics als admimnistradors del fòrum',
 
 	'CONTACT_US_INFO'				=> 'Informació de contacte',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Aquest missatge es mostra a la pàgina de contacte',
@@ -376,7 +379,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Aquí podeu habilitar i inhabilitar determinades funcions del fòrum per reduir la quantitat necessària de processament. En la majoria de servidors no cal inhabilitar cap funció. Això no obstant, en determinats sistemes o en entorns d’allotjament compartit pot ser beneficiós inhabilitar capacitats que no necessiteu realment. També podeu especificar límits per a la càrrega del sistema i sessions actives més enllà de les quals el fòrum es quedarà fora de línia.',
 
 	'ALLOW_CDN'						=> 'Permet la utilització de xarxes de distribució de continguts externes',
-	'ALLOW_CDN_EXPLAIN'				=> 'Si habiliteu aquesta configuració, alguns fitxers se serviran des de servidors externs en lloc del vostre servidor. Això redueix l’ample de banda necessari pel vostre servidor però pot ser un problema de privacitat per alguns administradors de fòrums. En una instalació per defecte del phpBB això inclou carregar “jQuery” i la font “Open Sans” des de la xarxa de distribució de continguts de Google.',
+	'ALLOW_CDN_EXPLAIN'				=> 'Si habiliteu aquesta configuració, alguns fitxers se serviran des de servidors externs en lloc del vostre servidor. Això redueix l’ample de banda necessari pel vostre servidor però pot ser un problema de privacitat per alguns administradors de fòrums. En una instal·lació per defecte del phpBB això inclou carregar “jQuery” i la font “Open Sans” des de la xarxa de distribució de continguts de Google.',
 	'ALLOW_LIVE_SEARCHES'			=> 'Permet les cerques actives',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Si habiliteu aquesta configuració, es suggereix als usuaris paraules clau mentre escriuen en determinats camps de text del fòrum.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Camps personalitzats del perfil',
@@ -459,10 +462,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Si l’habiliteu, s’utilitzarà la configuració del servidor definida aquí en lloc dels valors determinats automàticament.',
 	'ICONS_PATH'				=> 'Camí d’emmagatzemament de les icones per a les entrades',
 	'ICONS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/icons</samp>.',
-	'MOD_REWRITE_ENABLE'		=> 'Permet la reescriptura d’URLs',
-	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URLs que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URLs del vostre fòrum deixin de funcionar.</strong>',
+	'MOD_REWRITE_ENABLE'		=> 'Permet la reescriptura d’URL',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URL que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URL del vostre fòrum deixin de funcionar.</strong>',
 	'MOD_REWRITE_DISABLED'		=> 'El mòdul <strong>mod_rewrite</strong> del vostre servidor Apache està inhabilitat. Habiliteu el módul o poseu-vos en contacte amb el vostre proveïdor d’allotjament web si voleu habilitar aquesta funció.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URLs. Podeu habilitar aquesta configuració però si la reescriptura d’URLs no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs de que aquesta funció es pugui activar de forma segura.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URL. Podeu habilitar aquesta configuració però si la reescriptura d’URL no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs de que aquesta funció es pugui activar de forma segura.',
 	'PATH_SETTINGS'				=> 'Configuració dels camins',
 	'RANKS_PATH'				=> 'Camí d’emmagatzemament de les imatges de rang',
 	'RANKS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/ranks</samp>.',
@@ -473,7 +476,7 @@ $lang = array_merge($lang, array(
 	'SERVER_PORT'				=> 'Port del servidor',
 	'SERVER_PORT_EXPLAIN'		=> 'El port en què s’executa el servidor, normalment el 80, canvieu-lo només si és diferent.',
 	'SERVER_PROTOCOL'			=> 'Protocol del servidor',
-	'SERVER_PROTOCOL_EXPLAIN'	=> 'S’utilitza com a protocol del servidor si es força aquesta configuració. Si està buit o no es força la configuració, el protocol es determina per la configuració de galeta segura (<samp>http://</samp> o <samp>https://</samp>).',
+	'SERVER_PROTOCOL_EXPLAIN'	=> 'S’utilitza com a protocol del servidor si es força aquesta configuració. Si és buit o no es força la configuració, el protocol es determina per la configuració de galeta segura (<samp>http://</samp> o <samp>https://</samp>).',
 	'SERVER_URL_SETTINGS'		=> 'Configuració de l’URL del servidor',
 	'SMILIES_PATH'				=> 'Camí d’emmagatzemament de les emoticones',
 	'SMILIES_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/smilies</samp>.',
@@ -534,6 +537,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Si l’habiliteu, es comprovarà la pàgina des de la qual es fan les peticions POST segons la configuració d’amfitrió/camí. Això pot donar problemes amb fòrums que utilitzin diversos dominis i/o un inici de sessió extern.',
 	'TPL_ALLOW_PHP'					=> 'Permet el php a les plantilles',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Si s’habilita aquesta opció, les sentències <code>PHP</code> i <code>INCLUDEPHP</code> a les plantilles es reconeixeran i s’analitzaran.',
+	'UPLOAD_CERT_VALID'				=> 'Valida certificats de penjada',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Si l’habiliteu, es validaran els certificats de les penjades remotes. Això requereix que definiu el feix CA (CA bundle) a la cofiguració <samp>openssl.cafile</samp> o <samp>curl.cainfo</samp> del fitxer php.ini',
 ));
 
 // Email Settings
@@ -553,11 +558,13 @@ $lang = array_merge($lang, array(
 	'EMAIL_FUNCTION_NAME'			=> 'Nom de la funció de correu electrònic',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'La funció utilitzada per enviar correus electrònics a través del PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Mida dels paquets de correu electrònic',
-	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'És el nombre màxim de correus electrònics que s’envien en un paquet. Aquesta configuració s’aplica a la cua interna de missatges; utilitzeu un 0 si teniu problemes amb correus de notificació que no s’han pogut lliurar.',
+	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'És el nombre màxim de correus electrònics que s’envien en un paquet. Aquesta configuració s’aplica a la cua interna de missatges; introduïu un 0 si teniu problemes amb correus de notificació que no s’han pogut lliurar.',
 	'EMAIL_SIG'						=> 'Signatura per als correus electrònics',
 	'EMAIL_SIG_EXPLAIN'				=> 'Aquest text s’adjuntarà a tots els correus electrònics que enviï el fòrum.',
 	'ENABLE_EMAIL'					=> 'Habilita els correus electrònics del fòrum',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Si s’inhabilita, el fòrum no enviarà cap correu electrònic. <em>Tingueu en compte que cal que aquesta opció estigui habilitada per a la configuració d’activació de comptes d’usuaris i administradors. Si actualment esteu utilizant l’opció d’activació per “usuari” o “administrador”, inhabilitar l’enviament de correus inhabilitarà el registre de comptes nous.</em>',
+	'SEND_TEST_EMAIL'				=> 'Envia un correu electrònic de prova',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Això enviarà un correu electrònic de prova a l’adreça electrònica definida al vostre compte.',
 	'SMTP_AUTH_METHOD'				=> 'Mètode d’autenticació SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Només s’utilitza si s’ha introduït un nom d’usuari i contrasenya, pregunteu al vostre proveïdor si no esteu segur de quin mètode utilitzar.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -570,17 +577,18 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Port del servidor SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Canvieu-lo només si sabeu que el servidor SMTP utilitza un port diferent.',
 	'SMTP_SERVER'					=> 'Adreça del servidor SMTP',
-	'SMTP_SERVER_EXPLAIN'			=> 'Tingueu en compte que heu de proporcionar el protocol que utilitza el servidor. Si utilitza SSL, ha de ser del tipus “ssl://el.servidor.cat”',
+	'SMTP_SERVER_EXPLAIN'			=> 'Tingueu en compte que heu de proporcionar el protocol que utilitza el vostre servidor. Si utilitzeu SSL, ha de ser "ssl://el.servidor.cat"',
 	'SMTP_SETTINGS'					=> 'Configuració SMTP',
 	'SMTP_USERNAME'					=> 'Nom d’usuari SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Introduïu el nom d’usuari només si el servidor el requereix.',
+	'TEST_EMAIL_SENT'				=> 'S’ha enviat el correu electrònic de prova.<br />Si no l’heu rebut, comproveu la configuració d’enviament de correus electrònics.<br /><br />Si necessiteu ajuda, visiteu els <a href="https://www.phpbb.com/community/">fòrums d’assistència del phpBB</a> (en anglès).',
 	'USE_SMTP'						=> 'Utilitza el servidor SMTP per al correu electrònic',
 	'USE_SMTP_EXPLAIN'				=> 'Seleccioneu “Sí” si voleu o heu d’enviar els correus electrònics a través d’un servidor en lloc de la funcio de correu local.',
 ));
 
 // Jabber settings
 $lang = array_merge($lang, array(
-	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Aquí podeu habilitar i controlar l’ús del Jabber per a missatgeria instantània i notificacions del fòrum. El Jabber és un protocol de codi font obert i, per tant, disponible per ser utilitzat per qualsevol. Alguns servidors de Jabber inclouen pasarel·les o transports que us permeten contactar amb usuaris d’altres xarxes. No tots els servidors ofereixen tots els transports i canvis en els protocols poden causar que el transport no funcioni. Assegureu-vos d’introduir detalls pertanyents a un compte que ja s’hagi registrat - el phpBB utilitzarà els detalls que introduïu tal com estan aquí.',
+	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Aquí podeu habilitar i controlar l’ús del Jabber per a missatgeria instantània i notificacions del fòrum. El Jabber és un protocol de codi font obert i, per tant, disponible per ser utilitzat per qualsevol. Alguns servidors de Jabber inclouen pasarel·les o transports que us permeten contactar amb usuaris d’altres xarxes. No tots els servidors ofereixen tots els transports i canvis en els protocols poden causar que el transport no funcioni. Assegureu-vos d’introduir detalls que corresponguin a un compte que ja s’hagi registrat - el phpBB utilitzarà els detalls que introduïu tal com estan aquí.',
 
 	'JAB_ENABLE'				=> 'Habilita el Jabber',
 	'JAB_ENABLE_EXPLAIN'		=> 'Habilita l’ús de la missatgeria i les notificacions Jabber.',
