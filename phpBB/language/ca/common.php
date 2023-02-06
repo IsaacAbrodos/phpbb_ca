@@ -680,7 +680,7 @@ $lang = array_merge($lang, array(
 	'RETURN_TO_INDEX'			=> 'Torna a l’índex del fòrum',
 
 	'ROUTE_NOT_FOUND'				=> 'No s’ha pogut trobar la ruta sol·licitada “%s”.',
-	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Shan passat paràmetres insuficients o no vàlids per la ruta “%s”.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'S’han passat paràmetres insuficients o no vàlids per la ruta “%s”.',
 	
 	'FEED'						=> 'Canal d’informació',
 	'FEED_NEWS'					=> 'Notícies',
