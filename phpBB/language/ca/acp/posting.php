@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_DANGER'				=> 'El BBCode que esteu afegint sembla que no és segur. Si el BBCode utilitza un testimoni {TEXT} dintre d’un context delicat, intenteu utilitzar un tipus més restricitu. Continueu només si enteneu els riscos que això implica.',
 	'BBCODE_DANGER_PROCEED'		=> 'Continua', //'I understand the risk',
 
-	'BBCODE_ADDED'				=> 'Sha afegit el BBCode correctament.',
+	'BBCODE_ADDED'				=> 'S’ha afegit el BBCode correctament.',
 	'BBCODE_EDITED'				=> 'S’ha editat el BBCode correctament.',
 	'BBCODE_DELETED'			=> 'S’ha eliminat el BBCode correctament.',
 	'BBCODE_NOT_EXIST'			=> 'El BBCode que heu seleccionat no existeix.',

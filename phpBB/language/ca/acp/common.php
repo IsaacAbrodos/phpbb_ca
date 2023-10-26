@@ -231,7 +231,7 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'Mostra de colors Web-safe',
 	'CONFIG_UPDATED'		=> 'La configuració s’ha actualitzat correctament.',
-	'CRON_LOCK_ERROR'		=> 'No sha pogut obtenir el bloqueig del cron.',
+	'CRON_LOCK_ERROR'		=> 'No s’ha pogut obtenir el bloqueig del cron.',
 	'CRON_NO_SUCH_TASK'		=> 'No s’ha trobat la tasca de cron “%s”.',
 	'CRON_NO_TASK'			=> 'Ara mateix no cal executar cap tasca cron.',
 	'CRON_NO_TASKS'			=> 'No s’ha trobat cap tasca cron.',
