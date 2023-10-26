@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_A_STYLES'		=> 'Pot gestionar els estils',
 	'ACL_A_EXTENSIONS'	=> 'Pot gestionar extensions',
-	'ACL_A_VIEWLOGS'	=> 'pot veurer els registres',
+	'ACL_A_VIEWLOGS'	=> 'Pot veurer els registres',
 	'ACL_A_CLEARLOGS'	=> 'Pot eliminar els registres',
 	'ACL_A_MODULES'		=> 'Pot gestionar els mòduls',
 	'ACL_A_LANGUAGE'	=> 'Pot gestionar els paquets d’idioma',

@@ -259,7 +259,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Només el tema “%s”',
 	'OTHER_USERS'			=> 'Altres usuaris que publiquen des d’aquesta IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "L'acció %s no està permesa via moderació ràpida",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "L’acció %s no està permesa via moderació ràpida",
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'L’informe de missatge privat seleccionat s’ha tancat correctament.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'L’informe de missatge privat seleccionat s’ha eliminat correctament.',

@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Mai',
 	'ACL_SET'				=> 'Definició de permisos',
-	'ACL_SET_EXPLAIN'		=> 'Els permisos es basen en un sistema simple de tipus <strong>Sí</strong>/<strong>No</strong>. Si trieu l’opció <strong>Mai</strong> per a un usuari o grup d’usuaris, sobreescriu qualsevol altre valor que se li assigni. Si no voleu assignar un valor per una opció per aquest usuari o grup d’usuaris, seleccioneu <strong>No</strong>. Si s’assignen valors per aquesta opció en un altre lloc, s’utilitzaran preferentment, si no s’assumeix el valor <strong>Mai</strong>. Tots els objectes marcats (amb la casella de selecció del davant) copiaran el grup de permisos que heu definit.',
+	'ACL_SET_EXPLAIN'		=> 'Els permisos es basen en un sistema simple de tipus <strong>Sí</strong>/<strong>No</strong>. Si trieu l’opció <strong>Mai</strong> per a un usuari o grup d’usuaris, sobreescriu qualsevol altre valor que se li assigni. Si no voleu assignar un valor per una opció per aquest usuari o grup d’usuaris, seleccioneu <strong>No</strong>. Si s’assignen valors per aquesta opció en un altre lloc, s’utilitzaran preferentment, si no s’assumeix el valor <strong>Mai</strong>. Tots els objectes marcats (amb la casella de selecció del davant) copiaran el grup de permisos que heu definit. Tingueu en compte que donar permisos administratius a comptes de fundadors no té cap efecte ja que aquests sempre tenen la configuració de permisos administratius a <strong>Sí</strong>.',
 	'ACL_SETTING'			=> 'Configuració',
 
 	'ACL_TYPE_A_'			=> 'Permisos administratius',

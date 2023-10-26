@@ -146,8 +146,8 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Usuaris per pàgina',
 
 	'VIEWING_PROFILE'		=> 'Esteu veient el perfil de: %s',
-	'VIEW_FACEBOOK_PROFILE'	=> 'Mostra el perfil de Facebook',
-	'VIEW_SKYPE_PROFILE'	=> 'Mostra el perfil de  Skype',
-	'VIEW_TWITTER_PROFILE'	=> 'Mostra el perfil de  Twitter',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'Mostra el canal de YouTube',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Mostra’n el perfil de Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'Mostra’n el perfil de Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'Mostra’n el perfil de Twitter',
+	'VIEW_YOUTUBE_PROFILE'	=> 'Mostra’n el perfil de YouTube',
 ));

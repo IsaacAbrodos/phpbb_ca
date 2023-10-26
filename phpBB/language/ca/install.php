@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introducció',
-	'INTRODUCTION_BODY'		=> 'Benvingut al phpBB3!<br /><br />El phpBB® és el programari lliure de fòrums més utilitzat del món. EL phpBB3 és la darrera versió d’un producte que va començar l’any 2000. Com els seus predecessors, el phpBB3 inclou moltes funcions, és amigable i disposa d’asistencia completa per part de l’equip del phppBB. El phpBB3 millora ampliament allò que va fer el phpBB2 popular i afegeix funcions sol·licitades freqüentment que no eren presents en versions anteriors. Esperem que sobrepassi les vostres espectatives.<br /><br />El sistema d’instal·lació us guiarà pel procés d’instal·lar el phpBB3, actualitzar des de versions anteriors a la versió més recent del phpBB3, o convertir al phpBB3 des de sistemes de fòrums diferents (el phpBB2 inclòs). Per obtenir més informació, us recomanem que llegiu <a href="../docs/INSTALL.html">la guia d’instal·lació</a>.<br /><br />Per llegir la llicència del phpBB3 o esbrinar com obtenir asistència i la nostra posició al respecte, seleccioneu les opcions adients del menú lateral. Per continuar, seleccioneu la pestanya adequada a sobre.',
+	'INTRODUCTION_BODY'		=> 'Benvingut al phpBB3!<br /><br />El phpBB® és el programari lliure de fòrums més utilitzat del món. EL phpBB3 és la darrera versió d’un producte que va començar l’any 2000. Com els seus predecessors, el phpBB3 inclou moltes funcions, és amigable i disposa d’asistencia completa per part de l’equip del phppBB. El phpBB3 millora ampliament allò que va fer el phpBB2 popular i afegeix funcions sol·licitades freqüentment que no eren presents en versions anteriors. Esperem que sobrepassi les vostres espectatives.<br /><br />El sistema d’instal·lació us guiarà pel procés d’instal·lar el phpBB3, actualitzar des de versions anteriors a la versió més recent del phpBB3, o convertir al phpBB3 des de sistemes de fòrums diferents (el phpBB2 inclòs). Per obtenir més informació, us recomanem que llegiu <a href="%1$s">la guia d’instal·lació</a>.<br /><br />Per llegir la llicència del phpBB3 o esbrinar com obtenir asistència i la nostra posició al respecte, seleccioneu les opcions adients del menú lateral. Per continuar, seleccioneu la pestanya adequada a sobre.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Assistència',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Versió del PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'El phpBB requereix la versió 7.1.3 o superior del PHP.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'El phpBB requereix la versió 7.2.0 o superior del PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Es requereix la funció getimagesize() del PHP',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Per que el phpBB funcioni correctament, la funció getimagesize ha d’estar disponible.',
 	'PCRE_UTF_SUPPORT'					=> 'Compatibilitat amb PCRE UTF-8',
@@ -508,10 +508,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Comproveu el prefix de la taula i torneu a provar-ho.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Categoria',
 	'CONTINUE_CONVERT'			=> 'Continua la conversió',
 	'CONTINUE_CONVERT_BODY'		=> 'S’ha trobat un intent de conversió anterior. Podeu triar entre començar una conversió nova o continuar la conversió existent.',
 	'CONVERT_NEW_CONVERSION'	=> 'Conversió nova',
 	'CONTINUE_OLD_CONVERSION'	=> 'Continua la conversió iniciada anteriorment',
+	'POST_ID'					=> 'ID de l’entrada',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Introducció',
@@ -568,6 +570,10 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'S’ha acabat la conversió',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'S’ha convertit el vostre fòrum a phpBB 3.3 correctament. Ja podeu iniciar la sessió i <a href="../">accedir al vostre fòrum</a>. Assegureu-vos que les configuracions s’han transferit correctament abans d’habilitar el fòrum eliminant el directori “install”. Recordeu que disposeu d’ajuda en línia sobre l’ús del phpBB a la <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentació</a> (en anglès) i als <a href="https://www.phpbb.com/community/viewforum.php?f=661">fòrums d’assistència</a> (en anglès).',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> és el nom d’usuari netejat per:',
+	'COLLIDING_USER'					=> '» id d’usuari: <strong>%d</strong> nom d’usuari: <strong>%s</strong> (%d entrades)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'S’han trobat noms d’usuari coincidents al fòrum antic. Per tal de completar la conversió heu de canviar el nom d’aquests usuaris o eliminar-los de manera que només hi hagi un sol usuari al fòrum antic per cada nom d’usuari netetejat.',
+	'CONV_ERR_FATAL'					=> 'Error fatal de conversió',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Les càrregues FTP per a fitxers adjunts estan habilitades al fòrum antic. Inhabiliteu l’opció de càrregues FTP i assegureu-vos que hi ha un directori de càrregues vàlid especificat, llavors copieu tots els fitxers adjunts a aquest directori nou accessible des d’Internet. Un cop ho hagueu fet, reinicieu el convertidor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'No hi ha informació de configuració disponible per a la conversió.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'No s’ha pogut obtenir informació d’accés al fòrum.',

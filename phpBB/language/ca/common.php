@@ -169,6 +169,11 @@ $lang = array_merge($lang, array(
 		1	=> '%d caràcter',
 		2	=> '%d caràcters',
 	),
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d caràcter',
+		2	=> '%d caràcters',
+	),
 	'COLLAPSE_VIEW'			=> 'Redueix la vista',
 	'CLOSE_WINDOW'			=> 'Tanca la finestra',
 	'CODE'					=> 'Codi',
@@ -404,7 +409,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'No s’ha pogut convertir la vostra contrasenya durant l’actualització d’aquest fòrum. Si us plau %sdemaneu una nova contrasenya%s. Si continueu tenint problemes poseu-vos en contate amb l’%sadministrador del fòrum%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Heu especificat un nom d’usuari incorrecte. Si us plau comproveu el vostre nom d’usuari i intenteu-ho una altra vegada. Si continueu tenint problemes, poseu-vos en contacte amb l’%sadministrador del fòrum%s.',
 	'LOGIN_FORUM'						=> 'Per veure o publicar entrades en aquest fòrum heu d’introduir la seva contrasenya.',
-	'LOGIN_INFO'						=> 'Per iniciar una sessió heu d’estar registrats. Registrar-se només costa una estona i us dóna noves capacitats. L’administrador del fòrum també pot donar permisos addicionals als usuaris registrats. Abans de registrar-vos assegureu-vos que coneixeu les condicions d’ús. Si us plau, assegureu-vos de llegir les regles del fòrum mentre hi navegueu.',
+	'LOGIN_INFO'						=> 'Per iniciar una sessió heu d’estar registrats. Registrar-se només costa una estona i us dona noves capacitats. L’administrador del fòrum també pot donar permisos addicionals als usuaris registrats. Abans de registrar-vos assegureu-vos que coneixeu les condicions d’ús. Si us plau, assegureu-vos de llegir les regles del fòrum mentre hi navegueu.',
 	'LOGIN_VIEWFORUM'					=> 'Per veure aquest fòrum heu d’estar registrats i haver iniciat la sessió.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Per editar aquesta entrada del fòrum heu d’estar registrats i haver iniciat la sessió.',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Per veure la llista d’usuaris connectats heu d’estar registrats i haver iniciat la sessió.',

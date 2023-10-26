@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Compressió gzip',
 
-	'NO_SEARCH_INDEX'	=> 'el sistema de cerques seleccionat no té cap índex de cerca.<br />Creeu l’índex per “%1$s” a la secció %2$síndex de cerca%3$s.',
+	'NO_SEARCH_INDEX'	=> 'El sistema de cerques seleccionat no té cap índex de cerca.<br />Creeu l’índex per “%1$s” a la secció %2$síndex de cerca%3$s.',
 	'NOT_AVAILABLE'		=> 'No disponible',
 	'NUMBER_FILES'		=> 'Nombre de fitxers adjunts',
 	'NUMBER_POSTS'		=> 'Nombre d’entrades',
