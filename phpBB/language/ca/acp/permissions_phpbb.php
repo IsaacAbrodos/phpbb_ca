@@ -159,9 +159,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Pot combinar temes',
 
 	'ACL_M_INFO'		=> 'Pot veure els detalls de les entrades',
-	'ACL_M_WARN'		=> 'Pot fer advertiments a usuaris<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Pot tancar i eliminar informes de missatges privats<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> 'Pot gestionar bandejos<br /><em>Aquesta configuració només s’assigna globalment, no per fòrums individuals.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'Pot fer advertiments a usuaris',
+	'ACL_M_PM_REPORT'	=> 'Pot tancar i eliminar informes de missatges privats',
+	'ACL_M_BAN'			=> 'Pot gestionar bandejos',
 ));
 
 // Admin Permissions
