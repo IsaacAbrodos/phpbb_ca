@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'El vostre compte ha estat desactivat manualment. Només el pot reactivar un administrador.',
 	'ACP'							=> 'Tauler de control de l’administrador',
 	'ACP_SHORT'						=> 'TCA',
+	'ACTIVATION_ALREADY_SENT'		=> 'El correu d’activació ja s’ha enviat a la vostra adreça electrònica. Podeu provar-ho de nou en 24 hores. Si continueu tenint problemes activant el compte, poseu-vos en contacte amb l’administrador del fòrum.',	
 	'ACTIVE'						=> 'actiu',
 	'ACTIVE_ERROR'					=> 'L’usuari especificat actualment està inactiu. Si teniu problemes per activar el vostre compte, poseu-vos en contacte amb l’administrador del fòrum.',
 	'ADMINISTRATOR'					=> 'Administrador',
