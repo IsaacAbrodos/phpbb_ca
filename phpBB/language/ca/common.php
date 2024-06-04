@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'El vostre compte ha estat desactivat manualment. Només el pot reactivar un administrador.',
 	'ACP'							=> 'Tauler de control de l’administrador',
 	'ACP_SHORT'						=> 'TCA',
+	'ACTIVATION_ALREADY_SENT'		=> 'El correu d’activació ja s’ha enviat a la vostra adreça electrònica. Podeu provar-ho de nou en 24 hores. Si continueu tenint problemes activant el compte, poseu-vos en contacte amb l’administrador del fòrum.',	
 	'ACTIVE'						=> 'actiu',
 	'ACTIVE_ERROR'					=> 'L’usuari especificat actualment està inactiu. Si teniu problemes per activar el vostre compte, poseu-vos en contacte amb l’administrador del fòrum.',
 	'ADMINISTRATOR'					=> 'Administrador',
@@ -195,7 +196,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Més informació',
 	'COOKIE_CONSENT_MSG'	=> 'Aquest lloc web utilitza galetes per fer que hi teniu la millor experiència possible.',
 	'COOKIE_CONSENT_OK'		=> 'D’acord',
-	'COOKIE_CONSENT_HREF'	=> 'http://www.navegaencatala.cat/politica-de-galetes',
+	'COOKIE_CONSENT_HREF'	=> 'https://ca.wikipedia.org/wiki/Galeta_(informàtica)',
 	'COOKIES_DELETED'		=> 'Totes les galetes del fòrum s’han eliminat correctament.',
 	'CURRENT_TIME'			=> 'Hora i data actual: %s',
 
@@ -247,7 +248,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION'							=> 'Extensió',
 	'EXTENSION_DISABLED'				=> 'L’extensió <strong>%s</strong> no està activada.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'S’ha desactivat l’extensió <strong>%s</strong> i ja no es pot mostrar.',
-	'EXTENSION_DOES_NOT_EXIST'			=> 'L’extensió <strong>%s</strong> no eexisteix.',
+	'EXTENSION_DOES_NOT_EXIST'			=> 'L’extensió <strong>%s</strong> no existeix.',
 
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'PMF',
