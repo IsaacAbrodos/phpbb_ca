@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Els avatars són imatges generalment petites i úniques que un usuari pot associar amb si mateix. Depenent de l’estil se solen mostrar sota el nom de l’usuari en la visualització de temes. Aquí podeu determinar de quina manera els usuaris poden definir els seus avatars. Tingueu en compte que per penjar avatars cal que creeu el directori que definiu a sota i que us assegureu que el servidor web hi pot escriure. També tingueu en compte que els límits per a la mida del fitxer d’avatar només s’imposen als avatars penjats, no s’apliquen a les imatges enllaçades remotament.',
 
 	'ALLOW_AVATARS'					=> 'Habilita els avatars',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Permet l’ús d’avatars en general;<br>Si inhabiliteu els avatars en general o en qualsevol dels diferents modes, els avatars inhabilitats ja no es mostraran als fòrums però els usuaris encara podran baixar-se els seus propis avatars des del Tauler de control de l’usuari.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Permet l’ús d’avatars en general;<br>Si inhabiliteu els avatars en general o en qualsevol dels diferents modes, els avatars inhabilitats ja no es mostraran als fòrums, però els usuaris encara podran baixar-se els seus propis avatars des del Tauler de control de l’usuari.',
 	'ALLOW_GRAVATAR'				=> 'Habilita els avatars gravatar',
 	'ALLOW_LOCAL'					=> 'Habilita la galeria d’avatars',
 	'ALLOW_REMOTE'					=> 'Habilita els avatars remots',
@@ -386,7 +386,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Aquí podeu habilitar i inhabilitar determinades funcions del fòrum per reduir la quantitat necessària de processament. En la majoria de servidors no cal inhabilitar cap funció. Això no obstant, en determinats sistemes o en entorns d’allotjament compartit pot ser beneficiós inhabilitar capacitats que no necessiteu realment. També podeu especificar límits per a la càrrega del sistema i sessions actives més enllà de les quals el fòrum es quedarà fora de línia.',
 
 	'ALLOW_CDN'						=> 'Permet la utilització de xarxes de distribució de continguts externes',
-	'ALLOW_CDN_EXPLAIN'				=> 'Si habiliteu aquesta configuració, alguns fitxers se serviran des de servidors externs en lloc del vostre servidor. Això redueix l’ample de banda utilitzat pel vostre servidor però pot ser un problema de privacitat en alguns països. En una instal·lació per defecte del phpBB això inclou carregar “jQuery” i la font “Open Sans” des de la xarxa de distribució de continguts de Google. Això també aplica a la font “Font Awesome”, que el phpBB i algunes extensions utilitzen per dibuixar icones.',
+	'ALLOW_CDN_EXPLAIN'				=> 'Si habiliteu aquesta configuració, alguns fitxers se serviran des de servidors externs en lloc del vostre servidor. Això redueix l’ample de banda utilitzat pel vostre servidor, però pot ser un problema de privacitat en alguns països. En una instal·lació per defecte del phpBB això inclou carregar “jQuery” i la font “Open Sans” des de la xarxa de distribució de continguts de Google. Això també aplica a la font “Font Awesome”, que el phpBB i algunes extensions utilitzen per dibuixar icones.',
 	'ALLOW_LIVE_SEARCHES'			=> 'Permet les cerques actives',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Si habiliteu aquesta configuració, es suggereix als usuaris paraules clau mentre escriuen en determinats camps de text del fòrum.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Camps personalitzats del perfil',
@@ -468,7 +468,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Aquí podeu definir configuracions que depenen del servidor i del domini. Assegureu-vos que les dades que introduïu són correctes, si hi ha errors els correus electrònics que s’enviïn des del fòrum contindran informació incorrecta. Quan introduïu el nom de domini recordeu-vos d’incloure http:// o el protocol adequat. Modifiqueu el número de port només si sabeu que el servidor utilitza un valor diferent, el port 80 és correcte en la majoria de casos.',
 
 	'ENABLE_GZIP'				=> 'Habilita la compressió gzip',
-	'ENABLE_GZIP_EXPLAIN'		=> 'Es comprimirà el contingut generat abans d’enviar-lo a l’usuari. Això pot reduir el trànsit de la xarxa però augmentarà l’ús de la CPU tant en el servidor com en el client. Requereix que l’extensió zlib del PHP estigui carregada.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'Es comprimirà el contingut generat abans d’enviar-lo a l’usuari. Això pot reduir el trànsit de la xarxa, però augmentarà l’ús de la CPU tant en el servidor com en el client. Requereix que l’extensió zlib del PHP estigui carregada.',
 	'FORCE_SERVER_VARS'			=> 'Força la configuració de l’URL del servidor',
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Si l’habiliteu, s’utilitzarà la configuració del servidor definida aquí en lloc dels valors determinats automàticament.',
 	'ICONS_PATH'				=> 'Camí d’emmagatzemament de les icones per a les entrades',
@@ -476,7 +476,7 @@ $lang = array_merge($lang, array(
 	'MOD_REWRITE_ENABLE'		=> 'Permet la reescriptura d’URL',
 	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URL que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URL del vostre fòrum deixin de funcionar.</strong>',
 	'MOD_REWRITE_DISABLED'		=> 'El mòdul <strong>mod_rewrite</strong> del vostre servidor Apache està inhabilitat. Habiliteu el módul o poseu-vos en contacte amb el vostre proveïdor d’allotjament web si voleu habilitar aquesta funció.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URL. Podeu habilitar aquesta configuració però si la reescriptura d’URL no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs que aquesta funció es pugui activar de forma segura.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URL. Podeu habilitar aquesta configuració, però si la reescriptura d’URL no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’utilitzen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs que aquesta funció es pugui activar de forma segura.',
 	'PATH_SETTINGS'				=> 'Configuració dels camins',
 	'RANKS_PATH'				=> 'Camí d’emmagatzemament de les imatges de rang',
 	'RANKS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/ranks</samp>.',

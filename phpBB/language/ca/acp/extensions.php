@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_ENABLE'		=> 'Habilita',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Eliminar les dades d’una extensió suprimeix totes les seves dades i configuracions. Els fitxers de l’extensió es conserven per que es pugui habilitar un altre cop.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Deshabilitar una extensió conserva els seus fitxers, dades i configuracions però true la funcionalitat afegida per l’extensió.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Deshabilitar una extensió conserva els seus fitxers, dades i configuracions, però true la funcionalitat afegida per l’extensió.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Habilitar una extensió us permet utilitzar-la en el vostre fòrum.',
 
 	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'S’estan eliminant les dades de l’extensió. No abandoneu ni refresqueu aquesta pàgina fins que es completi el procés.',

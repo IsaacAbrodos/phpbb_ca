@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'POST_CONFIRM_EXPLAIN'		=> 'Per tal de prevenir entrades automàtiques cal que introduïu un codi de confirmació. El codi es mostra en la imatge que veieu a sota. Si teniu problemes de visió o per alguna raó no podeu llegir aquest codi, si us plau poseu-vos en contacte amb l’%sadministrador del fòrum%s.',
 	'POST_DELETED'				=> 'S’ha eliminat aquesta entrada correctament.',
 	'POST_EDITED'				=> 'S’ha editat aquesta entrada correctament.',
-	'POST_EDITED_MOD'			=> 'S’ha editat aquesta entrada correctament però cal que l’aprovi un moderador abans que sigui visible públicament.',
+	'POST_EDITED_MOD'			=> 'S’ha editat aquesta entrada correctament, però cal que l’aprovi un moderador abans que sigui visible públicament.',
 	'POST_GLOBAL'				=> 'Global',
 	'POST_ICON'					=> 'Icona de l’entrada',
 	'POST_NORMAL'				=> 'Normal',
@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'POST_REVIEW_EDIT_EXPLAIN'	=> 'Aquesta entrada ha estat modificada per un altre usuari mentre l’editaveu. És possible que vulgueu revisar la versió actual d’aquesta entrada per ajustar la vostra edició.',
 	'POST_REVIEW_EXPLAIN'		=> 'S’ha publicat com a mínim una entrada nova en aquest tema. És possible que degut a això volgueu revisar la vostra entrada.',
 	'POST_STORED'				=> 'S’ha publicat aquesta entrada correctament.',
-	'POST_STORED_MOD'			=> 'S’ha publicat aquesta entrada correctament però cal que l’aprovi un moderador abans que sigui visible públicament.',
+	'POST_STORED_MOD'			=> 'S’ha publicat aquesta entrada correctament, però cal que l’aprovi un moderador abans que sigui visible públicament.',
 	'POST_TOPIC_AS'				=> 'Publica el tema com',
 	'PROGRESS_BAR'				=> 'Barra de progrés',
 

@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Heu d’omplir tots els camps d’aquest bloc.',
 
 	'TIMEOUT_DETECTED_TITLE'	=> 'L’instal·lador ha excedit el temps d’espera',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'L’instal·lador ha excedit el temps d’espera, podeu provar a refrescar la pàgina però pot provocar que es corrompin les dades. És recomanable que incrementeu la configuració de temps màxim d’espera o proveu d’utilitzar la línia d’ordres (CLI).',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'L’instal·lador ha excedit el temps d’espera, podeu provar a refrescar la pàgina, però pot provocar que es corrompin les dades. És recomanable que incrementeu la configuració de temps màxim d’espera o proveu d’utilitzar la línia d’ordres (CLI).',
 ));
 
 // Data obtaining translations
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Actualitza la instal·lació del phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització avançada amb FTP</h2><p>Aquest mètode és similar al primer però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per utilitzar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos que s’ha actualitzat tot correctament.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització avançada amb FTP</h2><p>Aquest mètode és similar al primer, però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per utilitzar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos que s’ha actualitzat tot correctament.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Avís de llançament</h1>
@@ -425,7 +425,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOT_FOUND'	=> 'No s’ha trobat cap directori d’actualització vàlid, assegureu-vos que heu pujat els fitxers rellevants.',
 
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'La vostra versió està actualitzada. No cal que executeu l’eina d’actualització. Si desitgeu fer una comprovació d’integritat dels vostres fitxers, assegureu-vos que heu penjat els fitxers actualitzats correctes.',
-	'OLD_UPDATE_FILES'				=> 'Els fitxers d’actualització no estan actualitzats. Els fitxers d’actualització que s’han trobat són per actualitzar del phpBB %1$s al phpBB %2$s però la versió més recent del phpBB és la %3$s.',
+	'OLD_UPDATE_FILES'				=> 'Els fitxers d’actualització no estan actualitzats. Els fitxers d’actualització que s’han trobat són per actualitzar del phpBB %1$s al phpBB %2$s, però la versió més recent del phpBB és la %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'Els fitxers d’actualització trobats no són compatibles amb la versió que teniu instal·lada. La vostra versió és la %1$s i els fitxers d’actualització són per actualitzar del phpBB %2$s al %3$s.',
 ));
 
@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'FILES_NEW'						=> 'Fitxers nous',
 	'FILES_NEW_EXPLAIN'				=> 'Els fitxers següents no existeixen a la vostra instal·lació. Aquests fitxers s’afegiran a la vostra instal·lació.',
 	'FILES_NEW_CONFLICT'			=> 'Fitxers nous amb conflictes',
-	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Els fitxers següents són nous per a la versió més recent però s’ha determinat que ja hi ha un fitxer amb el mateix nom a la mateixa ubicació. Es sobreescriurà aquest fitxer amb la versió nova.',
+	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Els fitxers següents són nous per a la versió més recent, però s’ha determinat que ja hi ha un fitxer amb el mateix nom a la mateixa ubicació. Es sobreescriurà aquest fitxer amb la versió nova.',
 	'FILES_NOT_MODIFIED'			=> 'Fitxers no modificats',
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Els fitxers següents no s’han modificat i representen els fitxers originals de la versió del phpBB que esteu actualitzant.',
 	'FILES_UP_TO_DATE'				=> 'Fitxers ja actualitzats',

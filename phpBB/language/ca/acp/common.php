@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Reactivació forçada per l’usuari',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconeguda',
 	'INACTIVE_USERS'				=> 'Usuaris inactius',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Aquí es llisten els usuaris que s’han registrat però que tenen el compte inactiu. Podeu activar-los, eliminar-los o enviar un recordatori (per correu electrònic).',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Aquí es llisten els usuaris que s’han registrat, però que tenen el compte inactiu. Podeu activar-los, eliminar-los o enviar un recordatori (per correu electrònic).',
 	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Aquesta llista conté els 10 darrers usuaris registrats amb comptes inactius. Els comptes són inactius o bé perquè s’ha habilitat l’activació de comptes a la configuració de registre d’usuaris i els comptes d’aquests usuaris encara no s’han activat o bé perquè aquest comptes han estat desactivats. Disposeu d’una llista completa al menú corresponent o fent clic a l’enllaç següent des d’on podeu activar, eliminar o enviar un recordatori (per correu electrònic) a aquests usuaris.',
 
 	'NO_INACTIVE_USERS'	=> 'No hi ha usuaris inactius',

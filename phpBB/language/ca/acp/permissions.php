@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 		<p>S’utilitzen per controlar l’accés a fòrums concrets. Es divideixen en permisos de fòrums, moderadors de fòrums, permisos d’usuari per fòrums i permisos de grups per fòrums.</p>
 
 		<h2>Rols de permisos</h2>
-		<p>S’utilitzen per crear grups diferents de permisos per poder assignar els diferents tipus de permisos segons els rols. Els rols per defecte probablement cobreixen l’administració de fòrums grans i petits però dintre de cadascuna de les quatre divisions podeu afegir, editar i eliminar rols com més us convingui.</p>
+		<p>S’utilitzen per crear grups diferents de permisos per poder assignar els diferents tipus de permisos segons els rols. Els rols per defecte probablement cobreixen l’administració de fòrums grans i petits, però dintre de cadascuna de les quatre divisions podeu afegir, editar i eliminar rols com més us convingui.</p>
 
 		<h2>Màscares de permisos</h2>
 		<p>S’utilitzen per veure els permisos efectius assignats als usuaris, moderadors (locals i globals), administradors i fòrums.</p>
@@ -186,27 +186,27 @@ $lang = array_merge($lang, array(
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Pot accedir a la gestió de fòrums i a la configuració de permisos del fòrum.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Té accés a totes les funcions administratives d’aquest fòrum.<br />No és recomanable.',
-	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Té accés a la majoria de les funcions administratives però no pot utilitzar les eines relacionades amb el servidor o el sistema.',
+	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Té accés a la majoria de les funcions administratives, però no pot utilitzar les eines relacionades amb el servidor o el sistema.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Pot gestionar grups i usuaris: Pot canviar permisos, configuracions, gestionar bandejos i rangs.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Aquest rol és el recomanat per a robots i les aranyes de cerca.',
 	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Pot utilitzar totes les característiques del fòrum, incloent-hi la publicació d’avisos i temes recurrents. També pot ignorar el límit d’inundació.<br />No és recomanable per a usuaris normals.',
-	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Pot utilitzar algunes característiques del fòrum però no pot adjuntar fitxers ni utilitzar les icones d’entrada.',
-	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Com accés limitat però també pot crear enquestes.',
+	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Pot utilitzar algunes característiques del fòrum, però no pot adjuntar fitxers ni utilitzar les icones d’entrada.',
+	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Com accés limitat, però també pot crear enquestes.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'No pot ni veure ni accedir al fòrum.',
 	'ROLE_DESCRIPTION_FORUM_ONQUEUE'		=> 'Pot utilitzar la majoria de característiques del fòrum incloent-hi els fitxers adjunts, però un moderador ha d’aprovar les seves entrades i temes.',
-	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Com Accés estàndard però també pot crear enquestes.',
-	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Pot llegir el fòrum però no pot crear temes nous ni respondre entrades.',
-	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Pot utilitzar la majoria de característiques del fòrum incloent-hi els fitxers adjunts i eliminar els temes propis però no pot bloquejar-los ni crear enquestes.',
+	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Com Accés estàndard, però també pot crear enquestes.',
+	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Pot llegir el fòrum, però no pot crear temes nous ni respondre entrades.',
+	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Pot utilitzar la majoria de característiques del fòrum incloent-hi els fitxers adjunts i eliminar els temes propis, però no pot bloquejar-los ni crear enquestes.',
 	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <strong>Mai</strong> per bloquejar característiques per als nous usuaris.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Pot utilitzar totes les característiques de moderació, incloent-hi el bandeig.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Pot utilitzar la cua de moderació per validar i editar entrades, però res mes.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Només pot utilitzar accions de tema bàsiques. No pot enviar advertiments ni utilitzar la cua de moderació.',
-	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Pot utilitzar la majoria de les eines de moderació però no pot bandejar usuaris ni canviar l’autor d’una entrada.',
+	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Pot utilitzar la majoria de les eines de moderació, però no pot bandejar usuaris ni canviar l’autor d’una entrada.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> 'Pot utilitzar totes les característiques del fòrum disponibles als usuaris, incloent-hi canviar el seu nom d’usuari o ignorar el límit d’inundació.<br />No és recomanable.',
 	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Té accés a algunes característiques d’usuari. No es permeten fitxers adjunts, correus electrònics o missatges instantanis.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Te un grup de característiques limitat i no pot utilitzar un avatar.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Te un grup de característiques limitat i no pot enviar missatges privats.',
-	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Pot accedir a la majoria de les característiques d’usuari però no a totes. Per exemple, no pot canviar el seu nom d’usuari ni ignorar el límit d’inundació.',
+	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Pot accedir a la majoria de les característiques d’usuari, però no a totes. Per exemple, no pot canviar el seu nom d’usuari ni ignorar el límit d’inundació.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Un rol per als membres del grup especial “nous usuaris registrats”; conté permisos de tipus <strong>Mai</strong> per bloquejar característiques per als nous usuaris.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Podeu introduir una explicació curta de què fa el rol o quin és el seu objectiu. El text que introduïu aquí també es mostrarà a les pantalles de permisos.',
@@ -239,8 +239,8 @@ $lang = array_merge($lang, array(
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor<strong>Mai</strong> que sobreescriu el valor total <strong>Sí</strong> amb un <strong>Mai</strong> per aquest usuari.',
 	'TRACE_GROUP_NO'				=> 'El permís val <strong>No</strong> per a aquest grup i, per tant, es manté el valor total antic.',
 	'TRACE_GROUP_NO_LOCAL'			=> 'El permís val <strong>No</strong> per a aquest grup en aquest fòrum i, per tant, es manté el valor total antic.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'El permís d’aquest grup té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'El permís d’aquest grup té el valor <strong>Sí</strong>, però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <strong>Sí</strong>, però el total <strong>Mai</strong> no es pot sobreescriure.',
 	'TRACE_GROUP_YES_TOTAL_NO'		=> 'El permís d’aquest grup té el valor <strong>Sí</strong> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <strong>No</strong>).',
 	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'El permís d’aquest grup per aquest fòrum té el valor <strong>Sí</strong> que esdevé el nou valor total perquè encara no estava definit (tenia el valor <strong>No</strong>).',
 	'TRACE_GROUP_YES_TOTAL_YES'		=> 'El permís d’aquest grup té el valor <strong>Sí</strong> i el permís total ja té el valor <strong>Sí</strong> i, per tant, es manté el resultat total.',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'TRACE_RESULT'					=> 'Resultat de la traça',
 	'TRACE_SETTING'					=> 'Traça la configuració',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Sí</strong> però el permís total ja té el valor <strong>Sí</strong> i, per tant, es manté el resultat total. %sTraça els permisos globals%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Sí</strong>, però el permís total ja té el valor <strong>Sí</strong> i, per tant, es manté el resultat total. %sTraça els permisos globals%s',
 	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Sí</strong> que sobreescriu el resultat local actual <strong>Mai</strong>. %sTraça els permisos globals%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'El permís d’usuari, independent del fòrum, s’avalua com un <strong>Mai</strong> que no influeix el permís local. %sTraça els permisos globals%s',
 
@@ -264,8 +264,8 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Mai</strong> i sobreescriu el <strong>Sí</strong> anterior.',
 	'TRACE_USER_NO_TOTAL_NO'				=> 'El permís de l’usuari val <strong>No</strong> i el valor total valia No, per tant, per defecte queda <strong>Mai</strong>.',
 	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'El permís de l’usuari per aquest fòrum val <strong>No</strong> i el valor total valia No, per tant, per defecte queda <strong>Mai</strong>.',
-	'TRACE_USER_YES_TOTAL_NEVER'			=> 'El permís de l’usuari té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Sí</strong> però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_USER_YES_TOTAL_NEVER'			=> 'El permís de l’usuari té el valor <strong>Sí</strong>, però el total <strong>Mai</strong> no es pot sobreescriure.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Sí</strong>, però el total <strong>Mai</strong> no es pot sobreescriure.',
 	'TRACE_USER_YES_TOTAL_NO'				=> 'El permís de l’usuari té el valor <strong>Sí</strong> que esdevé el valor total perquè tenia el valor <strong>No</strong>.',
 	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'El permís de l’usuari per aquest fòrum té el valor <strong>Sí</strong> que esdevé el valor total perquè tenia el valor <strong>No</strong>.',
 	'TRACE_USER_YES_TOTAL_YES'				=> 'El permís de l’usuari té el valor <strong>Sí</strong> i el valor total val <strong>Sí</strong> i, per tant, no canvia res.',
