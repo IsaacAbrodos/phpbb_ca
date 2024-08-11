@@ -58,8 +58,8 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_FORMATTING_GLOBAL_ANNOUNCE_ANSWER'	=> 'Els avisos globals contenen informació important i és recomanable que els llegiu sempre que sigui possible. Apareixen a la part superior de cada fòrum i al vostre Tauler de control de l’usuari. Els permisos per publicar avisos globals els concedeix l’administrador del fòrum.',
 	'HELP_FAQ_FORMATTING_GLOBAL_ANNOUNCE_QUESTION'	=> 'Què són els avisos globals?',
 	'HELP_FAQ_FORMATTING_HTML_ANSWER'	=> 'No. No és possible publicar HTML en aquest fòrum per que es mostri com a tal. La major part del formatat que es pot fer amb l’HTML el podeu aplicar utilitzant el BBCode.',
-	'HELP_FAQ_FORMATTING_HTML_QUESTION'	=> 'Puc utilitzar HTML?',
-	'HELP_FAQ_FORMATTING_ICONS_ANSWER'	=> 'Les icones de tema són imatges triades per l’autor i associades amb les entrades per indicar-ne el contingut. La possibilitat d’utilitzar icones de tema depèn del permisos concedits per l’administrador del fòrum.',
+	'HELP_FAQ_FORMATTING_HTML_QUESTION'	=> 'Puc usar HTML?',
+	'HELP_FAQ_FORMATTING_ICONS_ANSWER'	=> 'Les icones de tema són imatges triades per l’autor i associades amb les entrades per indicar-ne el contingut. La possibilitat d’usar icones de tema depèn del permisos concedits per l’administrador del fòrum.',
 	'HELP_FAQ_FORMATTING_ICONS_QUESTION'	=> 'Què són les icones de tema?',
 	'HELP_FAQ_FORMATTING_IMAGES_ANSWER'	=> 'Sí, podeu mostrar imatges en les vostres entrades. Si l’administrador permet els fitxers adjunts, podeu penjar la imatge al fòrum. Si no és així, cal que enllaçeu amb una imatge emmagatzemada en un servidor web accessible públicament, p.ex. http://www.exemple.cat/la-meva-foto.gif. No podeu enllaçar amb imatges emmagatzemades al vostre ordinador (a no ser que es tracti d’un servidor web accessible públicament) ni imatges emmagatzemades darrera d’un mecanisme d’autenticació , p.ex. les bústies de hotmail o yahoo, llocs web protegits amb contrasenya, etc. Per mostrar la imatge, utilitzeu l’etiqueta del BBCode [img].',
 	'HELP_FAQ_FORMATTING_IMAGES_QUESTION'	=> 'Puc publicar imatges?',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_FORMATTING_STICKIES_ANSWER'	=> 'Els temes recurrents d’un fòrum apareixen sota els avisos i només en la primera pàgina. Habitualment, són força importants i és recomanable que els llegiu sempre que sigui possible. Els permisos per publicar temes recurrents els concedeix l’administrador del fòrum.',
 	'HELP_FAQ_FORMATTING_STICKIES_QUESTION'	=> 'Què són els temes recurrents?',
 
-	'HELP_FAQ_FRIENDS_BASIC_ANSWER'	=> 'Podeu utilitzar aquestes llistes per organitzar altres membres del fòrum. Els membres que afegiu a la llista d’amics es mostraran al Tauler de control de l’usuari per veure ràpidament si estan connectats i per enviar-los missatges privats. Depenent de si la plantilla ho admet, les entrades d’aquests usuaris poden estar ressaltades. Si afegiu un usuari a la llista d’enemics, per defecte les seves entrades estaran ocultes.',
+	'HELP_FAQ_FRIENDS_BASIC_ANSWER'	=> 'Podeu usar aquestes llistes per organitzar altres membres del fòrum. Els membres que afegiu a la llista d’amics es mostraran al Tauler de control de l’usuari per veure ràpidament si estan connectats i per enviar-los missatges privats. Depenent de si la plantilla ho admet, les entrades d’aquests usuaris poden estar ressaltades. Si afegiu un usuari a la llista d’enemics, per defecte les seves entrades estaran ocultes.',
 	'HELP_FAQ_FRIENDS_BASIC_QUESTION'	=> 'Què són les llistes d’amics i enemics?',
 	'HELP_FAQ_FRIENDS_MANAGE_ANSWER'	=> 'Podeu afegir usuaris de dues maneres. Al perfil de cada usuari, hi ha un enllaç per afegir-lo o bé a la llista d’amics o bé a la d’enemics. Alternativament, des del Tauler de control de l’usuari, podeu afegir usuaris directament introduïnt el seu nom d’usuari. També podeu treure usuaris de la llista utilitzant la mateixa pàgina.',
 	'HELP_FAQ_FRIENDS_MANAGE_QUESTION'	=> 'Com puc afegir o treure usuaris de la llista d’amics o enemics?',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_GROUPS_USERGROUPS_LEAD_QUESTION'	=> 'Com puc convertir-me en líder d’un grup d’usuaris?',
 	'HELP_FAQ_GROUPS_USERGROUPS_QUESTION'	=> 'Què són els grups d’usuaris?',
 
-	'HELP_FAQ_ISSUES_ADMIN_ANSWER'	=> 'Tots els usuaris del fòrum poden utilitzar el formulari “Contacta amb nosaltres”, si l’administrador del fòrum n’ha habilitat l’opció.<br />Els membres del fòrum també poden utilitzar l’enllaç “L’equip”.',
+	'HELP_FAQ_ISSUES_ADMIN_ANSWER'	=> 'Tots els usuaris del fòrum poden usar el formulari “Contacta amb nosaltres”, si l’administrador del fòrum n’ha habilitat l’opció.<br />Els membres del fòrum també poden usar l’enllaç “L’equip”.',
 	'HELP_FAQ_ISSUES_ADMIN_QUESTION'	=> 'Com puc posar-me en contacte amb l’administrador del fòrum?',
 	'HELP_FAQ_ISSUES_FEATURE_ANSWER'	=> 'Aquest programari ha estat escrit i llicenciat a través de phpBB Limited. Si creieu que cal afegir una determinada funció, visiteu el <a href="https://www.phpbb.com/ideas/">Centre d’idees del phpBB</a>, on podreu donar el vostre suport a idees existents o suggerir funcions noves.',
 	'HELP_FAQ_ISSUES_FEATURE_QUESTION'	=> 'Per què no hi ha disponible la funció X?',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_SEARCH_OWN_QUESTION'	=> 'Com puc trobar els meus temes i entrades?',
 
 	'HELP_FAQ_USERSETTINGS_AVATAR_ANSWER'	=> 'Hi ha dos tipus d’imatges que poden aparèixer al costat del vostre nom d’usuari quan visualitzeu entrades. Una d’elles pot ser una imatge associada amb el vostre rang, generalment en forma d’estrelles, blocs o punts i indica quantes entrades heu publicat o el vostre estatus al fòrum. Un altre tipus d’imatge, habitualment més gran, es coneix com avatar i sol ser única i personal per cada usuari.',
-	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_ANSWER'	=> 'Al tauler de Control de l’usuari, a la secció "Perfil", podeu afegir un avatar utilitzant un dels quatre mètodes següents: gravatar, galeria, remot o penjat. És l’administrador qui decideix si els avatars estan permesos i tria de quines maneres estan disponibles. Si no podeu utilitzar els avatars, poseu-vos en contacte amb l’administrador.',
+	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_ANSWER'	=> 'Al tauler de Control de l’usuari, a la secció "Perfil", podeu afegir un avatar utilitzant un dels quatre mètodes següents: gravatar, galeria, remot o penjat. És l’administrador qui decideix si els avatars estan permesos i tria de quines maneres estan disponibles. Si no podeu usar els avatars, poseu-vos en contacte amb l’administrador.',
 	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_QUESTION'	=> 'Com puc mostrar un avatar?',
 	'HELP_FAQ_USERSETTINGS_AVATAR_QUESTION'	=> 'Què són les imatges que hi ha al costat del meu nom d’usuari?',
 	'HELP_FAQ_USERSETTINGS_CHANGE_SETTINGS_ANSWER'	=> 'Si sou un usuari registrat, totes les vostres configuracions s’emmagatzemen a la base de dades del fòrum. Per modificar-les, visiteu el Tauler de control de l’usuari a través de l’enllaç que trobareu habitualment fent clic al vostre nom d’usuari a la part superior de les pàgines del fòrum. Aquest sistema us permet canviar totes les vostres configuracions i preferències.',

@@ -46,9 +46,9 @@ $lang = array_merge($lang, [
 	
 	'RECAPTCHA_INCORRECT'				=> 'La solució que heu proporcionat és incorrecta',
 	'RECAPTCHA_NOSCRIPT'				=> 'Habiliteu el JavaScript al vostre navegador per carregar el repte.',
-	'RECAPTCHA_NOT_AVAILABLE'			=> 'Per tal d’utilitzar reCaptcha heu de crear un compte al lloc web <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Per tal d’usar reCaptcha heu de crear un compte al lloc web <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'				=> 'Aquest CAPTCHA és invisible. Per verificar que funciona, hauria d’aparèixer una icona petita al cantó inferior dret d’aquesta pàgina.',
-	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Heu excedit el nombre màxim permès d’intents d’inici de sessió.<br>A més del vostre usuari i contrasenya, s’utilitzarà el reCAPTCHA v3 invisible per autenticar la vostra sessió.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Heu excedit el nombre màxim permès d’intents d’inici de sessió.<br>A més del vostre usuari i contrasenya, s’usarà el reCAPTCHA v3 invisible per autenticar la vostra sessió.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Clau del lloc web',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'La clau reCAPTCHA del vostre lloc web. Podeu aconseguir claus al lloc web <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Si us plau, utilitzeu el distintiu de tipus reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'El domini des d’on s’ha d’obtenir l’script i que s’utilitza per verificar la sol·licitud.<br>Utilitzeu <samp>recaptcha.net</samp> quan <samp>google.com</samp> no sigui accessible.',
 
 	'RECAPTCHA_V3_METHOD'				=> 'Mètode de la sol·licitud',
-	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'El mètode a utilitzar quan es verifica la sol·licitud.<br>Les opcions inhabilitades no estan disponibles en la vostra configuració.',
+	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'El mètode a usar quan es verifica la sol·licitud.<br>Les opcions inhabilitades no estan disponibles en la vostra configuració.',
 	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
 	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
 	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
@@ -74,5 +74,5 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Llindar per enviar informes',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Llindars',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 torna una puntuació (<samp>1.0</samp> és, molt probablement, una interacció de qualitat, <samp>0.0</samp> segurament és un robot). Aquí podeu indicar la puntació mínima per cada acció.',
-	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 necessita saber quin mètode dels disponibles voleu utilitzar quan es verifiqui la sol·licitud.',
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 necessita saber quin mètode dels disponibles voleu usar quan es verifiqui la sol·licitud.',
 ]);

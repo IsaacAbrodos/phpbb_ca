@@ -667,7 +667,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d registrats',
 	),
 	'REMOVE'					=> 'Elimina',
-	'REMOVE_INSTALL'			=> 'Elimineu, moveu o canvieu el nom del directori d’instal·lació abans d’utilitzar el fòrum. Si aquest directori és present, només es podrà accedir al Tauler de control de l’administrador (TCA).',
+	'REMOVE_INSTALL'			=> 'Elimineu, moveu o canvieu el nom del directori d’instal·lació abans d’usar el fòrum. Si aquest directori és present, només es podrà accedir al Tauler de control de l’administrador (TCA).',
 	'REPLIES'					=> 'Respostes',
 	'REPLY_WITH_QUOTE'			=> 'Respon citant el text de l’entrada',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Està responent a un avís global',
@@ -872,7 +872,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Usuaris',
 	'USE_PERMISSIONS'		=> 'Prova els permisos de l’usuari',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'No esteu autoritzat a utilitzar aquesta funció. És possible que us hagueu registrat recentment i que calgui que participeu més per que pugueu utilitzar aquesta característica.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'No esteu autoritzat a usar aquesta funció. És possible que us hagueu registrat recentment i que calgui que participeu més per que pugueu usar aquesta característica.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Visualitzat',

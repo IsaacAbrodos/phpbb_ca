@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_REPLY'		=> 'Cal que inicieu la sessió per poder publicar respostes en aquest fòrum.',
 
 	'MAX_ATTACHMENT_FILESIZE'	=> 'Mida màxima de fitxer per penjada: %s.',
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Podeu utilitzar lletres de mida %d com a màxim.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Podeu usar lletres de mida %d com a màxim.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Els fitxers flash poden tenir un màxim d’%d píxel d’alçària.',
 		2	=> 'Els fitxers flash poden tenir un màxim de %d píxels d’alçària.',
@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_USER_OPTIONS'		=> 'No podeu especificar més opcions per usuari de les que té l’enquesta.',
 	'TOPIC_BUMPED'				=> 'S’ha reactivat el tema correctament.',
 
-	'UNAUTHORISED_BBCODE'		=> 'No podeu utilitzar determinats BBCodes: %s.',
+	'UNAUTHORISED_BBCODE'		=> 'No podeu usar determinats BBCodes: %s.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'El missatge conté els següents caràcters no permesos:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'L’assumpte conté els següents caràcters no permesos:<br />%s',
 	'UPDATE_COMMENT'			=> 'Actualitza el comentari',

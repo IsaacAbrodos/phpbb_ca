@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Aquí podeu gestionar els índexs dels motor de cerques. Com que normalment només utilitzeu un motor, és recomanable que elimineu tots els índexs que no utilitzeu. Després de modificar alguna de les configuracions de les cerques (p.ex. el nombre mínim/màxim de caràcters) val la pena que recreeu l’índex per que reflecteixi aquests canvis.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Aquí podeu definir quin motor s’utilitzarà per indexar les entrades i realitzar les cerques. Podeu definir diverses opcions que poden influir en la quantitat de processament que requereixen aquestes accions. Algunes d’aquestes opcions són les mateixes per tots els motors de cerca.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Aquí podeu definir quin motor s’usarà per indexar les entrades i realitzar les cerques. Podeu definir diverses opcions que poden influir en la quantitat de processament que requereixen aquestes accions. Algunes d’aquestes opcions són les mateixes per tots els motors de cerca.',
 
 	'COMMON_WORD_THRESHOLD'					=> 'Llindar per a paraules comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Les paraules que apareguin en un percentatge més gran d’entre totes les entrades es consideraran comuns. Les paraules comuns s’ignoren en les consultes de cerca. Utilitzeu el zero per inhabilitar-ho. Només té efecte si hi ha més de 100 entrades. Si voleu que es reconsiderin paraules actualment considerades comuns, cal que torneu a crear l’índex.',
@@ -55,13 +55,13 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Eliminació de l’index en curs',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'El motor de cerca està netejant el seu índex. Això pot trigar uns quants minuts.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Només podeu utilitzar el motor MySQL fulltext amb MySQL4 o superior.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Els índexs MySQL fulltext només es poden utilitzar amb taules MyISAM o taules InnoDB. Per utilitzar índexs de text complet amb InnoDB és necessària la versió 5.6.8 o superior del MySQL.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Només podeu usar el motor MySQL fulltext amb MySQL4 o superior.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Els índexs MySQL fulltext només es poden usar amb taules MyISAM o taules InnoDB. Per usar índexs de text complet amb InnoDB és necessària la versió 5.6.8 o superior del MySQL.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Nombre total d’entrades indexades',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Només s’indexaran per a les cerques les paraules que tinguin com a mínim aquest nombre de caràcters. Només podeu canviar aquest paràmetre modificant la configuració del MySQL.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Només s’indexaran per a les cerques les paraules que tinguin com a màxim aquest nombre de caràcters. Només podeu canviar aquest paràmetre modificant la configuració del MySQL.',
 
-	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Només podeu utilitzar el motor PostgreSQL fulltext amb PostgreSQL.',
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Només podeu usar el motor PostgreSQL fulltext amb PostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Nombre total d’entrades indexades',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'Versió del PostgreSQL',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Perfil de configuració de cerca de text:',
@@ -74,15 +74,15 @@ $lang = array_merge($lang, array(
 
 	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Proporcioneu els paràmetres següents per generar un fitxer de configuració sphinx',
 	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Camí al directori de dades',
-	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'S’utilitzarà per emmagatzemar els índexos i els fitxers de registre. És aconsellable crear el directori fora dels directaris accessibles des del web y ha d’acabar amb el caràcter de barra inclinada.',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'S’usarà per emmagatzemar els índexos i els fitxers de registre. És aconsellable crear el directori fora dels directaris accessibles des del web y ha d’acabar amb el caràcter de barra inclinada.',
 	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Nombre d’entrades a l’índex delta actualitzat freqüentment',
 	'FULLTEXT_SPHINX_HOST'					=> 'Amfitrió del dimoni de cerca sphinx',
-	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Amfitrió en el qual escolta el dimoni de cerca sphinx (searchd). Deixeu-lo buit per utilitzar el valor per defecte localhost',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Amfitrió en el qual escolta el dimoni de cerca sphinx (searchd). Deixeu-lo buit per usar el valor per defecte localhost',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Límit de memòria de l’indexador',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'En tot moment aquest número ha de ser inferior a la RAM disponible en la vostra màquina. Si detecteu problemes periòdics de rendiment és possible que la causa sigui que l’indexador està consumint massa recursos. Per evitar-ho reduïu la quantitat de memòria disponible per a l’indexador.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Nombre d’entrades a l’índex principal',
 	'FULLTEXT_SPHINX_PORT'					=> 'Port del dimoni de cerca sphinx',
-	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port al qual escolta el dimoni de cerca sphinx (searchd). Deixeu-lo buit per utilitzar el valor per defecte 9312',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port al qual escolta el dimoni de cerca sphinx (searchd). Deixeu-lo buit per usar el valor per defecte 9312',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'La cerca sphinx del phpBB només es compatible amb MySQL i PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Fitxer de configuració de sphinx',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'El contingut generat del fitxer de configuració de sphinx. Aquestes dades s’han d’enganxar al fitxer sphinx.conf que utilitza el dimoni de cerca sphinx. Substituïu el text [dbuser] i [dbpassword] amb les vostres credencials d’accés a la base de dades.',
@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'MAX_SEARCH_CHARS'						=> 'Nombre màxim de caràcters indexats per la cerca',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Només s’indexaran per ser cercades les paraules que tinguin com a màxim aquest nombre de caràcters.',
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Nombre màxim de paraules permeses',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Nombre màxim de paraules que es permet utilitzar als usuaris en una cerca. El valor 0 permet un nombre il·limitat de paraules.',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Nombre màxim de paraules que es permet usar als usuaris en una cerca. El valor 0 permet un nombre il·limitat de paraules.',
 	'MIN_SEARCH_CHARS'						=> 'Nombre mínim de caràcters indexats per la cerca',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Només s’indexaran per ser cercades les paraules que tinguin com a mínim aquest nombre de caràcters.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Nombre mínim de caràcters per al nom de l’autor',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Els resultats emmagatzemats a la memòria cau de la cerca venceran després d’aquest temps, mesurat en segons. Introduïu un 0 si voleu inhabilitar la memòria cau de la cerca.',
 	'SEARCH_TYPE'							=> 'Motor de cerca',
 	'SEARCH_TYPE_EXPLAIN'					=> 'El phpBB us permet triar el motor que s’utilitza per cercar text al contingut de les entrades. Per defecte, s’utilitza la cerca fulltext pròpia del phpBB.',
-	'SWITCHED_SEARCH_BACKEND'				=> 'Heu canviat el motor de cerca. Per utilitzar el nou motor de cerca assegureu-vos que hi hagi un índex per al motor que heu triat.',
+	'SWITCHED_SEARCH_BACKEND'				=> 'Heu canviat el motor de cerca. Per usar el nou motor de cerca assegureu-vos que hi hagi un índex per al motor que heu triat.',
 
 	'TOTAL_WORDS'							=> 'Nombre total de paraules indexades',
 	'TOTAL_MATCHES'							=> 'Nombre total de relacions indexades entre paraules i entrades',

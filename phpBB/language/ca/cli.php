@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Executa l’ordre de comprovació amb memòria cau.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Executa l’ordre amb l’opció de comprovar només versions estables o inestables.',
 
-	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualitza els resums de contrasenya obsolets per utilitzar la funció de resum bcrypt.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualitza els resums de contrasenya obsolets per usar la funció de resum bcrypt.',
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" s’ha de definir com a "estable" o "inestable".',
 

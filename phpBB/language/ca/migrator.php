@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	'MODULE_ERROR'						=> 'S’ha produït un error mentre es creava un mòdul: %s',
 	'MODULE_EXISTS'						=> 'Ja existeix un mòdul: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Ja existeixen diversos mòduls amb el nom de mòdul proporcionat per al mòdul pare: %s. Proveu a utilitzar claus com ara pre/post per fer més clara la ubicació dels mòduls.',
+	'MODULE_EXIST_MULTIPLE'				=> 'Ja existeixen diversos mòduls amb el nom de mòdul proporcionat per al mòdul pare: %s. Proveu a usar claus com ara pre/post per fer més clara la ubicació dels mòduls.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Falta un fitxer necessari d’informació del mòdul: %2$s',
 	'MODULE_NOT_EXIST'					=> 'No existeix un mòdul necessari: %s',
 

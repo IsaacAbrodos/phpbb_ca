@@ -338,7 +338,7 @@ $lang = array_merge($lang, array(
 // Logs
 $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Aquí es llisten totes les accions que els administradors han dut a terme. Podeu ordenar per nom d’usuari, data, IP o acció. Si teniu els permisos adequats, també podeu esborrar operacions individuals o el registre complet.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Aquí es llisten totes les accions dutes a terme pel propi fòrum. Aquest registre us proporciona informació que podeu utilitzar per resoldre problemes determinats, per exemple fallades d’enviament de correu electrònic. Podeu ordenar per nom d’usuari, data, IP o acció. Si teniu els permisos adequats, també podeu esborrar operacions individuals o el registre complet.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Aquí es llisten totes les accions dutes a terme pel propi fòrum. Aquest registre us proporciona informació que podeu usar per resoldre problemes determinats, per exemple fallades d’enviament de correu electrònic. Podeu ordenar per nom d’usuari, data, IP o acció. Si teniu els permisos adequats, també podeu esborrar operacions individuals o el registre complet.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Aquí es llisten totes les accions que els moderadors han dut a terme a fòrums, temes i entrades així com accions sobre usuaris, incloent-hi bandejos. Podeu ordenar per nom d’usuari, data, IP o acció. Si teniu els permisos adequats, també podeu esborrar operacions individuals o el registre complet.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Aquí es llisten totes les accions que els usuaris han dut a terme sobre altres usuaris (informes, advertiments i notes de l’usuari).',
 	'ALL_ENTRIES'				=> 'Totes les entrades',
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Gràcies per triar el phpBB per al vostre fòrum. Aquesta pantalla us mostrarà un resum ràpid de totes les estadístiques del fòrum. Els enllaços de la part esquerra de la pantalla us permeten controlar tots els aspectes del fòrum. Cada pàgina conté instruccions sobre com utilitzar les eines.',
+	'ADMIN_INTRO'				=> 'Gràcies per triar el phpBB per al vostre fòrum. Aquesta pantalla us mostrarà un resum ràpid de totes les estadístiques del fòrum. Els enllaços de la part esquerra de la pantalla us permeten controlar tots els aspectes del fòrum. Cada pàgina conté instruccions sobre com usar les eines.',
 	'ADMIN_LOG'					=> 'Accions de l’administrador registrades',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Aquest és un resum de les cinc darreres accions dutes a terme pels administradors del fòrum. Podeu visualitzar una còpia sencera del registre des del menú correponent o fent clic a l’enllaç a sota.',
 	'AVATAR_DIR_SIZE'			=> 'Mida del directori d’avatars',
@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_ORPHAN'		=> 'Fitxers adjunts orfes',
 
 	'PHP_VERSION'		=> 'Versió del PHP',
-	'PHP_VERSION_OLD'	=> 'No podreu utilitzar futures versions del phpBB amb la versió del PHP instal·lada en aquest servidor (%1$s). La versió mínima necessària serà el PHP %2$s. %3$sDetalls%4$s',
+	'PHP_VERSION_OLD'	=> 'No podreu usar futures versions del phpBB amb la versió del PHP instal·lada en aquest servidor (%1$s). La versió mínima necessària serà el PHP %2$s. %3$sDetalls%4$s',
 
 	'POSTS_PER_DAY'		=> 'Entrades per dia',
 
@@ -518,7 +518,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Ha eliminat els permisos d’usuari/grup del fòrum</strong> %1$s per als usuaris<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>S’ha transferit els permisos de</strong><br />» %s',
-	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>S’ha restaurat els permisos propis després d’utilitzar els permisos de</strong><br />» %s',
+	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>S’ha restaurat els permisos propis després d’usar els permisos de</strong><br />» %s',
 
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>No ha aconseguit iniciar la sessió d’administració correctament</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Ha iniciat la sessió d’administració correctament</strong>',

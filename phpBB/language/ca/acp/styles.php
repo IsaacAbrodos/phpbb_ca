@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 
 	'PURGED_CACHE'								=> 'S’ha buidat la memòria cau.',
 
-	'REQUIRES_STYLE'							=> 'Per utilitzar aquest estil cal que tingueu l’estil "%s" instal·lat.',
+	'REQUIRES_STYLE'							=> 'Per usar aquest estil cal que tingueu l’estil "%s" instal·lat.',
 
 	'STYLE_ACTIVATE'							=> 'Activa',
 	'STYLE_ACTIVE'								=> 'Actiu',

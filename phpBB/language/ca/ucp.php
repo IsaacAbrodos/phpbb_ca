@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	<br><br>
 	El vostre compte contindrà com a mínim un nom identificador únic (a partir d’ara “nom d’usuari”), una contrasenya personal per iniciar la sessió amb el vostre compte (a partir d’ara “contrasenya”) i una adreça electrònica vàlida i personal (a partir d’ara “adreça electrònica”). La informació del vostre compte a “%1$s” està protegida per les lleis de protecció de dades aplicables al país on es troba allotjat el nostre lloc web. Tota informació més enllà del nom d’usuari, contrasenya i adreça electrònica requerits per “%1$s” durant el procés de registrar-vos, és obligatòria o opcional a la discreció de “%1$s”. En qualsevol cas, podeu decidir quina informació del vostre compte es mostra públicament. Addicionalment, des del vostre compte, teniu l’opció d’acceptar o rebutjar que se us enviïn els correus electrònics generats automàticament pel phpBB.
 	<br><br>
-	La vostra contrasenya està encriptada amb una funció de resum unidireccional per tal que sigui segura. Això no obstant, és recomanable que no reutilitzeu la mateixa contrasenya en múltiples llocs web diferents. La vostra contrasenya és el mitjà per accedir al vostre compte a “%1$s”, per tant, teniu-ne cura i sota cap circumstància ningú afiliat amb “%1$s”, phpBB o tercers, us demanarà la vostra contrasenya de manera legítima. Si us oblideu de la vostra contrasenya, podeu utilitzar la funció “He oblidat la meva contrasenya” proporcionada pel phpBB. Aquest procés us demanarà que proporcioneu el vostre nom d’usuari i adreça electrònica, llavors el phpBB generarà una contrasenya nova per que pugueu recuperar el vostre compte.
+	La vostra contrasenya està encriptada amb una funció de resum unidireccional per tal que sigui segura. Això no obstant, és recomanable que no reutilitzeu la mateixa contrasenya en múltiples llocs web diferents. La vostra contrasenya és el mitjà per accedir al vostre compte a “%1$s”, per tant, teniu-ne cura i sota cap circumstància ningú afiliat amb “%1$s”, phpBB o tercers, us demanarà la vostra contrasenya de manera legítima. Si us oblideu de la vostra contrasenya, podeu usar la funció “He oblidat la meva contrasenya” proporcionada pel phpBB. Aquest procés us demanarà que proporcioneu el vostre nom d’usuari i adreça electrònica, llavors el phpBB generarà una contrasenya nova per que pugueu recuperar el vostre compte.
 	',
 ));
 
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'				=> 'Estil del fòrum',
 	'BOARD_TIMEZONE'			=> 'Fus horari',
 	'BOOKMARKS'					=> 'Adreces d’interès',
-	'BOOKMARKS_EXPLAIN'			=> 'Podeu utilitzar les adreces d’interès per referenciar un tema. Seleccioneu la casella de les adreces d’interès que vulgueu eliminar i feu clic sobre el botó <em>Elimina les adreces d’interès marcades</em>.',
+	'BOOKMARKS_EXPLAIN'			=> 'Podeu usar les adreces d’interès per referenciar un tema. Seleccioneu la casella de les adreces d’interès que vulgueu eliminar i feu clic sobre el botó <em>Elimina les adreces d’interès marcades</em>.',
 	'BOOKMARKS_DISABLED'		=> 'Les adreces d’interès estan inhabilitades en aquest fòrum.',
 	'BOOKMARKS_REMOVED'			=> 'S’han eliminat les adreces d’interès correctament.',
 
@@ -259,7 +259,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Avís global',
 
 	'GRAVATAR_AVATAR_EMAIL'			=> 'Adreça electronica del gravatar',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Introduïu l’adreça electrònica que vau utilitzar per registrar el vostre compte a <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Introduïu l’adreça electrònica que vau usar per registrar el vostre compte a <a href="http://www.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'			=> 'Dimensions de l’avatar',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Especifiqueu l’amplària i l’alçària de l’avatar, deixeu-ho en blanc per intentar la verificació automàtica.',
 
@@ -579,11 +579,11 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Penja’l des de la meva màquina',
 	'UPLOAD_AVATAR_URL'				=> 'Penja’l des d’un URL',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Introduïu l’URL on està ubicada la imatge. La imatge es copiarà en aquest lloc web.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar caràcters alfanumèrics.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar caràcters alfanumèrics, espais o els caràcters -+_[]',
-	'USERNAME_ASCII_EXPLAIN'		=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar caràcters ASCII, és a dir sense signes especials.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar lletres i números.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden utilitzar lletres, números, espais o els caràcters -+_[]',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden usar caràcters alfanumèrics.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden usar caràcters alfanumèrics, espais o els caràcters -+_[]',
+	'USERNAME_ASCII_EXPLAIN'		=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden usar caràcters ASCII, és a dir sense signes especials.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden usar lletres i números.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'El nom d’usuari ha de tenir entre %1$s i %2$s i només es poden usar lletres, números, espais o els caràcters -+_[]',
 	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Ha de tenir una longitud d’entre %1$s i %2$s.',
 	'USERNAME_TAKEN_USERNAME'		=> 'El nom d’usuari que heu introduït ja existeix, si us plau trieu un nom d’usuari diferent.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'El nom d’usuari que heu introduït no està permès o conté una paraula no permesa. Si us plau, trieu nom d’usuari diferent.',

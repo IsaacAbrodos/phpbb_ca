@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'El BBCode és una implementació especial de l’HTML que ofereix un control més gran sobre què i com es mostra alguna cosa. Des d’aquesta pàgina podeu afegir, eliminar i editar BBCodes personalitzats.',
 	'ADD_BBCODE'				=> 'Afegeix un BBCode nou',
 
-	'BBCODE_DANGER'				=> 'El BBCode que esteu afegint sembla que no és segur. Si el BBCode utilitza un testimoni {TEXT} dintre d’un context delicat, intenteu utilitzar un tipus més restricitu. Continueu només si enteneu els riscos que això implica.',
+	'BBCODE_DANGER'				=> 'El BBCode que esteu afegint sembla que no és segur. Si el BBCode utilitza un testimoni {TEXT} dintre d’un context delicat, intenteu usar un tipus més restricitu. Continueu només si enteneu els riscos que això implica.',
 	'BBCODE_DANGER_PROCEED'		=> 'Continua', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'S’ha afegit el BBCode correctament.',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'Testimoni',
 	'TOKENS'				=> 'Testimonis',
-	'TOKENS_EXPLAIN'		=> 'Els testimonis són textos variables per ser introduïts per l’usuari. El text d’entrada serà vàlid només si coincideix amb la definició corresponent. Si cal, podeu numerar-los afegint un número com a darrer caràcter entre les claus, p.ex. {TEXT1}, {TEXT2}.<br /><br />Dintre de la substitució HTML també podeu utilitzar qualsevol cadena d’idioma present al directori language/ així: {L_<em>&lt;STRINGNAME&gt;</em>} on <em>&lt;STRINGNAME&gt;</em> és el nom de la cadena traduïda que voleu afegir. Per exemple, {L_WROTE} es mostrarà com “ha escrit” o la seva traducció depenent de la localització de l’usuari.<br /><br /><strong>Tingueu en compte que als BBCodes personalitzats només es poden utilitzar els testimonis llistats a sota.</strong>',
+	'TOKENS_EXPLAIN'		=> 'Els testimonis són textos variables per ser introduïts per l’usuari. El text d’entrada serà vàlid només si coincideix amb la definició corresponent. Si cal, podeu numerar-los afegint un número com a darrer caràcter entre les claus, p.ex. {TEXT1}, {TEXT2}.<br /><br />Dintre de la substitució HTML també podeu usar qualsevol cadena d’idioma present al directori language/ així: {L_<em>&lt;STRINGNAME&gt;</em>} on <em>&lt;STRINGNAME&gt;</em> és el nom de la cadena traduïda que voleu afegir. Per exemple, {L_WROTE} es mostrarà com “ha escrit” o la seva traducció depenent de la localització de l’usuari.<br /><br /><strong>Tingueu en compte que als BBCodes personalitzats només es poden usar els testimonis llistats a sota.</strong>',
 	'TOKEN_DEFINITION'		=> 'Què pot ser?',
 	'TOO_MANY_BBCODES'		=> 'No podeu crear més BBCodes. Elimineu un o més BBCodes i torneu a intentar-ho.',
 
@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 		'EMAIL'			=> 'Una adreça electrònica vàlida',
 		'URL'			=> 'Un URL vàlid que utilitzi qualsevol protocol permès (http, ftp, etc… no es pot usar per aprofitar-se del javascript). Si no se’n proporciona cap, la cadena es prefixa amb “http://”.',
 		'LOCAL_URL'		=> 'Un URL local. L’URL ha de ser relatiu a la pàgina del tema i no pot contenir un nom de servidor ni un protocol, ja que els enllaços es prefixen amb “%s”',
-		'RELATIVE_URL'	=> 'Un URL relatiu. Podeu utilitzar-ho per tal que coincideixi amb parts d’un URL, aneu amb compte: un URL complet és un URL realtiu vàlid. Quan vulgueu utilitzar URL relatius al vostre fòrum, utilitzeu l’etiqueta LOCAL_URL.',
+		'RELATIVE_URL'	=> 'Un URL relatiu. Podeu usar-ho per tal que coincideixi amb parts d’un URL, aneu amb compte: un URL complet és un URL realtiu vàlid. Quan vulgueu usar URL relatius al vostre fòrum, utilitzeu l’etiqueta LOCAL_URL.',
 		'COLOR'			=> 'Un color HTML, pot ser o bé en forma numèrica <samp>#FF1234</samp> o una <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">paraula clau de color CSS</a> com ara <samp>fuchsia</samp> o <samp>InactiveBorder</samp>',
 		'ALNUM'			=> 'Caràcters de l’alfabet llatí (A-Z) i números.',
 		'CHOICE'		=> 'Una tria entre valors específics, p.ex. <samp>{CHOICE=ors,copes,espases,bastos}</samp>. Els valors no distingeixen majúscules i minúscules per defecte, però poden distingir-les especificant l’opció <samp>caseSensitive</samp>: <samp>{CHOICE=Ors,Copes,Espases,Bastos;caseSensitive}</samp>',
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 // Smilies and topic icons
 $lang = array_merge($lang, array(
 	'ACP_ICONS_EXPLAIN'		=> 'Des d’aquesta pàgina podeu afegir, eliminar i editar les icones que els usuaris poden afegir als temes o entrades. Aquestes icones normalment es mostren al costat del títol dels temes a la llista dels fòrums, o al costat dels assumptes de les entrades a la llista dels temes. També podeu instal·lar i crear paquets nous d’icones.',
-	'ACP_SMILIES_EXPLAIN'	=> 'Les emoticones són imatges típicament petites, de vegades animades, utilitzades per transmetre una emoció o sentiment. Des d’aquesta pàgina podeu afegir, eliminar i editar les emoticones que els usuaris poden utilitzar a les entrades i els missatges privats. També podeu instal·lar i crear paquets nous d’emoticones.',
+	'ACP_SMILIES_EXPLAIN'	=> 'Les emoticones són imatges típicament petites, de vegades animades, utilitzades per transmetre una emoció o sentiment. Des d’aquesta pàgina podeu afegir, eliminar i editar les emoticones que els usuaris poden usar a les entrades i els missatges privats. També podeu instal·lar i crear paquets nous d’emoticones.',
 	'ADD_SMILIES'			=> 'Afegeix múltiples emoticones',
 	'ADD_SMILEY_CODE'		=> 'Afegeix un codi d’emoticona nou',
 	'ADD_ICONS'				=> 'Afegeix múltiples icones',
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'IS_NOT_TRANSLATED'			=> 'La raó <strong>no</strong> està traduïda.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'La raó <strong>no</strong> està traduïda. Si voleu proporcionar la forma traduïda, indiqueu la clau correcta de la secció de raons d’informe dels fitxers d’idioma.',
 	'IS_TRANSLATED'				=> 'La raó està traduïda.',
-	'IS_TRANSLATED_EXPLAIN'		=> 'La raó està traduïda. Si el títol que introduïu aquí està especificat a la secció de raons d’informe dels fitxers d’idioma, s’utilitzarà la forma traduïda del títol i la descripció.',
+	'IS_TRANSLATED_EXPLAIN'		=> 'La raó està traduïda. Si el títol que introduïu aquí està especificat a la secció de raons d’informe dels fitxers d’idioma, s’usarà la forma traduïda del títol i la descripció.',
 
 	'NO_REASON'					=> 'No s’ha pogut trobar la raó.',
 	'NO_REASON_INFO'			=> 'Cal que especifiqueu un títol i una descripció  per a aquesta raó.',

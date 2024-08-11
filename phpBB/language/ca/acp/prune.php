@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Elimina les entrades dels usuaris podats',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Suprimeix les entrades realitzades pels usuaris eliminats, no té cap efecte si només desactiveu els usuaris.',
 
-	'JOINED_EXPLAIN'			=> 'Introduïu una data en el format <kbd>AAAA-MM-DD</kbd>. Podeu utilitzar tots dos camps per especificar un interval o deixar-ne un en blanc per a un rang de dates obert.',
+	'JOINED_EXPLAIN'			=> 'Introduïu una data en el format <kbd>AAAA-MM-DD</kbd>. Podeu usar tots dos camps per especificar un interval o deixar-ne un en blanc per a un rang de dates obert.',
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Introduïu una data en el format <kbd>AAAA-MM-DD</kbd>. Introduïu <kbd>0000-00-00</kbd> per podar els usuaris que no han iniciat mai la sessió, les condicions <em>Abans</em> i <em>Després</em> s’ignoraran.',
 
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_USERS_LIST_DELETE'		=> 'Amb els criteris seleccionats per podar usuaris s’eliminaran els comptes següents. Podeu treure usuaris individuals de la llista d’eliminació desmarcant la casella de selecció al costat del seu nom d’usuari.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Amb els criteris seleccionats per podar usuaris es desactivaran els comptes següents. Podeu treure usuaris individuals de la llista de desactivació desmarcant la casella de selecció al costat del seu nom d’usuari.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Introduïu noms d’usuari concrets a la casella de text. S’utilitzarà aquesta llista en lloc dels criteris especificats més amunt. No es pot podar als usuaris fundadors.',
+	'SELECT_USERS_EXPLAIN'		=> 'Introduïu noms d’usuari concrets a la casella de text. S’usarà aquesta llista en lloc dels criteris especificats més amunt. No es pot podar als usuaris fundadors.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Els usuaris seleccionats s’han desactivat correctament.',
 	'USER_DELETE_SUCCESS'		=> 'Els usuaris seleccionats s’han eliminat correctament.',

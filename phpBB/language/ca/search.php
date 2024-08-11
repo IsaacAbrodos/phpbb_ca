@@ -69,12 +69,12 @@ $lang = array_merge($lang, array(
 
 	'NO_KEYWORDS'			=> 'Heu d’especificar com a mínim una paraula per a la cerca. Cada paraula ha de tenir un mínim de %s i no pot contenir més de %s sense tenir en compte els comodins.',
 	'NO_RECENT_SEARCHES'	=> 'No s’ha fet cap cerca recentment.',
-	'NO_SEARCH'				=> 'No se us permet utilitzar el sistema de cerques.',
+	'NO_SEARCH'				=> 'No se us permet usar el sistema de cerques.',
 	'NO_SEARCH_RESULTS'		=> 'No s’ha trobat cap coincidència.',
-	'NO_SEARCH_LOAD'		=> 'No se us permet utilitzar la cerca ara mateix. El servidor esta sotmès a una càrrega elevada. Intenteu-ho de nou més tard.',
+	'NO_SEARCH_LOAD'		=> 'No se us permet usar la cerca ara mateix. El servidor esta sotmès a una càrrega elevada. Intenteu-ho de nou més tard.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a %d segon.',
-		2	=> 'Ara mateix no es pot utilitzar la cerca. Si us plau torneu a provar-ho d’aquí a %d segons.',
+		1	=> 'Ara mateix no es pot usar la cerca. Si us plau torneu a provar-ho d’aquí a %d segon.',
+		2	=> 'Ara mateix no es pot usar la cerca. Si us plau torneu a provar-ho d’aquí a %d segons.',
 	),
 	'NO_SEARCH_UNREADS'		=> 'La cerca d’entrades no llegides està inhabilitada en aquest fòrum.',
 	'WORD_IN_NO_POST'		=> 'No s’ha trobat cap entrada perquè la paraula <strong>%s</strong> no apareix en cap entrada.',

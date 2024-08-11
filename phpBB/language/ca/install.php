@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_INTRO_BODY'		=> 'Amb aquesta opció podeu instal·lar el phpBB3 en el vostre servidor.</p><p>Per continura necessitareu els paràmetres de configuració de la vostra base de dades. Si no els sabeu, contacteu amb el vostre proveïdor i demaneu-los-hi. Sense ells no podreu continuar. Necessiteu:</p>
 
 	<ul>
-		<li>El tipus de base de dades que utilitzareu.</li>
+		<li>El tipus de base de dades que usareu.</li>
 		<li>El nom (adreça) del servidor de la base de dades o DSN.</li>
 		<li>El port del servidor de la base de dades (en la majoria de casos no us farà falta).</li>
 		<li>El nom de la base de dades al servidor.</li>
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Heu d’omplir tots els camps d’aquest bloc.',
 
 	'TIMEOUT_DETECTED_TITLE'	=> 'L’instal·lador ha excedit el temps d’espera',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'L’instal·lador ha excedit el temps d’espera, podeu provar a refrescar la pàgina, però pot provocar que es corrompin les dades. És recomanable que incrementeu la configuració de temps màxim d’espera o proveu d’utilitzar la línia d’ordres (CLI).',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'L’instal·lador ha excedit el temps d’espera, podeu provar a refrescar la pàgina, però pot provocar que es corrompin les dades. És recomanable que incrementeu la configuració de temps màxim d’espera o proveu d’usar la línia d’ordres (CLI).',
 ));
 
 // Data obtaining translations
@@ -335,9 +335,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Instal·la el phpBB',
 	'CLI_UPDATE_BOARD'				=> 'Actualitza el phpBB',
-	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostra la configuració que s’utilitzarà',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostra la configuració que s’usarà',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Valida un fitxer de configuració',
-	'CLI_CONFIG_FILE'				=> 'Fitxer de configuració a utilitzar',
+	'CLI_CONFIG_FILE'				=> 'Fitxer de configuració a usar',
 	'MISSING_FILE'					=> 'No s’ha pogut accedir al fitxer %1$s',
 	'MISSING_DATA'					=> 'Al fitxer de configuració li falten dades o potser conté configuracions no vàlides.',
 	'INVALID_YAML_FILE'				=> 'No s’ha pogut analitzar el fitxer YAML “%1$s”',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Actualitza la instal·lació del phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització avançada amb FTP</h2><p>Aquest mètode és similar al primer, però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per utilitzar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos que s’ha actualitzat tot correctament.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Amb aquesta opció és possible actualitzar la vostra instal·lació del phpBB a la versió més recent.<br />Durant el procés es comprovaran tots els vostres fitxers per verificar-ne la integritat. Podeu revisar totes les diferències i fitxers abans de l’actualització.<br /><br />L’actualització de fitxers en sí es pot fer de dues maneres diferents.</p><h2>Actualització manual</h2><p>Amb aquesta actualització només baixeu el vostre conjunt personal de fitxers modificats per assegurar-vos que no perdeu les modificacions que hagueu fet als fitxers. Després de baixar aquest paquet informàtic cal que pengeu manualment els fitxers a la seva ubicació correcta dintre del directori arrel del phpBB. Quan hagueu acabat, podeu tornar a fer la comprovació de fitxers per veure si heu mogut els fitxers a la seva ubicació correcta.</p><h2>Actualització avançada amb FTP</h2><p>Aquest mètode és similar al primer, però no cal baixar els fitxers modificats i penjar-los manualment ja que es farà automàticament. Per usar aquest mètode heu de saber la informació necessària per iniciar una sessió FTP ja que se us demanarà. Quan hagueu acabat se us redirigirà a la comprovació de fitxers una altra vegada per assegurar-vos que s’ha actualitzat tot correctament.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Avís de llançament</h1>
@@ -358,7 +358,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Com actualitzar la vostra instal·lació amb el Paquet complet</h1>
 
-		<p>La manera recomanada per actualitzar la vostra instal·lació és utilitzar el paquet complet. Si heu modificat fitxers propis del phpBB al vostre servidor, us pot convenir utilitzar el paquet d’actualització avançada per tal de no perdre els canvis. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet complet són:</p>
+		<p>La manera recomanada per actualitzar la vostra instal·lació és usar el paquet complet. Si heu modificat fitxers propis del phpBB al vostre servidor, us pot convenir usar el paquet d’actualització avançada per tal de no perdre els canvis. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet complet són:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Feu una còpia de seguretat de tots els fitxers del fòrum i de la base de dades.</strong></li>
@@ -381,7 +381,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Com actualitzar la vostra instal·lació amb el Paquet d’actualització avançada</h1>
 
-		<p>Només es recomana utilitzar el paquet d’instal·lació avançada als usuaris experts que hàgiu modificat fitxers propis del phpBB al vostre servidor. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet d’instal·lació automàtica són:</p>
+		<p>Només es recomana usar el paquet d’instal·lació avançada als usuaris experts que hàgiu modificat fitxers propis del phpBB al vostre servidor. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet d’instal·lació automàtica són:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Aneu a la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">pàgina de baixades de phpBB.com</a> i baixeu l’arxiu "Advanced Update Package".</li>
@@ -474,7 +474,7 @@ $lang = array_merge($lang, array(
 	// File updater
 	'UPDATE_UPDATING_FILES'	=> 'S’estan actualitzant els fitxers',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'L’actualitzador de fitxers “%1$s“ ha fallat. L’instal·lador intentarà utilitzar el sistema alternatiu “%2$s“.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'L’actualitzador de fitxers “%1$s“ ha fallat. L’instal·lador intentarà usar el sistema alternatiu “%2$s“.',
 	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'L’actualitzador de fitxers fallat. No queda cap més sistema alternatiu.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continua el procés d’actualització',
@@ -520,7 +520,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_INTRO'				=> 'Benvingut a l’Entorn unificat de conversió del phpBB',
 	'CONVERT_INTRO_BODY'		=> 'Aquí podeu importar dades d’altres sistemes de fòrums que tingueu instal·lats. La llista següent mostra tots els mòduls de conversió disponibles actualment. Si a la llista no es mostra el convertidor per al tipus de fòrum que voleu convertir, comproveu si al nostre lloc web hi ha mòduls de conversió nous disponibles per baixar.',
 	'AVAILABLE_CONVERTORS'		=> 'Convertidors disponibles',
-	'NO_CONVERTORS'				=> 'No hi ha cap convertidor disponible per utilitzar.',
+	'NO_CONVERTORS'				=> 'No hi ha cap convertidor disponible per usar.',
 	'CONVERT_OPTIONS'			=> 'Opcions',
 	'SOFTWARE'					=> 'Programari del fòrum',
 	'VERSION'					=> 'Versió',
@@ -586,13 +586,13 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_INSERT_BOTGROUP'		=> 'No s’ha pogut insertar el robot a la taula bots.',
 	'CONV_ERROR_INSERT_USER_GROUP'		=> 'No s’ha pogut insertar l’usuari a la taula user_group.',
 	'CONV_ERROR_MESSAGE_PARSER'			=> 'Error de l’analitzador de missatges',
-	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'avatar_path\'] per utilitzar %s.',
+	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'avatar_path\'] per usar %s.',
 	'CONV_ERROR_NO_FORUM_PATH'			=> 'No s’ha especificat el camí relatiu al fòrum origen.',
-	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'avatar_gallery_path\'] per utilitzar %s.',
+	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'avatar_gallery_path\'] per usar %s.',
 	'CONV_ERROR_NO_GROUP'				=> 'No s’ha pogut trobar el grup “%1$s” a %2$s.',
-	'CONV_ERROR_NO_RANKS_PATH'			=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'ranks_path\'] per utilitzar %s.',
-	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'smilies_path\'] per utilitzar %s.',
-	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'upload_path\'] per utilitzar %s.',
+	'CONV_ERROR_NO_RANKS_PATH'			=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'ranks_path\'] per usar %s.',
+	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'smilies_path\'] per usar %s.',
+	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota per al desenvolupador: heu d’especificar $convertor[\'upload_path\'] per usar %s.',
 	'CONV_ERROR_PERM_SETTING'			=> 'No s’ha pogut inserir/actualitzar la configuració de permisos.',
 	'CONV_ERROR_PM_COUNT'				=> 'No s’ha pogut seleccionar el compte de MP de la carpeta.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'No s’ha pogut inserir un fòrum nou per reemplaçar la categoria antiga.',
