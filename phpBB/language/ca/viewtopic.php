@@ -112,6 +112,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Detalls de l’entrada',
 	'VIEW_NEXT_TOPIC'		=> 'Tema següent',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Tema precedent',
+	'VIEW_QUOTED_POST'		=> 'Mostra l’entrada citada',
 	'VIEW_RESULTS'			=> 'Mostra els resultats',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d entrada',
