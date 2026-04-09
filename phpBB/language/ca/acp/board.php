@@ -298,7 +298,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Habilita el canal “Tots els fòrums” que mostra una llista de fòrums.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Permet l’autenticació HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Habilita l’autenticació HTTP que permet als usuaris rebre continguts que estan ocults per als usuaris visitants afegint el paràmetre <samp>auth=http</samp> a l’URL del canal. Tingueu en compte que agunes instal·lacions del PHP requereixen canvis addicionals al fitxer .htaccess en el qual podreu trobar més instruccions.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Habilita l’autenticació HTTP que permet als usuaris accedir a contingut ocult per als visitants afegint el paràmetre <samp>auth=http</samp> a l’URL del canal. Tingueu en compte que agunes configuracions del PHP poden requerir canvis addicionals al fitxer .htaccess on hi trobare més instruccions. L’autenticació HTTP només esta suportada sobre connexions encriptades amb https.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Estadístiques dels elements',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Mostra estadístiques individuals a sota dels elements del canal<br>(p.ex. autor, data i hora, respostes, visualitzacions)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exclou aquests fòrums',
