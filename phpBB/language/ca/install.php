@@ -45,11 +45,11 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introducció',
-	'INTRODUCTION_BODY'		=> 'Benvingut al phpBB3!<br /><br />El phpBB® és el programari lliure de fòrums més utilitzat del món. EL phpBB3 és la darrera versió d’un producte que va començar l’any 2000. Com els seus predecessors, el phpBB3 inclou moltes funcions, és amigable i disposa d’asistencia completa per part de l’equip del phppBB. El phpBB3 millora ampliament allò que va fer el phpBB2 popular i afegeix funcions sol·licitades freqüentment que no eren presents en versions anteriors. Esperem que sobrepassi les vostres espectatives.<br /><br />El sistema d’instal·lació us guiarà pel procés d’instal·lar el phpBB3, actualitzar des de versions anteriors a la versió més recent del phpBB3, o convertir al phpBB3 des de sistemes de fòrums diferents (el phpBB2 inclòs). Per obtenir més informació, us recomanem que llegiu <a href="%1$s">la guia d’instal·lació</a>.<br /><br />Per llegir la llicència del phpBB3 o esbrinar com obtenir asistència i la nostra posició al respecte, seleccioneu les opcions adients del menú lateral. Per continuar, seleccioneu la pestanya adequada a sobre.',
+	'INTRODUCTION_BODY'		=> 'Benvingut al phpBB3!<br /><br />El phpBB® és el programari lliure de fòrums més usat del món. EL phpBB3 és la darrera versió d’un producte que va començar l’any 2000. Com els seus predecessors, el phpBB3 inclou moltes funcions, és amigable i disposa d’asistencia completa per part de l’equip del phppBB. El phpBB3 millora ampliament allò que va fer el phpBB2 popular i afegeix funcions sol·licitades freqüentment que no eren presents en versions anteriors. Esperem que sobrepassi les vostres espectatives.<br /><br />El sistema d’instal·lació us guiarà pel procés d’instal·lar el phpBB3, actualitzar des de versions anteriors a la versió més recent del phpBB3, o convertir al phpBB3 des de sistemes de fòrums diferents (el phpBB2 inclòs). Per obtenir més informació, us recomanem que llegiu <a href="%1$s">la guia d’instal·lació</a>.<br /><br />Per llegir la llicència del phpBB3 o esbrinar com obtenir asistència i la nostra posició al respecte, seleccioneu les opcions adients del menú lateral. Per continuar, seleccioneu la pestanya adequada a sobre.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Assistència',
-	'SUPPORT_BODY'		=> 'Es proporciona assistencia completa per a la verió estable actual del phpBB3, de forma gratuïta. Això inclou:</p><ul><li>instal·lació</li><li>configuració</li><li>preguntes tècniques</li><li>problemes relacionats amb possibles errades del programari</li><li>actualitzacions des de les versions candidates (RC) a la versió estable més recent</li><li>conversió des del phpBB 2.0.x al phpBB3</li><li>conversió des d’altres programaris de fòrums al phpBB3 (veieu el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fòrum de Conversors</a>)</li></ul><p>Recomanem als usuaris que encara estiguin utilitzant versions beta del phpBB3 que substitueixin la seva instal·lació amb una còpia neta de la versió més recent.</p><h2>Extensions / Estils</h2><p>Per questions relacionades amb les Extensions, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fòrum d’Extensions</a>.<br />Per questions relacionades amb els estils, plantilles i temes gràfics, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fòrum d’estils</a>.<br /><br />Si la vostra pregunta està relacionada amb un paquet determinat, feu-la directament al tema dedicat al paquet.</p><h2>Obtenció d’assistència</h2><p><a href="https://www.phpbb.com/support/">Secció d’assistència</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia d’inici ràpid</a><br /><br />Per assegurar-vos que us manteniu al dia amb les darreres notícies i versions, seguiu-nos a <a href="https://www.twitter.com/phpbb/">Twitter</a> i <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Es proporciona assistencia completa per a la verió estable actual del phpBB3, de forma gratuïta. Això inclou:</p><ul><li>instal·lació</li><li>configuració</li><li>preguntes tècniques</li><li>problemes relacionats amb possibles errades del programari</li><li>actualitzacions des de les versions candidates (RC) a la versió estable més recent</li><li>conversió des del phpBB 2.0.x al phpBB3</li><li>conversió des d’altres programaris de fòrums al phpBB3 (veieu el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fòrum de Conversors</a>)</li></ul><p>Recomanem als usuaris que encara estiguin usant versions beta del phpBB3 que substitueixin la seva instal·lació amb una còpia neta de la versió més recent.</p><h2>Extensions / Estils</h2><p>Per questions relacionades amb les Extensions, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fòrum d’Extensions</a>.<br />Per questions relacionades amb els estils, plantilles i temes gràfics, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fòrum d’estils</a>.<br /><br />Si la vostra pregunta està relacionada amb un paquet determinat, feu-la directament al tema dedicat al paquet.</p><h2>Obtenció d’assistència</h2><p><a href="https://www.phpbb.com/support/">Secció d’assistència</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia d’inici ràpid</a><br /><br />Per assegurar-vos que us manteniu al dia amb les darreres notícies i versions, seguiu-nos a <a href="https://www.twitter.com/phpbb/">Twitter</a> i <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Llicència pública general',
@@ -63,10 +63,10 @@ $lang = array_merge($lang, array(
 		<li>El nom (adreça) del servidor de la base de dades o DSN.</li>
 		<li>El port del servidor de la base de dades (en la majoria de casos no us farà falta).</li>
 		<li>El nom de la base de dades al servidor.</li>
-		<li>L’usuari de la base de dades i la contrasenya utilitzats per iniciar-hi la sessió i accedir a les dades.</li>
+		<li>L’usuari de la base de dades i la contrasenya usats per iniciar-hi la sessió i accedir a les dades.</li>
 	</ul>
 
-	<p><strong>Nota:</strong> si utilitzeu SQLite per la instal·lació, cal que introduïu el camí complet fins al fitxer de la base de dades al camp DSN i deixeu els camps d’usuari i contrasenya en blanc. Per raons de seguretat, assegureu-vos que el fitxer de la base de dades no sigui en una ubicació accessible des d’Internet.</p>
+	<p><strong>Nota:</strong> si useu SQLite per la instal·lació, cal que introduïu el camí complet fins al fitxer de la base de dades al camp DSN i deixeu els camps d’usuari i contrasenya en blanc. Per raons de seguretat, assegureu-vos que el fitxer de la base de dades no sigui en una ubicació accessible des d’Internet.</p>
 
 	<p>phpBB3 és compatible amb les següents bases de dades:</p>
 	<ul>
@@ -176,9 +176,9 @@ $lang = array_merge($lang, array(
 	'DB_CONFIG'				=> 'Configuració de la base de dades',
 	'DBMS'					=> 'Tipus de base de dades',
 	'DB_HOST'				=> 'Nom del servidor de la base de dades o DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN significa nom d’origen de dades (Data Source Name) i només es rellevant per a instal·lacions que utilitzen ODBC. Amb PostgreSQL, utilitzeu localhost per connectar amb el servidor local via UNIX domain socket i 127.0.0.1 per connectar via TCP. Si utilitzeu SQLite, introduïu el camí complet al fitxer de la base de dades.',
+	'DB_HOST_EXPLAIN'		=> 'DSN significa nom d’origen de dades (Data Source Name) i només es rellevant per a instal·lacions que usen ODBC. Amb PostgreSQL, useu localhost per connectar amb el servidor local via UNIX domain socket i 127.0.0.1 per connectar via TCP. Si useu SQLite, introduïu el camí complet al fitxer de la base de dades.',
 	'DB_PORT'				=> 'Port del servidor de la base de dades',
-	'DB_PORT_EXPLAIN'		=> 'Deixeu-lo en blanc a no ser que el servidor utilitzi un port no estàndard.',
+	'DB_PORT_EXPLAIN'		=> 'Deixeu-lo en blanc a no ser que el servidor usi un port no estàndard.',
 	'DB_PASSWORD'			=> 'Contrasenya de la base de dades',
 	'DB_NAME'				=> 'Nom de la base de dades',
 	'DB_USERNAME'			=> 'Nom d’usuari de la base de dades',
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'REPORT_WAREZ'					=> 'L’entrada conté enllaços a programari il·legal o piratejat.',
 	'REPORT_SPAM'					=> 'L’entrada té com a únic fi anunciar un lloc web o algun producte.',
 	'REPORT_OFF_TOPIC'				=> 'L’entrada és fora de tema.',
-	'REPORT_OTHER'					=> 'L’entrada no encaixa en cap de les altres categories, si us plau utilitzeu el camp d’informació addicional.',
+	'REPORT_OTHER'					=> 'L’entrada no encaixa en cap de les altres categories, si us plau useu el camp d’informació addicional.',
 
 	'SMILIES_ARROW'					=> 'Fletxa',
 	'SMILIES_CONFUSED'				=> 'Confós',
@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Com actualitzar la vostra instal·lació amb el Paquet complet</h1>
 
-		<p>La manera recomanada per actualitzar la vostra instal·lació és usar el paquet complet. Si heu modificat fitxers propis del phpBB al vostre servidor, us pot convenir usar el paquet d’actualització avançada per tal de no perdre els canvis. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet complet són:</p>
+		<p>La manera recomanada per actualitzar la vostra instal·lació és usar el paquet complet. Si heu modificat fitxers propis del phpBB al vostre servidor, us pot convenir usar el paquet d’actualització avançada per tal de no perdre els canvis. També podeu actualitzar la vostra instal·lació usant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 usant el paquet complet són:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Feu una còpia de seguretat de tots els fitxers del fòrum i de la base de dades.</strong></li>
@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Com actualitzar la vostra instal·lació amb el Paquet d’actualització avançada</h1>
 
-		<p>Només es recomana usar el paquet d’instal·lació avançada als usuaris experts que hàgiu modificat fitxers propis del phpBB al vostre servidor. També podeu actualitzar la vostra instal·lació utilitzant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 utilitzant el paquet d’instal·lació automàtica són:</p>
+		<p>Només es recomana usar el paquet d’instal·lació avançada als usuaris experts que hàgiu modificat fitxers propis del phpBB al vostre servidor. També podeu actualitzar la vostra instal·lació usant els mètodes indicats al document INSTALL.html. Els passos per actualitzar el phpBB3 usant el paquet d’instal·lació automàtica són:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Aneu a la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">pàgina de baixades de phpBB.com</a> i baixeu l’arxiu "Advanced Update Package".</li>
@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 
 	// Settings
 	'STAGE_SETTINGS'			=> 'Configuracions',
-	'TABLE_PREFIX_SAME'			=> 'El prefix de les taules ha de ser el que utilitza el fòrum quu esteu convertint.<br />» El prefix de taules que heu especificat és %s.',
+	'TABLE_PREFIX_SAME'			=> 'El prefix de les taules ha de ser el que usa el fòrum quu esteu convertint.<br />» El prefix de taules que heu especificat és %s.',
 	'DEFAULT_PREFIX_IS'			=> 'El convertidor no ha pogut trobar taules amb el prefix especificat. Assegureu-vos que heu introduït les dades correctes del fòrum que voleu convertir. El prefix per defecte per a les taules de %1$s és <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Especifiqueu les opcións de conversió',
 	'FORUM_PATH'				=> 'Camí del fòrum',

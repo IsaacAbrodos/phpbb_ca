@@ -5,7 +5,7 @@ Hola {TO_USERNAME},
 
 {BOARD_CONTACT}
 
-Incloeu aquest missatge complet. Tingueu en compte que l’adreça d’enviament utilitzada és la del compte del fòrum per a missatgeria instantània.
+Incloeu aquest missatge complet. Tingueu en compte que l’adreça d’enviament usada és la del compte del fòrum per a missatgeria instantània.
 
 El missatge enviat es mostra a continuació
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Heu d’especificar un assumpte per al correu.',
 	'EQUAL_TO'				=> 'Igual a',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Utilitzeu aquest formulari per cercar membres determinats. No cal que ompliu tots els camps. Per obtenir coincidències parcials utilitzeu * com a comodí. Per introduir dates utilitzeu el format <kbd>AAAA-MM-DD</kbd>, p.ex. <samp>2004-02-29</samp>. Utilitzeu les caselles de selecció per triar un o més usuaris (depenent del formulari és possible acceptar diversos usuaris) i feu clic sobre el botó "Selecciona els marcats" per tornar al formulari anterior.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Useu aquest formulari per cercar membres determinats. No cal que ompliu tots els camps. Per obtenir coincidències parcials useu * com a comodí. Per introduir dates useu el format <kbd>AAAA-MM-DD</kbd>, p.ex. <samp>2004-02-29</samp>. Useu les caselles de selecció per triar un o més usuaris (depenent del formulari és possible acceptar diversos usuaris) i feu clic sobre el botó "Selecciona els marcats" per tornar al formulari anterior.',
 	'FLOOD_EMAIL_LIMIT'		=> 'Ara mateix no podeu enviar un altre correu electrònic. Si us plau, torneu-ho a provar més tard.',
 
 	'GROUP_LEADER'			=> 'Líder del grup',

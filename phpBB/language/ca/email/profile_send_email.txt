@@ -5,7 +5,7 @@ Hola {TO_USERNAME},
 
 {BOARD_CONTACT}
 
-Incloeu aquest correu electrònic complet (especialment les capçaleres). Tingueu en compte que l’adreça de resposta utilitzada per aquest correu electrònic és la de {FROM_USERNAME}.
+Incloeu aquest correu electrònic complet (especialment les capçaleres). Tingueu en compte que l’adreça de resposta usada per aquest correu electrònic és la de {FROM_USERNAME}.
 
 El missatge enviat es mostra a continuació
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

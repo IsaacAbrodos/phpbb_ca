@@ -38,16 +38,16 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'En accedir a “%1$s” (a partir d’ara “nosaltres”, “%1$s”, “%2$s”), accepteu les condicions legals següents. Si no accepteu totes les condicions legals següents, si us plau no accediu ni utilitzeu “%1$s”. Aquestes condicions poden canviar en qualsevol moment i ens esforçarem al màxim per informar-vos-en. Això no obstant, és responsabilitat vostra revisar aquest document regularment ja que l’ús continuat de “%1$s” després que les condicions canvïin implica la vostra acceptació de les condicions actualitzades o esmenades.
+	'TERMS_OF_USE_CONTENT'	=> 'En accedir a “%1$s” (a partir d’ara “nosaltres”, “%1$s”, “%2$s”), accepteu les condicions legals següents. Si no accepteu totes les condicions legals següents, si us plau no accediu ni useu “%1$s”. Aquestes condicions poden canviar en qualsevol moment i ens esforçarem al màxim per informar-vos-en. Això no obstant, és responsabilitat vostra revisar aquest document regularment ja que l’ús continuat de “%1$s” després que les condicions canvïin implica la vostra acceptació de les condicions actualitzades o esmenades.
 	<br><br>
-	Els nostres fòrums utilitzen phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”), un programa per a la creació de fòrums distribuït sota la “<a href="https://opensource.org/license/gpl-2-0">GNU General Public License v2</a>” (a partir d’ara la “GPL”) que us podeu baixar des de <a href="https://www.phpbb.com/">www.phpbb.com</a>. El phpBB només facilita els debats a través d’Internet; phpBB Limted no és responsable del contingut o les confuctes permeses o prohibides en aquest lloc web. Per a més informació sobre el phpBB, dirigiu-vos a: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	Els nostres fòrums usen phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”), un programa per a la creació de fòrums distribuït sota la “<a href="https://opensource.org/license/gpl-2-0">GNU General Public License v2</a>” (a partir d’ara la “GPL”) que us podeu baixar des de <a href="https://www.phpbb.com/">www.phpbb.com</a>. El phpBB només facilita els debats a través d’Internet; phpBB Limted no és responsable del contingut o les confuctes permeses o prohibides en aquest lloc web. Per a més informació sobre el phpBB, dirigiu-vos a: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
 	<br><br>
 	Accepteu no publicar material abusiu, obscè, vulgar, difamatori, d’odi, amenaçant, orientat sexualment o material il·legal, tant sota les lleis del vostre país, del país en què “%1$s” està allotjat o qualsevol llei intenacional. Si ho feu, és possible que us expulsin de manera immediata i permanent, amb una notificació al vostre proveïdor d’Internet si ho consideressim necessari. L’adreça IP de totes les vostres entrades és enregistrada per ajudar a fer complir aquestes condicions.
 	<br><br>
 	Accepteu que “%1$s” es reserva el dret d’eliminar, editar, moure o tancar qualsevol tema quan ho considerem necessari. Com a usuari, accepteu que la informació que introduïu quedi emmagatzemada en una base de dades. Tot i que aquesta informació no es proporcionarà a tercers sense el vostre consentiment, ni “%1$s” ni phpBB assumiran cap responsabilitat per qualsevol atac al sistema que pugui comprometre les dades.
 	',
 
-	'PRIVACY_POLICY'		=> 'Aquestes normes expliquen en detall com “%1$s” i les seves companyies afiliades (a partir d’ara “nosaltres”, “%1$s”, “%2$s”) i phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB limited”, “phpBB Teams”) utilitzen la informació recollida durant l’us que feu d’aquest lloc web (a partir d’ara “la vostra informació”).
+	'PRIVACY_POLICY'		=> 'Aquestes normes expliquen en detall com “%1$s” i les seves companyies afiliades (a partir d’ara “nosaltres”, “%1$s”, “%2$s”) i phpBB (a partir d’ara “ells”, “el phpBB”, “www.phpbb.com”, “phpBB limited”, “phpBB Teams”) usen la informació recollida durant l’us que feu d’aquest lloc web (a partir d’ara “la vostra informació”).
 	<br><br>
 	La vostra informació es recull de dues maneres diferents. Quan navegueu per “%1$s”, el phpBB crearà diverses galetes. Les galetes són petits fitxers de text que s’emmagatzemen als arxius temporals del vostre navegador. Les dues primeres galetes contenen un identificador d’usuari (a partir d’ara “id d’usuari”) i un identificador de sessió anònim (a partir d’ara “id de sessió”). Les dues les assigna automàticament el phpBB. Es crearà una tercera galeta un cop hagueu navegat pels temes de “%1$s” que emmagatzema quins temes ja heu llegit per millorar la usabilitat dels fòrums.
 	<br><br>
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	<br><br>
 	El vostre compte contindrà, com a mínim: un nom d’usuari únic (a partir d’ara “nom d’usuari”), una contrasenya personal per iniciar la sessió (a partir d’ara “contrasenya”) i una adreça electrònica vàlida (a partir d’ara “adreça electrònica”). La informació del vostre compte a “%1$s” està protegida per les lleis de protecció de dades aplicables al país on es troba allotjat el nostre lloc web. Tota informació més enllà del nom d’usuari, contrasenya i adreça electrònica demanada per “%1$s” durant el procés de registrar-vos, pot ser obligatòria o opcional a la discreció de “%1$s”. En qualsevol cas, podeu decidir quina informació del vostre compte es mostra públicament. També teniu l’opció d’acceptar o rebutjar que se us enviïn els correus electrònics generats automàticament pel phpBB.
 	<br><br>
-	La vostra contrasenya s’emmagatzema encriptada amb una funció de resum unidireccional per garantir-ne la seguretat. Això no obstant, us recomanem que no reutilitzeu la mateixa contrasenya a múltiples llocs web diferents. La vostra contrasenya és la clau per accedir al vostre compte a “%1$s”, per tant, feu-ne un us segur. Sota cap circumstància ningú afiliat amb “%1$s”, phpBB o tercers us demanarà la vostra contrasenya de manera legítima. Si oblideu la vostra contrasenya, podeu usar la funció “He oblidat la meva contrasenya” proporcionada pel phpBB. Aquest procediment requereix que proporcioneu el vostre nom d’usuari i adreça electrònica. Posteriorment, el phpBB us generarà una contrasenya nova per que pugueu recuperar l’accés al vostre compte.
+	La vostra contrasenya s’emmagatzema encriptada amb una funció de resum unidireccional per garantir-ne la seguretat. Això no obstant, us recomanem que no feu anar la mateixa contrasenya a múltiples llocs web diferents. La vostra contrasenya és la clau per accedir al vostre compte a “%1$s”, per tant, feu-ne un us segur. Sota cap circumstància ningú afiliat amb “%1$s”, phpBB o tercers us demanarà la vostra contrasenya de manera legítima. Si oblideu la vostra contrasenya, podeu usar la funció “He oblidat la meva contrasenya” proporcionada pel phpBB. Aquest procediment requereix que proporcioneu el vostre nom d’usuari i adreça electrònica. Posteriorment, el phpBB us generarà una contrasenya nova per que pugueu recuperar l’accés al vostre compte.
 	',
 ));
 
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Data de naixement',
 	'BIRTHDAY_EXPLAIN'			=> 'Si definiu un any, es mostrarà la vostra edat quan sigui el vostre aniversari.',
 	'BOARD_DATE_FORMAT'			=> 'Format de data',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'La sintaxi utilitza el mateix format que les <a href="https://www.php.net/manual/datetime.format.php">funcions de data</a> del PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'La sintaxi usa el mateix format que les <a href="https://www.php.net/manual/datetime.format.php">funcions de data</a> del PHP.',
 	'BOARD_LANGUAGE'			=> 'Idioma',
 	'BOARD_STYLE'				=> 'Estil del fòrum',
 	'BOARD_TIMEZONE'			=> 'Fus horari',
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 	'EDIT_DRAFT_EXPLAIN'		=> 'Aquí podeu editar el vostre esborrany. Els esborranys no contenen informació d’enquestes ni fitxers adjunts.',
 	'EMAIL_BANNED_EMAIL'		=> 'L’adreça electrònica que heu introduït no està permesa.',
 	'EMAIL_REMIND'				=> 'Aquesta ha de ser l’adreça electrònica associada al vostre compte. Si no l’heu canviada al Tauler de control de l’usuari, és l’adreça amb la que vau registrar el vostre compte.',
-	'EMAIL_TAKEN_EMAIL'			=> 'L’adreça electrònica que heu introduït ja està utilitzada.',
+	'EMAIL_TAKEN_EMAIL'			=> 'L’adreça electrònica que heu introduït ja està usada.',
 	'EMPTY_DRAFT'				=> 'Heu d’introduir un missatge per trametre els canvis.',
 	'EMPTY_DRAFT_TITLE'			=> 'Heu d’introduir un títol per a l’esborrany.',
 	'EXPORT_AS_XML'				=> 'Exporta a XML',
@@ -242,8 +242,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'S’ha canviat el nom de la carpeta correctament.',
 	'FOLDER_REMOVED'			=> 'S’ha eliminat correctament la carpeta.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'La utilització de la carpeta és del %3$d%% (%2$d emmagatzemat de %1$s)',
-		2	=> 'La utilització de la carpeta és del %3$d%% (%2$d emmagatzemats de %1$s)',
+		1	=> 'L’ús de la carpeta és del %3$d%% (%2$d emmagatzemat de %1$s)',
+		2	=> 'L’ús de la carpeta és del %3$d%% (%2$d emmagatzemats de %1$s)',
 	),
 	'FORWARD_PM'				=> 'Reenvia el MP',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Abans de continuar navegant pel fòrum cal que canvieu la vostra contrasenya.',
@@ -356,7 +356,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY_METHOD'					=> 'Mètode de notificació',
 	'NOTIFY_METHOD_BOTH'			=> 'Ambdós',
 	'NOTIFY_METHOD_EMAIL'			=> 'Només per correu electrònic',
-	'NOTIFY_METHOD_EXPLAIN'			=> 'Mètode utilitzat per als missatges enviats a través del fòrum.',
+	'NOTIFY_METHOD_EXPLAIN'			=> 'Mètode usat per als missatges enviats a través del fòrum.',
 	'NOTIFY_METHOD_IM'				=> 'Només via Jabber',
 	'NOTIFY_ON_PM'					=> 'Avisa’m quan rebi missatges privats nous',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'No podeu afegir l’usuari anònim a la llista d’amics.',
@@ -396,7 +396,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS_SELECTED'		=> 'No heu seleccionat cap adreça d’interès.',
 	'NO_EDIT_READ_MESSAGE'		=> 'No podeu editar el missatge privat perquè ja ha estat llegit.',
 	'NO_EMAIL_USER'				=> 'No s’ha trobat la informació d’adreça electrònica/nom d’usuari tramesa.',
-	'EMAIL_NOT_UNIQUE'			=> 'L’adreça electònica que heu proporcionat és utilitzada per diversos ususaris. Heu de proporcionar també el nom dusuari.',
+	'EMAIL_NOT_UNIQUE'			=> 'L’adreça electònica que heu proporcionat és usada per diversos ususaris. Heu de proporcionar també el nom dusuari.',
 	'NO_FOES'					=> 'Actualment no hi ha definit cap enemic',
 	'NO_FRIENDS'				=> 'Actualment no hi ha definit cap amic',
 	'NO_FRIENDS_OFFLINE'		=> 'No hi ha amics desconnectats',
@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'S’han actualitzat les vostres preferències.',
 	'PROFILE_INFO_NOTICE'		=> 'Tingueu en compte que aquesta informació pot ser vista per altres membres. Sigueu prudent amb la informació personal que afegiu. Els camps marcats amb un * són obligatoris.',
 	'PROFILE_UPDATED'			=> 'S’ha actualitzat el vostre perfil.',
-	'PROFILE_AUTOLOGIN_KEYS'	=> 'Les claus d’inici de sessió tipus "Recorda’m" inicien la vostra sessió automàticament quan visiteu el fòrum. Si finalitzeu la sessió, la clau s’elimina només a l’ordinador que esteu utilitzant per finalitzar la sessió. Aquí podeu veure claus d’inici de sessió que heu creat en altres ordinadors que heu utilitzat per accedir a aquest lloc web.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'Les claus d’inici de sessió tipus "Recorda’m" inicien la vostra sessió automàticament quan visiteu el fòrum. Si finalitzeu la sessió, la clau s’elimina només a l’ordinador que esteu usant per finalitzar la sessió. Aquí podeu veure claus d’inici de sessió que heu creat en altres ordinadors que heu usat per accedir a aquest lloc web.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'No hi ha cap clau d’inici de sessió tipus "Recorda’m".',
 
 	'RECIPIENT'							=> 'Destinatari',
