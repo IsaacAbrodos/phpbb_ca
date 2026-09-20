@@ -609,6 +609,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ha canviat el tipus de tema</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Ha desbloquejat el tema</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Ha desbloquejat l’entrada</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Ha fallat la comprovació de versió</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Ha prohibit el nom d’usuari</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Ha eliminat la prohibició del nom d’usuari</strong>',

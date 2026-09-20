@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aquí podeu determinar l’operació bàsica del vostre fòrum, donar-li un nom i una descripció adequats i, entre altres configuracions, ajustar els valors per defecte per al fus horari i l’idioma.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aquí podeu determinar l’operació bàsica del fòrum, donar-li un nom i una descripció adequats i, entre altres configuracions, ajustar els valors per defecte per al fus horari i l’idioma.',
 	'BOARD_INDEX_TEXT'				=> 'Text de l’índex del fòrum',
 	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Aquest text es mostra com a l’índex del fòrum a la ruta de navegació del fòrum. Si no l’especifiqueu, el valor per defecte és “Índex del fòrum”.',
 	'BOARD_STYLE'					=> 'Estil del fòrum',
@@ -308,7 +308,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Aquí podeu seleccionar i configurar connectors que estan dissenyats per bloquejar la tramesa automàtica de formularis per part dels robots de brossa (spambots en anglès). Aquests connectors típicament funcionen plantejant a l’usuari un <em>CAPTCHA</em>, una prova que està dissenyada per que sigui dificil que un ordinador la resolgui.',
-	'ACP_VC_EXT_GET_MORE'					=> 'Per trobar connectors contra brossa addicionals millors visiteu la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de dades d’extensions de phpBB.com</strong></a>. Per obtenir més informació sobre com prevenir les entrades brossa al vostre fòrum visiteu la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de coneixements de phpBB.com</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Per trobar connectors contra brossa addicionals millors visiteu la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de dades d’extensions de phpBB.com</strong></a>. Per obtenir més informació sobre com prevenir les entrades brossa al fòrum visiteu la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de coneixements de phpBB.com</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Connectors disponibles',
 	'CAPTCHA_UNAVAILABLE'					=> 'No podeu seleccionar aquest connector ja que no es compleixen els seus requeriments.',
 	'CAPTCHA_GD'							=> 'Imatge GD',
@@ -350,22 +350,28 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Aquests detalls defineixen les dades que s’usen per enviar galetes als navegadors dels usuaris. En la majoria de casos, els valors per defecte seran suficients. Si cal que en canvieu algun, feu-ho amb compte; una configuració incorrecta pot evitar que els usuaris iniciïn la sessió. Si els usuaris tenen problemes per mantenir la sessió oberta al vostre fòrum, visiteu la <strong><a href="https://www.phpbb.com/support/go/cookie-settings">Base de Coneixements de phpBB.com - Solució de configuracions incorrectes de galetes</a></strong> (en anglès).',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Aquests detalls defineixen les dades que s’usen per enviar galetes als navegadors dels usuaris. En la majoria de casos, els valors per defecte seran suficients. Si cal que en canvieu algun, feu-ho amb compte; una configuració incorrecta pot evitar que els usuaris iniciïn la sessió. Si els usuaris tenen problemes per mantenir la sessió oberta al fòrum, visiteu la <strong><a href="https://www.phpbb.com/support/go/cookie-settings">Base de Coneixements de phpBB.com - Solució de configuracions incorrectes de galetes</a></strong> (en anglès).',
 
-	'COOKIE_DOMAIN'				=> 'Domini de la galeta',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'En la majoria de casos el domini de la galeta és opcional. Deixeu-lo en blanc si no n’esteu segurs.<br><br> En el cas que tingueu el fòrum integrat amb altres aplicacions o tingueu múltiples dominis, per determinar el domini de la galeta heu de fer el següent: Si teniu una situació com <i>exemple.cat</i> i <i>forums.exemple.cat</i>, o potser <i>forums.exemple.cat</i> i <i>bloc.exemple.cat</i>, treieu els subdominis fins que tingueu el domini comú, <i>exemple.com</i> i afegiu-hi un punt al davant. En aquest cas caldria introduir .exemple.cat (fixeu-vos amb el punt al principi).',
-	'COOKIE_NAME'				=> 'Nom de la galeta',
-	'COOKIE_NAME_EXPLAIN'		=> 'Podeu posar-hi el que vulgueu. Sempre que canvieu la configuració de la galeta n’haurieu de canviar el nom.',
-	'COOKIE_NOTICE'				=> 'Avís de galetes',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'Si l’habiliteu, es mostrarà un avís de galetes als usuaris quan visitin els fòrums. És possible que sigui un requeriment legal depenent del contingut del fòrum o les extensions que tingueu habilitades.',
-	'COOKIE_PATH'				=> 'Camí de la galeta',
-	'COOKIE_PATH_EXPLAIN'		=> 'Normalment serà el mateix que el camí de l’script o simplement una barra inclinada per fer que la galeta sigui accessible a tot el domini del lloc web.',
-	'COOKIE_SECURE'				=> 'Galeta segura',
-	'COOKIE_SECURE_EXPLAIN'		=> 'Si el vostre servidor s’executa sobre SSL habiliteu aquesta opció, en qualsevol altre cas deixeu-la inhabilitada. Si l’habiliteu i el servidor no s’executa sobre SSL es produiran errors del servidor durant les redireccions.',
-	'ONLINE_LENGTH'				=> 'Interval de temps per a Qui està connectat',
-	'ONLINE_LENGTH_EXPLAIN'		=> 'Nombre de minuts després dels quals els usuaris inactius no apareixeran a la llista “Qui està connectat”. Com més alt és aquest valor, més gran és el processament necessari per generar la llista.',
-	'SESSION_LENGTH'			=> 'Durada de la sessió',
-	'SESSION_LENGTH_EXPLAIN'	=> 'Les sessións venceran després d’aquest temps en segons.',
+	'COOKIE_DOMAIN'					=> 'Domini de la galeta',
+	'COOKIE_DOMAIN_EXPLAIN'			=> 'En la majoria de casos el domini de la galeta és opcional. Deixeu-lo en blanc si no n’esteu segurs.<br><br> En el cas que tingueu el fòrum integrat amb altres aplicacions o tingueu múltiples dominis, per determinar el domini de la galeta heu de fer el següent: Si teniu una situació com <i>exemple.cat</i> i <i>forums.exemple.cat</i>, o potser <i>forums.exemple.cat</i> i <i>bloc.exemple.cat</i>, treieu els subdominis fins que tingueu el domini comú, <i>exemple.com</i> i afegiu-hi un punt al davant. En aquest cas caldria introduir .exemple.cat (fixeu-vos amb el punt al principi).',
+	'COOKIE_NAME'					=> 'Nom de la galeta',
+	'COOKIE_NAME_EXPLAIN'			=> 'Podeu posar-hi el que vulgueu. Sempre que canvieu la configuració de la galeta n’haurieu de canviar el nom.',
+	'COOKIE_NOTICE'					=> 'Avís de galetes',
+	'COOKIE_NOTICE_EXPLAIN'			=> 'Si l’habiliteu, es mostrarà un avís de galetes als usuaris quan visitin els fòrums. És possible que sigui un requeriment legal depenent del contingut del fòrum o les extensions que tingueu habilitades.',
+	'COOKIE_PATH'					=> 'Camí de la galeta',
+	'COOKIE_PATH_EXPLAIN'			=> 'Normalment serà el mateix que el camí de l’script o simplement una barra inclinada per fer que la galeta sigui accessible a tot el domini del lloc web.',
+	'COOKIE_SECURE'					=> 'Galeta segura',
+	'COOKIE_SECURE_EXPLAIN'			=> 'Si el vostre servidor s’executa sobre SSL habiliteu aquesta opció, en qualsevol altre cas deixeu-la inhabilitada. Si l’habiliteu i el servidor no s’executa sobre SSL es produiran errors del servidor durant les redireccions.',
+	'ONLINE_LENGTH'					=> 'Interval de temps per a Qui està connectat',
+	'ONLINE_LENGTH_EXPLAIN'			=> 'Nombre de minuts després dels quals els usuaris inactius no apareixeran a la llista “Qui està connectat”. Com més alt és aquest valor, més gran és el processament necessari per generar la llista.',
+	'SESSION_LENGTH'				=> 'Durada de la sessió',
+	'SESSION_LENGTH_EXPLAIN'		=> 'Les sessións venceran després d’aquest temps en segons.',
+	'SESSION_GC'					=> 'Interval de neteja de sessió',
+	'SESSION_GC_EXPLAIN'			=> 'Es netejaran les sessions després d’aquest temps en segons.',
+	'SESSION_GUEST_LENGTH'			=> 'Durada de la sessió per visitants',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'Les sessións de visitants venceran després d’aquest temps en segons.',
+	'SESSION_GUEST_GC'				=> 'Interval de neteja de sessió per visitants',
+	'SESSION_GUEST_GC_EXPLAIN'		=> 'Es netejaran les sessions de visitants després d’aquest temps en segons.',
 ));
 
 // Contact Settings
@@ -474,7 +480,7 @@ $lang = array_merge($lang, array(
 	'ICONS_PATH'				=> 'Camí d’emmagatzemament de les icones per a les entrades',
 	'ICONS_PATH_EXPLAIN'		=> 'Camí a partir del directori arrel del phpBB, p.ex. <samp>images/icons</samp>.',
 	'MOD_REWRITE_ENABLE'		=> 'Permet la reescriptura d’URL',
-	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URL que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URL del vostre fòrum deixin de funcionar.</strong>',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Si l’habiliteu, els URL que continguin ’app.php’ es reescriuran per treure el nom del fitxer (és a dir app.php/foo es convertirà en /foo). <strong>És necessari el mòdul mod_rewrite del servidor Apache per que això funcioni; si habiliteu aquesta opció sense tenir activat mod_rewrite, és possible que els URL del fòrum deixin de funcionar.</strong>',
 	'MOD_REWRITE_DISABLED'		=> 'El mòdul <strong>mod_rewrite</strong> del vostre servidor Apache està inhabilitat. Habiliteu el módul o poseu-vos en contacte amb el vostre proveïdor d’allotjament web si voleu habilitar aquesta funció.',
 	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'No ha estat possible determinar si aquest servidor permet l’ús de reescriptura d’URL. Podeu habilitar aquesta configuració, però si la reescriptura d’URL no està disponible, és possible que els camins generats per aquest fòrum (com ara els que s’usen als enllaços) deixin de funcionar. Poseu-vos en contacte amb el vostre proveïdor d’allotjament web si no esteu segurs que aquesta funció es pugui activar de forma segura.',
 	'PATH_SETTINGS'				=> 'Configuració dels camins',

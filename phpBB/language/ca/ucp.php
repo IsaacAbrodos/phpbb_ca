@@ -352,6 +352,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'El vostre informe d’un missatge privat és tancat per un moderador',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Algú crea un tema en un fòrum al qual esteu subscrit',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Es requereix l’activació d’un usuari',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'Notificacions d’actualització del phpBB',
 
 	'NOTIFY_METHOD'					=> 'Mètode de notificació',
 	'NOTIFY_METHOD_BOTH'			=> 'Ambdós',

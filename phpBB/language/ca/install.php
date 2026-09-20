@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Assistència',
-	'SUPPORT_BODY'		=> 'Es proporciona assistencia completa per a la verió estable actual del phpBB3, de forma gratuïta. Això inclou:</p><ul><li>instal·lació</li><li>configuració</li><li>preguntes tècniques</li><li>problemes relacionats amb possibles errades del programari</li><li>actualitzacions des de les versions candidates (RC) a la versió estable més recent</li><li>conversió des del phpBB 2.0.x al phpBB3</li><li>conversió des d’altres programaris de fòrums al phpBB3 (veieu el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fòrum de Conversors</a>)</li></ul><p>Recomanem als usuaris que encara estiguin usant versions beta del phpBB3 que substitueixin la seva instal·lació amb una còpia neta de la versió més recent.</p><h2>Extensions / Estils</h2><p>Per questions relacionades amb les Extensions, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fòrum d’Extensions</a>.<br />Per questions relacionades amb els estils, plantilles i temes gràfics, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fòrum d’estils</a>.<br /><br />Si la vostra pregunta està relacionada amb un paquet determinat, feu-la directament al tema dedicat al paquet.</p><h2>Obtenció d’assistència</h2><p><a href="https://www.phpbb.com/support/">Secció d’assistència</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia d’inici ràpid</a><br /><br />Per assegurar-vos que us manteniu al dia amb les darreres notícies i versions, seguiu-nos a <a href="https://www.twitter.com/phpbb/">Twitter</a> i <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Es proporciona assistencia completa per a la verió estable actual del phpBB3, de forma gratuïta. Això inclou:</p><ul><li>instal·lació</li><li>configuració</li><li>preguntes tècniques</li><li>problemes relacionats amb possibles errades del programari</li><li>actualitzacions des de les versions candidates (RC) a la versió estable més recent</li><li>conversió des del phpBB 2.0.x al phpBB3</li><li>conversió des d’altres programaris de fòrums al phpBB3 (veieu el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Fòrum de Conversors</a>)</li></ul><p>Recomanem als usuaris que encara estiguin usant versions beta del phpBB3 que substitueixin la seva instal·lació amb una còpia neta de la versió més recent.</p><h2>Extensions / Estils</h2><p>Per questions relacionades amb les Extensions, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fòrum d’Extensions</a>.<br />Per questions relacionades amb els estils, plantilles i temes gràfics, dirigiu-vos al <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fòrum d’estils</a>.<br /><br />Si la vostra pregunta està relacionada amb un paquet determinat, feu-la directament al tema dedicat al paquet.</p><h2>Obtenció d’assistència</h2><p><a href="https://www.phpbb.com/support/">Secció d’assistència</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia d’inici ràpid</a><br /><br />Per assegurar-vos que us manteniu al dia amb les darreres notícies i versions, seguiu-nos a <a href="https://www.x.com/phpbb/">X</a> i <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Llicència pública general',
@@ -301,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'S’estan creant les taules',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'		=> 'S’estan registrant els rastrejadors d’IA',
 	'TASK_ADD_BOTS'				=> 'S’estan registrant els robots',
 	'TASK_ADD_LANGUAGES'		=> 'S’estan instal·lant els idiomes disponibles',
 	'TASK_ADD_MODULES'			=> 'S’estan instal·lant els mòduls',
@@ -496,7 +497,8 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'El convertidor especificat no existeix.',
 	'DEV_NO_TEST_FILE'			=> 'No s’ha especificat cap valor per a la variable test_file al convertidor. Si sou un usuari del convertidor, no hauríeu de veure aquest error, si us plau comuniqueu aquest error a l’autor del convertidor. Si sou l’autor del convertidor, heu d’especificar el nom d’un fitxer que existeixi a la taula origen per que es pugui verificar-ne el camí.',
-	'COULD_NOT_FIND_PATH'		=> 'No s’ha pogut trobar el camí de l’antic fòrum. Si us plau, comproveu les configuracions i torneu a provar-ho.<br />» El camí d’origen que heu especificat és %s.',
+	'COULD_NOT_COPY'			=> 'No s’ha pogut copiar el fitxer <strong>%1$s</strong> a <strong>%2$s</strong><br><br>Comproveu que el directori de destí existeix i que el servidor web hi pot escriure.',
+	'COULD_NOT_FIND_PATH'		=> 'No s’ha pogut trobar el camí de l’antic fòrum. Comproveu les configuracions i torneu a provar-ho.<br />» El camí d’origen que heu especificat és %s.',
 	'CONFIG_PHPBB_EMPTY'		=> 'La variable de configuració del phpBB3 “%s” és buida.',
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Asegureu-vos que el directori existeix i que el servidor web hi pot escriure abans de tornar-ho a provar:<br />»<strong>%s</strong>.',
@@ -569,7 +571,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'S’ha acabat la conversió',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'S’ha convertit el vostre fòrum a phpBB 3.3 correctament. Ja podeu iniciar la sessió i <a href="../">accedir al vostre fòrum</a>. Assegureu-vos que les configuracions s’han transferit correctament abans d’habilitar el fòrum eliminant el directori “install”. Recordeu que disposeu d’ajuda en línia sobre l’ús del phpBB a la <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentació</a> (en anglès) i als <a href="https://www.phpbb.com/community/viewforum.php?f=661">fòrums d’assistència</a> (en anglès).',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'S’ha convertit el fòrum a phpBB 3.3 correctament. Ja podeu iniciar la sessió i <a href="../">accedir al fòrum</a>. Assegureu-vos que les configuracions s’han transferit correctament abans d’habilitar el fòrum eliminant el directori “install”. Recordeu que disposeu d’ajuda en línia sobre l’ús del phpBB a la <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentació</a> (en anglès) i als <a href="https://www.phpbb.com/community/viewforum.php?f=661">fòrums d’assistència</a> (en anglès).',
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> és el nom d’usuari netejat per:',
 	'COLLIDING_USER'					=> '» id d’usuari: <strong>%d</strong> nom d’usuari: <strong>%s</strong> (%d entrades)',
@@ -579,7 +581,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'No hi ha informació de configuració disponible per a la conversió.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'No s’ha pogut obtenir informació d’accés al fòrum.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'No s’ha pogut obtenir les categories.',
-	'CONV_ERROR_GET_CONFIG'				=> 'No s’ha pogut obtenir la configuració del vostre fòrum.',
+	'CONV_ERROR_GET_CONFIG'				=> 'No s’ha pogut obtenir la configuració del fòrum.',
 	'CONV_ERROR_COULD_NOT_READ'			=> 'No s’ha pogut accedir/llegir “%s”.',
 	'CONV_ERROR_GROUP_ACCESS'			=> 'No s’ha pogut obtenir informació d’autenticació de grups.',
 	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'S’ha detectat una inconsistència en la taula de grups a add_bots() - heu d’afegir tots els grups especials si ho feu manualment.',
@@ -600,7 +602,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_REPLACE_FORUM'			=> 'No s’ha pogut inserir un fòrum nou per reemplaçar el fòrum antic.',
 	'CONV_ERROR_USER_ACCESS'			=> 'No s’ha pogut obtenir informació d’autenticació d’usuaris.',
 	'CONV_ERROR_WRONG_GROUP'			=> 'Grup erroni “%1$s” definit a %2$s.',
-	'CONV_OPTIONS_BODY'					=> 'Aquesta pàgina recull les dades necessàries per accedir al fòrum d’origen. Introduïu la informació de la base de dades del vostre fòrum antic; el convertidor no canviarà res de la base de dades proporcionada a continuació. És recomanable que el fòrum d’origen estigui inhabilitat per permetre una conversió consistent.',
+	'CONV_OPTIONS_BODY'					=> 'Aquesta pàgina recull les dades necessàries per accedir al fòrum d’origen. Introduïu la informació de la base de dades del fòrum antic; el convertidor no canviarà res de la base de dades proporcionada a continuació. És recomanable que el fòrum d’origen estigui inhabilitat per permetre una conversió consistent.',
 	'CONV_SAVED_MESSAGES'				=> 'Missatges desats',
 
 	'PRE_CONVERT_COMPLETE'			=> 'S’han completat correctament tots els passos previs a la conversió. Ja podeu començar el procés de conversió en sí. Tingueu en compte que és possible que hagueu fer diverses tasques i ajustaments de forma manual. Després de la conversió, comproveu especialment els permisos assignats, reconstruïu l’índex de cerca si fos necessari i assegureu-vos que els fitxers com ara els avatars i les emoticones s’han copiat correctament.',

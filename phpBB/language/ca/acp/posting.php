@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 		'EMAIL'			=> 'Una adreça electrònica vàlida',
 		'URL'			=> 'Un URL vàlid que usi qualsevol protocol permès (http, ftp, etc… no es pot usar per aprofitar-se del javascript). Si no se’n proporciona cap, la cadena es prefixa amb “http://”.',
 		'LOCAL_URL'		=> 'Un URL local. L’URL ha de ser relatiu a la pàgina del tema i no pot contenir un nom de servidor ni un protocol, ja que els enllaços es prefixen amb “%s”',
-		'RELATIVE_URL'	=> 'Un URL relatiu. Podeu usar-ho per tal que coincideixi amb parts d’un URL, aneu amb compte: un URL complet és un URL realtiu vàlid. Quan vulgueu usar URL relatius al vostre fòrum, useu l’etiqueta LOCAL_URL.',
+		'RELATIVE_URL'	=> 'Un URL relatiu. Podeu usar-ho per tal que coincideixi amb parts d’un URL, aneu amb compte: un URL complet és un URL realtiu vàlid. Quan vulgueu usar URL relatius al fòrum, useu l’etiqueta LOCAL_URL.',
 		'COLOR'			=> 'Un color HTML, pot ser o bé en forma numèrica <samp>#FF1234</samp> o una <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">paraula clau de color CSS</a> com ara <samp>fuchsia</samp> o <samp>InactiveBorder</samp>',
 		'ALNUM'			=> 'Caràcters de l’alfabet llatí (A-Z) i números.',
 		'CHOICE'		=> 'Una tria entre valors específics, p.ex. <samp>{CHOICE=ors,copes,espases,bastos}</samp>. Els valors no distingeixen majúscules i minúscules per defecte, però poden distingir-les especificant l’opció <samp>caseSensitive</samp>: <samp>{CHOICE=Ors,Copes,Espases,Bastos;caseSensitive}</samp>',

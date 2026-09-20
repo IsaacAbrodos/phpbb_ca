@@ -50,6 +50,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'S’ha eliminat el robot correctament.',
 	'BOT_EDIT'			=> 'Edició del robot',
 	'BOT_EDIT_EXPLAIN'	=> 'Aquí podeu afegir o editar el registre d’un robot. Podeu definir una cadena d’agent i/o una o més adreces IP (o rangs d’adreces) per trobar coincidències. Aneu amb compte quan definiu cadenes d’agent o adreces per coinciències. També podeu definir l’estil i l’idioma que es mostrarà al robot en usar el fòrum. Això us permet reduir l’ample de banda usat selecionant un estil simple per als robots. Recordeu-vos de definir els permisos adequats per al grup especial d’usuaris anomenat Robots.',
+	'BOT_GROUP'			=> 'Grup de robots',
+	'BOT_GROUP_EXPLAIN'	=> 'Podeu seleccionar el grup al qual pertany aquest robot.',
 	'BOT_LANG'			=> 'Idioma del robot',
 	'BOT_LANG_EXPLAIN'	=> 'L’idioma que es presenta al robot quan navega pel fòrum.',
 	'BOT_LAST_VISIT'	=> 'Darrera visita',
@@ -66,6 +68,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'L’agent del robot que heu proporcionat és similar a l’agent que esteu usant actualment per navegar pel fòrum. Ajusteu l’agent d’aquest robot.',
 	'ERR_BOT_NO_IP'				=> 'Les adreces IP que heu proporcionat no són vàlides o bé no s’ha pogut resoldre el nom de l’amfitrió.',
 	'ERR_BOT_NO_MATCHES'		=> 'Cal que proporcioneu, com a mínim, l’agent o l’adreça IP per a les coincidències d’aquest robot.',
+	'ERR_BOT_NO_NAME'			=> 'Cal que proporcioneu un nom per al robot.',
 
 	'NO_BOT'		=> 'No s’ha trobat cap robot amb l’ID especificat.',
 	'NO_BOT_GROUP'	=> 'No s’ha trobat el grup especial de Robots.',

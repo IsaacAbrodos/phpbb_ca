@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'No s’ha emmagatzemat el testimoni OAuth.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'El testimoni OAuth s’ha emmagatzemat de forma incorrecta.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'El fitxer a penjar ha estat rebutjat perquè s’ha identificat com un possible vector d’atac.',
@@ -338,6 +338,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d visitants',
 	),
 	'G_ADMINISTRATORS'			=> 'Administradors',
+	'G_AI_CRAWLERS'				=> 'Rastrejadors d’IA',
 	'G_BOTS'					=> 'Robots',
 	'G_GUESTS'					=> 'Visitants',
 	'G_REGISTERED'				=> 'Usuaris registrats',
@@ -509,6 +510,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovació de tema</strong> sol·licitada per %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'El tipus de notificació "%s" no és al sistema de fitxers.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Es requereix l’activació</strong> d’un usuari desactivat o que s’acaba de registrar: “%1$s”',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>Actualització a phpBB %2$s disponible - Actualització crítica obligatòria</strong>: El fòrum té la versió %1$s instal·lada i s’hauria d’actualitzar immediatament a la versió nova que inclou correccions crítiques de seguretat.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>Actualització a phpBB %2$s disponible</strong>: El fòrum té la versió %1$s instal·lada i hi ha disponible una versió nova.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>Actualització a phpBB %2$s disponible - Actualització de seguretat</strong>: El fòrum té la versió %1$s instal·lada i hi ha disponoble una versió nova que inclou correccions de seguretat. Recomanem que actualitzeu el fòrum per mantenir-lo segur i protegit.',
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'molts més',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -842,7 +846,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Nombre de membres <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Errors del PHP detectats: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'No s’han pogut determinar les dimensions de la imatge. Verifiqueu que l’URL que heu proporcionat és correcte.',
 	'UNABLE_TO_DELIVER_FILE'=> 'No s’ha pogut lliurar el fitxer.',
