@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sTorna a la meva carpeta “%3$s”%2$s',
 	'CONFIRMATION'				=> 'Confirmació de registre',
 	'CONFIRM_CHANGES'			=> 'Confirma els canvis',
-	'CONFIRM_EXPLAIN'			=> 'Per tal de prevenir els registres automàtics cal que introduïu un codi de confirmació. El codi es mostra en la imatge que veieu a sota. Si teniu problemes de visió o per alguna raó no podeu llegir aquest codi, si us plau poseu-vos en contacte amb l’%sadministrador del fòrum%s.',
+	'CONFIRM_EXPLAIN'			=> 'Per tal de prevenir els registres automàtics cal que introduïu un codi de confirmació. El codi es mostra en la imatge que veieu a sota. Si teniu problemes de visió o per alguna raó no podeu llegir aquest codi, si us plau contacteu amb l’%sadministrador del fòrum%s.',
 	'VC_REFRESH'				=> 'Refresca el codi de confirmació',
 	'VC_REFRESH_EXPLAIN'		=> 'Si no podeu llegir el codi, podeu demanar-ne un de nou fent clic al botó.',
 
@@ -291,11 +291,11 @@ $lang = array_merge($lang, array(
 	'LOGIN_LINK'					=> 'Enllaceu o registreu el vostre compte d’un servei extern amb el vostre compte del fòrum',
 	'LOGIN_LINK_EXPLAIN'			=> 'Heu intentat iniciar la sessió amb un servei extern que encara no està connectat amb un compte d’aquet fòrum. Cal que enllaceu aquest compte amb un compte existent o que creeu un compte nou.',
 	'LOGIN_LINK_MISSING_DATA'		=> 'Les dades necessaries per enllaçar el vostre compte amb el servei extern no estan disponibles. Torneu a començar el procés d’inici de sessió.',
-	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'No s’han proporcionat dades a aquesta pàgina per enllaçar un compte extern a un compte del fòrum. Poseu-vos en contacte amb l’administrador del fòrum si contineu expermientant aquest problema.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'No s’han proporcionat dades a aquesta pàgina per enllaçar un compte extern a un compte del fòrum. Contacteu amb l’administrador del fòrum si contineu expermientant aquest problema.',
 	'LOGIN_KEY'					=> 'Clau d’inici de sessió',
 	'LOGIN_TIME'				=> 'Hora d’inici de sessió',
 	'LOGIN_REDIRECT'			=> 'Heu iniciat la sessió correctament.',
-	'LOGOUT_FAILED'				=> 'No heu finalitzat la sessió ja que la sol·licitud no coincidia amb la vostra sessió. Poseu-vos en contacte amb l’administrador del fòrum si contineu expermientant aquest problema.',
+	'LOGOUT_FAILED'				=> 'No heu finalitzat la sessió ja que la sol·licitud no coincidia amb la vostra sessió. Contacteu amb l’administrador del fòrum si contineu expermientant aquest problema.',
 	'LOGOUT_REDIRECT'			=> 'Heu finalitzat la sessió correctament.',
 
 	'MARK_IMPORTANT'				=> 'Marca/desmarca com a important',
@@ -571,7 +571,7 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Edició de les afiliacions',
 	'UCP_USERGROUPS_MANAGE'		=> 'Gestió dels grups',
 
-	'UCP_PASSWORD_RESET_DISABLED'	=> 'La funcionalitat de reinicialització de contrasenya està desactivada. Si necessiteu ajuda per accedir al vostre compte, poseu-vos en contacte amb els %sadministradors del fòrum%s',
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'La funcionalitat de reinicialització de contrasenya està desactivada. Si necessiteu ajuda per accedir al vostre compte, contacteu amb els %sadministradors del fòrum%s',
 	'UCP_REGISTER_DISABLE'			=> 'No és possible crear un compte nou actualment.',
 	'UCP_RESEND'					=> 'Envia el correu electrònic d’activació',
 	'UCP_WELCOME'					=> 'Benvingut al Tauler de control de l’usuari. Des d’aquí podeu visualitzar, actualitzar i fer un seguiment del vostre perfil, preferències, i subscripcions. També podeu enviar missatges a altres usuaris si se’n permet l’ús. Asegureu-vos de llegir els possibles avisos abans de continuar.',
