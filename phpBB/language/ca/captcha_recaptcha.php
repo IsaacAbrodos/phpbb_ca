@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
-	
+
 	'RECAPTCHA_INCORRECT'				=> 'La solució que heu proporcionat és incorrecta',
 	'RECAPTCHA_NOSCRIPT'				=> 'Habiliteu el JavaScript al vostre navegador per carregar el repte.',
 	'RECAPTCHA_NOT_AVAILABLE'			=> 'Per tal d’usar reCaptcha heu de crear un compte al lloc web <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',

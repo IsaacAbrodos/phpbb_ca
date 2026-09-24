@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'INSTALL_PANEL'				=> 'Tauler d’instal·lació',
 	'SELECT_LANG'				=> 'Seleccioneu un idioma',
-	
+
 	'STAGE_INSTALL'	=> 'S’està instal·lant el phpBB',
 
 	// Introduction page

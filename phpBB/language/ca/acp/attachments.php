@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Si seleccioneu “No”, els fitxers adjunts de tipus imatge es mostraran com un enllaç.',
 	'DISPLAY_ORDER'					=> 'Ordre de visualització dels fitxers adjunts',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'Mostra els fitxers adjunts ordenats per data.',
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'Edita el grup d’extensions',
 	'EXCLUDE_ENTERED_IP'			=> 'Habiliteu aquesta opció per tal d’excloure les adreces IP/noms d’amfitrió introduïdes.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'Exclou l’adreça IP de la llista d’adreces IP/noms d’amfitrió permesos',

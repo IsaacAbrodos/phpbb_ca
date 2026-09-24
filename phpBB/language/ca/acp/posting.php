@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 		'RANGE'			=> 'Accepta un enter en un rang determinat, p.ex. <samp>{RANGE=-10,42}</samp>.',
 		'REGEXP'		=> 'Valida el valor amb una expressió regular, p.ex. <samp>{REGEXP=/^foo\w+bar$/}</samp>.',
 		'TIMESTAMP'		=> 'Una marca horària com ara <samp>1h30m10s</samp> que es convertirà a un número de segons. També accepta un número.',
-		'UINT'			=> 'Un valor enter sense signe. Idèntic a <samp>{INT}</samp>, però rebutja valors menors a 0.',			
+		'UINT'			=> 'Un valor enter sense signe. Idèntic a <samp>{INT}</samp>, però rebutja valors menors a 0.',
 	),
 ));
 

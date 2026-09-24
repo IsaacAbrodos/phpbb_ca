@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'OPTIONS_EXCLUDED'			=> 'Exclòs',
 
 	'PERMANENT'		=> 'Permanent',
-	
+
 	'UNTIL'						=> 'Fins el',
 	'USER_BAN'					=> 'Bandeja un o més usuaris per nom d’usuari',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Habiliteu aquesta opció per excloure els usuaris introduïts de tots els bandejos actuals.',

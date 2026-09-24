@@ -741,7 +741,7 @@ $lang = array_merge($lang, array(
 	'LOG_SPHINX_ERROR'			=> '<strong>Error de Sphinx</strong><br />» %s',
 
 	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus no permet peticions que usin un sistema de resolució obert. La comprovació de llista negra s’ha inahiblitat. Disposeu de més informació a https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
-	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Heu excedit el límit de volum de peticions de Spamhaus. La comprovació de llista negra s’ha inahiblitat. Disposeu de més informació a https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',	
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Heu excedit el límit de volum de peticions de Spamhaus. La comprovació de llista negra s’ha inahiblitat. Disposeu de més informació a https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
 
 	'LOG_STYLE_ADD'				=> '<strong>Ha afegit el nou estil</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Ha eliminat l’estil</strong><br />» %s',
